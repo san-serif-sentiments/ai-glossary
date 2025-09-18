@@ -21,6 +21,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://example.com/ai-glossary/governance-dashboard/</loc>
+         <lastmod>2025-09-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/ai-glossary/prompting/</loc>
+         <lastmod>2025-09-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://example.com/ai-glossary/roles/</loc>
          <lastmod>2025-09-18</lastmod>
          <changefreq>daily</changefreq>
@@ -106,6 +116,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://example.com/ai-glossary/terms/data-retention/</loc>
+         <lastmod>2025-09-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://example.com/ai-glossary/terms/decoding/</loc>
          <lastmod>2025-09-18</lastmod>
          <changefreq>daily</changefreq>
@@ -132,6 +147,11 @@
     </url>
     <url>
          <loc>https://example.com/ai-glossary/terms/f1-score/</loc>
+         <lastmod>2025-09-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/ai-glossary/terms/fairness-metrics/</loc>
          <lastmod>2025-09-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -202,6 +222,11 @@
     </url>
     <url>
          <loc>https://example.com/ai-glossary/terms/model-governance/</loc>
+         <lastmod>2025-09-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/ai-glossary/terms/model-interpretability/</loc>
          <lastmod>2025-09-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -277,6 +302,11 @@
     </url>
     <url>
          <loc>https://example.com/ai-glossary/terms/safety-evaluation/</loc>
+         <lastmod>2025-09-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/ai-glossary/terms/synthetic-data-evaluation/</loc>
          <lastmod>2025-09-18</lastmod>
          <changefreq>daily</changefreq>
     </url>

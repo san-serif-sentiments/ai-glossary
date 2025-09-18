@@ -322,6 +322,29 @@
     "slug": "data-minimization"
   },
   {
+    "term": "data retention",
+    "aliases": [
+      "retention policy",
+      "data lifecycle"
+    ],
+    "categories": [
+      "Governance & Risk"
+    ],
+    "roles": [
+      "legal",
+      "policy",
+      "security",
+      "product"
+    ],
+    "short_def": "Policies defining how long data is stored, where it lives, and how it is deleted.",
+    "nist_rmf_tags": [
+      "privacy",
+      "risk_management"
+    ],
+    "status": "draft",
+    "slug": "data-retention"
+  },
+  {
     "term": "decoding",
     "aliases": [
       "text decoding",
@@ -459,6 +482,30 @@
     ],
     "status": "draft",
     "slug": "f1-score"
+  },
+  {
+    "term": "fairness metrics",
+    "aliases": [
+      "fairness measures",
+      "fairness evaluation"
+    ],
+    "categories": [
+      "Governance & Risk",
+      "Operations & Monitoring"
+    ],
+    "roles": [
+      "policy",
+      "legal",
+      "engineering",
+      "product"
+    ],
+    "short_def": "Quantitative measures that evaluate whether model performance is equitable across groups.",
+    "nist_rmf_tags": [
+      "fairness",
+      "transparency"
+    ],
+    "status": "draft",
+    "slug": "fairness-metrics"
   },
   {
     "term": "fine-tuning",
@@ -778,6 +825,30 @@
     ],
     "status": "draft",
     "slug": "model-governance"
+  },
+  {
+    "term": "model interpretability",
+    "aliases": [
+      "interpretability",
+      "explainability"
+    ],
+    "categories": [
+      "Governance & Risk",
+      "Operations & Monitoring"
+    ],
+    "roles": [
+      "engineering",
+      "policy",
+      "legal",
+      "product"
+    ],
+    "short_def": "Ability to explain how a model arrives at its predictions in ways stakeholders understand.",
+    "nist_rmf_tags": [
+      "transparency",
+      "accountability"
+    ],
+    "status": "draft",
+    "slug": "model-interpretability"
   },
   {
     "term": "overfitting",
@@ -1120,6 +1191,30 @@
     ],
     "status": "draft",
     "slug": "safety-evaluation"
+  },
+  {
+    "term": "synthetic data evaluation",
+    "aliases": [
+      "synthetic data quality assessment",
+      "synthetic validation"
+    ],
+    "categories": [
+      "Operations & Monitoring",
+      "Governance & Risk"
+    ],
+    "roles": [
+      "data_science",
+      "engineering",
+      "policy",
+      "product"
+    ],
+    "short_def": "Process for measuring fidelity, utility, privacy, and bias of synthetic datasets before use.",
+    "nist_rmf_tags": [
+      "data_quality",
+      "privacy"
+    ],
+    "status": "draft",
+    "slug": "synthetic-data-evaluation"
   },
   {
     "term": "synthetic data",
