@@ -1,0 +1,48 @@
+term: "ai incident response"
+aliases:
+  - "model incident response"
+  - "ai escalation"
+categories:
+  - "Operations & Monitoring"
+  - "Governance & Risk"
+roles:
+  - "communications"
+  - "engineering"
+  - "legal"
+  - "policy"
+  - "product"
+  - "security"
+part_of_speech: "process"
+short_def: "Coordinated workflow for detecting, triaging, and remediating harmful or out-of-policy AI behavior."
+long_def: >-
+  AI incident response adapts traditional incident management to the unique risks of machine learning systems. It defines how teams detect unusual behavior, declare incidents, assemble cross-functional responders, communicate with stakeholders, and deploy mitigations or rollbacks. Triggers include safety violations, hallucinations with material impact, security breaches, or regulatory inquiries. Effective programs maintain runbooks that cover data isolation, prompt freezes, feature flags, and guardrail adjustments. Product, engineering, legal, and communications partners collaborate to assess severity, user impact, and reporting obligations. Governance frameworks expect documented incident response procedures with clear owners and timelines, particularly for high-risk deployments. After-action reviews capture learnings that feed back into evaluation suites, prompts, and monitoring. Without a disciplined incident response plan, organizations risk delayed containment, regulatory penalties, and erosion of user trust.
+audiences:
+  exec: "AI incident response is the playbook that keeps harm contained and stakeholders informed when something goes wrong."
+  engineer: "Detect anomalies, page the on-call rotation, freeze risky components, and coordinate fixes across data, model, and infra teams."
+examples:
+  do:
+    - "Run quarterly tabletop exercises to rehearse AI incident response workflows."
+  dont:
+    - "Silence alerts or skip postmortems once an incident is closed."
+governance:
+  nist_rmf_tags:
+    - "risk_management"
+    - "accountability"
+  risk_notes: "Lack of documented response plans prolongs harmful behavior and undermines regulatory reporting."
+relationships:
+  broader:
+    - "model governance"
+  related:
+    - "red teaming"
+    - "guardrails"
+    - "ml observability"
+citations:
+  - source: "NIST AI RMF Glossary"
+    url: "https://airc.nist.gov/glossary/"
+  - source: "UK POST AI Glossary"
+    url: "https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/"
+  - source: "Stanford HAI Brief Definitions"
+    url: "https://hai.stanford.edu/news/brief-definitions"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-01"

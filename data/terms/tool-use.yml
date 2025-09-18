@@ -1,0 +1,46 @@
+term: "tool use"
+aliases:
+  - "function calling"
+  - "model tool invocation"
+categories:
+  - "Agents & Tooling"
+roles:
+  - "engineering"
+  - "product"
+part_of_speech: "process"
+short_def: "Pattern where a model selects external tools or functions to handle parts of a task."
+long_def: >-
+  Tool use occurs when a language model defers specific subtasks to external functions, APIs, or agents that it selects based on the conversation. Platforms expose structured schemas describing available tools—such as search, retrieval, math, or workflow actions—and the model predicts when and how to call them. This architecture extends model capabilities beyond text generation, supporting grounded answers, transactions, and integrations with enterprise systems. Engineers design tool contracts, manage authentication, and implement result formatting so outputs slot back into the conversation. Product owners document which tools are enabled per experience and define escalation paths when tools fail. Governance teams treat tool catalogs as controlled assets: they require access reviews, logging, and guardrails to prevent unauthorized actions or data leakage. When implemented responsibly, tool use increases accuracy and reduces hallucinations, but it also introduces new attack surfaces and compliance obligations.
+audiences:
+  exec: "Tool use lets the assistant call trusted services—think search or ticketing—to deliver accurate, actionable answers."
+  engineer: "Expose structured tool specs, let the model emit JSON arguments, execute the function, and feed results back into the dialogue loop."
+examples:
+  do:
+    - "Log every tool invocation with inputs and outputs for auditing and debugging."
+  dont:
+    - "Expose production tools without rate limits or abuse monitoring."
+governance:
+  nist_rmf_tags:
+    - "accountability"
+    - "transparency"
+  risk_notes: "Poorly governed tool catalogs can trigger unauthorized actions or leak sensitive data through function interfaces."
+relationships:
+  broader:
+    - "agentic ai"
+  narrower:
+    - "retrieval tool"
+    - "calculator tool"
+  related:
+    - "retrieval-augmented generation"
+    - "system prompt"
+    - "guardrails"
+citations:
+  - source: "Hugging Face Glossary"
+    url: "https://huggingface.co/docs/transformers/en/glossary"
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "UK POST AI Glossary"
+    url: "https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-01"

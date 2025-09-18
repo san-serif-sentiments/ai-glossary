@@ -1,0 +1,49 @@
+term: "guardrails"
+aliases:
+  - "safety guardrails"
+  - "policy guardrails"
+categories:
+  - "Governance & Risk"
+roles:
+  - "communications"
+  - "legal"
+  - "policy"
+  - "product"
+part_of_speech: "noun"
+short_def: "Controls that constrain model behavior to comply with safety, legal, or brand requirements."
+long_def: >-
+  Guardrails combine policy, technical, and operational measures designed to keep AI systems within acceptable behavior. They can include pre- and post-processing filters, policy-informed prompts, classifier ensembles, or moderation APIs that block disallowed content before it reaches end users. Effective guardrail programs coordinate with legal and risk teams to encode organizational standards and regulatory obligations. Engineers integrate guardrails into the request pipeline, monitor their performance, and log interventions for audit trails. Product managers review guardrail coverage to understand trade-offs between user experience and safety friction. Governance stakeholders treat guardrails as living controls that require change management, testing, and documentation to demonstrate due diligence. When guardrails fail or drift, the resulting incidents can expose organizations to legal liability, reputational damage, or regulatory penalties.
+audiences:
+  exec: "Guardrails are the checks that keep the AI from saying or doing things that would put the company at risk."
+  engineer: "Policy-aligned filters, prompts, and classifiers embedded in the inference stack to block or reshape unsafe outputs."
+examples:
+  do:
+    - "Test guardrail coverage with red-team prompts whenever the base model or system prompt changes."
+  dont:
+    - "Rely on a single moderation classifier without monitoring precision and recall across scenarios."
+governance:
+  nist_rmf_tags:
+    - "accountability"
+    - "privacy"
+    - "robustness"
+  risk_notes: "Outdated guardrails can miss harmful outputs or inadvertently censor legitimate content, creating compliance gaps."
+relationships:
+  broader:
+    - "responsible AI"
+  narrower:
+    - "output filtering"
+    - "safety prompt"
+  related:
+    - "system prompt"
+    - "temperature"
+    - "red teaming"
+citations:
+  - source: "NIST AI RMF Glossary"
+    url: "https://airc.nist.gov/glossary/"
+  - source: "UK POST AI Glossary"
+    url: "https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/"
+  - source: "Stanford HAI Brief Definitions"
+    url: "https://hai.stanford.edu/news/brief-definitions"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-01"

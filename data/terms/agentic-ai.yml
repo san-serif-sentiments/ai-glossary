@@ -1,0 +1,46 @@
+term: "agentic ai"
+aliases:
+  - "ai agents"
+  - "autonomous agent"
+categories:
+  - "Agents & Tooling"
+roles:
+  - "engineering"
+  - "product"
+part_of_speech: "concept"
+short_def: "Systems that plan, act, and iterate with minimal human prompts by chaining model calls and tools."
+long_def: >-
+  Agentic AI describes architectures where models make decisions about what actions to take next, often using planning loops, tool calls, and memory to pursue a goal. Unlike single-shot prompting, agentic systems break work into steps, call APIs, and reflect on intermediate results before proceeding. They power use cases like research assistants, workflow automation, and incident triage bots. Engineers combine language models with planners, vector memories, and policy checks to maintain control. Product teams set guardrails on autonomy levels, defining when humans approve steps or review logs. Governance stakeholders focus on accountability, ensuring agent actions are auditable, reversible, and aligned with policy. Because agentic AI increases the surface area for safety incidents or costly loops, monitoring and termination criteria are essential. Investing in agent design principles helps organizations harness automation without losing visibility or violating compliance commitments.
+audiences:
+  exec: "Agentic AI strings tasks together so the assistant can take initiative instead of waiting for every instruction."
+  engineer: "Orchestrate planning, tool invocation, and memory components around an LLM to execute multi-step objectives."
+examples:
+  do:
+    - "Define termination conditions and escalation triggers before enabling autonomous execution."
+  dont:
+    - "Allow agents unfettered access to production systems without audit trails or throttling."
+governance:
+  nist_rmf_tags:
+    - "accountability"
+    - "risk_management"
+  risk_notes: "Autonomous loops can drift from intent or amplify harmful behaviors if oversight is weak."
+relationships:
+  broader:
+    - "generative ai"
+  narrower:
+    - "tool use"
+    - "retrieval-augmented generation"
+  related:
+    - "guardrails"
+    - "system prompt"
+    - "incident response"
+citations:
+  - source: "NIST AI RMF Glossary"
+    url: "https://airc.nist.gov/glossary/"
+  - source: "Hugging Face Glossary"
+    url: "https://huggingface.co/docs/transformers/en/glossary"
+  - source: "UK POST AI Glossary"
+    url: "https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-01"

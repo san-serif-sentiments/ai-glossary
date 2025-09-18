@@ -1,0 +1,44 @@
+term: "ml observability"
+aliases:
+  - "model observability"
+  - "ai observability"
+categories:
+  - "Operations & Monitoring"
+roles:
+  - "engineering"
+  - "policy"
+  - "security"
+part_of_speech: "concept"
+short_def: "Practices and tooling that surface model health through metrics, traces, and alerts across the lifecycle."
+long_def: >-
+  ML observability applies observability principles to machine learning systems, collecting signals that describe data quality, model behavior, infrastructure health, and user outcomes. The discipline unifies telemetry such as latency, throughput, drift metrics, guardrail triggers, and human feedback so teams can diagnose issues quickly. Robust observability stacks ingest logs from preprocessing, inference, retrieval, and post-processing stages, correlating them with experiment metadata and deployment versions. Product owners reference observability dashboards to understand adoption and satisfaction, while engineers rely on them to root-cause regressions and capacity incidents. Governance programs require observable pipelines to demonstrate compliance with monitoring expectations in frameworks like the NIST AI RMF. Without observability, organizations struggle to detect bias, hallucinations, or safety incidents before they impact users. Investing in standardized logging, alerting, and runbooks enables proactive triage and continuous improvement.
+audiences:
+  exec: "ML observability provides the dashboards and alerts that show whether AI systems remain healthy and trustworthy."
+  engineer: "Collect metrics, logs, and traces across data, model, and infra layers; stitch them to deployments for debugging and compliance."
+examples:
+  do:
+    - "Correlate drift alerts with retrieval metrics to pinpoint whether failures stem from data or model changes."
+  dont:
+    - "Disable guardrail logging due to cost; missing records breaks incident response and compliance."
+governance:
+  nist_rmf_tags:
+    - "monitoring"
+    - "accountability"
+  risk_notes: "Insufficient observability hides safety incidents and undermines regulatory reporting obligations."
+relationships:
+  broader:
+    - "ml ops"
+  related:
+    - "model drift"
+    - "guardrails"
+    - "evaluation"
+citations:
+  - source: "NIST AI RMF Glossary"
+    url: "https://airc.nist.gov/glossary/"
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "UK POST AI Glossary"
+    url: "https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-01"

@@ -1,0 +1,46 @@
+term: "beam search"
+aliases:
+  - "beam decoding"
+  - "multi-path decoding"
+categories:
+  - "LLM Core"
+roles:
+  - "data_science"
+  - "engineering"
+  - "product"
+part_of_speech: "process"
+short_def: "Deterministic decoding that keeps the top scoring sequences across multiple beams before selecting the final output."
+long_def: >-
+  Beam search expands several candidate continuations in parallel, keeping only the highest-scoring sequences at each step according to their cumulative log probabilities. By exploring multiple beams instead of a single greedy path, the method can uncover higher-quality completions and reduce the chance of getting stuck in locally optimal—but globally poor—answers. Teams tune beam width and length penalties to balance diversity against compute cost, because wider beams demand more memory and latency. Product workflows that require structured or citation-heavy responses often pair beam search with reranking or guardrails to ensure final selections remain compliant. Engineers also log intermediate beams to debug why a response was chosen and to audit near-miss alternatives. Governance stakeholders review beam configurations in high-stakes deployments to confirm that deterministic choices align with evaluation baselines and do not inadvertently suppress required disclosures.
+audiences:
+  exec: "Beam search is a quality knob—explore a few strong answer paths before picking the best one."
+  engineer: "Maintain N top-scoring sequences using cumulative log probabilities; apply length penalties and reranking before selecting the final candidate."
+examples:
+  do:
+    - "Monitor latency impact when increasing beam width beyond 4 to ensure SLAs still hold."
+    - "Analyze discarded beams during incident reviews to understand alternative outputs."
+  dont:
+    - "Ship beam search without configuring length penalties, which can bias toward verbose responses."
+    - "Use the same beam width across all locales without measuring cost and accuracy trade-offs."
+governance:
+  nist_rmf_tags:
+    - "robustness"
+    - "transparency"
+  risk_notes: "Misconfigured beams can surface repetitive or off-policy content; document parameters and align them with evaluation coverage."
+relationships:
+  broader:
+    - "decoding"
+  related:
+    - "greedy decoding"
+    - "top-k sampling"
+    - "log probability"
+citations:
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "Hugging Face Glossary"
+    url: "https://huggingface.co/docs/transformers/en/glossary"
+  - source: "Wikipedia AI Glossary"
+    url: "https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-02"

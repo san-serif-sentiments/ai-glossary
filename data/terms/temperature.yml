@@ -1,0 +1,46 @@
+term: "temperature"
+aliases:
+  - "sampling temperature"
+  - "softmax temperature"
+categories:
+  - "LLM Core"
+roles:
+  - "data_science"
+  - "engineering"
+  - "product"
+part_of_speech: "noun"
+short_def: "Decoding parameter that controls how random or deterministic a model’s outputs are."
+long_def: >-
+  Temperature adjusts the softness of the probability distribution used when sampling tokens during decoding. A low temperature sharpens the distribution so the model consistently chooses the highest-probability token, producing deterministic, conservative responses. Higher temperatures flatten the distribution, increasing the likelihood of picking lower-probability tokens that introduce creativity but also raise the risk of incoherence or policy violations. Product teams tune temperature per use case—customer support bots typically prefer lower settings, while brainstorming assistants tolerate higher ones. Engineers may pair temperature with top-k or nucleus sampling to constrain randomness while preserving diversity. Governance reviewers monitor temperature configurations because overly permissive settings can bypass guardrails validated at default values, leading to unpredictable behavior in production. Documenting temperature choices and evaluating them against safety scenarios is therefore part of responsible deployment.
+audiences:
+  exec: "Temperature is the creativity dial—turn it down for consistency, up for variety."
+  engineer: "Softmax scaling factor applied prior to sampling; inversely proportional to distribution sharpness and deterministic behavior."
+examples:
+  do:
+    - "Run evaluation suites at multiple temperature settings to quantify factual accuracy trade-offs."
+  dont:
+    - "Ship higher temperatures to production without revisiting safety and compliance test results."
+governance:
+  nist_rmf_tags:
+    - "robustness"
+    - "transparency"
+  risk_notes: "High temperatures can invalidate prior safety assessments and increase hallucination incidents."
+relationships:
+  broader:
+    - "decoding"
+  narrower:
+    - "temperature annealing"
+  related:
+    - "top-k sampling"
+    - "top-p sampling"
+    - "hallucination"
+citations:
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "Hugging Face Glossary"
+    url: "https://huggingface.co/docs/transformers/en/glossary"
+  - source: "Wikipedia AI Glossary"
+    url: "https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-01"

@@ -1,0 +1,48 @@
+term: "decoding"
+aliases:
+  - "text decoding"
+  - "generation decoding"
+categories:
+  - "LLM Core"
+roles:
+  - "data_science"
+  - "engineering"
+  - "product"
+part_of_speech: "process"
+short_def: "Algorithms that turn model probability distributions into output tokens during generation."
+long_def: >-
+  Decoding encompasses the strategies used to convert a model’s token probabilities into concrete outputs. Common methods include greedy decoding, beam search, top-k sampling, and nucleus (top-p) sampling, each trading off determinism, diversity, latency, and risk. Selection of a decoding algorithm affects user experience, safety posture, and evaluation results far more than many teams realize. Product managers configure decoding policies by use case—for example, deterministic responses for support scenarios and higher-variance sampling for ideation tools. Engineers implement controls such as temperature scaling, repetition penalties, and logprob thresholds to manage failure modes like hallucinations or loops. Governance programs capture decoding settings in change logs because updates can materially alter risk assessments. Understanding decoding is foundational to building reliable guardrails, interpreting evaluation results, and communicating the behavior of generative systems to stakeholders.
+audiences:
+  exec: "Decoding is the decision logic that turns the model’s probabilities into the words customers see."
+  engineer: "Apply algorithms like greedy, top-k, or top-p to sample from the softmax distribution while enforcing constraints and penalties."
+examples:
+  do:
+    - "Document decoding parameters alongside each release note for regulated experiences."
+  dont:
+    - "Mix decoding strategies across channels without coordinating evaluation coverage."
+governance:
+  nist_rmf_tags:
+    - "transparency"
+    - "robustness"
+  risk_notes: "Untracked decoding changes can invalidate safety testing and confuse incident investigations."
+relationships:
+  broader:
+    - "generative ai"
+  narrower:
+    - "greedy decoding"
+    - "top-k sampling"
+    - "top-p sampling"
+  related:
+    - "temperature"
+    - "log probability"
+    - "guardrails"
+citations:
+  - source: "Hugging Face Glossary"
+    url: "https://huggingface.co/docs/transformers/en/glossary"
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "Wikipedia AI Glossary"
+    url: "https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-01"

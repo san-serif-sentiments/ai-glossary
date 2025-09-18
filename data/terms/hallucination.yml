@@ -2,6 +2,16 @@ term: "hallucination"
 aliases:
   - "AI hallucination"
   - "confabulation"
+categories:
+  - "LLM Core"
+  - "Governance & Risk"
+roles:
+  - "communications"
+  - "data_science"
+  - "engineering"
+  - "legal"
+  - "policy"
+  - "product"
 part_of_speech: "noun"
 short_def: "When an AI model presents fabricated or unsupported information as fact."
 long_def: >-

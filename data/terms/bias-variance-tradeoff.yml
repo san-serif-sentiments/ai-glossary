@@ -1,0 +1,46 @@
+term: "bias-variance tradeoff"
+aliases:
+  - "bias variance trade-off"
+  - "generalization tradeoff"
+categories:
+  - "Foundations"
+roles:
+  - "data_science"
+  - "engineering"
+  - "policy"
+part_of_speech: "concept"
+short_def: "Balance between underfitting and overfitting: low bias increases variance, while high bias lowers variance but misses patterns."
+long_def: >-
+  The bias-variance tradeoff describes how model complexity influences generalization. High-bias models make strong simplifying assumptions, often underfitting by missing real structure in the data. Low-bias models capture more nuance but can exhibit high variance, reacting strongly to noise and overfitting. Practitioners seek a sweet spot where both error sources are minimized. Diagnostics include validation curves that plot training and test error against model complexity, or Monte Carlo simulations that estimate variance across resampled datasets. Techniques such as regularization, ensemble learning, and cross-validation help navigate the tradeoff. Governance teams consider this tradeoff when assessing reliability: models tuned solely for accuracy may become unstable in production, while overly conservative models can entrench bias and miss meaningful signals. Documenting the rationale behind chosen complexity levels supports compliance and future audits.
+audiences:
+  exec: "The bias-variance tradeoff explains why simplifying too much misses insight, but over-optimizing creates fragile, noisy behavior."
+  engineer: "Decompose generalization error into bias and variance terms; use validation diagnostics, regularization, and ensembles to reach the lowest combined error."
+examples:
+  do:
+    - "Plot learning curves to identify whether adding capacity improves validation performance."
+    - "Use k-fold cross-validation to estimate variance before promoting a model."
+  dont:
+    - "Rely solely on training metrics when evaluating model quality."
+    - "Select the most complex architecture without evidence it improves validation outcomes."
+governance:
+  nist_rmf_tags:
+    - "validity"
+    - "transparency"
+  risk_notes: "Ignoring the tradeoff leads to brittle models that either underperform or fail compliance evaluations in the field."
+relationships:
+  broader:
+    - "model training"
+  related:
+    - "overfitting"
+    - "cross-validation"
+    - "regularization"
+citations:
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "Wikipedia AI Glossary"
+    url: "https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence"
+  - source: "UK POST AI Glossary"
+    url: "https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-03"

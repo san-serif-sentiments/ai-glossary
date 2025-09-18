@@ -1,0 +1,48 @@
+term: "generative ai"
+aliases:
+  - "genai"
+  - "generative artificial intelligence"
+categories:
+  - "Foundations"
+roles:
+  - "communications"
+  - "policy"
+  - "product"
+part_of_speech: "concept"
+short_def: "Family of models that produce new content—text, images, code—rather than only making predictions."
+long_def: >-
+  Generative AI refers to systems that create novel outputs such as text, images, audio, or code by learning patterns from large training corpora. Foundation models like GPT, diffusion models, and multimodal architectures power these experiences by predicting the next token or pixel based on context. Organizations adopt generative AI for drafting, summarization, design, simulation, and synthetic data generation. The technology amplifies creativity and productivity but introduces unique risks, including hallucinations, intellectual property exposure, and safety concerns. Product leaders evaluate generative AI opportunities alongside guardrails, retrieval augmentation, and review workflows to keep outputs trustworthy. Engineers maintain the pipelines that tokenize data, manage prompts, deploy models, and monitor usage at scale. Governance teams coordinate policies covering responsible use, content moderation, privacy, and transparency. Understanding generative AI provides the context for more specialized concepts in this glossary, from attention mechanisms to red teaming.
+audiences:
+  exec: "Generative AI is the class of systems that draft content on demand, automating creative and analytical tasks."
+  engineer: "Models that learn probability distributions over complex data and sample from them to produce new artifacts."
+examples:
+  do:
+    - "Pair generative AI deployments with clear disclosure and feedback channels for users."
+  dont:
+    - "Launch generative features without documenting data sources, evaluation, and risk mitigations."
+governance:
+  nist_rmf_tags:
+    - "transparency"
+    - "risk_management"
+  risk_notes: "Uncontrolled generative systems can leak sensitive data, create misleading content, or breach intellectual property."
+relationships:
+  broader:
+    - "artificial intelligence"
+  narrower:
+    - "retrieval-augmented generation"
+    - "hallucination"
+    - "decoding"
+  related:
+    - "attention"
+    - "prompt engineering"
+    - "guardrails"
+citations:
+  - source: "NIST AI RMF Glossary"
+    url: "https://airc.nist.gov/glossary/"
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "Wikipedia AI Glossary"
+    url: "https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-01"

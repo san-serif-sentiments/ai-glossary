@@ -1,0 +1,9 @@
+cache = true
+max-concurrency = 6
+retry-wait-time = 2
+retry-count = 2
+accept = [200, 201, 202, 204, 206, 301, 302, 307, 308, 429]
+exclude = [
+  "https://example.com/ai-glossary",
+  "https://github.com/your-org/ai-glossary"
+]

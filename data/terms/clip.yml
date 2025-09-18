@@ -1,0 +1,48 @@
+term: "clip"
+aliases:
+  - "contrastive language-image pretraining"
+  - "clip model"
+categories:
+  - "Foundations"
+  - "Retrieval & RAG"
+roles:
+  - "engineering"
+  - "data_science"
+  - "product"
+  - "communications"
+part_of_speech: "noun"
+short_def: "Multimodal model that embeds images and text into a shared space using contrastive learning."
+long_def: >-
+  CLIP (Contrastive Language-Image Pretraining) jointly trains an image encoder and a text encoder so that semantically related images and captions map to nearby vectors. The approach uses large-scale image-text pairs scraped from the web and optimizes a contrastive loss that pushes matching pairs together while separating non-matching ones. Once trained, CLIP can perform zero-shot classification, retrieval, and multimodal search by comparing similarity between embeddings. Product teams leverage CLIP to improve content moderation, recommendation, and creative tooling without task-specific labels. Engineers integrate CLIP embeddings into vector stores or downstream fine-tuning pipelines, paying attention to bias, licensing, and safety constraints inherited from web-scale training data. Communications and policy teams monitor CLIP use because it can expose cultural biases and sensitive associations unless mitigated through filtering and evaluation.
+audiences:
+  exec: "CLIP understands images and text together, letting you search or classify visuals using natural language."
+  engineer: "Encode images and text with separate transformers trained via contrastive loss; use cosine similarity for retrieval, zero-shot classification, or RAG pipelines."
+examples:
+  do:
+    - "Audit embeddings for demographic bias before deploying search or moderation features."
+    - "Cache CLIP embeddings and align them with domain-specific prompts to improve precision."
+  dont:
+    - "Assume CLIP is license-clean; review dataset provenance and usage restrictions."
+    - "Ignore safety filters when exposing CLIP-powered features to end users."
+governance:
+  nist_rmf_tags:
+    - "data_quality"
+    - "transparency"
+  risk_notes: "CLIP inherits web-scale bias and copyright concerns; record how outputs are filtered and evaluated."
+relationships:
+  broader:
+    - "embedding"
+  related:
+    - "retrieval"
+    - "synthetic data"
+    - "guardrails"
+citations:
+  - source: "Hugging Face Glossary"
+    url: "https://huggingface.co/docs/transformers/en/glossary"
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "Wikipedia AI Glossary"
+    url: "https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-03"

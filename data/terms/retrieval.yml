@@ -1,0 +1,47 @@
+term: "retrieval"
+aliases:
+  - "information retrieval"
+  - "retriever"
+categories:
+  - "Retrieval & RAG"
+roles:
+  - "data_science"
+  - "engineering"
+  - "product"
+part_of_speech: "process"
+short_def: "Process of selecting relevant documents or vectors from a corpus in response to a query."
+long_def: >-
+  Retrieval refers to the algorithms and infrastructure that locate the most relevant pieces of information when a user submits a query. Classical approaches use lexical signals like TF-IDF and BM25, while modern systems incorporate dense vector similarity, hybrid combinations, and reranking models tailored to the domain. Retrieval quality underpins search, question answering, and retrieval-augmented generation workflows: without high recall and precision, downstream models hallucinate or return stale policy guidance. Engineers design retrievers by choosing chunking strategies, embedding models, index types, and freshness policies. They also monitor latency, relevance metrics, and guardrails such as filtering sensitive content. Governance teams treat retrieval pipelines as data processors, verifying access controls, audit logging, and compliance with data minimization requirements. Strong retrieval discipline enables traceability by linking generated outputs back to cited sources.
+audiences:
+  exec: "Retrieval is the step that fetches trusted facts before the AI speaks, keeping answers grounded."
+  engineer: "Implements query encoding, similarity search, and ranking to surface high-relevance passages for downstream consumers."
+examples:
+  do:
+    - "Track recall@k and precision metrics separately to diagnose retrieval bottlenecks."
+  dont:
+    - "Index sensitive documents without permissioning or automated redaction."
+governance:
+  nist_rmf_tags:
+    - "data_quality"
+    - "transparency"
+  risk_notes: "Weak retrieval controls can expose restricted records or feed outdated content into regulated workflows."
+relationships:
+  broader:
+    - "search"
+  narrower:
+    - "dense retrieval"
+    - "lexical retrieval"
+  related:
+    - "retrieval-augmented generation"
+    - "vector store"
+    - "reranking"
+citations:
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "Hugging Face Glossary"
+    url: "https://huggingface.co/docs/transformers/en/glossary"
+  - source: "NIST AI RMF Glossary"
+    url: "https://airc.nist.gov/glossary/"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-01"

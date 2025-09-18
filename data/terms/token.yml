@@ -1,0 +1,44 @@
+term: "token"
+aliases:
+  - "subword token"
+  - "tokenized unit"
+categories:
+  - "LLM Core"
+roles:
+  - "data_science"
+  - "engineering"
+  - "product"
+part_of_speech: "noun"
+short_def: "Smallest unit of text a model processes after tokenization, such as a word fragment or character."
+long_def: >-
+  In language models a token is the discrete unit produced by a tokenizer before feeding data into the network. Depending on the tokenizer, a token might represent a whole word, a meaningful subword chunk, or even individual characters and punctuation. Models operate on token sequences rather than raw text, which makes token boundaries central to context window sizing, cost estimation, and latency planning. Tokens also drive how prompts and completions are billed in commercial APIs, where limits are expressed in tokens instead of characters. Engineers track token counts to avoid truncating prompts or spilling past context limits, while product teams translate token budgets into supported use cases and pricing. Understanding tokenization quirks helps explain why uncommon spellings, multilingual inputs, or code snippets can explode in length compared with natural language, affecting both accuracy and economics. Governance stakeholders rely on the deterministic nature of tokenization when auditing prompts and ensuring reproducibility across deployments.
+audiences:
+  exec: "Think of tokens as the LEGO bricks that determine how long prompts can be and what they cost."
+  engineer: "Tokenizer output units that set sequence length, influence embedding lookup, and bound context windows for inference/training."
+examples:
+  do:
+    - "Estimate prompt costs by counting tokens instead of characters before rolling out a pricing plan."
+  dont:
+    - "Assume character length equals token length when enforcing guardrails or cost controls."
+governance:
+  nist_rmf_tags:
+    - "transparency"
+    - "validity"
+  risk_notes: "Incorrect token accounting can break context constraints, leading to truncated outputs and compliance failures."
+relationships:
+  broader:
+    - "tokenization"
+  related:
+    - "context window"
+    - "embedding"
+    - "prompt engineering"
+citations:
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "Hugging Face Tokenizers"
+    url: "https://huggingface.co/docs/tokenizers/python/latest/"
+  - source: "Stanford HAI Brief Definitions"
+    url: "https://hai.stanford.edu/news/brief-definitions"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-01"

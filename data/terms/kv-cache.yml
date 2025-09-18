@@ -1,0 +1,46 @@
+term: "kv cache"
+aliases:
+  - "key-value cache"
+  - "attention cache"
+categories:
+  - "LLM Core"
+roles:
+  - "data_science"
+  - "engineering"
+  - "product"
+part_of_speech: "noun_phrase"
+short_def: "Stored attention keys and values reused across decoding steps to speed sequential generation."
+long_def: >-
+  The KV cache holds intermediate key and value tensors produced during transformer attention so they can be reused on subsequent tokens without recomputing earlier layers. During autoregressive decoding, each new token only needs to attend to prior states; caching those states significantly reduces latency and compute, especially for long prompts or streaming responses. Production systems manage KV cache sizes carefully because they grow with context length, consuming memory on GPUs and influencing batch throughput. Engineers optimize cache eviction policies, quantization, or paged memory formats to balance cost and responsiveness. Governance and reliability teams monitor KV cache behavior to ensure no residual data persists longer than intended, particularly when serving multi-tenant workloads where prompts may contain sensitive information. Documenting cache configuration is part of operational playbooks for diagnosing performance regressions.
+audiences:
+  exec: "The KV cache is the reuse trick that keeps responses snappy even when conversations get long."
+  engineer: "Per-layer tensors of attention keys/values stored between decoding steps to avoid recomputing full sequence context."
+examples:
+  do:
+    - "Audit GPU memory usage with and without KV caching to plan capacity for long-context workloads."
+  dont:
+    - "Share KV cache contents across tenants without isolation controls."
+governance:
+  nist_rmf_tags:
+    - "efficiency"
+    - "privacy"
+  risk_notes: "Improper cache management can leak residual user data or trigger out-of-memory failures."
+relationships:
+  broader:
+    - "inference optimization"
+  narrower:
+    - "paged attention"
+  related:
+    - "attention"
+    - "context window"
+    - "quantization"
+citations:
+  - source: "Hugging Face Glossary"
+    url: "https://huggingface.co/docs/transformers/en/glossary"
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "Wikipedia AI Glossary"
+    url: "https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-01"

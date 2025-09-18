@@ -2,6 +2,12 @@ term: "retrieval-augmented generation"
 aliases:
   - "RAG"
   - "retrieval augmented generation"
+categories:
+  - "Retrieval & RAG"
+roles:
+  - "data_science"
+  - "engineering"
+  - "product"
 part_of_speech: "process"
 short_def: "Workflow that grounds a generative model with retrieved context before producing output."
 long_def: >-

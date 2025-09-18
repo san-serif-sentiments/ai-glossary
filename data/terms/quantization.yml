@@ -2,6 +2,11 @@ term: "quantization"
 aliases:
   - "model quantization"
   - "weight quantization"
+categories:
+  - "Optimization & Efficiency"
+roles:
+  - "data_science"
+  - "engineering"
 part_of_speech: "process"
 short_def: "Technique that compresses model weights into lower-precision formats to shrink size and speed inference."
 long_def: >-

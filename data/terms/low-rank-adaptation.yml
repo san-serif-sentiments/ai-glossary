@@ -1,0 +1,43 @@
+term: "low-rank adaptation"
+aliases:
+  - "LoRA"
+  - "low rank fine-tuning"
+categories:
+  - "Optimization & Efficiency"
+roles:
+  - "data_science"
+  - "engineering"
+part_of_speech: "process"
+short_def: "Parameter-efficient fine-tuning that injects low-rank update matrices into transformer weights."
+long_def: >-
+  Low-rank adaptation (LoRA) fine-tunes large language models by learning compact update matrices rather than adjusting full weight tensors. The method freezes the original model parameters and trains additive low-rank factors that capture task-specific shifts, reducing memory usage and compute costs. LoRA adapters can be merged into the base model for deployment or stored separately to toggle behaviors per tenant. This approach enables organizations to customize models using modest hardware, accelerate experimentation, and share adapters without distributing full proprietary checkpoints. Engineers manage rank choices, scaling factors, and target layers to balance quality with efficiency. Governance teams evaluate LoRA artifacts like traditional model versions, reviewing data provenance, licensing, and security implications. Because adapters can encode sensitive capabilities, access control and documentation remain essential—particularly when multiple teams contribute adapters to a shared serving stack.
+audiences:
+  exec: "LoRA lets teams customize giant models cheaply by training small plug-ins instead of retraining everything."
+  engineer: "Freeze base weights, insert trainable low-rank matrices into attention or feed-forward layers, and fine-tune with minimal VRAM."
+examples:
+  do:
+    - "Track which datasets and objectives produced each LoRA adapter before sharing it across teams."
+  dont:
+    - "Merge third-party adapters into production models without license verification."
+governance:
+  nist_rmf_tags:
+    - "efficiency"
+    - "accountability"
+  risk_notes: "Unvetted adapters can override safety tuning or introduce licensed data without traceability."
+relationships:
+  broader:
+    - "fine-tuning"
+  related:
+    - "quantization"
+    - "distillation"
+    - "guardrails"
+citations:
+  - source: "Hugging Face Glossary"
+    url: "https://huggingface.co/docs/transformers/en/glossary"
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "NIST AI RMF Glossary"
+    url: "https://airc.nist.gov/glossary/"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-01"

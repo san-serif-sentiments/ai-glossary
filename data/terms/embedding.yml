@@ -1,0 +1,47 @@
+term: "embedding"
+aliases:
+  - "vector embedding"
+  - "representation vector"
+categories:
+  - "Retrieval & RAG"
+roles:
+  - "data_science"
+  - "engineering"
+  - "product"
+part_of_speech: "noun"
+short_def: "Dense numerical representation that captures semantic meaning of text, images, or other data."
+long_def: >-
+  Embeddings map pieces of information—such as words, sentences, images, or audio—into dense vectors so similar concepts cluster in vector space. Modern foundation models learn embeddings during pretraining, optimizing them to capture contextual meaning, syntactic roles, and domain signals that make downstream tasks like retrieval, classification, and recommendation more effective. When teams build retrieval-augmented generation systems, they compute embeddings for documents and queries, then compare them with similarity metrics like cosine distance or dot product. The quality of those vectors influences whether the right context is retrieved, how well clustering and anomaly detection work, and how fast nearest-neighbor searches execute. Governance programs scrutinize embedding pipelines because biased or outdated vectors can encode harmful associations and propagate them into products. Maintaining embeddings thus requires dataset curation, versioning, and monitoring to detect drift as language or policies change.
+audiences:
+  exec: "Embeddings are a way to translate concepts into numbers so the system can find and compare ideas efficiently."
+  engineer: "Model-generated vectors where distance metrics approximate semantic similarity; used for retrieval, clustering, ranking, and transfer learning."
+examples:
+  do:
+    - "Version embedding models and store associated tokenizer metadata to support reproducibility."
+  dont:
+    - "Mix embeddings from different models without recalculating similarity thresholds or rescoring."
+governance:
+  nist_rmf_tags:
+    - "data_quality"
+    - "accountability"
+  risk_notes: "Embedding drift or biased training data can surface discriminatory outputs when used in search or ranking."
+relationships:
+  broader:
+    - "representation learning"
+  narrower:
+    - "sentence embedding"
+    - "image embedding"
+  related:
+    - "retrieval"
+    - "vector store"
+    - "chunking"
+citations:
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "Hugging Face Glossary"
+    url: "https://huggingface.co/docs/transformers/en/glossary"
+  - source: "NIST AI RMF Glossary"
+    url: "https://airc.nist.gov/glossary/"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-01"

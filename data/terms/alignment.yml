@@ -1,0 +1,49 @@
+term: "alignment"
+aliases:
+  - "AI alignment"
+  - "value alignment"
+categories:
+  - "Governance & Risk"
+roles:
+  - "communications"
+  - "legal"
+  - "policy"
+  - "product"
+part_of_speech: "concept"
+short_def: "Making sure AI systems optimize for human values, policies, and intended outcomes."
+long_def: >-
+  Alignment is the multidisciplinary effort to design AI systems whose goals, behaviors, and outputs remain consistent with human intent and societal norms. It spans technical research—such as reward modeling, constitutional AI, interpretability, and adversarial training—and organizational governance, including policy frameworks, oversight committees, and escalation paths. Alignment work acknowledges that models learn from imperfect data and may pursue proxy objectives that conflict with human priorities. Product leaders use alignment roadmaps to decide which features require human-in-the-loop review, while engineers translate alignment goals into metrics, eval harnesses, and guardrails. Regulators and standards bodies, including NIST and ISO, emphasize alignment as part of trustworthy AI, requiring documentation of assumptions, residual risks, and impact mitigation strategies. Sustainable alignment programs treat it as an ongoing lifecycle activity rather than a one-time tuning exercise.
+audiences:
+  exec: "Alignment is how we make sure the AI keeps serving our mission and values as it evolves."
+  engineer: "Research and governance toolkit ensuring loss functions, feedback loops, and guardrails drive behavior toward intended objectives."
+examples:
+  do:
+    - "Document alignment hypotheses and track eval metrics tied to specific risk scenarios."
+  dont:
+    - "Assume alignment is solved after one fine-tuning pass without continuous monitoring."
+governance:
+  nist_rmf_tags:
+    - "accountability"
+    - "transparency"
+    - "validity"
+  risk_notes: "Weak alignment programs allow models to pursue proxy goals that conflict with legal or ethical obligations."
+relationships:
+  broader:
+    - "responsible AI"
+  narrower:
+    - "constitutional AI"
+    - "reinforcement learning from human feedback"
+  related:
+    - "guardrails"
+    - "evaluation"
+    - "red teaming"
+citations:
+  - source: "NIST AI RMF Glossary"
+    url: "https://airc.nist.gov/glossary/"
+  - source: "Stanford HAI Brief Definitions"
+    url: "https://hai.stanford.edu/news/brief-definitions"
+  - source: "UK POST AI Glossary"
+    url: "https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-01"

@@ -1,0 +1,46 @@
+term: "context window"
+aliases:
+  - "context length"
+  - "sequence length limit"
+categories:
+  - "LLM Core"
+roles:
+  - "data_science"
+  - "engineering"
+  - "product"
+part_of_speech: "noun_phrase"
+short_def: "Maximum number of tokens a model can consider at once during prompting or inference."
+long_def: >-
+  The context window defines how many tokens a model can ingest in a single forward pass, combining both prompt input and generated output. Because transformer attention scales quadratically with sequence length, vendors ship models with fixed limits that balance cost, latency, and accuracy. Exceeding the window forces truncation or sliding-window strategies that can drop critical instructions. Product teams map context size to user scenarios—for example, how long a document can be summarized or how many chat messages remain in memory. Engineers manage context budgets through prompt compression, retrieval chunking, and caching mechanisms like recurrent attention or stateful decoding. Governance stakeholders examine context policies to ensure sensitive data is not unintentionally persisted across conversations or logged beyond retention periods, especially when long windows capture personally identifiable information.
+audiences:
+  exec: "A context window is the attention span of the model—go past it and instructions fall off."
+  engineer: "Token budget for input plus output per request; drives attention memory use and dictates truncation strategies."
+examples:
+  do:
+    - "Document context requirements by user journey so prompts stay within safe token limits."
+  dont:
+    - "Assume extending the context window eliminates the need for retrieval or prompt optimization."
+governance:
+  nist_rmf_tags:
+    - "transparency"
+    - "privacy"
+  risk_notes: "Oversized contexts can capture unnecessary personal data and complicate retention or deletion obligations."
+relationships:
+  broader:
+    - "prompt engineering"
+  narrower:
+    - "long-context models"
+  related:
+    - "token"
+    - "attention"
+    - "kv cache"
+citations:
+  - source: "Hugging Face Glossary"
+    url: "https://huggingface.co/docs/transformers/en/glossary"
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "NIST AI RMF Glossary"
+    url: "https://airc.nist.gov/glossary/"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-01"

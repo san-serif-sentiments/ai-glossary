@@ -1,0 +1,47 @@
+term: "attention"
+aliases:
+  - "attention mechanism"
+  - "self-attention"
+categories:
+  - "LLM Core"
+roles:
+  - "data_science"
+  - "engineering"
+  - "product"
+part_of_speech: "noun"
+short_def: "Technique enabling models to weight input tokens differently when producing each output."
+long_def: >-
+  Attention assigns dynamic importance scores to tokens so a model can focus on the most relevant parts of the sequence when generating or interpreting outputs. In transformer architectures, self-attention computes query, key, and value projections that interact through scaled dot products, allowing every token to attend to every other token in the same layer. Multi-head attention repeats this operation across parallel subspaces, capturing nuanced relationships such as syntax, long-range dependencies, and positional context. The mechanism replaced recurrent networks for many language and vision tasks by enabling parallel processing and rich contextual reasoning. Engineers diagnose quality issues by inspecting attention patterns, tuning head counts, or constraining context windows to manage memory. Governance teams monitor attention configurations because they influence explainability—saliency maps and attribution methods often rely on attention weights to justify model decisions in regulated settings.
+audiences:
+  exec: "Attention is how the model decides which words or pixels matter most before answering."
+  engineer: "QKV projections with softmax-normalized weights that let each token aggregate information from the entire sequence."
+examples:
+  do:
+    - "Profile attention head usage to identify redundant heads before applying pruning or distillation."
+  dont:
+    - "Assume longer context windows automatically improve answers without verifying attention saturation and memory usage."
+governance:
+  nist_rmf_tags:
+    - "transparency"
+    - "robustness"
+  risk_notes: "Opaque attention patterns can hinder explainability obligations in regulated workflows."
+relationships:
+  broader:
+    - "transformer"
+  narrower:
+    - "cross-attention"
+    - "multi-head attention"
+  related:
+    - "context window"
+    - "kv cache"
+    - "token"
+citations:
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "Hugging Face Glossary"
+    url: "https://huggingface.co/docs/transformers/en/glossary"
+  - source: "Wikipedia AI Glossary"
+    url: "https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-01"

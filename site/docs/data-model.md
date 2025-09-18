@@ -8,6 +8,10 @@ cross-team alignment.
 term: "example"
 aliases:
   - "synonym"
+categories:
+  - "Category name"
+roles:
+  - "product"
 part_of_speech: "noun"
 short_def: "≤40 word summary."
 long_def: >-
@@ -46,6 +50,9 @@ last_reviewed: "2024-01-01"
 - `long_def` must fall between **80 and 220 words**.
 - Executive and engineering variants are mandatory.
 - Provide at least one example in each of the `do` and `dont` lists.
+- Assign at least one category so entries can be grouped in navigation and search.
+- Tag entries with at least one role (`product`, `engineering`, `data_science`, `policy`,
+  `legal`, `security`, or `communications`) for role-based guidance.
 - Cite sources with URLs to reputable glossaries, standards, or academic
   references.
 

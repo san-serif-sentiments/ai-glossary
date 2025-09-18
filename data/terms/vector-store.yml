@@ -1,0 +1,46 @@
+term: "vector store"
+aliases:
+  - "vector database"
+  - "embedding index"
+categories:
+  - "Retrieval & RAG"
+roles:
+  - "data_science"
+  - "engineering"
+  - "product"
+part_of_speech: "noun_phrase"
+short_def: "Database optimized to store embeddings and execute similarity search over vectors."
+long_def: >-
+  A vector store persists embeddings alongside metadata and exposes similarity search primitives such as nearest-neighbor queries, filtering, and hybrid scoring. Unlike relational databases, vector stores optimize for high-dimensional distance computations, using structures like HNSW graphs, IVF lists, or product quantization to balance recall and latency. They are a foundational component of retrieval-augmented generation platforms because they resolve which document chunks should accompany a prompt. Operational teams monitor vector stores for index freshness, replication, and backup coverage, while engineers tune them for sharding strategies, dimensionality alignment with embedding models, and filterable metadata schemas. Governance teams oversee access controls and deletion workflows to guarantee that personal or regulated data can be removed promptly. Properly instrumented vector stores also log which records contributed to an answer, supporting audit trails and user-facing citations.
+audiences:
+  exec: "Think of a vector store as the searchable memory that lets AI find related knowledge quickly."
+  engineer: "Specialized database offering ANN search over embedding vectors with metadata filters and lifecycle management."
+examples:
+  do:
+    - "Align vector dimensionality and distance metrics with the embedding model before bulk ingestion."
+  dont:
+    - "Leave vector indexes unversioned, making it impossible to trace which data powered a response."
+governance:
+  nist_rmf_tags:
+    - "accountability"
+    - "data_quality"
+  risk_notes: "Lax access controls or deletion policies can expose sensitive embeddings or violate retention requirements."
+relationships:
+  broader:
+    - "retrieval infrastructure"
+  narrower:
+    - "approximate nearest neighbor index"
+  related:
+    - "embedding"
+    - "retrieval"
+    - "chunking"
+citations:
+  - source: "Hugging Face Glossary"
+    url: "https://huggingface.co/docs/transformers/en/glossary"
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "NIST AI RMF Glossary"
+    url: "https://airc.nist.gov/glossary/"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-01"

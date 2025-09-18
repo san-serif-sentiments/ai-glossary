@@ -1,0 +1,43 @@
+term: "knowledge distillation"
+aliases:
+  - "distillation"
+  - "teacher-student training"
+categories:
+  - "Optimization & Efficiency"
+roles:
+  - "data_science"
+  - "engineering"
+part_of_speech: "process"
+short_def: "Technique that trains a smaller student model to mimic a larger teacher model’s behavior."
+long_def: >-
+  Knowledge distillation transfers capabilities from a high-capacity teacher model to a more efficient student model by training the student on the teacher’s softened output distributions or generated examples. The approach preserves much of the teacher’s accuracy while reducing parameter count, latency, and cost—making it popular for edge deployments and inference scaling. Distillation complements other efficiency strategies such as quantization or pruning, enabling organizations to meet budget constraints without abandoning model quality. Engineers configure temperature, loss weighting, and dataset selection to ensure the student captures critical behaviors, sometimes blending hard labels with soft targets. Governance teams review distillation pipelines to confirm the teacher and student share licensing compatibility and that synthetic data generation respects privacy obligations. Because distillation can copy undesirable biases along with strengths, evaluations must confirm that risk mitigations remain effective in the distilled model.
+audiences:
+  exec: "Distillation keeps model quality high while shrinking the model to run faster and cheaper."
+  engineer: "Train a student network using teacher logits or generated traces so it approximates the teacher’s function with fewer parameters."
+examples:
+  do:
+    - "Document which teacher checkpoints and datasets produced each distilled release."
+  dont:
+    - "Distill sensitive capabilities without reassessing safety performance on the student model."
+governance:
+  nist_rmf_tags:
+    - "efficiency"
+    - "validity"
+  risk_notes: "Students inherit teacher biases; missing evaluations can hide regressions introduced during compression."
+relationships:
+  broader:
+    - "model optimization"
+  related:
+    - "quantization"
+    - "low-rank adaptation"
+    - "evaluation"
+citations:
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "Hugging Face Glossary"
+    url: "https://huggingface.co/docs/transformers/en/glossary"
+  - source: "Stanford HAI Brief Definitions"
+    url: "https://hai.stanford.edu/news/brief-definitions"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-01"

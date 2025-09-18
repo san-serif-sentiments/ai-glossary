@@ -1,0 +1,47 @@
+term: "ml ops"
+aliases:
+  - "mlops"
+  - "machine learning operations"
+categories:
+  - "Operations & Monitoring"
+roles:
+  - "engineering"
+  - "policy"
+  - "security"
+part_of_speech: "concept"
+short_def: "Operational discipline that manages ML models from experimentation through deployment and monitoring."
+long_def: >-
+  ML Ops adapts DevOps and data engineering practices to the lifecycle of machine learning systems. It encompasses experiment tracking, feature management, deployment automation, monitoring, incident response, and governance. Successful ML Ops programs unify teams across data science, engineering, and compliance so models move from prototype to production without manual heroics. Tooling includes model registries, CI/CD pipelines, automated evaluation gates, and observability platforms that watch for drift, data quality issues, and guardrail violations. Product organizations rely on ML Ops maturity to ship updates safely and respond quickly to incidents. Governance frameworks such as the NIST AI RMF expect documented ML Ops processes to demonstrate accountability, transparency, and continuous monitoring. Without disciplined ML Ops, models stagnate, degrade in accuracy, or fall out of compliance as the environment evolves.
+audiences:
+  exec: "ML Ops is the operating system that keeps production models reliable, compliant, and cost-efficient."
+  engineer: "Integrate version control, CI/CD, registries, approvals, and monitoring to manage ML artifacts end to end."
+examples:
+  do:
+    - "Automate promotion from staging to production only after evaluation and guardrail checks pass."
+  dont:
+    - "Deploy model updates outside the pipeline, bypassing logging and rollback controls."
+governance:
+  nist_rmf_tags:
+    - "accountability"
+    - "monitoring"
+  risk_notes: "Weak ML Ops processes increase the odds of untracked changes, bias reintroductions, and compliance failures."
+relationships:
+  broader:
+    - "model governance"
+  narrower:
+    - "ml observability"
+    - "model drift"
+  related:
+    - "fine-tuning"
+    - "evaluation"
+    - "guardrails"
+citations:
+  - source: "NIST AI RMF Glossary"
+    url: "https://airc.nist.gov/glossary/"
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "Stanford HAI Brief Definitions"
+    url: "https://hai.stanford.edu/news/brief-definitions"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-01"

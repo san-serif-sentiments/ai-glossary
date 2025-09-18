@@ -1,0 +1,44 @@
+term: "top-p sampling"
+aliases:
+  - "nucleus sampling"
+  - "p-sampling"
+categories:
+  - "LLM Core"
+roles:
+  - "data_science"
+  - "engineering"
+  - "product"
+part_of_speech: "process"
+short_def: "Decoding strategy that samples from the smallest set of tokens whose probabilities sum to p."
+long_def: >-
+  Top-p sampling, also called nucleus sampling, builds a dynamic shortlist of candidate tokens whose cumulative probability exceeds a threshold p. Instead of fixing the number of options, the method adapts to the shape of the probability distribution: sharply peaked distributions produce small candidate sets, while flatter distributions expand the pool. This flexibility makes top-p useful for preserving coherence in confident contexts while still allowing creative variations when the model is less certain. Engineers tune the p value in tandem with temperature to achieve the desired balance between determinism and variety. Product teams rely on the technique for experiences like storytelling, marketing copy, or brainstorming where monotone responses are undesirable. Governance teams record chosen p values alongside evaluation evidence, recognizing that higher thresholds can surface content not vetted during safety reviews. Monitoring how p interacts with policy classifiers and guardrails is an integral part of ongoing risk management.
+audiences:
+  exec: "A probability threshold that keeps responses varied without wandering too far off message."
+  engineer: "Accumulate token probabilities until they exceed p, normalize, then sample—yielding adaptive candidate sets per step."
+examples:
+  do:
+    - "Test critical workflows at p values of 0.7, 0.9, and 0.95 to document behavioral differences."
+  dont:
+    - "Use high p thresholds for regulated communications without updated compliance sign-off."
+governance:
+  nist_rmf_tags:
+    - "robustness"
+    - "transparency"
+  risk_notes: "Large nucleus thresholds can introduce unvetted behaviors and may invalidate safety testing baselines."
+relationships:
+  broader:
+    - "decoding"
+  related:
+    - "temperature"
+    - "top-k sampling"
+    - "greedy decoding"
+citations:
+  - source: "Hugging Face Glossary"
+    url: "https://huggingface.co/docs/transformers/en/glossary"
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "Stanford HAI Brief Definitions"
+    url: "https://hai.stanford.edu/news/brief-definitions"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-01"

@@ -1,0 +1,44 @@
+term: "log probability"
+aliases:
+  - "logprob"
+  - "token log probability"
+categories:
+  - "LLM Core"
+roles:
+  - "data_science"
+  - "engineering"
+  - "product"
+part_of_speech: "noun_phrase"
+short_def: "Logarithm of a token’s probability, used to inspect model confidence and guide decoding tweaks."
+long_def: >-
+  Log probability represents the natural logarithm of a token’s predicted probability during generation. Because probabilities multiply across sequence lengths, working in log space avoids numerical underflow and makes it easier to compare relative likelihoods. Tooling that surfaces token-level logprobs helps practitioners debug why a model chose specific words, identify low-confidence spans for post-processing, and implement rejection sampling. Product teams use logprob thresholds to trigger fallbacks, escalate to humans, or annotate responses with confidence indicators. Engineers rely on logprobs to enforce constraints such as toxicity caps, apply repetition penalties, or calibrate beam search scores. Governance stakeholders treat logprob telemetry as part of audit trails, correlating low-confidence regions with incidents or hallucinations. Capturing and analyzing log probabilities thus supports transparency requirements and informs mitigation strategies when behavior drifts over time.
+audiences:
+  exec: "Log probabilities surface how confident the model was about each word, which can trigger reviews when confidence drops."
+  engineer: "Natural-log scores from the softmax output that accumulate across tokens; useful for diagnostics, penalties, and rejection sampling."
+examples:
+  do:
+    - "Flag completions where average logprob falls below a threshold and route them for human review."
+  dont:
+    - "Expose raw logprob values to end users without context or calibration."
+governance:
+  nist_rmf_tags:
+    - "transparency"
+    - "validity"
+  risk_notes: "Missing logprob telemetry makes it harder to audit why unsafe or incorrect outputs were produced."
+relationships:
+  broader:
+    - "decoding"
+  related:
+    - "temperature"
+    - "top-k sampling"
+    - "evaluation"
+citations:
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "Hugging Face Glossary"
+    url: "https://huggingface.co/docs/transformers/en/glossary"
+  - source: "NIST AI RMF Glossary"
+    url: "https://airc.nist.gov/glossary/"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-01"

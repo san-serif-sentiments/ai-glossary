@@ -1,0 +1,48 @@
+term: "algorithmic bias"
+aliases:
+  - "systemic bias"
+  - "ai bias"
+categories:
+  - "Governance & Risk"
+roles:
+  - "policy"
+  - "legal"
+  - "product"
+  - "communications"
+  - "security"
+part_of_speech: "concept"
+short_def: "Systematic unfairness in model outputs that disadvantages certain groups or outcomes."
+long_def: >-
+  Algorithmic bias arises when models produce systematically skewed results that disadvantage individuals or groups, often reflecting historical inequities in training data, feature selection, or objective functions. Bias can manifest through discriminatory false positives, unequal error rates, or exclusionary recommendations. Organizations must examine the full pipeline—data collection, labeling, modeling, evaluation, and deployment—to identify root causes. Product teams collaborate with policy, legal, and communications partners to define fairness objectives, while engineers implement bias detection metrics, reweighting, and post-processing adjustments. Governance frameworks (NIST AI RMF, EU AI Act) require documentation of bias assessments, stakeholder engagement, and remediation plans. Failing to manage algorithmic bias can create legal liability, reputational damage, and harm to marginalized communities. Continuous monitoring, diverse evaluation cohorts, and community feedback loops are essential for sustained mitigation.
+audiences:
+  exec: "Algorithmic bias is when the AI treats groups unfairly, risking customer trust and regulatory violations."
+  engineer: "Quantify and mitigate disparities across subpopulations using metrics like equalized odds, demographic parity, and subgroup ROC analysis."
+examples:
+  do:
+    - "Include fairness metrics in evaluation pipelines and report them alongside accuracy."
+    - "Engage impacted stakeholders when designing mitigation strategies."
+  dont:
+    - "Launch features without testing performance across sensitive attributes."
+    - "Assume bias is solved after one mitigation; monitor continuously."
+governance:
+  nist_rmf_tags:
+    - "fairness"
+    - "transparency"
+  risk_notes: "Unmitigated bias can violate anti-discrimination laws, trigger regulatory action, and erode brand trust."
+relationships:
+  broader:
+    - "responsible ai"
+  related:
+    - "safety evaluation"
+    - "red teaming"
+    - "privacy impact assessment"
+citations:
+  - source: "NIST AI RMF Glossary"
+    url: "https://airc.nist.gov/glossary/"
+  - source: "UK POST AI Glossary"
+    url: "https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/"
+  - source: "Stanford HAI Brief Definitions"
+    url: "https://hai.stanford.edu/news/brief-definitions"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-03"

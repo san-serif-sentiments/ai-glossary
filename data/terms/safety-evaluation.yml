@@ -1,0 +1,48 @@
+term: "safety evaluation"
+aliases:
+  - "safety testing"
+  - "safety assessment"
+categories:
+  - "Governance & Risk"
+  - "Operations & Monitoring"
+roles:
+  - "engineering"
+  - "policy"
+  - "product"
+  - "communications"
+part_of_speech: "process"
+short_def: "Testing focused on preventing harmful, abusive, or policy-violating AI behavior before and after launch."
+long_def: >-
+  Safety evaluations probe AI systems for dangerous or disallowed behavior, complementing performance metrics with targeted abuse, bias, and compliance tests. Teams blend automated classifiers, curated prompt suites, and expert reviews to measure toxicity, misinformation, self-harm encouragement, and other high-risk outcomes. Results feed into guardrail tuning, incident response plans, and launch gate decisions. Engineering and policy teams collaborate on coverage, ensuring critical user journeys and demographic perspectives are represented. Communications and legal stakeholders review findings to shape disclosures and mitigation commitments. Safety evaluations are continuous: regressions can surface after prompt changes, model updates, or content shifts, so organizations schedule recurring runs and capture evidence for audits. Failing to operationalize safety evaluations at scale exposes products to public incidents, regulatory scrutiny, and erosion of user trust.
+audiences:
+  exec: "Safety evaluation is the checkpoint that proves the AI won’t violate our policies or harm users."
+  engineer: "Execute targeted red-team suites, automated toxicity checks, and manual reviews; document thresholds, residual risk, and remediation plans."
+examples:
+  do:
+    - "Store evaluation artifacts alongside release notes for traceability."
+    - "Include marginalized community perspectives in the review panel and prompt set."
+  dont:
+    - "Assume safety coverage automatically transfers when prompts or models change."
+    - "Treat a passing score as permanent—schedule re-tests after meaningful updates."
+governance:
+  nist_rmf_tags:
+    - "risk_management"
+    - "accountability"
+  risk_notes: "Skipping or deferring safety evaluations invites policy breaches, public incidents, and enforcement actions."
+relationships:
+  broader:
+    - "evaluation"
+  related:
+    - "red teaming"
+    - "guardrails"
+    - "incident response"
+citations:
+  - source: "NIST AI RMF Glossary"
+    url: "https://airc.nist.gov/glossary/"
+  - source: "UK POST AI Glossary"
+    url: "https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/"
+  - source: "Stanford HAI Brief Definitions"
+    url: "https://hai.stanford.edu/news/brief-definitions"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-02"

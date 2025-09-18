@@ -1,0 +1,48 @@
+term: "model drift"
+aliases:
+  - "distribution drift"
+  - "concept drift"
+categories:
+  - "Operations & Monitoring"
+  - "Governance & Risk"
+roles:
+  - "communications"
+  - "engineering"
+  - "legal"
+  - "policy"
+  - "product"
+  - "security"
+part_of_speech: "concept"
+short_def: "Gradual mismatch between model assumptions and real-world data that degrades performance over time."
+long_def: >-
+  Model drift arises when the data encountered in production no longer matches the distribution seen during training or evaluation. Changes in user behavior, regulations, adversarial inputs, or upstream systems can all erode accuracy and trustworthiness. Drift appears in multiple forms: data drift alters input characteristics, concept drift changes the meaning of target labels, and prior drift moves latent relationships within embeddings. Operations teams monitor dashboards for early signals using statistical tests, canary evaluations, and feedback loops. Product managers plan remediation playbooks that include prompt updates, retrieval refreshes, or new fine-tuning cycles. Governance frameworks require drift detection as part of continuous monitoring obligations, ensuring sensitive use cases receive timely reviews. Documenting drift incidents, response timelines, and residual risk assessments supports compliance and informs future model lifecycle decisions.
+audiences:
+  exec: "Model drift is the slow decay that happens when the world changes but the AI stays static."
+  engineer: "Shift between training and production distributions; measured via statistical monitoring and addressed with retraining or prompt updates."
+examples:
+  do:
+    - "Set drift thresholds and automated alerts tied to evaluation reruns for critical workflows."
+  dont:
+    - "Ignore user feedback that signals degraded relevance or bias until after incidents occur."
+governance:
+  nist_rmf_tags:
+    - "monitoring"
+    - "validity"
+  risk_notes: "Undetected drift can lead to policy violations, misaligned outputs, and regulatory non-compliance."
+relationships:
+  broader:
+    - "model governance"
+  related:
+    - "evaluation"
+    - "guardrails"
+    - "observability"
+citations:
+  - source: "NIST AI RMF Glossary"
+    url: "https://airc.nist.gov/glossary/"
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "Stanford HAI Brief Definitions"
+    url: "https://hai.stanford.edu/news/brief-definitions"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-01"

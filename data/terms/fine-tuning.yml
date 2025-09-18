@@ -1,0 +1,46 @@
+term: "fine-tuning"
+aliases:
+  - "model adaptation"
+  - "supervised fine-tuning"
+categories:
+  - "Optimization & Efficiency"
+roles:
+  - "data_science"
+  - "engineering"
+part_of_speech: "process"
+short_def: "Additional training that adapts a pretrained model to a specific task or domain."
+long_def: >-
+  Fine-tuning continues training from a pretrained checkpoint using a curated dataset that reflects the target task, tone, or policy. By adjusting weights on top of broad foundation knowledge, teams achieve better accuracy and alignment than prompt engineering alone. Approaches include supervised fine-tuning, reinforcement learning from human feedback, parameter-efficient methods like LoRA, and combinations with synthetic data generation. Product leaders plan fine-tuning roadmaps to differentiate experiences or enforce brand voice, while engineers manage hyperparameters, data balancing, and evaluation suites to prevent catastrophic forgetting. Governance stakeholders scrutinize fine-tuning inputs for licensing, privacy, and bias risks, requiring documentation of provenance and review sign-offs. Because fine-tuned models can drift from base guarantees, organizations version checkpoints, run regression tests, and maintain rollback plans to satisfy compliance obligations and operational reliability.
+audiences:
+  exec: "Fine-tuning teaches a general model to speak in the organization’s voice and handle domain-specific tasks."
+  engineer: "Continue training a pretrained model on labeled or preference data, tracking hyperparameters, evals, and release packaging."
+examples:
+  do:
+    - "Store data lineage and evaluation results for every fine-tuned checkpoint before deployment."
+  dont:
+    - "Blend proprietary and open datasets without clarifying licenses and usage rights."
+governance:
+  nist_rmf_tags:
+    - "accountability"
+    - "validity"
+  risk_notes: "Uncontrolled fine-tuning can override safety mitigations or introduce licensed data without traceability."
+relationships:
+  broader:
+    - "model training"
+  narrower:
+    - "low-rank adaptation"
+    - "reinforcement learning from human feedback"
+  related:
+    - "knowledge distillation"
+    - "evaluation"
+    - "alignment"
+citations:
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "Hugging Face Glossary"
+    url: "https://huggingface.co/docs/transformers/en/glossary"
+  - source: "NIST AI RMF Glossary"
+    url: "https://airc.nist.gov/glossary/"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-01"

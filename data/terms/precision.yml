@@ -1,0 +1,47 @@
+term: "precision"
+aliases:
+  - "positive predictive value"
+  - "ppv"
+categories:
+  - "Foundations"
+roles:
+  - "data_science"
+  - "engineering"
+  - "product"
+  - "policy"
+part_of_speech: "noun"
+short_def: "Share of predicted positives that are actually correct for a given classifier."
+long_def: >-
+  Precision measures how often a model’s positive predictions are right. It is calculated as true positives divided by the sum of true positives and false positives. Precision is critical when false positives carry high costs—such as flagging legitimate transactions as fraud or routing harmless content to safety reviewers. Product managers examine precision alongside recall to balance user trust and coverage, while engineers monitor precision across subgroups to detect drift and bias. Governance teams require precision reporting in regulated workflows where incorrect flags can create legal exposure. Precision is best interpreted in context with other metrics and operational goals, since maximizing it alone may reduce recall and harm users the model fails to detect.
+audiences:
+  exec: "Precision tells you how many of the alerts the AI raises are actually right."
+  engineer: "TP / (TP + FP); inspect per-class and per-segment precision, and monitor trade-offs with recall and business cost."
+examples:
+  do:
+    - "Track precision at the thresholds used in production, not just at 0.5."
+    - "Compare precision across demographics to uncover unfair false-positive rates."
+  dont:
+    - "Optimize precision without checking the drop in recall."
+    - "Report a single precision value when different user segments behave differently."
+governance:
+  nist_rmf_tags:
+    - "validity"
+    - "accountability"
+  risk_notes: "Low precision increases false alarms, eroding trust and causing unnecessary interventions."
+relationships:
+  broader:
+    - "evaluation"
+  related:
+    - "recall"
+    - "f1 score"
+    - "confusion matrix"
+citations:
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "Wikipedia AI Glossary"
+    url: "https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence"
+  - source: "Stanford HAI Brief Definitions"
+    url: "https://hai.stanford.edu/news/brief-definitions"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-03"

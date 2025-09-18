@@ -1,0 +1,48 @@
+term: "red teaming"
+aliases:
+  - "ai red teaming"
+  - "adversarial testing"
+categories:
+  - "Governance & Risk"
+  - "Operations & Monitoring"
+roles:
+  - "communications"
+  - "engineering"
+  - "legal"
+  - "policy"
+  - "product"
+  - "security"
+part_of_speech: "process"
+short_def: "Deliberate stress testing that probes AI systems for harmful, biased, or policy-violating behavior."
+long_def: >-
+  Red teaming mobilizes interdisciplinary experts to craft adversarial prompts, scenarios, and data inputs that challenge an AI system’s safeguards. The goal is to uncover failure modes—such as unsafe content, confidential data leaks, or jailbreak exploits—before attackers or end users discover them. Exercises blend automated probing, scripted attack playbooks, and human creativity. Findings feed into remediation plans for guardrails, prompts, training data, or escalation policies. Product leaders schedule recurring red-team cycles for high-risk surfaces, while engineers build tooling to log attempts, reproduce issues, and verify fixes. Governance teams treat red teaming as part of risk management, requiring documentation of scope, participants, severity ratings, and follow-up actions. In many jurisdictions, regulators expect evidence that red teaming has been performed for sensitive deployments, making it a core component of responsible AI programs.
+audiences:
+  exec: "Red teaming is the pre-launch fire drill that exposes how the AI could fail or be abused."
+  engineer: "Design adversarial prompts and automated probes, capture reproduction artifacts, and track mitigation work in the backlog."
+examples:
+  do:
+    - "Incorporate marginalized community perspectives when designing red-team scenarios."
+  dont:
+    - "Close a red-team finding without documenting remediation owners and timelines."
+governance:
+  nist_rmf_tags:
+    - "risk_management"
+    - "accountability"
+  risk_notes: "Skipping red teaming leaves blind spots that can result in public incidents or regulatory enforcement."
+relationships:
+  broader:
+    - "evaluation"
+  related:
+    - "guardrails"
+    - "alignment"
+    - "incident response"
+citations:
+  - source: "NIST AI RMF Glossary"
+    url: "https://airc.nist.gov/glossary/"
+  - source: "UK POST AI Glossary"
+    url: "https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/"
+  - source: "Stanford HAI Brief Definitions"
+    url: "https://hai.stanford.edu/news/brief-definitions"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-01"

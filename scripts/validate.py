@@ -20,6 +20,15 @@ SCHEMA_PATH = Path("schema/term.schema.json")
 ALLOWED_PARTS_OF_SPEECH = {"noun", "noun_phrase", "verb", "adjective", "process", "concept"}
 ALLOWED_STATUSES = {"draft", "reviewed", "approved", "deprecated"}
 ALLOWED_LICENSES = {"CC BY-SA 4.0"}
+ALLOWED_ROLES = {
+    "product",
+    "engineering",
+    "data_science",
+    "policy",
+    "legal",
+    "security",
+    "communications",
+}
 MAX_SHORT_DEF_WORDS = 40
 MIN_LONG_DEF_WORDS = 80
 MAX_LONG_DEF_WORDS = 220
@@ -73,6 +82,20 @@ def validate_file(path: Path, required_fields: List[str]) -> List[str]:
     aliases = data.get("aliases")
     if not ensure_list_of_strings(aliases):
         errors.append(f"{path}: 'aliases' must be a non-empty list of strings")
+
+    categories = data.get("categories")
+    if not ensure_list_of_strings(categories):
+        errors.append(f"{path}: 'categories' must be a non-empty list of strings")
+
+    roles = data.get("roles")
+    if not ensure_list_of_strings(roles):
+        errors.append(f"{path}: 'roles' must be a non-empty list of strings")
+    else:
+        invalid_roles = sorted({role for role in roles if role not in ALLOWED_ROLES})
+        if invalid_roles:
+            errors.append(
+                f"{path}: roles {invalid_roles} are invalid (expected subset of {sorted(ALLOWED_ROLES)})"
+            )
 
     part = data.get("part_of_speech")
     if part not in ALLOWED_PARTS_OF_SPEECH:

@@ -1,0 +1,49 @@
+term: "differential privacy"
+aliases:
+  - "DP"
+  - "epsilon-differential privacy"
+categories:
+  - "Governance & Risk"
+roles:
+  - "engineering"
+  - "legal"
+  - "policy"
+  - "security"
+part_of_speech: "concept"
+short_def: "Mathematical framework that limits how much any single record influences published data or model outputs."
+long_def: >-
+  Differential privacy protects individuals in a dataset by adding calibrated noise to statistics or training procedures so the presence or absence of any one person becomes indistinguishable. The framework is governed by privacy budgets—epsilon and delta—which quantify acceptable leakage. In AI systems, teams apply differential privacy when releasing analytics, training embeddings, or sharing evaluation datasets. Engineers integrate mechanisms like DP-SGD, Laplace noise, or randomized response, tracking accumulated budgets across queries. Legal and policy partners evaluate whether privacy guarantees meet regulatory requirements, especially when models ingest sensitive or regulated data. Security teams monitor for side-channel attacks that could combine multiple noisy outputs to infer personal information. Differential privacy is not a silver bullet; product and research groups balance utility loss against risk mitigation, document assumptions, and communicate residual exposure to stakeholders.
+audiences:
+  exec: "Differential privacy lets you learn from user data while keeping any single person unidentifiable."
+  engineer: "Bound information leakage by injecting calibrated noise; manage cumulative epsilon/delta budgets across analytics or training steps."
+examples:
+  do:
+    - "Track privacy budgets in dashboards so analysts know when to stop issuing queries."
+    - "Explain residual risk and utility trade-offs in launch documentation."
+  dont:
+    - "Assume a single noisy release protects against repeated queries without monitoring budget depletion."
+    - "Mix differentially private and non-private data exports without clear labeling."
+governance:
+  nist_rmf_tags:
+    - "privacy"
+    - "risk_management"
+  risk_notes: "Incorrect epsilon or budget accounting can create a false sense of protection and trigger regulatory exposure."
+relationships:
+  broader:
+    - "privacy"
+  narrower:
+    - "differentially private SGD"
+  related:
+    - "synthetic data"
+    - "guardrails"
+    - "model governance"
+citations:
+  - source: "NIST AI RMF Glossary"
+    url: "https://airc.nist.gov/glossary/"
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "Wikipedia AI Glossary"
+    url: "https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-02"

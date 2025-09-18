@@ -1,0 +1,44 @@
+term: "top-k sampling"
+aliases:
+  - "k-sampling"
+  - "truncated sampling"
+categories:
+  - "LLM Core"
+roles:
+  - "data_science"
+  - "engineering"
+  - "product"
+part_of_speech: "process"
+short_def: "Decoding method that samples from the k most probable next tokens to balance diversity and control."
+long_def: >-
+  Top-k sampling limits the candidate set during generation to the k tokens with the highest probabilities after applying the model’s softmax distribution. By discarding the long tail of unlikely options, the technique keeps outputs coherent while preserving some variability relative to greedy decoding. Product teams use top-k to tune tone and creativity without inviting the unrestricted randomness of pure sampling. Engineers choose k values based on experimentation with validation prompts, often combining the method with temperature scaling or nucleus sampling to fine-tune randomness. Operationally, top-k is simple to implement and deterministic when paired with fixed seeds, which supports reproducibility requirements. Governance reviewers document chosen k values because they affect the likelihood of unsafe or off-policy responses; overly permissive settings can undo safety evaluations performed at lower k thresholds. As part of responsible deployment, teams monitor how k adjustments interact with guardrails, cost, and quality metrics across releases.
+audiences:
+  exec: "A knob that keeps the model creative but still focused on the best few answers."
+  engineer: "Truncate the probability distribution to the highest-probability k tokens before sampling to manage diversity versus determinism."
+examples:
+  do:
+    - "Evaluate customer support flows at k=1, 10, and 40 to understand trade-offs in tone and accuracy."
+  dont:
+    - "Increase k in production without rerunning safety and bias evaluations."
+governance:
+  nist_rmf_tags:
+    - "robustness"
+    - "transparency"
+  risk_notes: "Raising k expands behavioral variance and can expose users to unreviewed content patterns."
+relationships:
+  broader:
+    - "decoding"
+  related:
+    - "temperature"
+    - "top-p sampling"
+    - "greedy decoding"
+citations:
+  - source: "Hugging Face Glossary"
+    url: "https://huggingface.co/docs/transformers/en/glossary"
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "Wikipedia AI Glossary"
+    url: "https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-01"

@@ -1,0 +1,47 @@
+term: "prompt engineering"
+aliases:
+  - "prompt design"
+  - "prompt scripting"
+categories:
+  - "LLM Core"
+roles:
+  - "data_science"
+  - "engineering"
+  - "product"
+part_of_speech: "process"
+short_def: "Crafting and testing prompts to steer model behavior toward desired outcomes."
+long_def: >-
+  Prompt engineering involves designing the instructions, examples, and context provided to a language model so it produces reliable, policy-compliant responses. Practitioners experiment with phrasing, ordering, few-shot examples, and formatting cues to influence reasoning steps or output structure. The discipline has evolved from ad-hoc experimentation to a structured workflow that includes prompt libraries, evaluation harnesses, and version control. Prompt engineers collaborate with product, legal, and safety teams to encode business rules, tone, and disallowed behaviors, often in tandem with system prompts and guardrails. They also balance token budgets against performance, ensuring prompts fit within context windows while still providing the necessary guidance. Governance functions expect prompt changes to pass through review queues, since a seemingly small tweak can alter safety posture or introduce bias.
+audiences:
+  exec: "Prompt engineering is how we teach the model to act like our product or policy experts."
+  engineer: "Systematic design of prompt structure, exemplars, and metadata; evaluated via regression suites to manage behavior drift."
+examples:
+  do:
+    - "Version prompts and run automated evals before rolling them out to production flows."
+  dont:
+    - "Copy prompts between domains without revisiting legal and safety requirements."
+governance:
+  nist_rmf_tags:
+    - "accountability"
+    - "transparency"
+  risk_notes: "Unreviewed prompt changes can bypass controls and result in unsafe or misleading outputs."
+relationships:
+  broader:
+    - "human-in-the-loop"
+  narrower:
+    - "few-shot prompting"
+    - "chain-of-thought prompting"
+  related:
+    - "system prompt"
+    - "guardrails"
+    - "evaluation"
+citations:
+  - source: "Hugging Face Glossary"
+    url: "https://huggingface.co/docs/transformers/en/glossary"
+  - source: "UK POST AI Glossary"
+    url: "https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/"
+  - source: "Wikipedia AI Glossary"
+    url: "https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-01"

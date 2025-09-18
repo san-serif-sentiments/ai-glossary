@@ -1,0 +1,46 @@
+term: "repetition penalty"
+aliases:
+  - "anti-repetition penalty"
+  - "token penalty"
+categories:
+  - "LLM Core"
+roles:
+  - "data_science"
+  - "engineering"
+  - "product"
+part_of_speech: "process"
+short_def: "Decoding adjustment that down-weights tokens already generated to reduce loops and repeated phrases."
+long_def: >-
+  A repetition penalty rescales token probabilities during decoding so words that have already appeared become less likely to repeat. Implementations typically divide or multiply logits by a penalty factor greater than one, discouraging the model from reusing identical phrases while preserving the rest of the distribution. Product teams enable repetition penalties to prevent user-facing chatbots from producing redundant or endless loops, particularly in multilingual or code-heavy contexts where repetition can spike. Engineers tune separate penalties for input prompts versus generated output, and combine them with stop sequences to honour formatting requirements. Governance stakeholders log penalty settings because altering them can invalidate safety and quality evaluations—lowering the penalty risks repetitive harmful content, whereas an excessively high penalty may distort meaning or remove essential disclosures. Monitoring repetition metrics in production helps confirm the chosen value remains effective as models, prompts, or content domains evolve.
+audiences:
+  exec: "Think of the repetition penalty as the guardrail that keeps conversations from getting stuck in loops."
+  engineer: "Scale logits for previously used tokens by a factor (e.g., 1.1–1.2) before sampling to discourage repeats without breaking coherence."
+examples:
+  do:
+    - "Track repetition rate metrics alongside hallucination incidents after changing penalty values."
+    - "Differentiate penalties for system prompts versus user-visible responses."
+  dont:
+    - "Set the penalty so high that critical disclaimers or citations are removed from answers."
+    - "Forget to document penalty changes when comparing evaluation runs."
+governance:
+  nist_rmf_tags:
+    - "robustness"
+    - "transparency"
+  risk_notes: "Aggressive penalties can alter validated answer formats; coordinate with policy and QA before rollout."
+relationships:
+  broader:
+    - "decoding"
+  related:
+    - "temperature"
+    - "top-p sampling"
+    - "beam search"
+citations:
+  - source: "Hugging Face Glossary"
+    url: "https://huggingface.co/docs/transformers/en/glossary"
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "Stanford HAI Brief Definitions"
+    url: "https://hai.stanford.edu/news/brief-definitions"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-02"

@@ -1,0 +1,45 @@
+term: "privacy"
+aliases:
+  - "data privacy"
+  - "information privacy"
+categories:
+  - "Governance & Risk"
+roles:
+  - "communications"
+  - "legal"
+  - "policy"
+  - "product"
+part_of_speech: "concept"
+short_def: "Principle of limiting data collection, use, and exposure to protect individuals’ information."
+long_def: >-
+  Privacy in AI systems focuses on controlling how personal or sensitive data is collected, processed, and retained. Regulations such as GDPR, CCPA, and sector-specific laws establish legal obligations for transparency, consent, minimization, and user rights. In machine learning, privacy risks arise from training data, prompts, logs, and model outputs that may reveal personal information. Teams mitigate these risks through data minimization, access controls, anonymization, synthetic data, and privacy-enhancing technologies like differential privacy. Product leaders coordinate privacy reviews with legal counsel when launching new features, while engineers implement safeguards in data pipelines, storage, and logging. Governance programs track privacy impact assessments, retention schedules, and incident response plans. Maintaining rigorous privacy practices preserves user trust and avoids regulatory penalties, making it a foundational requirement for responsible AI deployments.
+audiences:
+  exec: "Privacy keeps user data protected and ensures AI initiatives comply with laws and customer expectations."
+  engineer: "Limit collection, apply technical controls, and document handling of personal data across training and inference workflows."
+examples:
+  do:
+    - "Run privacy impact assessments before ingesting new data sources for fine-tuning."
+  dont:
+    - "Log raw prompts that contain personal identifiers without redaction or retention limits."
+governance:
+  nist_rmf_tags:
+    - "privacy"
+    - "risk_management"
+  risk_notes: "Weak privacy controls can expose personal data, triggering legal liability and loss of trust."
+relationships:
+  broader:
+    - "responsible ai"
+  related:
+    - "guardrails"
+    - "model governance"
+    - "incident response"
+citations:
+  - source: "NIST AI RMF Glossary"
+    url: "https://airc.nist.gov/glossary/"
+  - source: "UK POST AI Glossary"
+    url: "https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/"
+  - source: "Wikipedia AI Glossary"
+    url: "https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-01"

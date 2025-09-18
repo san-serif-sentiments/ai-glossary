@@ -1,0 +1,46 @@
+term: "roc auc"
+aliases:
+  - "area under the roc curve"
+  - "roc area"
+categories:
+  - "Foundations"
+roles:
+  - "data_science"
+  - "engineering"
+  - "product"
+part_of_speech: "noun"
+short_def: "Metric summarizing binary classifier performance by measuring area under the ROC curve."
+long_def: >-
+  ROC AUC (Receiver Operating Characteristic Area Under the Curve) quantifies how well a binary classifier separates positive and negative classes across all possible decision thresholds. The ROC curve plots the true positive rate against the false positive rate; the area under that curve ranges from 0.5 (random) to 1.0 (perfect). Teams use ROC AUC when class distributions are imbalanced or when threshold selection will happen later in the product lifecycle. Engineers analyze the curve’s shape to understand trade-offs between sensitivity and specificity, while product managers compare ROC AUC alongside business-focused metrics before launches. Governance and legal stakeholders review ROC AUC for fairness and regulatory reporting to ensure classifiers meet minimum performance standards before deployment.
+audiences:
+  exec: "ROC AUC shows how reliably a classifier can distinguish good from bad outcomes before you pick a final threshold."
+  engineer: "Integrate true/false positive rates over thresholds; inspect curve segments to diagnose operating points and class imbalance."
+examples:
+  do:
+    - "Report ROC AUC alongside precision, recall, and confusion matrices for a holistic view."
+    - "Evaluate ROC AUC per subgroup to detect disparate impact before rollout."
+  dont:
+    - "Rely solely on ROC AUC when decision thresholds are fixed and business costs are asymmetric."
+    - "Compare ROC AUC from different datasets without standardizing splits."
+governance:
+  nist_rmf_tags:
+    - "validity"
+    - "transparency"
+  risk_notes: "Ignoring ROC AUC trends can hide degradation that leads to unfair or unsafe decisions in production."
+relationships:
+  broader:
+    - "evaluation"
+  related:
+    - "cross-validation"
+    - "bias-variance tradeoff"
+    - "algorithmic bias"
+citations:
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "Wikipedia AI Glossary"
+    url: "https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence"
+  - source: "Stanford HAI Brief Definitions"
+    url: "https://hai.stanford.edu/news/brief-definitions"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-03"

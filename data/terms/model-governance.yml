@@ -1,0 +1,49 @@
+term: "model governance"
+aliases:
+  - "ai governance"
+  - "ml governance"
+categories:
+  - "Governance & Risk"
+roles:
+  - "communications"
+  - "legal"
+  - "policy"
+  - "product"
+part_of_speech: "concept"
+short_def: "Policies and processes that manage AI models across risk, compliance, and lifecycle decisions."
+long_def: >-
+  Model governance coordinates legal, risk, engineering, and product roles to oversee how AI systems are developed, deployed, and maintained. Core activities include documenting intended use, validating data sources, approving releases, monitoring for drift, and managing incidents. Governance frameworks—such as the NIST AI RMF or ISO/IEC standards—expect organizations to maintain traceability for models, prompts, datasets, and evaluation evidence. Committees or designated owners review changes, enforce segregation of duties, and ensure audits can reconstruct decisions. Product teams rely on governance guardrails to align with policy, while engineers integrate governance checkpoints into ML Ops pipelines. Without governance, AI initiatives accumulate technical debt, expose companies to regulatory penalties, and erode user trust. Mature governance balances innovation with accountability, enabling responsible scaling of AI capabilities.
+audiences:
+  exec: "Model governance keeps AI programs aligned with policy, compliance, and stakeholder expectations as they scale."
+  engineer: "Define ownership, documentation, approvals, and monitoring requirements so every model change is auditable."
+examples:
+  do:
+    - "Record decision logs and reviewers for each production model release."
+  dont:
+    - "Deploy models without documenting purpose, controls, and evaluation results."
+governance:
+  nist_rmf_tags:
+    - "accountability"
+    - "risk_management"
+  risk_notes: "Absent governance leads to untracked risks, inconsistent controls, and regulatory exposure."
+relationships:
+  broader:
+    - "responsible ai"
+  narrower:
+    - "ml ops"
+    - "model drift"
+    - "ai incident response"
+  related:
+    - "evaluation"
+    - "alignment"
+    - "guardrails"
+citations:
+  - source: "NIST AI RMF Glossary"
+    url: "https://airc.nist.gov/glossary/"
+  - source: "UK POST AI Glossary"
+    url: "https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/"
+  - source: "Stanford HAI Brief Definitions"
+    url: "https://hai.stanford.edu/news/brief-definitions"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-01"

@@ -1,0 +1,47 @@
+term: "confusion matrix"
+aliases:
+  - "contingency table"
+  - "error matrix"
+categories:
+  - "Foundations"
+roles:
+  - "data_science"
+  - "engineering"
+  - "product"
+  - "policy"
+part_of_speech: "noun"
+short_def: "Table that summarizes true/false positives and negatives to diagnose classification performance."
+long_def: >-
+  A confusion matrix breaks down classification results into true positives, true negatives, false positives, and false negatives. Visualizing performance in this way helps teams understand error patterns, detect class imbalance issues, and compute derived metrics such as precision, recall, specificity, and accuracy. Product managers use confusion matrices to explain trade-offs to stakeholders, while engineers leverage them to tune thresholds, resampling strategies, or loss functions. Policy and compliance reviewers rely on confusion matrix evidence to confirm that sensitive cohorts are not disproportionately affected. Confusion matrices are most informative when compared across slices—by time, geography, or demographic attributes—to catch drift and fairness concerns.
+audiences:
+  exec: "A confusion matrix shows where the AI is right or wrong so you can see which mistakes matter most."
+  engineer: "Tabulate TP, TN, FP, FN counts; analyze row/column distributions and normalize per class to diagnose bias and guide mitigation."
+examples:
+  do:
+    - "Normalize confusion matrices to compare error rates across classes of different sizes."
+    - "Track confusion matrices over time to spot drift and guardrail regressions."
+  dont:
+    - "Rely on aggregate accuracy without inspecting confusion patterns."
+    - "Hide confusion matrices from stakeholders—they clarify trade-offs."
+governance:
+  nist_rmf_tags:
+    - "transparency"
+    - "validity"
+  risk_notes: "Ignoring confusion matrix signals can allow harmful error patterns to persist unnoticed."
+relationships:
+  broader:
+    - "evaluation"
+  related:
+    - "precision"
+    - "recall"
+    - "roc auc"
+citations:
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "Wikipedia AI Glossary"
+    url: "https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence"
+  - source: "Stanford HAI Brief Definitions"
+    url: "https://hai.stanford.edu/news/brief-definitions"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-03"

@@ -1,0 +1,46 @@
+term: "reranking"
+aliases:
+  - "re-ranking"
+  - "second-stage ranking"
+categories:
+  - "Retrieval & RAG"
+roles:
+  - "data_science"
+  - "engineering"
+  - "product"
+part_of_speech: "process"
+short_def: "Step that refines retrieval results using a more precise but slower scoring model."
+long_def: >-
+  Reranking applies a secondary model to an initial set of retrieved documents to reorder them according to task-specific relevance. The first retrieval pass prioritizes speed, often using sparse or dense similarity search to gather dozens of candidates. A reranker—frequently a cross-encoder or lightweight generative model—then evaluates each candidate alongside the query to produce fine-grained scores. This approach improves precision, supports citation quality in RAG, and helps guardrails by pushing irrelevant or risky passages down the list. Engineers tune rerankers by limiting candidate set sizes, caching scores, and measuring latency budgets. Governance considerations include documenting model provenance, ensuring the reranker does not encode discriminatory bias, and verifying that safety filters still apply after reordering. When reranking is well managed, it improves both factual accuracy and user trust without incurring the cost of fully generative evaluation for every document in the corpus.
+audiences:
+  exec: "Reranking lets us double-check the top answers so users see the most reliable sources first."
+  engineer: "Second-stage scorer—often a cross-encoder—reorders retrieved candidates to boost precision while respecting latency limits."
+examples:
+  do:
+    - "Measure precision@k with and without reranking to justify added latency."
+  dont:
+    - "Deploy rerankers trained on outdated data without monitoring for regressions in safety filters."
+governance:
+  nist_rmf_tags:
+    - "validity"
+    - "transparency"
+  risk_notes: "Biased rerankers can systematically down-rank protected viewpoints or surface outdated information."
+relationships:
+  broader:
+    - "retrieval"
+  narrower:
+    - "cross-encoder reranking"
+  related:
+    - "retrieval-augmented generation"
+    - "chunking"
+    - "guardrails"
+citations:
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "Hugging Face Glossary"
+    url: "https://huggingface.co/docs/transformers/en/glossary"
+  - source: "Wikipedia AI Glossary"
+    url: "https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-01"

@@ -1,0 +1,43 @@
+term: "greedy decoding"
+aliases:
+  - "argmax decoding"
+categories:
+  - "LLM Core"
+roles:
+  - "data_science"
+  - "engineering"
+  - "product"
+part_of_speech: "process"
+short_def: "Strategy that selects the highest-probability token at each step, producing deterministic outputs."
+long_def: >-
+  Greedy decoding generates text by repeatedly choosing the token with the maximum probability, skipping any sampling. The approach is deterministic, fast, and easy to reason about, which makes it attractive for scenarios that demand consistency or auditability. However, it can lead to repetitive phrasing, premature endings, or failure to explore alternative but valid continuations. Product teams deploy greedy decoding for transactional tasks such as structured responses, deterministic workflows, or template filling, where creativity is less important than reliability. Engineers monitor for mode collapse and may add techniques like repetition penalties or suffix constraints to mitigate degenerate loops. Governance teams value greedy decoding because it simplifies compliance reviews and reproducibility: the same prompt always yields the same answer. Nonetheless, the lack of variation can hide blind spots if evaluations rely solely on argmax outputs, so organizations often complement greedy decoding tests with sampling-based stress cases.
+audiences:
+  exec: "Greedy decoding delivers the same answer every time, prioritizing consistency over creativity."
+  engineer: "Iteratively pick the argmax token from the softmax distribution, allowing deterministic, low-latency generation."
+examples:
+  do:
+    - "Use greedy decoding for policy disclosures where text must match approved language."
+  dont:
+    - "Rely on greedy decoding alone when testing for harmful edge cases that require sampling diversity."
+governance:
+  nist_rmf_tags:
+    - "validity"
+    - "accountability"
+  risk_notes: "Deterministic decoding simplifies audits but can mask untested behaviors that appear only with sampling."
+relationships:
+  broader:
+    - "decoding"
+  related:
+    - "top-k sampling"
+    - "top-p sampling"
+    - "temperature"
+citations:
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "Hugging Face Glossary"
+    url: "https://huggingface.co/docs/transformers/en/glossary"
+  - source: "Wikipedia AI Glossary"
+    url: "https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-01"

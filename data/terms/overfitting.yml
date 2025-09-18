@@ -1,0 +1,46 @@
+term: "overfitting"
+aliases:
+  - "model overfitting"
+  - "overtraining"
+categories:
+  - "Foundations"
+roles:
+  - "data_science"
+  - "engineering"
+  - "product"
+part_of_speech: "concept"
+short_def: "When a model memorizes training data patterns so closely that it performs poorly on new samples."
+long_def: >-
+  Overfitting occurs when a model adapts too precisely to idiosyncrasies and noise within the training data, sacrificing its ability to generalize to unseen examples. The model appears highly accurate during training but fails when exposed to validation or production inputs, leading to misleading metrics and degraded user experience. Overly complex architectures, insufficient regularization, and limited or unrepresentative datasets increase the risk. Teams detect overfitting by monitoring gaps between training and validation performance, examining learning curves, and evaluating on hold-out or cross-validation splits. Mitigation tactics include collecting more diverse data, applying regularization (dropout, weight decay), simplifying architectures, performing early stopping, or augmenting inputs. Product managers rely on overfitting diagnostics when planning rollouts, while engineers baseline mitigations before deploying models into regulated environments where failures can carry compliance impacts.
+audiences:
+  exec: "Overfitting is why a model can ace practice problems but stumble in front of real customers."
+  engineer: "Large generalization gap between training and validation metrics caused by excessive capacity or insufficient regularization; diagnose via held-out evaluations and learning curves."
+examples:
+  do:
+    - "Track validation performance for every experiment and stop training when it plateaus or declines."
+    - "Collect additional samples from underrepresented user journeys to improve generalization."
+  dont:
+    - "Ship a model based solely on training accuracy without checking external benchmarks."
+    - "Ignore signs of drift that indicate the model has effectively overfit to outdated distributions."
+governance:
+  nist_rmf_tags:
+    - "validity"
+    - "data_quality"
+  risk_notes: "Overfit models produce inconsistent, biased outputs that can erode user trust and violate performance commitments."
+relationships:
+  broader:
+    - "model training"
+  related:
+    - "cross-validation"
+    - "bias-variance tradeoff"
+    - "evaluation"
+citations:
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "Wikipedia AI Glossary"
+    url: "https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence"
+  - source: "Stanford HAI Brief Definitions"
+    url: "https://hai.stanford.edu/news/brief-definitions"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-03"

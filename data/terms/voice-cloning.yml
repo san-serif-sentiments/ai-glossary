@@ -1,0 +1,49 @@
+term: "voice cloning"
+aliases:
+  - "voice synthesis"
+  - "speech cloning"
+categories:
+  - "Foundations"
+  - "Governance & Risk"
+roles:
+  - "product"
+  - "communications"
+  - "legal"
+  - "policy"
+  - "security"
+part_of_speech: "process"
+short_def: "Technique that replicates a person’s voice using generative models trained on audio samples."
+long_def: >-
+  Voice cloning systems learn a speaker’s vocal characteristics from recorded samples and synthesize new speech that mimics that voice. Modern approaches use encoder-decoder architectures, diffusion models, or transformer-based TTS pipelines conditioned on speaker embeddings. While voice cloning powers accessibility, localization, and creative tools, it also raises serious risks: impersonation, fraud, misinformation, and consent violations. Product teams must obtain clear user permissions and provide safeguards like watermarks or audible disclosures. Legal and policy teams assess compliance with biometric privacy laws and emerging deepfake regulations. Security groups monitor abuse signals and coordinate rapid takedowns when clones are misused. Transparency, usage logs, and red-team exercises are essential for trustworthy deployment.
+audiences:
+  exec: "Voice cloning lets you generate speech that sounds like a real person—but it needs strict guardrails."
+  engineer: "Extract speaker embeddings, condition neural TTS or diffusion decoders, and enforce consent, watermarking, and usage logs." 
+examples:
+  do:
+    - "Require opt-in consent and verification before training on a person’s voice."
+    - "Embed inaudible watermarks and provide detection tools to partners."
+  dont:
+    - "Release cloning features without a response plan for malicious use."
+    - "Store raw recordings longer than necessary or without encryption."
+governance:
+  nist_rmf_tags:
+    - "risk_management"
+    - "transparency"
+  risk_notes: "Misuse of voice cloning can lead to fraud, reputational harm, and regulatory penalties; strict access controls and auditing are mandatory."
+relationships:
+  broader:
+    - "generative ai"
+  related:
+    - "synthetic data"
+    - "content moderation"
+    - "incident response"
+citations:
+  - source: "NIST AI RMF Glossary"
+    url: "https://airc.nist.gov/glossary/"
+  - source: "Wikipedia AI Glossary"
+    url: "https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence"
+  - source: "UK POST AI Glossary"
+    url: "https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-03"

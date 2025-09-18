@@ -1,0 +1,47 @@
+term: "privacy impact assessment"
+aliases:
+  - "pia"
+  - "data protection impact assessment"
+categories:
+  - "Governance & Risk"
+roles:
+  - "legal"
+  - "policy"
+  - "product"
+  - "security"
+part_of_speech: "process"
+short_def: "Structured review that evaluates how a system collects, uses, and safeguards personal data."
+long_def: >-
+  A privacy impact assessment (PIA) identifies and mitigates privacy risks before launching or materially changing a product, dataset, or model. The process documents data sources, lawful bases, retention policies, third-party sharing, and safeguards such as encryption or differential privacy. PIAs often involve cross-functional stakeholders—legal, security, engineering, product, and compliance—to ensure controls meet regulatory requirements like GDPR, CCPA, or sector-specific rules. For AI systems, PIAs examine training data provenance, prompt logging, telemetry retention, and user disclosure obligations. Findings feed into risk registers, customer communications, and incident response plans. Conducting PIAs early reduces costly redesigns and strengthens trust with regulators, customers, and internal reviewers.
+audiences:
+  exec: "A PIA is the privacy due diligence that keeps AI launches compliant and defensible."
+  engineer: "Provide technical details on data flows, storage, and safeguards so legal can verify privacy controls."
+examples:
+  do:
+    - "Trigger a PIA whenever new personal data sources or model capabilities are introduced."
+    - "Track mitigation tasks from the PIA in your product backlog until resolved."
+  dont:
+    - "Treat PIAs as paperwork; revisit them after model updates or incidents."
+    - "Launch features that collect personal data without completing the assessment."
+governance:
+  nist_rmf_tags:
+    - "privacy"
+    - "documentation"
+  risk_notes: "Skipping PIAs can violate legal obligations, resulting in fines or mandatory shutdowns."
+relationships:
+  broader:
+    - "model governance"
+  related:
+    - "differential privacy"
+    - "incident response"
+    - "guardrails"
+citations:
+  - source: "NIST AI RMF Glossary"
+    url: "https://airc.nist.gov/glossary/"
+  - source: "UK POST AI Glossary"
+    url: "https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/"
+  - source: "Stanford HAI Brief Definitions"
+    url: "https://hai.stanford.edu/news/brief-definitions"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-03"

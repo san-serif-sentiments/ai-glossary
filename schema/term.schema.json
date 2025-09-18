@@ -6,6 +6,8 @@
   "required": [
     "term",
     "aliases",
+    "categories",
+    "roles",
     "part_of_speech",
     "short_def",
     "long_def",
@@ -26,6 +28,28 @@
     "aliases": {
       "type": "array",
       "items": { "type": "string", "minLength": 1 },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "categories": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "minItems": 1
+    },
+    "roles": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "product",
+          "engineering",
+          "data_science",
+          "policy",
+          "legal",
+          "security",
+          "communications"
+        ]
+      },
       "minItems": 1,
       "uniqueItems": true
     },

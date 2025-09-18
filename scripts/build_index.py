@@ -16,6 +16,15 @@ if str(REPO_ROOT) not in sys.path:
 
 from glossary_utils import safe_load_path
 
+SITE_ASSETS_DIR = REPO_ROOT / "site" / "docs" / "assets"
+
+
+def normalize_term(term: str) -> str:
+    slug = term.strip().lower().replace(" ", "-").replace("_", "-")
+    while "--" in slug:
+        slug = slug.replace("--", "-")
+    return slug
+
 
 def load_terms(data_dir: Path) -> List[Dict[str, Any]]:
     terms: List[Dict[str, Any]] = []
@@ -23,6 +32,8 @@ def load_terms(data_dir: Path) -> List[Dict[str, Any]]:
         data = safe_load_path(path) or {}
         if not isinstance(data, dict):
             raise ValueError(f"Expected mapping in {path}")
+        canonical = str(data.get("term", path.stem))
+        data["slug"] = normalize_term(canonical)
         data["_source_file"] = str(path)
         terms.append(data)
     return terms
@@ -35,9 +46,12 @@ def build_search_index(terms: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
             {
                 "term": entry.get("term"),
                 "aliases": entry.get("aliases", []),
+                "categories": entry.get("categories", []),
+                "roles": entry.get("roles", []),
                 "short_def": entry.get("short_def"),
                 "nist_rmf_tags": entry.get("governance", {}).get("nist_rmf_tags", []),
                 "status": entry.get("status"),
+                "slug": entry.get("slug"),
             }
         )
     return index
@@ -74,6 +88,9 @@ def main() -> None:
 
     write_json(args.output_dir / "glossary.json", glossary_payload)
     write_json(args.output_dir / "search-index.json", search_payload)
+
+    # Ensure the MkDocs site has access to the search payload for client-side lookup.
+    write_json(SITE_ASSETS_DIR / "glossary-search.json", search_payload)
 
     print(
         f"Wrote {len(terms)} term(s) to {args.output_dir / 'glossary.json'} and search index."

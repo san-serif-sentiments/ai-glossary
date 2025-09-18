@@ -1,0 +1,49 @@
+term: "synthetic data"
+aliases:
+  - "generated data"
+  - "simulated data"
+categories:
+  - "Governance & Risk"
+  - "Operations & Monitoring"
+roles:
+  - "data_science"
+  - "engineering"
+  - "policy"
+  - "product"
+  - "security"
+part_of_speech: "noun"
+short_def: "Artificially generated dataset used to augment training, testing, or privacy-preserving workflows."
+long_def: >-
+  Synthetic data recreates statistical properties of real datasets without exposing exact records. Teams generate it with generative models, simulations, or rule-based scripts to augment scarce examples, balance demographic representation, or share data across boundaries. When used responsibly, synthetic data accelerates experimentation and protects privacy; when mismanaged, it can amplify biases, leak sensitive patterns, or give a false sense of security. Product and data science teams validate that synthetic datasets preserve signal relevant to their tasks, while policy and security partners evaluate whether the generation process meets governance requirements. Documentation should cover source data lineage, generation methods, and evaluation metrics such as fidelity, utility, and privacy leakage. Synthetic data is most effective when paired with differential privacy, guardrails, and robust monitoring that detects drift between simulated and real-world behavior.
+audiences:
+  exec: "Synthetic data lets teams test and train quickly without always touching sensitive customer records."
+  engineer: "Generate data via simulations or generative models; validate fidelity, diversity, and privacy leakage before using it in pipelines."
+examples:
+  do:
+    - "Track utility metrics comparing model performance on synthetic versus real validation sets."
+    - "Label synthetic datasets clearly so downstream teams understand provenance."
+  dont:
+    - "Assume synthetic data automatically removes bias—measure subgroup impacts explicitly."
+    - "Share synthetic datasets externally without privacy and legal review."
+governance:
+  nist_rmf_tags:
+    - "privacy"
+    - "data_quality"
+  risk_notes: "Poorly generated data can encode discriminatory patterns or expose sensitive distributions; pair releases with privacy and bias assessments."
+relationships:
+  broader:
+    - "data preprocessing"
+  related:
+    - "differential privacy"
+    - "model drift"
+    - "evaluation"
+citations:
+  - source: "NIST AI RMF Glossary"
+    url: "https://airc.nist.gov/glossary/"
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "UK POST AI Glossary"
+    url: "https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-02"

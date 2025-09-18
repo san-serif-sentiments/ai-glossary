@@ -1,0 +1,46 @@
+term: "cross-validation"
+aliases:
+  - "k-fold validation"
+  - "cv"
+categories:
+  - "Foundations"
+roles:
+  - "data_science"
+  - "engineering"
+  - "product"
+part_of_speech: "process"
+short_def: "Evaluation technique that splits data into multiple folds to estimate model performance on unseen samples."
+long_def: >-
+  Cross-validation repeatedly partitions a labeled dataset into complementary subsets to assess how a model generalizes. In k-fold cross-validation, the dataset is divided into k folds; the model trains on k-1 folds and validates on the remaining fold, cycling until every fold has served as the validation set. Aggregating results reduces variance compared with a single train-test split and surfaces instability caused by small datasets or class imbalance. Variants such as stratified, time-series, and leave-one-out cross-validation address specific domains. Product managers rely on cross-validation when comparing model candidates, while engineers use fold-level diagnostics to catch overfitting and data leakage before production. Governance teams view cross-validation artifacts as evidence that evaluation processes are robust and reproducible, particularly for regulated scenarios where a single split could mask risk.
+audiences:
+  exec: "Cross-validation is the rehearsal that shows how a model behaves across different slices before real customers see it."
+  engineer: "Partition data into k folds, train/validate across permutations, and average metrics to estimate generalization; track per-fold variance for risk analysis."
+examples:
+  do:
+    - "Use stratified folds when label imbalance could skew results."
+    - "Store per-fold metrics and random seeds for reproducibility."
+  dont:
+    - "Leak validation data by reusing preprocessing steps fitted on the full dataset."
+    - "Rely on a single train/test split for high-stakes decisions."
+governance:
+  nist_rmf_tags:
+    - "validity"
+    - "transparency"
+  risk_notes: "Skipping cross-validation invites optimistic bias and limits evidence required for audits or legal reviews."
+relationships:
+  broader:
+    - "evaluation"
+  related:
+    - "overfitting"
+    - "bias-variance tradeoff"
+    - "model drift"
+citations:
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "Wikipedia AI Glossary"
+    url: "https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence"
+  - source: "Stanford HAI Brief Definitions"
+    url: "https://hai.stanford.edu/news/brief-definitions"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-03"

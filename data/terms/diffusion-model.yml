@@ -1,0 +1,48 @@
+term: "diffusion model"
+aliases:
+  - "denoising diffusion model"
+  - "score-based model"
+categories:
+  - "Foundations"
+  - "LLM Core"
+roles:
+  - "engineering"
+  - "data_science"
+  - "product"
+  - "communications"
+part_of_speech: "noun"
+short_def: "Generative model that iteratively denoises random noise to synthesize images, audio, or other data."
+long_def: >-
+  Diffusion models generate content by reversing a noising process. During training, clean data samples are progressively corrupted with Gaussian noise. The model learns to predict the noise at each step, effectively mapping from noisy inputs back to structure. During inference, the reverse process starts with pure noise and iteratively denoises toward a coherent sample over dozens or hundreds of timesteps. Diffusion models deliver state-of-the-art image and audio synthesis quality, control, and diversity compared with GANs or VAEs, but they can be computationally intensive. Product teams use guidance techniques, safety filters, and prompt engineering to align outputs with brand expectations. Engineers manage sampler choice, scheduler parameters, and hardware acceleration to meet latency targets. Governance stakeholders evaluate diffusion workflows for intellectual property, misinformation, and safety risks, since the models can produce realistic but fabricated content.
+audiences:
+  exec: "Diffusion models create images or audio by gradually refining random noise into something recognizable."
+  engineer: "Train with forward noising and reverse denoising steps; deploy with schedulers (DDIM, Euler) and classifier-free guidance to control quality and speed."
+examples:
+  do:
+    - "Log prompt, seed, and sampler metadata to reproduce outputs for audits."
+    - "Apply content moderation and watermarking to manage safety and attribution."
+  dont:
+    - "Assume diffusion outputs are free from copyright or bias concerns."
+    - "Ignore the compute cost of small timestep adjustments on production workloads."
+governance:
+  nist_rmf_tags:
+    - "risk_management"
+    - "transparency"
+  risk_notes: "Hyper-realistic outputs raise IP, misinformation, and safety challenges that must be documented and mitigated." 
+relationships:
+  broader:
+    - "generative ai"
+  related:
+    - "synthetic data"
+    - "guardrails"
+    - "safety evaluation"
+citations:
+  - source: "Wikipedia AI Glossary"
+    url: "https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence"
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "Hugging Face Glossary"
+    url: "https://huggingface.co/docs/transformers/en/glossary"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-03"

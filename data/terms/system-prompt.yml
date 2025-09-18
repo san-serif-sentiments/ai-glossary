@@ -1,0 +1,46 @@
+term: "system prompt"
+aliases:
+  - "system instruction"
+  - "base prompt"
+categories:
+  - "LLM Core"
+roles:
+  - "data_science"
+  - "engineering"
+  - "product"
+part_of_speech: "noun_phrase"
+short_def: "Foundational instruction that sets role, tone, and guardrails for an AI assistant before user input."
+long_def: >-
+  A system prompt is the preamble sent to a conversational model before user messages to establish behavior, policies, and capabilities. It can describe persona, writing style, safety instructions, tool usage rules, or escalation paths. Because the system prompt is prepended to every conversation turn, it shapes how the model interprets later inputs and resolves conflicts between user requests and organizational policy. Product teams iterate on system prompts to balance friendliness with compliance, while engineers version and test them like code, running regression suites to detect unexpectedly permissive outputs. Governance reviewers treat system prompts as formal policy artifacts: they require approval, change tracking, and alignment with risk controls such as prohibited content lists. Poorly maintained system prompts can drift, accumulate contradictory clauses, or leak internal policies if exposed, so teams pair them with automated linting and secret scanning.
+audiences:
+  exec: "Think of the system prompt as the playbook that keeps the assistant on-brand and on-policy before it ever talks to a user."
+  engineer: "Immutable prefix in the prompt stack that defines instructions and tool contracts; version-controlled for audits and evals."
+examples:
+  do:
+    - "Store system prompts in source control and run evaluations whenever they change."
+  dont:
+    - "Embed sensitive credentials or private policies in the system prompt without access controls."
+governance:
+  nist_rmf_tags:
+    - "transparency"
+    - "accountability"
+  risk_notes: "Unreviewed system prompts can encode unsafe behaviors or leak confidential policy guidance."
+relationships:
+  broader:
+    - "prompt engineering"
+  narrower:
+    - "safety prompt"
+  related:
+    - "guardrails"
+    - "temperature"
+    - "tool use"
+citations:
+  - source: "Hugging Face Glossary"
+    url: "https://huggingface.co/docs/transformers/en/glossary"
+  - source: "UK POST AI Glossary"
+    url: "https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/"
+  - source: "Stanford HAI Brief Definitions"
+    url: "https://hai.stanford.edu/news/brief-definitions"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-01"
