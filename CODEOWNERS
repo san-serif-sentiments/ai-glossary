@@ -1,0 +1,8 @@
+# Default reviewers for all files
+* @your-org/ai-glossary-maintainers
+
+# Content buckets
+schema/ @your-org/ai-glossary-architecture
+scripts/ @your-org/ai-glossary-architecture
+site/ @your-org/ai-glossary-docs
+api/ @your-org/ai-glossary-platform
