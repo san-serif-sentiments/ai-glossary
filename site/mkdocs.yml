@@ -1,0 +1,40 @@
+site_name: AI Glossary
+site_description: A cross-functional, citation-backed vocabulary for AI teams.
+site_url: https://example.com/ai-glossary
+repo_url: https://github.com/your-org/ai-glossary
+repo_name: your-org/ai-glossary
+copyright: "© 2024 AI Glossary contributors"
+
+nav:
+  - Home: index.md
+  - Data Model: data-model.md
+  - Contributing: contributing.md
+
+theme:
+  name: material
+  features:
+    - navigation.tracking
+    - content.action.edit
+    - toc.integrate
+  palette:
+    - scheme: default
+      primary: blue
+      accent: deep orange
+  icon:
+    logo: material/book-outline
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - toc:
+      permalink: true
+  - tables
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/your-org/ai-glossary
+      name: GitHub

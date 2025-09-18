@@ -1,0 +1,140 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Glossary Term",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "term",
+    "aliases",
+    "part_of_speech",
+    "short_def",
+    "long_def",
+    "audiences",
+    "examples",
+    "governance",
+    "relationships",
+    "citations",
+    "license",
+    "status",
+    "last_reviewed"
+  ],
+  "properties": {
+    "term": {
+      "type": "string",
+      "minLength": 1
+    },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "part_of_speech": {
+      "type": "string",
+      "enum": [
+        "noun",
+        "noun_phrase",
+        "verb",
+        "adjective",
+        "process",
+        "concept"
+      ]
+    },
+    "short_def": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 320
+    },
+    "long_def": {
+      "type": "string",
+      "minLength": 1
+    },
+    "audiences": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["exec", "engineer"],
+      "properties": {
+        "exec": { "type": "string", "minLength": 1 },
+        "engineer": { "type": "string", "minLength": 1 }
+      }
+    },
+    "examples": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["do", "dont"],
+      "properties": {
+        "do": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "minItems": 1
+        },
+        "dont": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "minItems": 1
+        }
+      }
+    },
+    "governance": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "nist_rmf_tags": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "risk_notes": {
+          "type": "string"
+        }
+      }
+    },
+    "relationships": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "broader": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "uniqueItems": true
+        },
+        "narrower": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "uniqueItems": true
+        },
+        "related": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "uniqueItems": true
+        }
+      }
+    },
+    "citations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["source", "url"],
+        "properties": {
+          "source": { "type": "string", "minLength": 1 },
+          "url": { "type": "string", "format": "uri" }
+        }
+      }
+    },
+    "license": {
+      "type": "string",
+      "enum": ["CC BY-SA 4.0"]
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "reviewed", "approved", "deprecated"]
+    },
+    "last_reviewed": {
+      "type": "string",
+      "format": "date"
+    }
+  }
+}
