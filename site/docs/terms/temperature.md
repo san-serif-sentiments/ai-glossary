@@ -8,7 +8,20 @@
 **Categories:** LLM Core
 **Roles:** Data Science & Research, Engineering & Platform, Product & Program Managers
 **Part of speech:** `noun`
-**Status:** `draft` (Last reviewed: 2024-11-01)
+**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-11-01)
+
+!!! tip "Put it into practice"
+    Experiment with settings using the [Prompt Engineering Playbook](../prompting.md).
+
+## Role takeaways
+- **Data Science & Research:** Incorporate the metric or method into evaluation pipelines.
+- **Engineering & Platform:** Document implementation requirements and operational caveats.
+- **Product & Program Managers:** Translate this concept into user impact and rollout plans.
+
+## Practice & apply
+- Prototype behaviour changes in a sandbox notebook and capture prompt or decoding settings for others.
+- Share findings with enablement so downstream teams understand model implications.
+- Share takeaways with the accountable roles listed above so actions land with the right owners.
 
 ## Short definition
 Decoding parameter that controls how random or deterministic a model’s outputs are.
@@ -35,6 +48,9 @@ Temperature adjusts the softness of the probability distribution used when sampl
 - **Broader:** decoding
 - **Narrower:** temperature annealing
 - **Related:** top-k sampling, top-p sampling, hallucination
+
+!!! info "Something missing?"
+    Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'temperature'.
 
 ## Citations
 - [Google ML Glossary](https://developers.google.com/machine-learning/glossary)

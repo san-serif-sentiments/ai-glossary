@@ -8,7 +8,18 @@
 **Categories:** Governance & Risk
 **Roles:** Engineering & Platform, Legal & Compliance, Policy & Risk, Security & Trust
 **Part of speech:** `concept`
-**Status:** `draft` (Last reviewed: 2024-11-02)
+**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-11-02)
+
+## Role takeaways
+- **Engineering & Platform:** Document implementation requirements and operational caveats.
+- **Legal & Compliance:** Assess contractual and regulatory obligations tied to this term.
+- **Policy & Risk:** Map the definition to governance controls and review checklists.
+- **Security & Trust:** Plan monitoring and abuse prevention scenarios influenced by this term.
+
+## Practice & apply
+- Map this term to the governance dashboard and record accountable owners in the backlog.
+- Review current regulatory guidance or internal policy notes linked from the resources page before sign-off.
+- Share takeaways with the accountable roles listed above so actions land with the right owners.
 
 ## Short definition
 Mathematical framework that limits how much any single record influences published data or model outputs.
@@ -37,6 +48,9 @@ Differential privacy protects individuals in a dataset by adding calibrated nois
 - **Broader:** privacy
 - **Narrower:** differentially private SGD
 - **Related:** synthetic data, guardrails, model governance
+
+!!! info "Something missing?"
+    Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'differential privacy'.
 
 ## Citations
 - [NIST AI RMF Glossary](https://airc.nist.gov/glossary/)

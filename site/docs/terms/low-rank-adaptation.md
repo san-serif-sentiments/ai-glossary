@@ -8,7 +8,16 @@
 **Categories:** Optimization & Efficiency
 **Roles:** Data Science & Research, Engineering & Platform
 **Part of speech:** `process`
-**Status:** `draft` (Last reviewed: 2024-11-01)
+**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-11-01)
+
+## Role takeaways
+- **Data Science & Research:** Incorporate the metric or method into evaluation pipelines.
+- **Engineering & Platform:** Document implementation requirements and operational caveats.
+
+## Practice & apply
+- Record before-and-after performance metrics when applying this optimisation technique.
+- Document trade-offs for product and policy partners using the glossary's language.
+- Share takeaways with the accountable roles listed above so actions land with the right owners.
 
 ## Short definition
 Parameter-efficient fine-tuning that injects low-rank update matrices into transformer weights.
@@ -34,6 +43,9 @@ Low-rank adaptation (LoRA) fine-tunes large language models by learning compact 
 ## Relationships
 - **Broader:** fine-tuning
 - **Related:** quantization, distillation, guardrails
+
+!!! info "Something missing?"
+    Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'low-rank adaptation'.
 
 ## Citations
 - [Hugging Face Glossary](https://huggingface.co/docs/transformers/en/glossary)

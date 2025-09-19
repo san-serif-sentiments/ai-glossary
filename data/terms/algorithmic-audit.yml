@@ -1,0 +1,49 @@
+term: "algorithmic audit"
+aliases:
+  - "algorithm accountability audit"
+categories:
+  - "Governance & Risk"
+roles:
+  - "product"
+  - "engineering"
+  - "policy"
+  - "legal"
+  - "communications"
+part_of_speech: "concept"
+short_def: "Independent review of an AI system’s data, design, and outcomes to verify compliance, fairness, and risk controls."
+long_def: >-
+  An algorithmic audit is a structured examination of an AI system carried out by internal or external reviewers to assess whether it behaves responsibly and complies with legal, ethical, and contractual obligations. Auditors inspect training data provenance, modeling choices, evaluation methods, documentation, and deployment safeguards. They recreate metrics for accuracy, fairness, robustness, privacy, and security, and look for gaps between intended and observed behaviour. Audits often include stakeholder interviews, policy mapping, bias testing, and reproducibility checks, culminating in findings and remediation plans with accountable owners. Organisations commission audits pre-launch or after material changes, and regulators increasingly require independent assurance for high-risk AI services. Successful audits depend on traceable artefacts—model cards, change logs, governance decisions—and cross-functional collaboration across engineering, product, policy, and communications teams. Skipping or under-scoping audits makes it difficult to prove compliance, potentially exposing users to harm and the organisation to legal or reputational damage.
+audiences:
+  exec: "Demonstrates to regulators, customers, and partners that our AI undergoes independent scrutiny with corrective action plans."
+  engineer: "Clarifies the evidence, metrics, and documentation auditors need to reproduce and validate model behaviour."
+examples:
+  do:
+    - "Engage an independent reviewer to replicate fairness, privacy, and robustness tests before public launch."
+    - "Track remediation actions from audit findings through to closure with documented owners and deadlines."
+  dont:
+    - "Limit audits to marketing claims without sharing code, datasets, or evaluation pipelines."
+    - "Ignore communications planning—audits should prepare messaging for customers and regulators."
+governance:
+  nist_rmf_tags:
+    - "accountability"
+    - "fairness"
+    - "transparency"
+  risk_notes: "Inadequate audits hide systemic issues, undermining compliance readiness and eroding stakeholder trust."
+relationships:
+  broader:
+    - "ai assurance"
+  related:
+    - "model governance"
+    - "fairness metrics"
+    - "evaluation"
+    - "red teaming"
+citations:
+  - source: "AI Now Institute Lexicon"
+    url: "https://ainowinstitute.org/lexicon.html"
+  - source: "OECD AI Glossary"
+    url: "https://oecd.ai/en/glossary"
+  - source: "NIST AI RMF Playbook"
+    url: "https://ai.gov/nist-ai-rmf/"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-26"

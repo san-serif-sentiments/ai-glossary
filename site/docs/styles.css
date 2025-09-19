@@ -32,8 +32,13 @@
 
 .hero-actions .cta.secondary {
   background: transparent;
-  color: var(--md-primary-fg-color, #2962ff);
-  border: 1px solid var(--md-primary-fg-color, #2962ff);
+  color: #0d47a1;
+  border: 1px solid #0d47a1;
+}
+
+.hero-actions .cta:focus-visible {
+  outline: 3px solid rgba(13, 71, 161, 0.45);
+  outline-offset: 3px;
 }
 
 .category-grid {
@@ -62,4 +67,54 @@
 .category-card a {
   font-weight: 600;
   text-decoration: none;
+}
+
+.status-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.18rem 0.6rem;
+  border-radius: 999px;
+  background: rgba(255, 193, 7, 0.18);
+  color: #b28704;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: capitalize;
+}
+
+.status-chip.status-reviewed {
+  background: rgba(76, 175, 80, 0.18);
+  color: #2e7d32;
+}
+
+.status-chip.status-approved {
+  background: rgba(33, 150, 243, 0.18);
+  color: #0d47a1;
+}
+
+.status-chip.status-deprecated {
+  background: rgba(244, 67, 54, 0.18);
+  color: #c62828;
+}
+
+.whats-new {
+  margin: 1.5rem 0 2rem;
+  padding: 1.25rem 1.5rem;
+  border-radius: 12px;
+  border: 1px solid var(--glossary-callout-border);
+  background: var(--glossary-callout-bg);
+}
+
+.whats-new ul {
+  margin: 0 0 0.75rem 0;
+  padding-left: 1.2rem;
+}
+
+.whats-new li {
+  margin-bottom: 0.45rem;
+  line-height: 1.45;
+}
+
+.whats-new-footer {
+  margin: 0;
+  font-size: 0.9rem;
 }

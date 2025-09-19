@@ -8,7 +8,18 @@
 **Categories:** Governance & Risk
 **Roles:** Legal & Compliance, Policy & Risk, Product & Program Managers, Security & Trust
 **Part of speech:** `concept`
-**Status:** `draft` (Last reviewed: 2024-11-03)
+**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-11-03)
+
+## Role takeaways
+- **Legal & Compliance:** Assess contractual and regulatory obligations tied to this term.
+- **Policy & Risk:** Map the definition to governance controls and review checklists.
+- **Product & Program Managers:** Translate this concept into user impact and rollout plans.
+- **Security & Trust:** Plan monitoring and abuse prevention scenarios influenced by this term.
+
+## Practice & apply
+- Map this term to the governance dashboard and record accountable owners in the backlog.
+- Review current regulatory guidance or internal policy notes linked from the resources page before sign-off.
+- Share takeaways with the accountable roles listed above so actions land with the right owners.
 
 ## Short definition
 Principle of collecting and retaining only the data necessary for a defined purpose.
@@ -36,6 +47,9 @@ Data minimization limits the amount and duration of personal data collected, pro
 ## Relationships
 - **Broader:** privacy
 - **Related:** privacy impact assessment, differential privacy, incident response
+
+!!! info "Something missing?"
+    Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'data minimization'.
 
 ## Citations
 - [NIST AI RMF Glossary](https://airc.nist.gov/glossary/)

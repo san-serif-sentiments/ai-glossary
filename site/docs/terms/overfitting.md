@@ -8,7 +8,17 @@
 **Categories:** Foundations
 **Roles:** Data Science & Research, Engineering & Platform, Product & Program Managers
 **Part of speech:** `concept`
-**Status:** `draft` (Last reviewed: 2024-11-03)
+**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-11-03)
+
+## Role takeaways
+- **Data Science & Research:** Incorporate the metric or method into evaluation pipelines.
+- **Engineering & Platform:** Document implementation requirements and operational caveats.
+- **Product & Program Managers:** Translate this concept into user impact and rollout plans.
+
+## Practice & apply
+- Add this concept to onboarding materials so teammates share a common baseline.
+- Link supporting research or documentation in your internal wiki for deeper study.
+- Share takeaways with the accountable roles listed above so actions land with the right owners.
 
 ## Short definition
 When a model memorizes training data patterns so closely that it performs poorly on new samples.
@@ -36,6 +46,9 @@ Overfitting occurs when a model adapts too precisely to idiosyncrasies and noise
 ## Relationships
 - **Broader:** model training
 - **Related:** cross-validation, bias-variance tradeoff, evaluation
+
+!!! info "Something missing?"
+    Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'overfitting'.
 
 ## Citations
 - [Google ML Glossary](https://developers.google.com/machine-learning/glossary)

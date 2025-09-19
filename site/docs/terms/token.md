@@ -8,7 +8,17 @@
 **Categories:** LLM Core
 **Roles:** Data Science & Research, Engineering & Platform, Product & Program Managers
 **Part of speech:** `noun`
-**Status:** `draft` (Last reviewed: 2024-11-01)
+**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-11-01)
+
+## Role takeaways
+- **Data Science & Research:** Incorporate the metric or method into evaluation pipelines.
+- **Engineering & Platform:** Document implementation requirements and operational caveats.
+- **Product & Program Managers:** Translate this concept into user impact and rollout plans.
+
+## Practice & apply
+- Prototype behaviour changes in a sandbox notebook and capture prompt or decoding settings for others.
+- Share findings with enablement so downstream teams understand model implications.
+- Share takeaways with the accountable roles listed above so actions land with the right owners.
 
 ## Short definition
 Smallest unit of text a model processes after tokenization, such as a word fragment or character.
@@ -34,6 +44,9 @@ In language models a token is the discrete unit produced by a tokenizer before f
 ## Relationships
 - **Broader:** tokenization
 - **Related:** context window, embedding, prompt engineering
+
+!!! info "Something missing?"
+    Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'token'.
 
 ## Citations
 - [Google ML Glossary](https://developers.google.com/machine-learning/glossary)

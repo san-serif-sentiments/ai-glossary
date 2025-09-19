@@ -1,0 +1,48 @@
+term: "model interpretability"
+aliases:
+  - "interpretability"
+  - "explainability"
+categories:
+  - "Governance & Risk"
+  - "Operations & Monitoring"
+roles:
+  - "engineering"
+  - "policy"
+  - "legal"
+  - "product"
+part_of_speech: "concept"
+short_def: "Ability to explain how a model arrives at its predictions in ways stakeholders understand."
+long_def: >-
+  Model interpretability encompasses methods and practices that reveal why an AI system produced a particular output. Techniques range from local explanations (SHAP, LIME, token attribution) to global summaries (feature importance, surrogate models) and inherently interpretable architectures. Interpretability supports debugging, fairness audits, regulatory compliance, and customer trust. Engineering teams integrate explanation tooling into evaluation pipelines, while policy and legal stakeholders determine the level of transparency required for different products or jurisdictions. Model interpretability should be paired with documentation, human review, and responsible communication to avoid overstating confidence or exposing sensitive features.
+audiences:
+  exec: "Interpretability lets us open the black box so customers, regulators, and teams know why decisions were made."
+  engineer: "Use techniques like SHAP, integrated gradients, or counterfactuals to attribute predictions; log results for audits and debugging."
+examples:
+  do:
+    - "Provide dashboards that show top contributing features for high-risk decisions."
+    - "Validate explanations with subject-matter experts to ensure they make sense."
+  dont:
+    - "Offer explanations that contradict model behavior or hide uncertainty."
+    - "Release interpretability tooling without access controls when sensitive features are involved."
+governance:
+  nist_rmf_tags:
+    - "transparency"
+    - "accountability"
+  risk_notes: "Lack of interpretability undermines legal defensibility and trust; inaccurate explanations can mislead stakeholders."
+relationships:
+  broader:
+    - "responsible ai"
+  related:
+    - "model card"
+    - "algorithmic bias"
+    - "evaluation"
+citations:
+  - source: "NIST AI RMF Glossary"
+    url: "https://airc.nist.gov/glossary/"
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "Stanford HAI Brief Definitions"
+    url: "https://hai.stanford.edu/news/brief-definitions"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-04"

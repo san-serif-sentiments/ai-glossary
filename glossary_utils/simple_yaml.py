@@ -1,13 +1,10 @@
-"""Minimal YAML loader for the glossary project.
+"""YAML helpers with graceful fallback for the glossary project.
 
-This parser handles the limited subset of YAML used in `data/terms/`:
-- dictionaries with string keys
-- lists of scalars or dictionaries
-- double-quoted or plain string values
-- folded block scalars introduced by `>-`
-
-The implementation is intentionally small so the project can run in
-restricted environments without external dependencies.
+The project prefers :func:`yaml.safe_load` from PyYAML so values such as
+``"Silence alerts: skip postmortems"`` remain plain strings instead of being
+parsed as nested dictionaries.  For environments where PyYAML is unavailable
+we retain a tiny parser that understands the limited subset of YAML found in
+``data/terms``.
 """
 
 from __future__ import annotations
@@ -15,6 +12,11 @@ from __future__ import annotations
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, List
+
+try:  # pragma: no cover - exercised implicitly through public helpers
+    import yaml
+except ModuleNotFoundError:  # pragma: no cover - fallback path
+    yaml = None
 
 
 @dataclass
@@ -90,7 +92,11 @@ class SimpleYAMLParser:
             if item_content == "":
                 value = self.parse_block(indent + 2)
             elif ":" in item_content and not item_content.strip().startswith(('"', "'")):
-                value = self.parse_nested_item(indent, item_content)
+                key_fragment = item_content.split(":", 1)[0]
+                if " " not in key_fragment.strip():
+                    value = self.parse_nested_item(indent, item_content)
+                else:
+                    value = parse_scalar(item_content)
             else:
                 value = parse_scalar(item_content)
             result.append(value)
@@ -170,6 +176,8 @@ def parse_scalar(text: str) -> Any:
 
 
 def safe_load(text: str) -> Any:
+    if yaml is not None:
+        return yaml.safe_load(text)  # type: ignore[no-any-return]
     parser = SimpleYAMLParser.from_text(text)
     return parser.parse()
 

@@ -8,7 +8,20 @@
 **Categories:** LLM Core
 **Roles:** Data Science & Research, Engineering & Platform, Product & Program Managers
 **Part of speech:** `process`
-**Status:** `draft` (Last reviewed: 2024-11-02)
+**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-11-02)
+
+!!! tip "Put it into practice"
+    Use the [Prompt Engineering Playbook](../prompting.md) to balance repetition controls.
+
+## Role takeaways
+- **Data Science & Research:** Incorporate the metric or method into evaluation pipelines.
+- **Engineering & Platform:** Document implementation requirements and operational caveats.
+- **Product & Program Managers:** Translate this concept into user impact and rollout plans.
+
+## Practice & apply
+- Prototype behaviour changes in a sandbox notebook and capture prompt or decoding settings for others.
+- Share findings with enablement so downstream teams understand model implications.
+- Share takeaways with the accountable roles listed above so actions land with the right owners.
 
 ## Short definition
 Decoding adjustment that down-weights tokens already generated to reduce loops and repeated phrases.
@@ -36,6 +49,9 @@ A repetition penalty rescales token probabilities during decoding so words that 
 ## Relationships
 - **Broader:** decoding
 - **Related:** temperature, top-p sampling, beam search
+
+!!! info "Something missing?"
+    Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'repetition penalty'.
 
 ## Citations
 - [Hugging Face Glossary](https://huggingface.co/docs/transformers/en/glossary)

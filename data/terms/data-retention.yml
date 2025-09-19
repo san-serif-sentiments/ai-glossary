@@ -1,0 +1,47 @@
+term: "data retention"
+aliases:
+  - "retention policy"
+  - "data lifecycle"
+categories:
+  - "Governance & Risk"
+roles:
+  - "legal"
+  - "policy"
+  - "security"
+  - "product"
+part_of_speech: "process"
+short_def: "Policies defining how long data is stored, where it lives, and how it is deleted."
+long_def: >-
+  Data retention policies specify how long different data types are stored, why they are kept, where they reside, and how they are securely deleted. For AI systems, retention applies to raw inputs, training datasets, prompt logs, embeddings, and evaluation artifacts. Legal and policy teams determine retention limits based on regulations and contracts, while engineering and security implement technical controls such as automated deletion, encryption, and retention metadata. Product managers need visibility into retention rules to communicate with customers and plan features that rely on historical data. Documentation of retention schedules is often required for privacy impact assessments and audits.
+audiences:
+  exec: "Data retention makes sure we only keep the information we need, for as long as we’re allowed."
+  engineer: "Implement retention tags, automated deletion jobs, and secure archival; track compliance with privacy and contractual obligations."
+examples:
+  do:
+    - "Document retention periods for each dataset used in training and inference."
+    - "Verify deletion workflows during audits and incident response drills."
+  dont:
+    - "Keep prompt logs indefinitely without legal approval."
+    - "Mix data from different retention schedules in the same storage bucket."
+governance:
+  nist_rmf_tags:
+    - "privacy"
+    - "risk_management"
+  risk_notes: "Ignoring retention requirements can lead to regulatory fines, litigation, and security incidents."
+relationships:
+  broader:
+    - "privacy"
+  related:
+    - "data minimization"
+    - "privacy impact assessment"
+    - "incident response"
+citations:
+  - source: "NIST AI RMF Glossary"
+    url: "https://airc.nist.gov/glossary/"
+  - source: "UK POST AI Glossary"
+    url: "https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/"
+  - source: "Stanford HAI Brief Definitions"
+    url: "https://hai.stanford.edu/news/brief-definitions"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-04"

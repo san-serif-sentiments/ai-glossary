@@ -8,7 +8,16 @@
 **Categories:** Agents & Tooling
 **Roles:** Engineering & Platform, Product & Program Managers
 **Part of speech:** `process`
-**Status:** `draft` (Last reviewed: 2024-11-01)
+**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-11-01)
+
+## Role takeaways
+- **Engineering & Platform:** Document implementation requirements and operational caveats.
+- **Product & Program Managers:** Translate this concept into user impact and rollout plans.
+
+## Practice & apply
+- Audit exposed tools against the safeguards described and document approval paths.
+- Test hand-offs with human reviewers to confirm the safety expectations captured here are met.
+- Share takeaways with the accountable roles listed above so actions land with the right owners.
 
 ## Short definition
 Pattern where a model selects external tools or functions to handle parts of a task.
@@ -35,6 +44,9 @@ Tool use occurs when a language model defers specific subtasks to external funct
 - **Broader:** agentic ai
 - **Narrower:** retrieval tool, calculator tool
 - **Related:** retrieval-augmented generation, system prompt, guardrails
+
+!!! info "Something missing?"
+    Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'tool use'.
 
 ## Citations
 - [Hugging Face Glossary](https://huggingface.co/docs/transformers/en/glossary)

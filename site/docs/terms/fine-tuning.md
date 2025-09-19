@@ -8,7 +8,16 @@
 **Categories:** Optimization & Efficiency
 **Roles:** Data Science & Research, Engineering & Platform
 **Part of speech:** `process`
-**Status:** `draft` (Last reviewed: 2024-11-01)
+**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-11-01)
+
+## Role takeaways
+- **Data Science & Research:** Incorporate the metric or method into evaluation pipelines.
+- **Engineering & Platform:** Document implementation requirements and operational caveats.
+
+## Practice & apply
+- Record before-and-after performance metrics when applying this optimisation technique.
+- Document trade-offs for product and policy partners using the glossary's language.
+- Share takeaways with the accountable roles listed above so actions land with the right owners.
 
 ## Short definition
 Additional training that adapts a pretrained model to a specific task or domain.
@@ -35,6 +44,9 @@ Fine-tuning continues training from a pretrained checkpoint using a curated data
 - **Broader:** model training
 - **Narrower:** low-rank adaptation, reinforcement learning from human feedback
 - **Related:** knowledge distillation, evaluation, alignment
+
+!!! info "Something missing?"
+    Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'fine-tuning'.
 
 ## Citations
 - [Google ML Glossary](https://developers.google.com/machine-learning/glossary)

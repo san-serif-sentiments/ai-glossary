@@ -8,7 +8,17 @@
 **Categories:** Operations & Monitoring
 **Roles:** Engineering & Platform, Policy & Risk, Security & Trust
 **Part of speech:** `concept`
-**Status:** `draft` (Last reviewed: 2024-11-01)
+**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-11-01)
+
+## Role takeaways
+- **Engineering & Platform:** Document implementation requirements and operational caveats.
+- **Policy & Risk:** Map the definition to governance controls and review checklists.
+- **Security & Trust:** Plan monitoring and abuse prevention scenarios influenced by this term.
+
+## Practice & apply
+- Instrument dashboards or alerts that reflect the metrics highlighted in this definition.
+- Update incident response or on-call runbooks with the glossary's do/don't scenarios.
+- Share takeaways with the accountable roles listed above so actions land with the right owners.
 
 ## Short definition
 Operational discipline that manages ML models from experimentation through deployment and monitoring.
@@ -35,6 +45,9 @@ ML Ops adapts DevOps and data engineering practices to the lifecycle of machine 
 - **Broader:** model governance
 - **Narrower:** ml observability, model drift
 - **Related:** fine-tuning, evaluation, guardrails
+
+!!! info "Something missing?"
+    Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'ml ops'.
 
 ## Citations
 - [NIST AI RMF Glossary](https://airc.nist.gov/glossary/)

@@ -8,7 +8,24 @@
 **Categories:** Governance & Risk, Operations & Monitoring
 **Roles:** Policy & Risk, Communications & Enablement, Product & Program Managers, Security & Trust, Engineering & Platform
 **Part of speech:** `process`
-**Status:** `draft` (Last reviewed: 2024-11-03)
+**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-11-03)
+
+!!! tip "Put it into practice"
+    Reference the [Governance Dashboard](../governance-dashboard.md) for monitoring obligations.
+
+## Role takeaways
+- **Policy & Risk:** Map the definition to governance controls and review checklists.
+- **Communications & Enablement:** Align messaging, FAQs, and enablement materials using this definition.
+- **Product & Program Managers:** Translate this concept into user impact and rollout plans.
+- **Security & Trust:** Plan monitoring and abuse prevention scenarios influenced by this term.
+- **Engineering & Platform:** Document implementation requirements and operational caveats.
+
+## Practice & apply
+- Map this term to the governance dashboard and record accountable owners in the backlog.
+- Review current regulatory guidance or internal policy notes linked from the resources page before sign-off.
+- Instrument dashboards or alerts that reflect the metrics highlighted in this definition.
+- Update incident response or on-call runbooks with the glossary's do/don't scenarios.
+- Share takeaways with the accountable roles listed above so actions land with the right owners.
 
 ## Short definition
 Workflows and tools that review, filter, and act on user-generated content to enforce policy.
@@ -36,6 +53,9 @@ Content moderation combines automation, human review, and escalation procedures 
 ## Relationships
 - **Broader:** guardrails
 - **Related:** safety evaluation, incident response, algorithmic bias
+
+!!! info "Something missing?"
+    Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'content moderation'.
 
 ## Citations
 - [UK POST AI Glossary](https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/)

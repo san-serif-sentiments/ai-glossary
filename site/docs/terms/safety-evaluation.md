@@ -8,7 +8,20 @@
 **Categories:** Governance & Risk, Operations & Monitoring
 **Roles:** Engineering & Platform, Policy & Risk, Product & Program Managers, Communications & Enablement
 **Part of speech:** `process`
-**Status:** `draft` (Last reviewed: 2024-11-02)
+**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-11-02)
+
+## Role takeaways
+- **Engineering & Platform:** Document implementation requirements and operational caveats.
+- **Policy & Risk:** Map the definition to governance controls and review checklists.
+- **Product & Program Managers:** Translate this concept into user impact and rollout plans.
+- **Communications & Enablement:** Align messaging, FAQs, and enablement materials using this definition.
+
+## Practice & apply
+- Map this term to the governance dashboard and record accountable owners in the backlog.
+- Review current regulatory guidance or internal policy notes linked from the resources page before sign-off.
+- Instrument dashboards or alerts that reflect the metrics highlighted in this definition.
+- Update incident response or on-call runbooks with the glossary's do/don't scenarios.
+- Share takeaways with the accountable roles listed above so actions land with the right owners.
 
 ## Short definition
 Testing focused on preventing harmful, abusive, or policy-violating AI behavior before and after launch.
@@ -36,6 +49,9 @@ Safety evaluations probe AI systems for dangerous or disallowed behavior, comple
 ## Relationships
 - **Broader:** evaluation
 - **Related:** red teaming, guardrails, incident response
+
+!!! info "Something missing?"
+    Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'safety evaluation'.
 
 ## Citations
 - [NIST AI RMF Glossary](https://airc.nist.gov/glossary/)

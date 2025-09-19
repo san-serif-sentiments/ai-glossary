@@ -8,7 +8,22 @@
 **Categories:** Governance & Risk
 **Roles:** Policy & Risk, Legal & Compliance, Product & Program Managers, Communications & Enablement, Security & Trust
 **Part of speech:** `concept`
-**Status:** `draft` (Last reviewed: 2024-11-03)
+**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-11-03)
+
+!!! tip "Put it into practice"
+    Run the [Governance Dashboard](../governance-dashboard.md) checklist before launch.
+
+## Role takeaways
+- **Policy & Risk:** Map the definition to governance controls and review checklists.
+- **Legal & Compliance:** Assess contractual and regulatory obligations tied to this term.
+- **Product & Program Managers:** Translate this concept into user impact and rollout plans.
+- **Communications & Enablement:** Align messaging, FAQs, and enablement materials using this definition.
+- **Security & Trust:** Plan monitoring and abuse prevention scenarios influenced by this term.
+
+## Practice & apply
+- Map this term to the governance dashboard and record accountable owners in the backlog.
+- Review current regulatory guidance or internal policy notes linked from the resources page before sign-off.
+- Share takeaways with the accountable roles listed above so actions land with the right owners.
 
 ## Short definition
 Systematic unfairness in model outputs that disadvantages certain groups or outcomes.
@@ -36,6 +51,9 @@ Algorithmic bias arises when models produce systematically skewed results that d
 ## Relationships
 - **Broader:** responsible ai
 - **Related:** safety evaluation, red teaming, privacy impact assessment
+
+!!! info "Something missing?"
+    Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'algorithmic bias'.
 
 ## Citations
 - [NIST AI RMF Glossary](https://airc.nist.gov/glossary/)

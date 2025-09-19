@@ -8,7 +8,17 @@
 **Categories:** Retrieval & RAG
 **Roles:** Data Science & Research, Engineering & Platform, Product & Program Managers
 **Part of speech:** `process`
-**Status:** `draft` (Last reviewed: 2024-11-01)
+**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-11-01)
+
+## Role takeaways
+- **Data Science & Research:** Incorporate the metric or method into evaluation pipelines.
+- **Engineering & Platform:** Document implementation requirements and operational caveats.
+- **Product & Program Managers:** Translate this concept into user impact and rollout plans.
+
+## Practice & apply
+- Validate retrieval quality using the evaluation guidance referenced in this entry.
+- Ensure knowledge sources named here appear in your data governance inventory.
+- Share takeaways with the accountable roles listed above so actions land with the right owners.
 
 ## Short definition
 Splitting source documents into manageable pieces before indexing or feeding them to models.
@@ -35,6 +45,9 @@ Chunking divides large documents, transcripts, or code repositories into smaller
 - **Broader:** data preprocessing
 - **Narrower:** semantic chunking
 - **Related:** retrieval, vector store, reranking
+
+!!! info "Something missing?"
+    Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'chunking'.
 
 ## Citations
 - [Hugging Face Glossary](https://huggingface.co/docs/transformers/en/glossary)

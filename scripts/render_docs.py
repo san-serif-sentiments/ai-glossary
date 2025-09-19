@@ -61,6 +61,133 @@ ROLE_DIRECTORY = OrderedDict(
     )
 )
 
+ROLE_TAKEAWAYS = {
+    "product": "Translate this concept into user impact and rollout plans.",
+    "engineering": "Document implementation requirements and operational caveats.",
+    "data_science": "Incorporate the metric or method into evaluation pipelines.",
+    "policy": "Map the definition to governance controls and review checklists.",
+    "legal": "Assess contractual and regulatory obligations tied to this term.",
+    "security": "Plan monitoring and abuse prevention scenarios influenced by this term.",
+    "communications": "Align messaging, FAQs, and enablement materials using this definition.",
+}
+
+ROLE_LEARNING_PATHS = {
+    "product": [
+        "Skim the Governance & Risk category to learn which terms drive launch checklists.",
+        "Bookmark three model or prompt concepts that influence roadmap trade-offs.",
+        "Schedule a debrief with policy partners to align on escalation triggers.",
+    ],
+    "engineering": [
+        "Start with LLM Core mechanics to understand knobs that affect reliability.",
+        "Review Operations & Monitoring entries and note which metrics to add to dashboards.",
+        "Pair with policy leads on governance terms that require instrumentation support.",
+    ],
+    "data_science": [
+        "Refresh foundational metrics (precision, recall, ROC AUC) to ensure evaluation coverage.",
+        "Study Optimization & Efficiency techniques to plan future experiments.",
+        "Document how governance-aligned metrics will be reported to stakeholders.",
+    ],
+    "policy": [
+        "Read algorithmic governance terms to map glossary content to internal controls.",
+        "Identify three technical concepts to discuss with engineering for upcoming reviews.",
+        "Draft guidance for disclosure or transparency using relevant glossary examples.",
+    ],
+    "legal": [
+        "Focus on Responsible AI and compliance-related terms to spot regulatory hooks.",
+        "Cross-reference privacy-focused entries with current policy language.",
+        "Capture open questions for the next risk or contract review cycle.",
+    ],
+    "security": [
+        "Study Operations & Monitoring entries for logging and detection requirements.",
+        "Review tool and agent terminology to assess abuse surface areas.",
+        "Coordinate with product/legal on incident response and disclosure expectations.",
+    ],
+    "communications": [
+        "Scan definitions tagged for Governance & Risk to prep stakeholder messaging.",
+        "Collect relatable examples from the glossary to use in enablement materials.",
+        "Draft a narrative that links technical terms to user-facing value and risk mitigations.",
+    ],
+}
+
+ROLE_PRACTICE_TASKS = {
+    "product": [
+        "Review the glossary search filtered to product + governance and log two takeaways in your launch checklist.",
+        "Pair with engineering to confirm which guardrails or prompts need updates before feature freeze.",
+    ],
+    "engineering": [
+        "Use the search filters (engineering + operations) and capture metrics to wire into observability dashboards.",
+        "Document deployment actions in your runbook using examples referenced in the glossary.",
+    ],
+    "data_science": [
+        "Select one evaluation metric and one mitigation technique from the glossary for your next experiment brief.",
+        "Record baseline measurements tied to the definitions before shipping changes.",
+    ],
+    "policy": [
+        "Draft a review checklist referencing the top three governance terms surfaced in the backlog.",
+        "Map required disclosures for the next launch memo using linked glossary examples.",
+    ],
+    "legal": [
+        "Compare contractual language with glossary definitions for privacy and retention to spot gaps.",
+        "Flag terms needing legal guidance through the intake form so questions are tracked.",
+    ],
+    "security": [
+        "Audit incident response and tool-use entries to confirm abuse-prevention controls are documented.",
+        "Plan a tabletop exercise using the glossary's scenario examples and log outcomes.",
+    ],
+    "communications": [
+        "Draft an FAQ using glossary language to keep messaging consistent across teams.",
+        "Tag enablement tickets with relevant glossary links so stakeholders can self-serve context.",
+    ],
+}
+
+CALLS_TO_ACTION = {
+    "prompt-engineering": "Dive into the [Prompt Engineering Playbook](../prompting.md) for workflows and checklists.",
+    "system-prompt": "Review the [Prompt Engineering Playbook](../prompting.md) before shipping updates.",
+    "temperature": "Experiment with settings using the [Prompt Engineering Playbook](../prompting.md).",
+    "top-k-sampling": "See the [Prompt Engineering Playbook](../prompting.md) for tuning tips.",
+    "top-p-sampling": "See the [Prompt Engineering Playbook](../prompting.md) for tuning tips.",
+    "repetition-penalty": "Use the [Prompt Engineering Playbook](../prompting.md) to balance repetition controls.",
+    "beam-search": "Pair with the [Prompt Engineering Playbook](../prompting.md) when crafting deterministic flows.",
+    "retrieval-augmented-generation": "Consult the [Category Explorer](../categories.md#retrieval--rag) for end-to-end grounding guidance.",
+    "fairness-metrics": "Coordinate with the [Role Starter Packs](../roles.md#policy--risk) for governance actions.",
+    "model-card": "Document changes using the [Governance & Risk section](../categories.md#governance--risk).",
+    "algorithmic-bias": "Run the [Governance Dashboard](../governance-dashboard.md) checklist before launch.",
+    "model-interpretability": "Sync with the [Governance Dashboard](../governance-dashboard.md) to capture explanation plans.",
+    "data-retention": "Map retention updates to the [Governance Dashboard](../governance-dashboard.md).",
+    "content-moderation": "Reference the [Governance Dashboard](../governance-dashboard.md) for monitoring obligations.",
+}
+
+CATEGORY_APPLY_GUIDANCE = {
+    "Governance & Risk": [
+        "Map this term to the governance dashboard and record accountable owners in the backlog.",
+        "Review current regulatory guidance or internal policy notes linked from the resources page before sign-off.",
+    ],
+    "LLM Core": [
+        "Prototype behaviour changes in a sandbox notebook and capture prompt or decoding settings for others.",
+        "Share findings with enablement so downstream teams understand model implications.",
+    ],
+    "Operations & Monitoring": [
+        "Instrument dashboards or alerts that reflect the metrics highlighted in this definition.",
+        "Update incident response or on-call runbooks with the glossary's do/don't scenarios.",
+    ],
+    "Retrieval & RAG": [
+        "Validate retrieval quality using the evaluation guidance referenced in this entry.",
+        "Ensure knowledge sources named here appear in your data governance inventory.",
+    ],
+    "Agents & Tooling": [
+        "Audit exposed tools against the safeguards described and document approval paths.",
+        "Test hand-offs with human reviewers to confirm the safety expectations captured here are met.",
+    ],
+    "Optimization & Efficiency": [
+        "Record before-and-after performance metrics when applying this optimisation technique.",
+        "Document trade-offs for product and policy partners using the glossary's language.",
+    ],
+    "Foundations": [
+        "Add this concept to onboarding materials so teammates share a common baseline.",
+        "Link supporting research or documentation in your internal wiki for deeper study.",
+    ],
+}
+
 
 def group_terms_by_category(terms: List[Dict[str, Any]]) -> OrderedDict[str, List[Dict[str, Any]]]:
     buckets: OrderedDict[str, List[Dict[str, Any]]] = OrderedDict((cat, []) for cat in CATEGORY_NAV_ORDER)
@@ -117,11 +244,51 @@ def render_term_page(term: Dict[str, Any]) -> str:
         role_names = [ROLE_DIRECTORY.get(role, {}).get("title", role) for role in roles]
         metadata_bits.append(f"**Roles:** {', '.join(role_names)}")
     metadata_bits.append(f"**Part of speech:** `{term.get('part_of_speech', '—')}`")
+    status_value = term.get("status")
+    status_display = (status_value or "—").replace("_", " ")
+    status_chip = (
+        f"<span class=\"status-chip status-{status_value}\">{status_display.title()}</span>"
+        if status_value
+        else "`—`"
+    )
     metadata_bits.append(
-        f"**Status:** `{term.get('status', '—')}` (Last reviewed: {term.get('last_reviewed', '—')})"
+        f"**Status:** {status_chip} (Last reviewed: {term.get('last_reviewed', '—')})"
     )
     lines.append("\n".join(metadata_bits))
     lines.append("")
+
+    if term.get("slug") in CALLS_TO_ACTION:
+        lines.extend([
+            "!!! tip \"Put it into practice\"",
+            f"    {CALLS_TO_ACTION[term['slug']]}"
+        ])
+        lines.append("")
+
+    if roles:
+        lines.append("## Role takeaways")
+        for role in roles:
+            label = ROLE_DIRECTORY.get(role, {}).get("title", role.title())
+            guidance = ROLE_TAKEAWAYS.get(role, "Focus on how this affects your workflows.")
+            lines.append(f"- **{label}:** {guidance}")
+        lines.append("")
+
+    apply_messages: List[str] = []
+    for category in categories:
+        apply_messages.extend(CATEGORY_APPLY_GUIDANCE.get(category, []))
+    if roles:
+        apply_messages.append(
+            "Share takeaways with the accountable roles listed above so actions land with the right owners."
+        )
+    if apply_messages:
+        ordered: List[str] = []
+        for message in apply_messages:
+            if message and message not in ordered:
+                ordered.append(message)
+        if ordered:
+            lines.append("## Practice & apply")
+            for message in ordered:
+                lines.append(f"- {message}")
+            lines.append("")
 
     short_def = term.get("short_def", "")
     if short_def:
@@ -176,6 +343,15 @@ def render_term_page(term: Dict[str, Any]) -> str:
         lines.extend(relationship_sections)
         lines.append("")
 
+    term_name = term.get("term", "this term")
+    lines.extend(
+        [
+            "!!! info \"Something missing?\"",
+            f"    Suggest examples or clarifications via the [term request intake](../term-request.md) and mention '{term_name}'.",
+            "",
+        ]
+    )
+
     citations = term.get("citations") or []
     if citations:
         lines.append("## Citations")
@@ -218,8 +394,8 @@ def render_index_page(terms: List[Dict[str, Any]]) -> str:
 def render_roles_page(terms: List[Dict[str, Any]]) -> str:
     lines: List[str] = [HEADER_COMMENT, "", "# Role Starter Packs", ""]
     lines.append(
-        "Guidance for common stakeholder groups. Each section links to the most relevant terms based on "
-        "category and role tags."
+        "Guidance for common stakeholder groups. Each pack includes actionable steps and key focus areas "
+        "so teams can operationalize insights immediately."
     )
     lines.append("")
 
@@ -236,6 +412,25 @@ def render_roles_page(terms: List[Dict[str, Any]]) -> str:
         lines.append(f"## {meta['title']}")
         lines.append(meta["summary"])
         lines.append("")
+        lines.append("**Action plan**")
+        lines.append("- Bookmark the [Glossary Search](search.md) filtered to this role and review the top 5 unfamiliar terms.")
+        lines.append("- Schedule a sync with partner roles listed under each term to clarify ownership and open questions.")
+        lines.append("- Capture insights in your runbook or onboarding guide so future teammates ramp faster.")
+        lines.append("")
+
+        learning_steps = ROLE_LEARNING_PATHS.get(role) or []
+        if learning_steps:
+            lines.append("### Guided learning path")
+            for idx, step in enumerate(learning_steps, start=1):
+                lines.append(f"{idx}. {step}")
+            lines.append("")
+
+        practice_tasks = ROLE_PRACTICE_TASKS.get(role) or []
+        if practice_tasks:
+            lines.append("### Practice checklist")
+            for task in practice_tasks:
+                lines.append(f"- {task}")
+            lines.append("")
         lines.append("### Focus areas")
         category_counts: Dict[str, int] = {}
         for term in role_terms:

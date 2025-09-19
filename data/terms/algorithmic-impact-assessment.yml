@@ -1,0 +1,48 @@
+term: "algorithmic impact assessment"
+aliases:
+  - "AIA"
+  - "AI impact assessment"
+categories:
+  - "Governance & Risk"
+roles:
+  - "policy"
+  - "legal"
+  - "product"
+  - "communications"
+  - "engineering"
+part_of_speech: "process"
+short_def: "Structured review that documents how an AI system may affect people, processes, and compliance obligations."
+long_def: >-
+  Algorithmic impact assessments (AIAs) extend privacy and safety assessments to machine learning systems. They inventory intended uses, stakeholders, datasets, and model decisions; surface potential harms or rights impacts; and log mitigation plans before launch. Mature teams combine qualitative stakeholder interviews with quantitative evidence from evaluations, bias testing, and monitoring. The process forces clarity on accountability, human oversight, documentation, and escalation paths so downstream teams can manage risk. Governments increasingly mandate AIAs for high-risk use cases, making them a practical way to align product roadmaps with regulatory expectations. When revisited after major releases, AIAs become living records that connect model behavior to governance controls and public transparency.
+audiences:
+  exec: "An AIA proves we understand who an AI system could impact and how we will keep those risks managed."
+  engineer: "Document data, model, and deployment assumptions so policy and legal partners can catch misaligned behavior before launch."
+examples:
+  do:
+    - "Collect evaluation metrics, human feedback, and red-team findings as evidence in the AIA dossier."
+  dont:
+    - "Treat the AIA as a one-time checklist that never gets updated after launch."
+governance:
+  nist_rmf_tags:
+    - "accountability"
+    - "risk_management"
+    - "transparency"
+  risk_notes: "Skipping AIAs leaves organizations unable to show regulators how risks were identified or mitigated."
+relationships:
+  broader:
+    - "responsible ai"
+    - "model governance"
+  related:
+    - "privacy impact assessment"
+    - "red teaming"
+    - "evaluation"
+citations:
+  - source: "OECD AI Glossary"
+    url: "https://oecd.ai/en/glossary"
+  - source: "AI Now Institute Lexicon"
+    url: "https://ainowinstitute.org/lexicon.html"
+  - source: "Partnership on AI Glossary"
+    url: "https://partnershiponai.org/glossary/"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-26"

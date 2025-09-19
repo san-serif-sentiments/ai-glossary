@@ -8,7 +8,17 @@
 **Categories:** LLM Core
 **Roles:** Data Science & Research, Engineering & Platform, Product & Program Managers
 **Part of speech:** `noun_phrase`
-**Status:** `draft` (Last reviewed: 2024-11-01)
+**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-11-01)
+
+## Role takeaways
+- **Data Science & Research:** Incorporate the metric or method into evaluation pipelines.
+- **Engineering & Platform:** Document implementation requirements and operational caveats.
+- **Product & Program Managers:** Translate this concept into user impact and rollout plans.
+
+## Practice & apply
+- Prototype behaviour changes in a sandbox notebook and capture prompt or decoding settings for others.
+- Share findings with enablement so downstream teams understand model implications.
+- Share takeaways with the accountable roles listed above so actions land with the right owners.
 
 ## Short definition
 Stored attention keys and values reused across decoding steps to speed sequential generation.
@@ -35,6 +45,9 @@ The KV cache holds intermediate key and value tensors produced during transforme
 - **Broader:** inference optimization
 - **Narrower:** paged attention
 - **Related:** attention, context window, quantization
+
+!!! info "Something missing?"
+    Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'kv cache'.
 
 ## Citations
 - [Hugging Face Glossary](https://huggingface.co/docs/transformers/en/glossary)

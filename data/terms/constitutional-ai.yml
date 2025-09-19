@@ -1,0 +1,47 @@
+term: "constitutional ai"
+aliases:
+  - "principle-guided alignment"
+  - "self-critique alignment"
+categories:
+  - "Governance & Risk"
+  - "LLM Core"
+roles:
+  - "product"
+  - "engineering"
+  - "policy"
+part_of_speech: "concept"
+short_def: "Alignment approach where models critique and revise their own outputs against a written set of principles."
+long_def: >-
+  Constitutional AI trains or steers language models with a "constitution"—explicit guidelines that describe desired and disallowed behaviors. During training or inference the model generates an answer, critiques it against the constitution, and revises the response to better satisfy those rules. Teams can combine human red teaming with model self-critique to iterate on the constitution, expanding coverage for safety, tone, or compliance requirements. Because principles are documented, product and policy partners can review, update, and audit them as new regulations emerge. Engineering groups wire the constitution into reinforcement learning loops, guardrail services, or inference-time post-processing. The technique complements human feedback and provides a transparent way to encode organizational values directly into model behavior.
+audiences:
+  exec: "Constitutional AI makes our safety playbook explicit so models can self-correct toward company values."
+  engineer: "Use principle prompts to drive self-critique loops or policy filters that nudge generations toward compliant behavior."
+examples:
+  do:
+    - "Version control the constitution and sync revisions with evaluation runs before deployment."
+  dont:
+    - "Ship new principles without testing how they affect harmless user journeys."
+governance:
+  nist_rmf_tags:
+    - "accountability"
+    - "validity"
+    - "transparency"
+  risk_notes: "Opaque or outdated constitutions create false confidence that safety requirements are being enforced."
+relationships:
+  broader:
+    - "alignment"
+  related:
+    - "guardrails"
+    - "red teaming"
+    - "fine-tuning"
+    - "temperature"
+citations:
+  - source: "Anthropic / Claude Glossary"
+    url: "https://docs.anthropic.com/claude/docs/constitutional-ai"
+  - source: "DeepLearning.AI AI Glossary"
+    url: "https://www.deeplearning.ai/resources/glossary/"
+  - source: "MIT Technology Review AI Dictionary"
+    url: "https://www.technologyreview.com/2023/ai-dictionary/"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-26"

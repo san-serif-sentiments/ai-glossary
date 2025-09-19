@@ -8,7 +8,24 @@
 **Categories:** Governance & Risk, Operations & Monitoring
 **Roles:** Policy & Risk, Legal & Compliance, Product & Program Managers, Engineering & Platform, Communications & Enablement
 **Part of speech:** `noun`
-**Status:** `draft` (Last reviewed: 2024-11-03)
+**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-11-03)
+
+!!! tip "Put it into practice"
+    Document changes using the [Governance & Risk section](../categories.md#governance--risk).
+
+## Role takeaways
+- **Policy & Risk:** Map the definition to governance controls and review checklists.
+- **Legal & Compliance:** Assess contractual and regulatory obligations tied to this term.
+- **Product & Program Managers:** Translate this concept into user impact and rollout plans.
+- **Engineering & Platform:** Document implementation requirements and operational caveats.
+- **Communications & Enablement:** Align messaging, FAQs, and enablement materials using this definition.
+
+## Practice & apply
+- Map this term to the governance dashboard and record accountable owners in the backlog.
+- Review current regulatory guidance or internal policy notes linked from the resources page before sign-off.
+- Instrument dashboards or alerts that reflect the metrics highlighted in this definition.
+- Update incident response or on-call runbooks with the glossary's do/don't scenarios.
+- Share takeaways with the accountable roles listed above so actions land with the right owners.
 
 ## Short definition
 Standardized documentation describing a model’s purpose, data, performance, and limitations.
@@ -36,6 +53,9 @@ A model card summarizes key information about an AI system, including intended u
 ## Relationships
 - **Broader:** model governance
 - **Related:** responsible ai, privacy impact assessment, evaluation
+
+!!! info "Something missing?"
+    Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'model card'.
 
 ## Citations
 - [NIST AI RMF Glossary](https://airc.nist.gov/glossary/)

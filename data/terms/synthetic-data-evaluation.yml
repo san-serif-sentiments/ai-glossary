@@ -1,0 +1,48 @@
+term: "synthetic data evaluation"
+aliases:
+  - "synthetic data quality assessment"
+  - "synthetic validation"
+categories:
+  - "Operations & Monitoring"
+  - "Governance & Risk"
+roles:
+  - "data_science"
+  - "engineering"
+  - "policy"
+  - "product"
+part_of_speech: "process"
+short_def: "Process for measuring fidelity, utility, privacy, and bias of synthetic datasets before use."
+long_def: >-
+  Synthetic data evaluation verifies that generated datasets mirror the statistical properties of real data without leaking sensitive information. Teams measure fidelity (distribution similarity), utility (model performance when trained on synthetic data), privacy leakage (distance or matching tests), and bias (subgroup balance). Evaluations often combine automated metrics—such as Wasserstein distance, nearest-neighbor tests, TSTR/TSNT—and human or domain-expert reviews. Product and policy teams review results to decide whether synthetic data is acceptable for training, testing, or sharing. Documentation should capture evaluation methods, thresholds, and mitigation plans when issues arise.
+audiences:
+  exec: "Synthetic data evaluation proves the generated data is both useful and safe before we rely on it."
+  engineer: "Compute fidelity, utility, privacy, and bias metrics; compare against acceptance thresholds and log findings with dataset versions." 
+examples:
+  do:
+    - "Use real-world benchmarks (TSTR) to confirm models trained on synthetic data generalize."
+    - "Validate privacy leakage with membership inference or nearest-neighbor tests."
+  dont:
+    - "Assume synthetic data is safe without quantitative evaluation."
+    - "Ignore subgroup representation when assessing utility."
+governance:
+  nist_rmf_tags:
+    - "data_quality"
+    - "privacy"
+  risk_notes: "Poor evaluation can result in biased or leaky synthetic datasets reaching production or partners."
+relationships:
+  broader:
+    - "synthetic data"
+  related:
+    - "differential privacy"
+    - "fairness metrics"
+    - "evaluation"
+citations:
+  - source: "NIST AI RMF Glossary"
+    url: "https://airc.nist.gov/glossary/"
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "Wikipedia AI Glossary"
+    url: "https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-04"

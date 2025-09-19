@@ -4,11 +4,14 @@
 
 # Glossary Terms
 
-Total entries: 58
+Total entries: 68
 
 - [agentic ai](./agentic-ai.md) — Systems that plan, act, and iterate with minimal human prompts by chaining model calls and tools.
+- [ai assurance](./ai-assurance.md) — Discipline that produces evidence, controls, and attestations showing an AI system meets agreed safety, compliance, and performance thresholds.
 - [ai incident response](./ai-incident-response.md) — Coordinated workflow for detecting, triaging, and remediating harmful or out-of-policy AI behavior.
+- [algorithmic audit](./algorithmic-audit.md) — Independent review of an AI system’s data, design, and outcomes to verify compliance, fairness, and risk controls.
 - [algorithmic bias](./algorithmic-bias.md) — Systematic unfairness in model outputs that disadvantages certain groups or outcomes.
+- [algorithmic impact assessment](./algorithmic-impact-assessment.md) — Structured review that documents how an AI system may affect people, processes, and compliance obligations.
 - [alignment](./alignment.md) — Making sure AI systems optimize for human values, policies, and intended outcomes.
 - [attention](./attention.md) — Technique enabling models to weight input tokens differently when producing each output.
 - [beam search](./beam-search.md) — Deterministic decoding that keeps the top scoring sequences across multiple beams before selecting the final output.
@@ -16,17 +19,21 @@ Total entries: 58
 - [chunking](./chunking.md) — Splitting source documents into manageable pieces before indexing or feeding them to models.
 - [clip](./clip.md) — Multimodal model that embeds images and text into a shared space using contrastive learning.
 - [confusion matrix](./confusion-matrix.md) — Table that summarizes true/false positives and negatives to diagnose classification performance.
+- [constitutional ai](./constitutional-ai.md) — Alignment approach where models critique and revise their own outputs against a written set of principles.
 - [content moderation](./content-moderation.md) — Workflows and tools that review, filter, and act on user-generated content to enforce policy.
 - [context window](./context-window.md) — Maximum number of tokens a model can consider at once during prompting or inference.
 - [cross-validation](./cross-validation.md) — Evaluation technique that splits data into multiple folds to estimate model performance on unseen samples.
 - [data minimization](./data-minimization.md) — Principle of collecting and retaining only the data necessary for a defined purpose.
+- [data retention](./data-retention.md) — Policies defining how long data is stored, where it lives, and how it is deleted.
 - [decoding](./decoding.md) — Algorithms that turn model probability distributions into output tokens during generation.
 - [differential privacy](./differential-privacy.md) — Mathematical framework that limits how much any single record influences published data or model outputs.
 - [diffusion model](./diffusion-model.md) — Generative model that iteratively denoises random noise to synthesize images, audio, or other data.
 - [embedding](./embedding.md) — Dense numerical representation that captures semantic meaning of text, images, or other data.
 - [evaluation](./evaluation.md) — Systematic measurement of model performance, safety, and reliability using defined tests.
 - [f1 score](./f1-score.md) — Harmonic mean of precision and recall, balancing false positives and false negatives.
+- [fairness metrics](./fairness-metrics.md) — Quantitative measures that evaluate whether model performance is equitable across groups.
 - [fine-tuning](./fine-tuning.md) — Additional training that adapts a pretrained model to a specific task or domain.
+- [function calling](./function-calling.md) — LLM capability that lets prompts invoke predefined functions and return structured arguments.
 - [generative ai](./generative-ai.md) — Family of models that produce new content—text, images, code—rather than only making predictions.
 - [greedy decoding](./greedy-decoding.md) — Strategy that selects the highest-probability token at each step, producing deterministic outputs.
 - [guardrails](./guardrails.md) — Controls that constrain model behavior to comply with safety, legal, or brand requirements.
@@ -40,6 +47,7 @@ Total entries: 58
 - [model card](./model-card.md) — Standardized documentation describing a model’s purpose, data, performance, and limitations.
 - [model drift](./model-drift.md) — Gradual mismatch between model assumptions and real-world data that degrades performance over time.
 - [model governance](./model-governance.md) — Policies and processes that manage AI models across risk, compliance, and lifecycle decisions.
+- [model interpretability](./model-interpretability.md) — Ability to explain how a model arrives at its predictions in ways stakeholders understand.
 - [overfitting](./overfitting.md) — When a model memorizes training data patterns so closely that it performs poorly on new samples.
 - [precision](./precision.md) — Share of predicted positives that are actually correct for a given classifier.
 - [privacy](./privacy.md) — Principle of limiting data collection, use, and exposure to protect individuals’ information.
@@ -55,7 +63,9 @@ Total entries: 58
 - [retrieval-augmented generation](./retrieval-augmented-generation.md) — Workflow that grounds a generative model with retrieved context before producing output.
 - [roc auc](./roc-auc.md) — Metric summarizing binary classifier performance by measuring area under the ROC curve.
 - [safety evaluation](./safety-evaluation.md) — Testing focused on preventing harmful, abusive, or policy-violating AI behavior before and after launch.
+- [safety spec](./safety-spec.md) — Document that codifies allowed, disallowed, and escalated behaviours for an AI system so teams can enforce safety and policy expectations.
 - [synthetic data](./synthetic-data.md) — Artificially generated dataset used to augment training, testing, or privacy-preserving workflows.
+- [synthetic data evaluation](./synthetic-data-evaluation.md) — Process for measuring fidelity, utility, privacy, and bias of synthetic datasets before use.
 - [system prompt](./system-prompt.md) — Foundational instruction that sets role, tone, and guardrails for an AI assistant before user input.
 - [temperature](./temperature.md) — Decoding parameter that controls how random or deterministic a model’s outputs are.
 - [token](./token.md) — Smallest unit of text a model processes after tokenization, such as a word fragment or character.

@@ -8,7 +8,17 @@
 **Categories:** Retrieval & RAG
 **Roles:** Data Science & Research, Engineering & Platform, Product & Program Managers
 **Part of speech:** `process`
-**Status:** `draft` (Last reviewed: 2024-11-01)
+**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-11-01)
+
+## Role takeaways
+- **Data Science & Research:** Incorporate the metric or method into evaluation pipelines.
+- **Engineering & Platform:** Document implementation requirements and operational caveats.
+- **Product & Program Managers:** Translate this concept into user impact and rollout plans.
+
+## Practice & apply
+- Validate retrieval quality using the evaluation guidance referenced in this entry.
+- Ensure knowledge sources named here appear in your data governance inventory.
+- Share takeaways with the accountable roles listed above so actions land with the right owners.
 
 ## Short definition
 Step that refines retrieval results using a more precise but slower scoring model.
@@ -35,6 +45,9 @@ Reranking applies a secondary model to an initial set of retrieved documents to 
 - **Broader:** retrieval
 - **Narrower:** cross-encoder reranking
 - **Related:** retrieval-augmented generation, chunking, guardrails
+
+!!! info "Something missing?"
+    Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'reranking'.
 
 ## Citations
 - [Google ML Glossary](https://developers.google.com/machine-learning/glossary)

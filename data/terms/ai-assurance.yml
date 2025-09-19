@@ -1,0 +1,49 @@
+term: "ai assurance"
+aliases:
+  - "AI assurance program"
+categories:
+  - "Governance & Risk"
+roles:
+  - "product"
+  - "engineering"
+  - "policy"
+  - "legal"
+  - "security"
+part_of_speech: "concept"
+short_def: "Discipline that produces evidence, controls, and attestations showing an AI system meets agreed safety, compliance, and performance thresholds."
+long_def: >-
+  AI assurance is the end-to-end discipline that gives stakeholders confidence an AI system behaves as intended across its lifecycle. Teams collect structured evidence—model cards, test results, evaluation dashboards, bias and privacy assessments—and compare them against assurance criteria derived from policy, regulation, and business risk appetite. Assurance programs span pre-launch discovery, red teaming, and documentation, followed by post-launch monitoring and re-certification when data, models, or prompts change. Product and engineering leads own the technical mitigations, while policy, legal, and security partners review controls, disclosure obligations, and escalation paths. Mature organisations use playbooks, independent reviewers, and audit trails so they can demonstrate compliance with frameworks such as the NIST AI RMF or government procurement requirements. Without an assurance function, leaders lack defensible evidence for regulators and customers, and harmful behaviour may slip into production unchecked.
+audiences:
+  exec: "Confirms our AI launches have evidence, owners, and guardrails that withstand regulatory and customer scrutiny."
+  engineer: "Defines the artefacts, tests, and controls you must deliver before handover and keep current after updates."
+examples:
+  do:
+    - "Assemble an assurance dossier that bundles eval results, model cards, and mitigation plans before launch approval."
+    - "Schedule periodic re-certification when training data, prompts, or external regulations change."
+  dont:
+    - "Rely on a single accuracy metric as proof of readiness without documenting safety or fairness tests."
+    - "Ship critical updates without notifying assurance reviewers or updating evidence trails."
+governance:
+  nist_rmf_tags:
+    - "accountability"
+    - "risk_management"
+    - "transparency"
+  risk_notes: "Missing assurance evidence makes it impossible to prove compliance, increasing regulatory, contractual, and safety exposure."
+relationships:
+  broader:
+    - "responsible ai"
+  related:
+    - "model governance"
+    - "algorithmic audit"
+    - "evaluation"
+    - "ai incident response"
+citations:
+  - source: "CDEI AI Assurance Guidance"
+    url: "https://www.gov.uk/government/collections/cdei-assurance-guidance"
+  - source: "OECD AI Glossary"
+    url: "https://oecd.ai/en/glossary"
+  - source: "Partnership on AI Glossary"
+    url: "https://partnershiponai.org/glossary/"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-26"

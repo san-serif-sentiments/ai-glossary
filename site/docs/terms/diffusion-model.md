@@ -8,7 +8,20 @@
 **Categories:** Foundations, LLM Core
 **Roles:** Engineering & Platform, Data Science & Research, Product & Program Managers, Communications & Enablement
 **Part of speech:** `noun`
-**Status:** `draft` (Last reviewed: 2024-11-03)
+**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-11-03)
+
+## Role takeaways
+- **Engineering & Platform:** Document implementation requirements and operational caveats.
+- **Data Science & Research:** Incorporate the metric or method into evaluation pipelines.
+- **Product & Program Managers:** Translate this concept into user impact and rollout plans.
+- **Communications & Enablement:** Align messaging, FAQs, and enablement materials using this definition.
+
+## Practice & apply
+- Add this concept to onboarding materials so teammates share a common baseline.
+- Link supporting research or documentation in your internal wiki for deeper study.
+- Prototype behaviour changes in a sandbox notebook and capture prompt or decoding settings for others.
+- Share findings with enablement so downstream teams understand model implications.
+- Share takeaways with the accountable roles listed above so actions land with the right owners.
 
 ## Short definition
 Generative model that iteratively denoises random noise to synthesize images, audio, or other data.
@@ -36,6 +49,9 @@ Diffusion models generate content by reversing a noising process. During trainin
 ## Relationships
 - **Broader:** generative ai
 - **Related:** synthetic data, guardrails, safety evaluation
+
+!!! info "Something missing?"
+    Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'diffusion model'.
 
 ## Citations
 - [Wikipedia AI Glossary](https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence)

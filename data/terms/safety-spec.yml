@@ -1,0 +1,52 @@
+term: "safety spec"
+aliases:
+  - "safety specification"
+  - "model safety policy"
+categories:
+  - "Governance & Risk"
+  - "LLM Core"
+roles:
+  - "product"
+  - "engineering"
+  - "policy"
+  - "security"
+  - "communications"
+part_of_speech: "concept"
+short_def: "Document that codifies allowed, disallowed, and escalated behaviours for an AI system so teams can enforce safety and policy expectations."
+long_def: >-
+  A safety spec translates high-level AI principles into actionable guidance for a specific system. It enumerates desired behaviours, prohibited outputs, escalation paths, and fallback actions across scenarios such as self-harm, misinformation, sensitive topics, or abuse. Product and policy teams draft the intent; engineering and safety specialists convert it into prompts, classifiers, guardrails, and monitoring hooks; communications teams prepare messaging for when guardrails trigger. A good safety spec links each requirement to reference examples, evaluation suites, and human review steps, so updates can be tested before deployment. The document is version-controlled alongside prompts and model configs, and is revisited after incidents, red teaming, or regulatory changes. Without a safety spec, expectations stay tribal, handoffs break down, and teams cannot prove alignment with industry or statutory obligations.
+audiences:
+  exec: "Shows how we operationalise safety promises with concrete rules, owners, and escalation paths."
+  engineer: "Clarifies what the model must block or escalate and how to wire guardrails, logging, and overrides."
+examples:
+  do:
+    - "Version-control the safety spec and require sign-off from policy, legal, and engineering before shipping changes."
+    - "Attach evaluation prompts and datasets that must pass before releasing a new prompt or model checkpoint."
+  dont:
+    - "Copy a generic policy without adding concrete prompts, thresholds, or handoff procedures."
+    - "Let the safety spec drift after incidents—update the rules and tests while lessons are fresh."
+governance:
+  nist_rmf_tags:
+    - "risk_management"
+    - "accountability"
+    - "transparency"
+  risk_notes: "Outdated or missing safety specs leave teams unable to enforce guardrails or defend decisions during audits."
+relationships:
+  broader:
+    - "alignment"
+    - "ai assurance"
+  related:
+    - "guardrails"
+    - "red teaming"
+    - "prompt engineering"
+    - "ai incident response"
+citations:
+  - source: "Anthropic Safety Spec"
+    url: "https://docs.anthropic.com/claude/docs/safety-spec"
+  - source: "OpenAI Safety Best Practices"
+    url: "https://platform.openai.com/docs/guides/safety-best-practices"
+  - source: "MIT Technology Review AI Dictionary"
+    url: "https://www.technologyreview.com/2023/ai-dictionary/"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-26"

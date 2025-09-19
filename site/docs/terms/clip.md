@@ -8,7 +8,20 @@
 **Categories:** Foundations, Retrieval & RAG
 **Roles:** Engineering & Platform, Data Science & Research, Product & Program Managers, Communications & Enablement
 **Part of speech:** `noun`
-**Status:** `draft` (Last reviewed: 2024-11-03)
+**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-11-03)
+
+## Role takeaways
+- **Engineering & Platform:** Document implementation requirements and operational caveats.
+- **Data Science & Research:** Incorporate the metric or method into evaluation pipelines.
+- **Product & Program Managers:** Translate this concept into user impact and rollout plans.
+- **Communications & Enablement:** Align messaging, FAQs, and enablement materials using this definition.
+
+## Practice & apply
+- Add this concept to onboarding materials so teammates share a common baseline.
+- Link supporting research or documentation in your internal wiki for deeper study.
+- Validate retrieval quality using the evaluation guidance referenced in this entry.
+- Ensure knowledge sources named here appear in your data governance inventory.
+- Share takeaways with the accountable roles listed above so actions land with the right owners.
 
 ## Short definition
 Multimodal model that embeds images and text into a shared space using contrastive learning.
@@ -36,6 +49,9 @@ CLIP (Contrastive Language-Image Pretraining) jointly trains an image encoder an
 ## Relationships
 - **Broader:** embedding
 - **Related:** retrieval, synthetic data, guardrails
+
+!!! info "Something missing?"
+    Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'clip'.
 
 ## Citations
 - [Hugging Face Glossary](https://huggingface.co/docs/transformers/en/glossary)

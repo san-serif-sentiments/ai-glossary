@@ -54,12 +54,13 @@ def _terms_list() -> List[dict]:
 
 @app.get("/", tags=["metadata"])
 def read_root() -> dict:
+    terms = _terms_list()
     return {
         "name": "AI Glossary",
         "description": "Structured, citation-backed AI glossary",
-        "count": len(_load_terms()),
-        "categories": sorted({cat for term in _terms_list() for cat in term.get("categories", [])}),
-        "roles": sorted({role for term in _terms_list() for role in term.get("roles", [])}),
+        "count": len(terms),
+        "categories": sorted({cat for term in terms for cat in term.get("categories", [])}),
+        "roles": sorted({role for term in terms for role in term.get("roles", [])}),
     }
 
 

@@ -8,7 +8,16 @@
 **Categories:** Optimization & Efficiency
 **Roles:** Data Science & Research, Engineering & Platform
 **Part of speech:** `process`
-**Status:** `draft` (Last reviewed: 2024-09-18)
+**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-09-18)
+
+## Role takeaways
+- **Data Science & Research:** Incorporate the metric or method into evaluation pipelines.
+- **Engineering & Platform:** Document implementation requirements and operational caveats.
+
+## Practice & apply
+- Record before-and-after performance metrics when applying this optimisation technique.
+- Document trade-offs for product and policy partners using the glossary's language.
+- Share takeaways with the accountable roles listed above so actions land with the right owners.
 
 ## Short definition
 Technique that compresses model weights into lower-precision formats to shrink size and speed inference.
@@ -37,6 +46,9 @@ Quantization converts neural network parameters and activations from high-precis
 - **Broader:** model optimization
 - **Narrower:** post-training quantization, quantization-aware training
 - **Related:** compression, distillation, hardware acceleration
+
+!!! info "Something missing?"
+    Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'quantization'.
 
 ## Citations
 - [Google ML Glossary](https://developers.google.com/machine-learning/glossary)

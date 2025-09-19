@@ -8,7 +8,22 @@
 **Categories:** LLM Core, Governance & Risk
 **Roles:** Communications & Enablement, Data Science & Research, Engineering & Platform, Legal & Compliance, Policy & Risk, Product & Program Managers
 **Part of speech:** `noun`
-**Status:** `draft` (Last reviewed: 2024-09-18)
+**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-09-18)
+
+## Role takeaways
+- **Communications & Enablement:** Align messaging, FAQs, and enablement materials using this definition.
+- **Data Science & Research:** Incorporate the metric or method into evaluation pipelines.
+- **Engineering & Platform:** Document implementation requirements and operational caveats.
+- **Legal & Compliance:** Assess contractual and regulatory obligations tied to this term.
+- **Policy & Risk:** Map the definition to governance controls and review checklists.
+- **Product & Program Managers:** Translate this concept into user impact and rollout plans.
+
+## Practice & apply
+- Prototype behaviour changes in a sandbox notebook and capture prompt or decoding settings for others.
+- Share findings with enablement so downstream teams understand model implications.
+- Map this term to the governance dashboard and record accountable owners in the backlog.
+- Review current regulatory guidance or internal policy notes linked from the resources page before sign-off.
+- Share takeaways with the accountable roles listed above so actions land with the right owners.
 
 ## Short definition
 When an AI model presents fabricated or unsupported information as fact.
@@ -37,6 +52,9 @@ Hallucination describes the tendency of generative models to deliver content tha
 - **Broader:** generative AI
 - **Narrower:** factual hallucination, formal hallucination
 - **Related:** retrieval-augmented generation, guardrails, evaluation
+
+!!! info "Something missing?"
+    Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'hallucination'.
 
 ## Citations
 - [Hugging Face Glossary](https://huggingface.co/docs/transformers/en/glossary)

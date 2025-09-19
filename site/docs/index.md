@@ -16,6 +16,17 @@
   </div>
 </div>
 
+## What's new (Nov 26 2024)
+
+<div class="whats-new">
+  <ul>
+    <li><strong>Guided search filters:</strong> Quick chips for roles, categories, and status now help you zero in on the terms that match your current workflow.</li>
+    <li><strong>Role learning paths:</strong> Each starter pack includes a three-step journey so teams know where to begin, what to review, and who to loop in.</li>
+    <li><strong>Contributor shortcuts:</strong> `make new-term` scaffolds high-quality entries, while `make check` validates schema, tests, and docs in one command.</li>
+  </ul>
+  <p class="whats-new-footer">Submit feedback or new term ideas via the <a href="term-request/">term request intake</a>.</p>
+</div>
+
 ## Project focus
 
 - **Shared language:** harmonizes terminology across technical, product, and
@@ -37,6 +48,12 @@
   optimization, operations, or governance topics.
 - Role starter packs and a guided search experience so product, engineering,
   policy, legal, security, and communications teams can find relevant terms fast.
+
+## Deep-dive resources
+
+- [External source catalog](resources.md) — official glossaries and standards to cite.
+- [Governance dashboard](governance-dashboard.md) — metrics, NIST coverage, and intake guidance.
+- [Prompt engineering playbook](prompting.md) — practical workflows for shaping model behaviour.
 
 ### Popular categories
 

@@ -4,38 +4,59 @@
 
 # Role Starter Packs
 
-Guidance for common stakeholder groups. Each section links to the most relevant terms based on category and role tags.
+Guidance for common stakeholder groups. Each pack includes actionable steps and key focus areas so teams can operationalize insights immediately.
 
 ## Product & Program Managers
 Focus on user outcomes, feature scope, and launch readiness.
 
+**Action plan**
+- Bookmark the [Glossary Search](search.md) filtered to this role and review the top 5 unfamiliar terms.
+- Schedule a sync with partner roles listed under each term to clarify ownership and open questions.
+- Capture insights in your runbook or onboarding guide so future teammates ramp faster.
+
+### Guided learning path
+1. Skim the Governance & Risk category to learn which terms drive launch checklists.
+2. Bookmark three model or prompt concepts that influence roadmap trade-offs.
+3. Schedule a debrief with policy partners to align on escalation triggers.
+
+### Practice checklist
+- Review the glossary search filtered to product + governance and log two takeaways in your launch checklist.
+- Pair with engineering to confirm which guardrails or prompts need updates before feature freeze.
+
 ### Focus areas
-- Governance & Risk (18 terms)
-- LLM Core (16 terms)
+- Governance & Risk (27 terms)
+- LLM Core (19 terms)
 - Foundations (11 terms)
-- Operations & Monitoring (8 terms)
+- Operations & Monitoring (11 terms)
 - Retrieval & RAG (7 terms)
-- Agents & Tooling (2 terms)
+- Agents & Tooling (3 terms)
 
 ### Recommended terms
 - [agentic ai](terms/agentic-ai.md) — Systems that plan, act, and iterate with minimal human prompts by chaining model calls and tools.
+- [ai assurance](terms/ai-assurance.md) — Discipline that produces evidence, controls, and attestations showing an AI system meets agreed safety, compliance, and performance thresholds.
 - [ai incident response](terms/ai-incident-response.md) — Coordinated workflow for detecting, triaging, and remediating harmful or out-of-policy AI behavior.
+- [algorithmic audit](terms/algorithmic-audit.md) — Independent review of an AI system’s data, design, and outcomes to verify compliance, fairness, and risk controls.
 - [algorithmic bias](terms/algorithmic-bias.md) — Systematic unfairness in model outputs that disadvantages certain groups or outcomes.
+- [algorithmic impact assessment](terms/algorithmic-impact-assessment.md) — Structured review that documents how an AI system may affect people, processes, and compliance obligations.
 - [alignment](terms/alignment.md) — Making sure AI systems optimize for human values, policies, and intended outcomes.
 - [attention](terms/attention.md) — Technique enabling models to weight input tokens differently when producing each output.
 - [beam search](terms/beam-search.md) — Deterministic decoding that keeps the top scoring sequences across multiple beams before selecting the final output.
 - [chunking](terms/chunking.md) — Splitting source documents into manageable pieces before indexing or feeding them to models.
 - [clip](terms/clip.md) — Multimodal model that embeds images and text into a shared space using contrastive learning.
 - [confusion matrix](terms/confusion-matrix.md) — Table that summarizes true/false positives and negatives to diagnose classification performance.
+- [constitutional ai](terms/constitutional-ai.md) — Alignment approach where models critique and revise their own outputs against a written set of principles.
 - [content moderation](terms/content-moderation.md) — Workflows and tools that review, filter, and act on user-generated content to enforce policy.
 - [context window](terms/context-window.md) — Maximum number of tokens a model can consider at once during prompting or inference.
 - [cross-validation](terms/cross-validation.md) — Evaluation technique that splits data into multiple folds to estimate model performance on unseen samples.
 - [data minimization](terms/data-minimization.md) — Principle of collecting and retaining only the data necessary for a defined purpose.
+- [data retention](terms/data-retention.md) — Policies defining how long data is stored, where it lives, and how it is deleted.
 - [decoding](terms/decoding.md) — Algorithms that turn model probability distributions into output tokens during generation.
 - [diffusion model](terms/diffusion-model.md) — Generative model that iteratively denoises random noise to synthesize images, audio, or other data.
 - [embedding](terms/embedding.md) — Dense numerical representation that captures semantic meaning of text, images, or other data.
 - [evaluation](terms/evaluation.md) — Systematic measurement of model performance, safety, and reliability using defined tests.
 - [f1 score](terms/f1-score.md) — Harmonic mean of precision and recall, balancing false positives and false negatives.
+- [fairness metrics](terms/fairness-metrics.md) — Quantitative measures that evaluate whether model performance is equitable across groups.
+- [function calling](terms/function-calling.md) — LLM capability that lets prompts invoke predefined functions and return structured arguments.
 - [generative ai](terms/generative-ai.md) — Family of models that produce new content—text, images, code—rather than only making predictions.
 - [greedy decoding](terms/greedy-decoding.md) — Strategy that selects the highest-probability token at each step, producing deterministic outputs.
 - [guardrails](terms/guardrails.md) — Controls that constrain model behavior to comply with safety, legal, or brand requirements.
@@ -45,6 +66,7 @@ Focus on user outcomes, feature scope, and launch readiness.
 - [model card](terms/model-card.md) — Standardized documentation describing a model’s purpose, data, performance, and limitations.
 - [model drift](terms/model-drift.md) — Gradual mismatch between model assumptions and real-world data that degrades performance over time.
 - [model governance](terms/model-governance.md) — Policies and processes that manage AI models across risk, compliance, and lifecycle decisions.
+- [model interpretability](terms/model-interpretability.md) — Ability to explain how a model arrives at its predictions in ways stakeholders understand.
 - [overfitting](terms/overfitting.md) — When a model memorizes training data patterns so closely that it performs poorly on new samples.
 - [precision](terms/precision.md) — Share of predicted positives that are actually correct for a given classifier.
 - [privacy](terms/privacy.md) — Principle of limiting data collection, use, and exposure to protect individuals’ information.
@@ -59,7 +81,9 @@ Focus on user outcomes, feature scope, and launch readiness.
 - [retrieval-augmented generation](terms/retrieval-augmented-generation.md) — Workflow that grounds a generative model with retrieved context before producing output.
 - [roc auc](terms/roc-auc.md) — Metric summarizing binary classifier performance by measuring area under the ROC curve.
 - [safety evaluation](terms/safety-evaluation.md) — Testing focused on preventing harmful, abusive, or policy-violating AI behavior before and after launch.
+- [safety spec](terms/safety-spec.md) — Document that codifies allowed, disallowed, and escalated behaviours for an AI system so teams can enforce safety and policy expectations.
 - [synthetic data](terms/synthetic-data.md) — Artificially generated dataset used to augment training, testing, or privacy-preserving workflows.
+- [synthetic data evaluation](terms/synthetic-data-evaluation.md) — Process for measuring fidelity, utility, privacy, and bias of synthetic datasets before use.
 - [system prompt](terms/system-prompt.md) — Foundational instruction that sets role, tone, and guardrails for an AI assistant before user input.
 - [temperature](terms/temperature.md) — Decoding parameter that controls how random or deterministic a model’s outputs are.
 - [token](terms/token.md) — Smallest unit of text a model processes after tokenization, such as a word fragment or character.
@@ -72,24 +96,42 @@ Focus on user outcomes, feature scope, and launch readiness.
 ## Engineering & Platform
 Own model integration, infra, and technical debt.
 
+**Action plan**
+- Bookmark the [Glossary Search](search.md) filtered to this role and review the top 5 unfamiliar terms.
+- Schedule a sync with partner roles listed under each term to clarify ownership and open questions.
+- Capture insights in your runbook or onboarding guide so future teammates ramp faster.
+
+### Guided learning path
+1. Start with LLM Core mechanics to understand knobs that affect reliability.
+2. Review Operations & Monitoring entries and note which metrics to add to dashboards.
+3. Pair with policy leads on governance terms that require instrumentation support.
+
+### Practice checklist
+- Use the search filters (engineering + operations) and capture metrics to wire into observability dashboards.
+- Document deployment actions in your runbook using examples referenced in the glossary.
+
 ### Focus areas
-- LLM Core (16 terms)
+- LLM Core (19 terms)
+- Governance & Risk (18 terms)
+- Operations & Monitoring (13 terms)
 - Foundations (10 terms)
-- Governance & Risk (10 terms)
-- Operations & Monitoring (10 terms)
 - Retrieval & RAG (7 terms)
 - Optimization & Efficiency (4 terms)
-- Agents & Tooling (2 terms)
+- Agents & Tooling (3 terms)
 
 ### Recommended terms
 - [agentic ai](terms/agentic-ai.md) — Systems that plan, act, and iterate with minimal human prompts by chaining model calls and tools.
+- [ai assurance](terms/ai-assurance.md) — Discipline that produces evidence, controls, and attestations showing an AI system meets agreed safety, compliance, and performance thresholds.
 - [ai incident response](terms/ai-incident-response.md) — Coordinated workflow for detecting, triaging, and remediating harmful or out-of-policy AI behavior.
+- [algorithmic audit](terms/algorithmic-audit.md) — Independent review of an AI system’s data, design, and outcomes to verify compliance, fairness, and risk controls.
+- [algorithmic impact assessment](terms/algorithmic-impact-assessment.md) — Structured review that documents how an AI system may affect people, processes, and compliance obligations.
 - [attention](terms/attention.md) — Technique enabling models to weight input tokens differently when producing each output.
 - [beam search](terms/beam-search.md) — Deterministic decoding that keeps the top scoring sequences across multiple beams before selecting the final output.
 - [bias-variance tradeoff](terms/bias-variance-tradeoff.md) — Balance between underfitting and overfitting: low bias increases variance, while high bias lowers variance but misses patterns.
 - [chunking](terms/chunking.md) — Splitting source documents into manageable pieces before indexing or feeding them to models.
 - [clip](terms/clip.md) — Multimodal model that embeds images and text into a shared space using contrastive learning.
 - [confusion matrix](terms/confusion-matrix.md) — Table that summarizes true/false positives and negatives to diagnose classification performance.
+- [constitutional ai](terms/constitutional-ai.md) — Alignment approach where models critique and revise their own outputs against a written set of principles.
 - [content moderation](terms/content-moderation.md) — Workflows and tools that review, filter, and act on user-generated content to enforce policy.
 - [context window](terms/context-window.md) — Maximum number of tokens a model can consider at once during prompting or inference.
 - [cross-validation](terms/cross-validation.md) — Evaluation technique that splits data into multiple folds to estimate model performance on unseen samples.
@@ -99,7 +141,9 @@ Own model integration, infra, and technical debt.
 - [embedding](terms/embedding.md) — Dense numerical representation that captures semantic meaning of text, images, or other data.
 - [evaluation](terms/evaluation.md) — Systematic measurement of model performance, safety, and reliability using defined tests.
 - [f1 score](terms/f1-score.md) — Harmonic mean of precision and recall, balancing false positives and false negatives.
+- [fairness metrics](terms/fairness-metrics.md) — Quantitative measures that evaluate whether model performance is equitable across groups.
 - [fine-tuning](terms/fine-tuning.md) — Additional training that adapts a pretrained model to a specific task or domain.
+- [function calling](terms/function-calling.md) — LLM capability that lets prompts invoke predefined functions and return structured arguments.
 - [greedy decoding](terms/greedy-decoding.md) — Strategy that selects the highest-probability token at each step, producing deterministic outputs.
 - [hallucination](terms/hallucination.md) — When an AI model presents fabricated or unsupported information as fact.
 - [knowledge distillation](terms/knowledge-distillation.md) — Technique that trains a smaller student model to mimic a larger teacher model’s behavior.
@@ -110,6 +154,7 @@ Own model integration, infra, and technical debt.
 - [ml ops](terms/ml-ops.md) — Operational discipline that manages ML models from experimentation through deployment and monitoring.
 - [model card](terms/model-card.md) — Standardized documentation describing a model’s purpose, data, performance, and limitations.
 - [model drift](terms/model-drift.md) — Gradual mismatch between model assumptions and real-world data that degrades performance over time.
+- [model interpretability](terms/model-interpretability.md) — Ability to explain how a model arrives at its predictions in ways stakeholders understand.
 - [overfitting](terms/overfitting.md) — When a model memorizes training data patterns so closely that it performs poorly on new samples.
 - [precision](terms/precision.md) — Share of predicted positives that are actually correct for a given classifier.
 - [prompt engineering](terms/prompt-engineering.md) — Crafting and testing prompts to steer model behavior toward desired outcomes.
@@ -122,7 +167,9 @@ Own model integration, infra, and technical debt.
 - [retrieval-augmented generation](terms/retrieval-augmented-generation.md) — Workflow that grounds a generative model with retrieved context before producing output.
 - [roc auc](terms/roc-auc.md) — Metric summarizing binary classifier performance by measuring area under the ROC curve.
 - [safety evaluation](terms/safety-evaluation.md) — Testing focused on preventing harmful, abusive, or policy-violating AI behavior before and after launch.
+- [safety spec](terms/safety-spec.md) — Document that codifies allowed, disallowed, and escalated behaviours for an AI system so teams can enforce safety and policy expectations.
 - [synthetic data](terms/synthetic-data.md) — Artificially generated dataset used to augment training, testing, or privacy-preserving workflows.
+- [synthetic data evaluation](terms/synthetic-data-evaluation.md) — Process for measuring fidelity, utility, privacy, and bias of synthetic datasets before use.
 - [system prompt](terms/system-prompt.md) — Foundational instruction that sets role, tone, and guardrails for an AI assistant before user input.
 - [temperature](terms/temperature.md) — Decoding parameter that controls how random or deterministic a model’s outputs are.
 - [token](terms/token.md) — Smallest unit of text a model processes after tokenization, such as a word fragment or character.
@@ -134,13 +181,28 @@ Own model integration, infra, and technical debt.
 ## Data Science & Research
 Drive experimentation, measurement, and model improvement.
 
+**Action plan**
+- Bookmark the [Glossary Search](search.md) filtered to this role and review the top 5 unfamiliar terms.
+- Schedule a sync with partner roles listed under each term to clarify ownership and open questions.
+- Capture insights in your runbook or onboarding guide so future teammates ramp faster.
+
+### Guided learning path
+1. Refresh foundational metrics (precision, recall, ROC AUC) to ensure evaluation coverage.
+2. Study Optimization & Efficiency techniques to plan future experiments.
+3. Document how governance-aligned metrics will be reported to stakeholders.
+
+### Practice checklist
+- Select one evaluation metric and one mitigation technique from the glossary for your next experiment brief.
+- Record baseline measurements tied to the definitions before shipping changes.
+
 ### Focus areas
-- LLM Core (16 terms)
+- LLM Core (17 terms)
 - Foundations (10 terms)
 - Retrieval & RAG (7 terms)
 - Optimization & Efficiency (4 terms)
-- Governance & Risk (2 terms)
-- Operations & Monitoring (1 term)
+- Governance & Risk (3 terms)
+- Operations & Monitoring (2 terms)
+- Agents & Tooling (1 term)
 
 ### Recommended terms
 - [attention](terms/attention.md) — Technique enabling models to weight input tokens differently when producing each output.
@@ -156,6 +218,7 @@ Drive experimentation, measurement, and model improvement.
 - [embedding](terms/embedding.md) — Dense numerical representation that captures semantic meaning of text, images, or other data.
 - [f1 score](terms/f1-score.md) — Harmonic mean of precision and recall, balancing false positives and false negatives.
 - [fine-tuning](terms/fine-tuning.md) — Additional training that adapts a pretrained model to a specific task or domain.
+- [function calling](terms/function-calling.md) — LLM capability that lets prompts invoke predefined functions and return structured arguments.
 - [greedy decoding](terms/greedy-decoding.md) — Strategy that selects the highest-probability token at each step, producing deterministic outputs.
 - [hallucination](terms/hallucination.md) — When an AI model presents fabricated or unsupported information as fact.
 - [knowledge distillation](terms/knowledge-distillation.md) — Technique that trains a smaller student model to mimic a larger teacher model’s behavior.
@@ -173,6 +236,7 @@ Drive experimentation, measurement, and model improvement.
 - [retrieval-augmented generation](terms/retrieval-augmented-generation.md) — Workflow that grounds a generative model with retrieved context before producing output.
 - [roc auc](terms/roc-auc.md) — Metric summarizing binary classifier performance by measuring area under the ROC curve.
 - [synthetic data](terms/synthetic-data.md) — Artificially generated dataset used to augment training, testing, or privacy-preserving workflows.
+- [synthetic data evaluation](terms/synthetic-data-evaluation.md) — Process for measuring fidelity, utility, privacy, and bias of synthetic datasets before use.
 - [system prompt](terms/system-prompt.md) — Foundational instruction that sets role, tone, and guardrails for an AI assistant before user input.
 - [temperature](terms/temperature.md) — Decoding parameter that controls how random or deterministic a model’s outputs are.
 - [token](terms/token.md) — Smallest unit of text a model processes after tokenization, such as a word fragment or character.
@@ -183,22 +247,42 @@ Drive experimentation, measurement, and model improvement.
 ## Policy & Risk
 Ensure responsible AI controls align with governance frameworks.
 
+**Action plan**
+- Bookmark the [Glossary Search](search.md) filtered to this role and review the top 5 unfamiliar terms.
+- Schedule a sync with partner roles listed under each term to clarify ownership and open questions.
+- Capture insights in your runbook or onboarding guide so future teammates ramp faster.
+
+### Guided learning path
+1. Read algorithmic governance terms to map glossary content to internal controls.
+2. Identify three technical concepts to discuss with engineering for upcoming reviews.
+3. Draft guidance for disclosure or transparency using relevant glossary examples.
+
+### Practice checklist
+- Draft a review checklist referencing the top three governance terms surfaced in the backlog.
+- Map required disclosures for the next launch memo using linked glossary examples.
+
 ### Focus areas
-- Governance & Risk (19 terms)
-- Operations & Monitoring (10 terms)
+- Governance & Risk (28 terms)
+- Operations & Monitoring (13 terms)
 - Foundations (6 terms)
-- LLM Core (1 term)
+- LLM Core (3 terms)
 
 ### Recommended terms
+- [ai assurance](terms/ai-assurance.md) — Discipline that produces evidence, controls, and attestations showing an AI system meets agreed safety, compliance, and performance thresholds.
 - [ai incident response](terms/ai-incident-response.md) — Coordinated workflow for detecting, triaging, and remediating harmful or out-of-policy AI behavior.
+- [algorithmic audit](terms/algorithmic-audit.md) — Independent review of an AI system’s data, design, and outcomes to verify compliance, fairness, and risk controls.
 - [algorithmic bias](terms/algorithmic-bias.md) — Systematic unfairness in model outputs that disadvantages certain groups or outcomes.
+- [algorithmic impact assessment](terms/algorithmic-impact-assessment.md) — Structured review that documents how an AI system may affect people, processes, and compliance obligations.
 - [alignment](terms/alignment.md) — Making sure AI systems optimize for human values, policies, and intended outcomes.
 - [bias-variance tradeoff](terms/bias-variance-tradeoff.md) — Balance between underfitting and overfitting: low bias increases variance, while high bias lowers variance but misses patterns.
 - [confusion matrix](terms/confusion-matrix.md) — Table that summarizes true/false positives and negatives to diagnose classification performance.
+- [constitutional ai](terms/constitutional-ai.md) — Alignment approach where models critique and revise their own outputs against a written set of principles.
 - [content moderation](terms/content-moderation.md) — Workflows and tools that review, filter, and act on user-generated content to enforce policy.
 - [data minimization](terms/data-minimization.md) — Principle of collecting and retaining only the data necessary for a defined purpose.
+- [data retention](terms/data-retention.md) — Policies defining how long data is stored, where it lives, and how it is deleted.
 - [differential privacy](terms/differential-privacy.md) — Mathematical framework that limits how much any single record influences published data or model outputs.
 - [evaluation](terms/evaluation.md) — Systematic measurement of model performance, safety, and reliability using defined tests.
+- [fairness metrics](terms/fairness-metrics.md) — Quantitative measures that evaluate whether model performance is equitable across groups.
 - [generative ai](terms/generative-ai.md) — Family of models that produce new content—text, images, code—rather than only making predictions.
 - [guardrails](terms/guardrails.md) — Controls that constrain model behavior to comply with safety, legal, or brand requirements.
 - [hallucination](terms/hallucination.md) — When an AI model presents fabricated or unsupported information as fact.
@@ -207,6 +291,7 @@ Ensure responsible AI controls align with governance frameworks.
 - [model card](terms/model-card.md) — Standardized documentation describing a model’s purpose, data, performance, and limitations.
 - [model drift](terms/model-drift.md) — Gradual mismatch between model assumptions and real-world data that degrades performance over time.
 - [model governance](terms/model-governance.md) — Policies and processes that manage AI models across risk, compliance, and lifecycle decisions.
+- [model interpretability](terms/model-interpretability.md) — Ability to explain how a model arrives at its predictions in ways stakeholders understand.
 - [precision](terms/precision.md) — Share of predicted positives that are actually correct for a given classifier.
 - [privacy](terms/privacy.md) — Principle of limiting data collection, use, and exposure to protect individuals’ information.
 - [privacy impact assessment](terms/privacy-impact-assessment.md) — Structured review that evaluates how a system collects, uses, and safeguards personal data.
@@ -214,30 +299,52 @@ Ensure responsible AI controls align with governance frameworks.
 - [red teaming](terms/red-teaming.md) — Deliberate stress testing that probes AI systems for harmful, biased, or policy-violating behavior.
 - [responsible ai](terms/responsible-ai.md) — Frameworks and practices that ensure AI systems are safe, fair, and aligned with ethical and legal expectations.
 - [safety evaluation](terms/safety-evaluation.md) — Testing focused on preventing harmful, abusive, or policy-violating AI behavior before and after launch.
+- [safety spec](terms/safety-spec.md) — Document that codifies allowed, disallowed, and escalated behaviours for an AI system so teams can enforce safety and policy expectations.
 - [synthetic data](terms/synthetic-data.md) — Artificially generated dataset used to augment training, testing, or privacy-preserving workflows.
+- [synthetic data evaluation](terms/synthetic-data-evaluation.md) — Process for measuring fidelity, utility, privacy, and bias of synthetic datasets before use.
 - [voice cloning](terms/voice-cloning.md) — Technique that replicates a person’s voice using generative models trained on audio samples.
 
 ## Legal & Compliance
 Evaluate regulatory exposure, contracts, and IP concerns.
 
+**Action plan**
+- Bookmark the [Glossary Search](search.md) filtered to this role and review the top 5 unfamiliar terms.
+- Schedule a sync with partner roles listed under each term to clarify ownership and open questions.
+- Capture insights in your runbook or onboarding guide so future teammates ramp faster.
+
+### Guided learning path
+1. Focus on Responsible AI and compliance-related terms to spot regulatory hooks.
+2. Cross-reference privacy-focused entries with current policy language.
+3. Capture open questions for the next risk or contract review cycle.
+
+### Practice checklist
+- Compare contractual language with glossary definitions for privacy and retention to spot gaps.
+- Flag terms needing legal guidance through the intake form so questions are tracked.
+
 ### Focus areas
-- Governance & Risk (16 terms)
-- Operations & Monitoring (5 terms)
+- Governance & Risk (22 terms)
+- Operations & Monitoring (7 terms)
 - Foundations (1 term)
 - LLM Core (1 term)
 
 ### Recommended terms
+- [ai assurance](terms/ai-assurance.md) — Discipline that produces evidence, controls, and attestations showing an AI system meets agreed safety, compliance, and performance thresholds.
 - [ai incident response](terms/ai-incident-response.md) — Coordinated workflow for detecting, triaging, and remediating harmful or out-of-policy AI behavior.
+- [algorithmic audit](terms/algorithmic-audit.md) — Independent review of an AI system’s data, design, and outcomes to verify compliance, fairness, and risk controls.
 - [algorithmic bias](terms/algorithmic-bias.md) — Systematic unfairness in model outputs that disadvantages certain groups or outcomes.
+- [algorithmic impact assessment](terms/algorithmic-impact-assessment.md) — Structured review that documents how an AI system may affect people, processes, and compliance obligations.
 - [alignment](terms/alignment.md) — Making sure AI systems optimize for human values, policies, and intended outcomes.
 - [data minimization](terms/data-minimization.md) — Principle of collecting and retaining only the data necessary for a defined purpose.
+- [data retention](terms/data-retention.md) — Policies defining how long data is stored, where it lives, and how it is deleted.
 - [differential privacy](terms/differential-privacy.md) — Mathematical framework that limits how much any single record influences published data or model outputs.
 - [evaluation](terms/evaluation.md) — Systematic measurement of model performance, safety, and reliability using defined tests.
+- [fairness metrics](terms/fairness-metrics.md) — Quantitative measures that evaluate whether model performance is equitable across groups.
 - [guardrails](terms/guardrails.md) — Controls that constrain model behavior to comply with safety, legal, or brand requirements.
 - [hallucination](terms/hallucination.md) — When an AI model presents fabricated or unsupported information as fact.
 - [model card](terms/model-card.md) — Standardized documentation describing a model’s purpose, data, performance, and limitations.
 - [model drift](terms/model-drift.md) — Gradual mismatch between model assumptions and real-world data that degrades performance over time.
 - [model governance](terms/model-governance.md) — Policies and processes that manage AI models across risk, compliance, and lifecycle decisions.
+- [model interpretability](terms/model-interpretability.md) — Ability to explain how a model arrives at its predictions in ways stakeholders understand.
 - [privacy](terms/privacy.md) — Principle of limiting data collection, use, and exposure to protect individuals’ information.
 - [privacy impact assessment](terms/privacy-impact-assessment.md) — Structured review that evaluates how a system collects, uses, and safeguards personal data.
 - [red teaming](terms/red-teaming.md) — Deliberate stress testing that probes AI systems for harmful, biased, or policy-violating behavior.
@@ -247,16 +354,33 @@ Evaluate regulatory exposure, contracts, and IP concerns.
 ## Security & Trust
 Safeguard data, access, and abuse prevention.
 
+**Action plan**
+- Bookmark the [Glossary Search](search.md) filtered to this role and review the top 5 unfamiliar terms.
+- Schedule a sync with partner roles listed under each term to clarify ownership and open questions.
+- Capture insights in your runbook or onboarding guide so future teammates ramp faster.
+
+### Guided learning path
+1. Study Operations & Monitoring entries for logging and detection requirements.
+2. Review tool and agent terminology to assess abuse surface areas.
+3. Coordinate with product/legal on incident response and disclosure expectations.
+
+### Practice checklist
+- Audit incident response and tool-use entries to confirm abuse-prevention controls are documented.
+- Plan a tabletop exercise using the glossary's scenario examples and log outcomes.
+
 ### Focus areas
-- Governance & Risk (11 terms)
+- Governance & Risk (14 terms)
 - Operations & Monitoring (8 terms)
 - Foundations (1 term)
+- LLM Core (1 term)
 
 ### Recommended terms
+- [ai assurance](terms/ai-assurance.md) — Discipline that produces evidence, controls, and attestations showing an AI system meets agreed safety, compliance, and performance thresholds.
 - [ai incident response](terms/ai-incident-response.md) — Coordinated workflow for detecting, triaging, and remediating harmful or out-of-policy AI behavior.
 - [algorithmic bias](terms/algorithmic-bias.md) — Systematic unfairness in model outputs that disadvantages certain groups or outcomes.
 - [content moderation](terms/content-moderation.md) — Workflows and tools that review, filter, and act on user-generated content to enforce policy.
 - [data minimization](terms/data-minimization.md) — Principle of collecting and retaining only the data necessary for a defined purpose.
+- [data retention](terms/data-retention.md) — Policies defining how long data is stored, where it lives, and how it is deleted.
 - [differential privacy](terms/differential-privacy.md) — Mathematical framework that limits how much any single record influences published data or model outputs.
 - [evaluation](terms/evaluation.md) — Systematic measurement of model performance, safety, and reliability using defined tests.
 - [ml observability](terms/ml-observability.md) — Practices and tooling that surface model health through metrics, traces, and alerts across the lifecycle.
@@ -264,22 +388,39 @@ Safeguard data, access, and abuse prevention.
 - [model drift](terms/model-drift.md) — Gradual mismatch between model assumptions and real-world data that degrades performance over time.
 - [privacy impact assessment](terms/privacy-impact-assessment.md) — Structured review that evaluates how a system collects, uses, and safeguards personal data.
 - [red teaming](terms/red-teaming.md) — Deliberate stress testing that probes AI systems for harmful, biased, or policy-violating behavior.
+- [safety spec](terms/safety-spec.md) — Document that codifies allowed, disallowed, and escalated behaviours for an AI system so teams can enforce safety and policy expectations.
 - [synthetic data](terms/synthetic-data.md) — Artificially generated dataset used to augment training, testing, or privacy-preserving workflows.
 - [voice cloning](terms/voice-cloning.md) — Technique that replicates a person’s voice using generative models trained on audio samples.
 
 ## Communications & Enablement
 Craft messaging, disclosure, and stakeholder education.
 
+**Action plan**
+- Bookmark the [Glossary Search](search.md) filtered to this role and review the top 5 unfamiliar terms.
+- Schedule a sync with partner roles listed under each term to clarify ownership and open questions.
+- Capture insights in your runbook or onboarding guide so future teammates ramp faster.
+
+### Guided learning path
+1. Scan definitions tagged for Governance & Risk to prep stakeholder messaging.
+2. Collect relatable examples from the glossary to use in enablement materials.
+3. Draft a narrative that links technical terms to user-facing value and risk mitigations.
+
+### Practice checklist
+- Draft an FAQ using glossary language to keep messaging consistent across teams.
+- Tag enablement tickets with relevant glossary links so stakeholders can self-serve context.
+
 ### Focus areas
-- Governance & Risk (15 terms)
+- Governance & Risk (18 terms)
 - Operations & Monitoring (7 terms)
 - Foundations (4 terms)
-- LLM Core (2 terms)
+- LLM Core (3 terms)
 - Retrieval & RAG (1 term)
 
 ### Recommended terms
 - [ai incident response](terms/ai-incident-response.md) — Coordinated workflow for detecting, triaging, and remediating harmful or out-of-policy AI behavior.
+- [algorithmic audit](terms/algorithmic-audit.md) — Independent review of an AI system’s data, design, and outcomes to verify compliance, fairness, and risk controls.
 - [algorithmic bias](terms/algorithmic-bias.md) — Systematic unfairness in model outputs that disadvantages certain groups or outcomes.
+- [algorithmic impact assessment](terms/algorithmic-impact-assessment.md) — Structured review that documents how an AI system may affect people, processes, and compliance obligations.
 - [alignment](terms/alignment.md) — Making sure AI systems optimize for human values, policies, and intended outcomes.
 - [clip](terms/clip.md) — Multimodal model that embeds images and text into a shared space using contrastive learning.
 - [content moderation](terms/content-moderation.md) — Workflows and tools that review, filter, and act on user-generated content to enforce policy.
@@ -295,4 +436,5 @@ Craft messaging, disclosure, and stakeholder education.
 - [red teaming](terms/red-teaming.md) — Deliberate stress testing that probes AI systems for harmful, biased, or policy-violating behavior.
 - [responsible ai](terms/responsible-ai.md) — Frameworks and practices that ensure AI systems are safe, fair, and aligned with ethical and legal expectations.
 - [safety evaluation](terms/safety-evaluation.md) — Testing focused on preventing harmful, abusive, or policy-violating AI behavior before and after launch.
+- [safety spec](terms/safety-spec.md) — Document that codifies allowed, disallowed, and escalated behaviours for an AI system so teams can enforce safety and policy expectations.
 - [voice cloning](terms/voice-cloning.md) — Technique that replicates a person’s voice using generative models trained on audio samples.

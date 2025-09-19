@@ -55,6 +55,7 @@ Tools for grounding models with external knowledge and search infrastructure.
 Agent patterns, tool invocation, and orchestration strategies.
 
 - [agentic ai](terms/agentic-ai.md) — Engineering & Platform, Product & Program Managers
+- [function calling](terms/function-calling.md) — Engineering & Platform, Product & Program Managers, Data Science & Research
 - [tool use](terms/tool-use.md) — Engineering & Platform, Product & Program Managers
 
 ## Optimization & Efficiency
@@ -73,21 +74,30 @@ Operational playbooks for running AI in production.
 - [ml observability](terms/ml-observability.md) — Engineering & Platform, Policy & Risk, Security & Trust
 - [ml ops](terms/ml-ops.md) — Engineering & Platform, Policy & Risk, Security & Trust
 - [model drift](terms/model-drift.md) — Communications & Enablement, Engineering & Platform, Legal & Compliance, Policy & Risk, Product & Program Managers, Security & Trust
+- [synthetic data evaluation](terms/synthetic-data-evaluation.md) — Data Science & Research, Engineering & Platform, Policy & Risk, Product & Program Managers
 
 ## Governance & Risk
 Policies, controls, and assessments that ensure responsible AI.
 
+- [ai assurance](terms/ai-assurance.md) — Product & Program Managers, Engineering & Platform, Policy & Risk, Legal & Compliance, Security & Trust
+- [algorithmic audit](terms/algorithmic-audit.md) — Product & Program Managers, Engineering & Platform, Policy & Risk, Legal & Compliance, Communications & Enablement
 - [algorithmic bias](terms/algorithmic-bias.md) — Policy & Risk, Legal & Compliance, Product & Program Managers, Communications & Enablement, Security & Trust
+- [algorithmic impact assessment](terms/algorithmic-impact-assessment.md) — Policy & Risk, Legal & Compliance, Product & Program Managers, Communications & Enablement, Engineering & Platform
 - [alignment](terms/alignment.md) — Communications & Enablement, Legal & Compliance, Policy & Risk, Product & Program Managers
+- [constitutional ai](terms/constitutional-ai.md) — Product & Program Managers, Engineering & Platform, Policy & Risk
 - [content moderation](terms/content-moderation.md) — Policy & Risk, Communications & Enablement, Product & Program Managers, Security & Trust, Engineering & Platform
 - [data minimization](terms/data-minimization.md) — Legal & Compliance, Policy & Risk, Product & Program Managers, Security & Trust
+- [data retention](terms/data-retention.md) — Legal & Compliance, Policy & Risk, Security & Trust, Product & Program Managers
 - [differential privacy](terms/differential-privacy.md) — Engineering & Platform, Legal & Compliance, Policy & Risk, Security & Trust
+- [fairness metrics](terms/fairness-metrics.md) — Policy & Risk, Legal & Compliance, Engineering & Platform, Product & Program Managers
 - [guardrails](terms/guardrails.md) — Communications & Enablement, Legal & Compliance, Policy & Risk, Product & Program Managers
 - [model card](terms/model-card.md) — Policy & Risk, Legal & Compliance, Product & Program Managers, Engineering & Platform, Communications & Enablement
 - [model governance](terms/model-governance.md) — Communications & Enablement, Legal & Compliance, Policy & Risk, Product & Program Managers
+- [model interpretability](terms/model-interpretability.md) — Engineering & Platform, Policy & Risk, Legal & Compliance, Product & Program Managers
 - [privacy](terms/privacy.md) — Communications & Enablement, Legal & Compliance, Policy & Risk, Product & Program Managers
 - [privacy impact assessment](terms/privacy-impact-assessment.md) — Legal & Compliance, Policy & Risk, Product & Program Managers, Security & Trust
 - [red teaming](terms/red-teaming.md) — Communications & Enablement, Engineering & Platform, Legal & Compliance, Policy & Risk, Product & Program Managers, Security & Trust
 - [responsible ai](terms/responsible-ai.md) — Communications & Enablement, Legal & Compliance, Policy & Risk, Product & Program Managers
 - [safety evaluation](terms/safety-evaluation.md) — Engineering & Platform, Policy & Risk, Product & Program Managers, Communications & Enablement
+- [safety spec](terms/safety-spec.md) — Product & Program Managers, Engineering & Platform, Policy & Risk, Security & Trust, Communications & Enablement
 - [synthetic data](terms/synthetic-data.md) — Data Science & Research, Engineering & Platform, Policy & Risk, Product & Program Managers, Security & Trust

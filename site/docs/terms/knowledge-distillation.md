@@ -8,7 +8,16 @@
 **Categories:** Optimization & Efficiency
 **Roles:** Data Science & Research, Engineering & Platform
 **Part of speech:** `process`
-**Status:** `draft` (Last reviewed: 2024-11-01)
+**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-11-01)
+
+## Role takeaways
+- **Data Science & Research:** Incorporate the metric or method into evaluation pipelines.
+- **Engineering & Platform:** Document implementation requirements and operational caveats.
+
+## Practice & apply
+- Record before-and-after performance metrics when applying this optimisation technique.
+- Document trade-offs for product and policy partners using the glossary's language.
+- Share takeaways with the accountable roles listed above so actions land with the right owners.
 
 ## Short definition
 Technique that trains a smaller student model to mimic a larger teacher model’s behavior.
@@ -34,6 +43,9 @@ Knowledge distillation transfers capabilities from a high-capacity teacher model
 ## Relationships
 - **Broader:** model optimization
 - **Related:** quantization, low-rank adaptation, evaluation
+
+!!! info "Something missing?"
+    Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'knowledge distillation'.
 
 ## Citations
 - [Google ML Glossary](https://developers.google.com/machine-learning/glossary)

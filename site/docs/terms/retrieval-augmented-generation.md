@@ -8,7 +8,20 @@
 **Categories:** Retrieval & RAG
 **Roles:** Data Science & Research, Engineering & Platform, Product & Program Managers
 **Part of speech:** `process`
-**Status:** `draft` (Last reviewed: 2024-09-18)
+**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-09-18)
+
+!!! tip "Put it into practice"
+    Consult the [Category Explorer](../categories.md#retrieval--rag) for end-to-end grounding guidance.
+
+## Role takeaways
+- **Data Science & Research:** Incorporate the metric or method into evaluation pipelines.
+- **Engineering & Platform:** Document implementation requirements and operational caveats.
+- **Product & Program Managers:** Translate this concept into user impact and rollout plans.
+
+## Practice & apply
+- Validate retrieval quality using the evaluation guidance referenced in this entry.
+- Ensure knowledge sources named here appear in your data governance inventory.
+- Share takeaways with the accountable roles listed above so actions land with the right owners.
 
 ## Short definition
 Workflow that grounds a generative model with retrieved context before producing output.
@@ -37,6 +50,9 @@ Retrieval-augmented generation (RAG) combines information retrieval and text gen
 - **Broader:** grounded generation
 - **Narrower:** hybrid RAG, agentic RAG
 - **Related:** retrieval, chunking, reranking, hallucination
+
+!!! info "Something missing?"
+    Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'retrieval-augmented generation'.
 
 ## Citations
 - [Hugging Face Glossary](https://huggingface.co/docs/transformers/en/glossary)

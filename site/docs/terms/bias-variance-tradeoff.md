@@ -8,7 +8,17 @@
 **Categories:** Foundations
 **Roles:** Data Science & Research, Engineering & Platform, Policy & Risk
 **Part of speech:** `concept`
-**Status:** `draft` (Last reviewed: 2024-11-03)
+**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-11-03)
+
+## Role takeaways
+- **Data Science & Research:** Incorporate the metric or method into evaluation pipelines.
+- **Engineering & Platform:** Document implementation requirements and operational caveats.
+- **Policy & Risk:** Map the definition to governance controls and review checklists.
+
+## Practice & apply
+- Add this concept to onboarding materials so teammates share a common baseline.
+- Link supporting research or documentation in your internal wiki for deeper study.
+- Share takeaways with the accountable roles listed above so actions land with the right owners.
 
 ## Short definition
 Balance between underfitting and overfitting: low bias increases variance, while high bias lowers variance but misses patterns.
@@ -36,6 +46,9 @@ The bias-variance tradeoff describes how model complexity influences generalizat
 ## Relationships
 - **Broader:** model training
 - **Related:** overfitting, cross-validation, regularization
+
+!!! info "Something missing?"
+    Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'bias-variance tradeoff'.
 
 ## Citations
 - [Google ML Glossary](https://developers.google.com/machine-learning/glossary)

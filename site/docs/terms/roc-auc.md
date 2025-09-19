@@ -8,7 +8,17 @@
 **Categories:** Foundations
 **Roles:** Data Science & Research, Engineering & Platform, Product & Program Managers
 **Part of speech:** `noun`
-**Status:** `draft` (Last reviewed: 2024-11-03)
+**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-11-03)
+
+## Role takeaways
+- **Data Science & Research:** Incorporate the metric or method into evaluation pipelines.
+- **Engineering & Platform:** Document implementation requirements and operational caveats.
+- **Product & Program Managers:** Translate this concept into user impact and rollout plans.
+
+## Practice & apply
+- Add this concept to onboarding materials so teammates share a common baseline.
+- Link supporting research or documentation in your internal wiki for deeper study.
+- Share takeaways with the accountable roles listed above so actions land with the right owners.
 
 ## Short definition
 Metric summarizing binary classifier performance by measuring area under the ROC curve.
@@ -36,6 +46,9 @@ ROC AUC (Receiver Operating Characteristic Area Under the Curve) quantifies how 
 ## Relationships
 - **Broader:** evaluation
 - **Related:** cross-validation, bias-variance tradeoff, algorithmic bias
+
+!!! info "Something missing?"
+    Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'roc auc'.
 
 ## Citations
 - [Google ML Glossary](https://developers.google.com/machine-learning/glossary)

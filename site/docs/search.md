@@ -1,9 +1,26 @@
 # Glossary Search
 
-Use the interactive search below to scan terms, aliases, categories, and
-statuses. Results update as you type.
+Use the interactive search below to scan terms, aliases, categories, roles, and
+statuses. Layer filters to narrow the glossary down to the exact concepts your
+team needs.
 
 <div class="search-panel">
+  <div class="search-field search-field--chips">
+    <span>Quick filters</span>
+    <div class="search-chips" role="group" aria-label="Quick filters">
+      <button type="button" data-chip data-role="product">Product</button>
+      <button type="button" data-chip data-role="engineering">Engineering</button>
+      <button type="button" data-chip data-role="policy">Policy &amp; Risk</button>
+      <button type="button" data-chip data-role="legal">Legal &amp; Compliance</button>
+      <button type="button" data-chip data-category="Governance &amp; Risk">Governance &amp; Risk</button>
+      <button type="button" data-chip data-category="LLM Core">LLM Core</button>
+      <button type="button" data-chip data-category="Operations &amp; Monitoring">Operations &amp; Monitoring</button>
+      <button type="button" data-chip data-status="draft">Draft</button>
+      <button type="button" data-chip data-status="reviewed">Reviewed</button>
+    </div>
+    <button type="button" class="search-reset" id="glossary-reset-filters">Clear filters</button>
+    <p class="search-tip">Tip: combine a role with a category to see the vocabulary most relevant to your current project.</p>
+  </div>
   <label class="search-field">
     <span>Search</span>
     <input id="glossary-search-input" type="search" placeholder="Try retrieval, token, risk..." />
@@ -28,6 +45,9 @@ statuses. Results update as you type.
   </label>
 </div>
 
+<div class="search-summary" data-filter-summary aria-live="polite">Showing glossary results.</div>
+<p class="search-tip search-tip--inline">Tip: copy the page URL after selecting filters to share a saved view with your team.</p>
+
 <div id="glossary-search-results" class="search-results"></div>
 
 <script>
@@ -38,6 +58,9 @@ statuses. Results update as you type.
     const statusSelect = document.getElementById('glossary-status-select');
     const roleSelect = document.getElementById('glossary-role-select');
     const resultsContainer = document.getElementById('glossary-search-results');
+    const chipElements = Array.from(document.querySelectorAll('[data-chip]'));
+    const resetButton = document.getElementById('glossary-reset-filters');
+    const filterSummary = document.querySelector('[data-filter-summary]');
 
     let terms = [];
 
@@ -53,6 +76,22 @@ statuses. Results update as you type.
 
     function normalise(value) {
       return (value || '').toLowerCase();
+    }
+
+    function titleCase(value) {
+      if (!value) {
+        return value;
+      }
+      return value.replace(/\b([a-z])/g, (match) => match.toUpperCase());
+    }
+
+    function highlightMatch(text, query) {
+      if (!query) {
+        return text;
+      }
+      const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      const regex = new RegExp(`(${escaped})`, 'ig');
+      return text.replace(regex, '<mark>$1</mark>');
     }
 
     function matches(term, query) {
@@ -93,6 +132,41 @@ statuses. Results update as you type.
       return (term.roles || []).some((item) => normalise(item) === normalise(role));
     }
 
+    function renderFilterSummary(resultCount, query, category, status, role) {
+      if (!filterSummary) {
+        return;
+      }
+      const parts = [];
+      if (query) {
+        parts.push(`Query: “${query}”`);
+      }
+      if (category) {
+        parts.push(`Category: ${category}`);
+      }
+      if (status) {
+        parts.push(`Status: ${titleCase(status)}`);
+      }
+      if (role) {
+        parts.push(`Role: ${ROLE_LABELS[role] || role}`);
+      }
+      const prefix = parts.length ? `<strong>Active filters:</strong> ${parts.join(' · ')}` : 'Showing all terms.';
+      filterSummary.innerHTML = `${prefix} <span class="search-summary-count">${resultCount} result${resultCount === 1 ? '' : 's'}</span>`;
+    }
+
+    function syncChips() {
+      chipElements.forEach((chip) => {
+        const category = chip.getAttribute('data-category');
+        const role = chip.getAttribute('data-role');
+        const status = chip.getAttribute('data-status');
+        const isActive =
+          (category && categorySelect.value === category) ||
+          (role && roleSelect.value === role) ||
+          (status && statusSelect.value === status);
+        chip.classList.toggle('active', Boolean(isActive));
+        chip.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+      });
+    }
+
     function renderResults() {
       const query = searchInput.value.trim();
       const category = categorySelect.value;
@@ -108,7 +182,9 @@ statuses. Results update as you type.
       );
 
       if (!filtered.length) {
-        resultsContainer.innerHTML = '<p class="search-empty">No matching entries yet.</p>';
+        resultsContainer.innerHTML = '<p class="search-empty">No matching entries yet. Try clearing a filter or using a broader term.</p>';
+        renderFilterSummary(0, query, category, status, role);
+        syncChips();
         return;
       }
 
@@ -122,24 +198,30 @@ statuses. Results update as you type.
           ? ` <span class="search-aliases">(Aliases: ${item.aliases.join(', ')})</span>`
           : '';
         const categories = item.categories && item.categories.length
-          ? `<span class="search-categories">${item.categories.join(', ')}</span>`
+          ? `<span class="search-categories"><span class="meta-label">Categories</span>${item.categories.map((value) => `<span class=\"badge\">${value}</span>`).join(' ')}</span>`
           : '';
-        const status = item.status ? `<span class="search-status">${item.status}</span>` : '';
-        const roles = item.roles && item.roles.length
-          ? `<span class="search-roles">${item.roles.map((value) => ROLE_LABELS[value] || value).join(', ')}</span>`
+        const statusMarkup = item.status
+          ? `<span class="search-status"><span class="meta-label">Status</span><span class="badge status status-${item.status}">${titleCase(item.status)}</span></span>`
+          : '';
+        const rolesMarkup = item.roles && item.roles.length
+          ? `<span class="search-roles"><span class="meta-label">Roles</span>${item.roles.map((value) => `<span class=\"badge role\">${ROLE_LABELS[value] || value}</span>`).join(' ')}</span>`
           : '';
         const href = item.slug ? `../terms/${item.slug}/` : '#';
+        const highlightedTerm = highlightMatch(item.term, query);
+        const highlightedSummary = highlightMatch(item.short_def || '', query);
         li.innerHTML = `
-          <a href="${href}">${item.term}</a>
+          <a href="${href}">${highlightedTerm}</a>
           ${aliases}
-          <div class="search-meta">${categories} ${status} ${roles}</div>
-          <p>${item.short_def || ''}</p>
+          <div class="search-meta">${categories} ${statusMarkup} ${rolesMarkup}</div>
+          <p>${highlightedSummary}</p>
         `;
         list.appendChild(li);
       });
 
       resultsContainer.innerHTML = '';
       resultsContainer.appendChild(list);
+      renderFilterSummary(filtered.length, query, category, status, role);
+      syncChips();
     }
 
     function populateFilters() {
@@ -169,7 +251,7 @@ statuses. Results update as you type.
         .forEach((value) => {
           const option = document.createElement('option');
           option.value = value;
-          option.textContent = value;
+          option.textContent = titleCase(value);
           statusSelect.appendChild(option);
         });
 
@@ -188,6 +270,35 @@ statuses. Results update as you type.
         element.addEventListener('input', renderResults);
         element.addEventListener('change', renderResults);
       });
+
+      chipElements.forEach((chip) => {
+        chip.addEventListener('click', () => {
+          const category = chip.getAttribute('data-category');
+          const role = chip.getAttribute('data-role');
+          const status = chip.getAttribute('data-status');
+
+          if (category) {
+            categorySelect.value = categorySelect.value === category ? '' : category;
+          }
+          if (role) {
+            roleSelect.value = roleSelect.value === role ? '' : role;
+          }
+          if (status) {
+            statusSelect.value = statusSelect.value === status ? '' : status;
+          }
+          renderResults();
+        });
+      });
+
+      if (resetButton) {
+        resetButton.addEventListener('click', () => {
+          searchInput.value = '';
+          categorySelect.value = '';
+          statusSelect.value = '';
+          roleSelect.value = '';
+          renderResults();
+        });
+      }
     }
 
     fetch(dataUrl)
@@ -205,6 +316,9 @@ statuses. Results update as you type.
       })
       .catch((error) => {
         resultsContainer.innerHTML = `<p class="search-error">${error.message}</p>`;
+        if (filterSummary) {
+          filterSummary.textContent = 'Search is temporarily unavailable.';
+        }
       });
   })();
 </script>
@@ -215,6 +329,10 @@ statuses. Results update as you type.
     flex-wrap: wrap;
     gap: 1rem;
     margin-bottom: 1.5rem;
+    border: 1px solid var(--md-default-fg-color--lightest, #e0e0e0);
+    border-radius: 12px;
+    padding: 1.25rem;
+    background: rgba(33, 150, 243, 0.05);
   }
   .search-field {
     display: flex;
@@ -222,10 +340,60 @@ statuses. Results update as you type.
     min-width: 200px;
     font-weight: 600;
   }
+  .search-field--chips {
+    flex: 1 1 100%;
+  }
+  .search-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.35rem;
+  }
+  .search-chips button {
+    border: 1px solid var(--md-primary-fg-color, #2962ff);
+    background: transparent;
+    color: var(--md-primary-fg-color, #2962ff);
+    padding: 0.35rem 0.75rem;
+    border-radius: 999px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .search-chips button.active,
+  .search-chips button:hover {
+    background: var(--md-primary-fg-color, #2962ff);
+    color: var(--md-primary-bg-color, #fff);
+  }
   .search-field input,
   .search-field select {
     margin-top: 0.25rem;
     padding: 0.5rem;
+  }
+  .search-reset {
+    margin-top: 0.75rem;
+    align-self: flex-start;
+    background: transparent;
+    border: none;
+    color: #0d47a1;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .search-tip {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: var(--md-default-fg-color--light, #555);
+  }
+  .search-tip--inline {
+    margin-top: 0;
+  }
+  .search-summary {
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  .search-summary-count {
+    margin-left: 0.35rem;
+    color: var(--md-default-fg-color--light, #555);
+    font-weight: 500;
   }
   .search-results .search-list {
     list-style: none;
@@ -238,24 +406,56 @@ statuses. Results update as you type.
   .search-results .search-item a {
     font-weight: 700;
   }
+  .search-results mark {
+    background: rgba(255, 235, 59, 0.45);
+    padding: 0 0.1rem;
+  }
   .search-meta {
     font-size: 0.85rem;
     color: var(--md-default-fg-color--light, #555);
-    margin: 0.25rem 0;
+    margin: 0.35rem 0 0.45rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
   }
-  .search-categories::before {
-    content: 'Categories: ';
-    font-weight: 600;
+  .meta-label {
+    font-weight: 700;
+    margin-right: 0.35rem;
   }
-  .search-status::before {
-    content: 'Status: ';
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.18rem 0.55rem;
+    border-radius: 999px;
+    background: rgba(33, 150, 243, 0.12);
+    color: var(--md-primary-fg-color, #2962ff);
+    margin-right: 0.25rem;
     font-weight: 600;
-    margin-left: 0.75rem;
+    font-size: 0.75rem;
   }
-  .search-roles::before {
-    content: 'Roles: ';
-    font-weight: 600;
-    margin-left: 0.75rem;
+  .badge.role {
+    background: rgba(103, 58, 183, 0.12);
+    color: var(--md-accent-fg-color, #7b1fa2);
+  }
+  .badge.status {
+    background: rgba(76, 175, 80, 0.12);
+    color: #2e7d32;
+  }
+  .badge.status.status-draft {
+    background: rgba(255, 193, 7, 0.18);
+    color: #b28704;
+  }
+  .badge.status.status-reviewed {
+    background: rgba(76, 175, 80, 0.18);
+    color: #2e7d32;
+  }
+  .badge.status.status-approved {
+    background: rgba(33, 150, 243, 0.18);
+    color: #0d47a1;
+  }
+  .badge.status.status-deprecated {
+    background: rgba(244, 67, 54, 0.18);
+    color: #c62828;
   }
   .search-aliases {
     font-size: 0.85rem;
@@ -265,5 +465,17 @@ statuses. Results update as you type.
   .search-error {
     color: var(--md-accent-fg-color, #d35400);
     font-weight: 600;
+  }
+  @media (max-width: 720px) {
+    .search-panel {
+      padding: 1rem;
+    }
+    .search-field {
+      min-width: 140px;
+      flex: 1 1 calc(50% - 1rem);
+    }
+    .search-field--chips {
+      flex: 1 1 100%;
+    }
   }
 </style>

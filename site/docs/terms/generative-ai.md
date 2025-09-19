@@ -8,7 +8,17 @@
 **Categories:** Foundations
 **Roles:** Communications & Enablement, Policy & Risk, Product & Program Managers
 **Part of speech:** `concept`
-**Status:** `draft` (Last reviewed: 2024-11-01)
+**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-11-01)
+
+## Role takeaways
+- **Communications & Enablement:** Align messaging, FAQs, and enablement materials using this definition.
+- **Policy & Risk:** Map the definition to governance controls and review checklists.
+- **Product & Program Managers:** Translate this concept into user impact and rollout plans.
+
+## Practice & apply
+- Add this concept to onboarding materials so teammates share a common baseline.
+- Link supporting research or documentation in your internal wiki for deeper study.
+- Share takeaways with the accountable roles listed above so actions land with the right owners.
 
 ## Short definition
 Family of models that produce new content—text, images, code—rather than only making predictions.
@@ -35,6 +45,9 @@ Generative AI refers to systems that create novel outputs such as text, images, 
 - **Broader:** artificial intelligence
 - **Narrower:** retrieval-augmented generation, hallucination, decoding
 - **Related:** attention, prompt engineering, guardrails
+
+!!! info "Something missing?"
+    Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'generative ai'.
 
 ## Citations
 - [NIST AI RMF Glossary](https://airc.nist.gov/glossary/)

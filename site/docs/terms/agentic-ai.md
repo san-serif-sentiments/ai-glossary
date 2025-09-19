@@ -8,7 +8,16 @@
 **Categories:** Agents & Tooling
 **Roles:** Engineering & Platform, Product & Program Managers
 **Part of speech:** `concept`
-**Status:** `draft` (Last reviewed: 2024-11-01)
+**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-11-01)
+
+## Role takeaways
+- **Engineering & Platform:** Document implementation requirements and operational caveats.
+- **Product & Program Managers:** Translate this concept into user impact and rollout plans.
+
+## Practice & apply
+- Audit exposed tools against the safeguards described and document approval paths.
+- Test hand-offs with human reviewers to confirm the safety expectations captured here are met.
+- Share takeaways with the accountable roles listed above so actions land with the right owners.
 
 ## Short definition
 Systems that plan, act, and iterate with minimal human prompts by chaining model calls and tools.
@@ -35,6 +44,9 @@ Agentic AI describes architectures where models make decisions about what action
 - **Broader:** generative ai
 - **Narrower:** tool use, retrieval-augmented generation
 - **Related:** guardrails, system prompt, incident response
+
+!!! info "Something missing?"
+    Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'agentic ai'.
 
 ## Citations
 - [NIST AI RMF Glossary](https://airc.nist.gov/glossary/)

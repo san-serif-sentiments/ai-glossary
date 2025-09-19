@@ -8,7 +8,18 @@
 **Categories:** Foundations
 **Roles:** Data Science & Research, Engineering & Platform, Product & Program Managers, Policy & Risk
 **Part of speech:** `noun`
-**Status:** `draft` (Last reviewed: 2024-11-03)
+**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-11-03)
+
+## Role takeaways
+- **Data Science & Research:** Incorporate the metric or method into evaluation pipelines.
+- **Engineering & Platform:** Document implementation requirements and operational caveats.
+- **Product & Program Managers:** Translate this concept into user impact and rollout plans.
+- **Policy & Risk:** Map the definition to governance controls and review checklists.
+
+## Practice & apply
+- Add this concept to onboarding materials so teammates share a common baseline.
+- Link supporting research or documentation in your internal wiki for deeper study.
+- Share takeaways with the accountable roles listed above so actions land with the right owners.
 
 ## Short definition
 Share of actual positives a model successfully identifies.
@@ -36,6 +47,9 @@ Recall measures how well a model finds all relevant cases by dividing true posit
 ## Relationships
 - **Broader:** evaluation
 - **Related:** precision, f1 score, confusion matrix
+
+!!! info "Something missing?"
+    Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'recall'.
 
 ## Citations
 - [Google ML Glossary](https://developers.google.com/machine-learning/glossary)

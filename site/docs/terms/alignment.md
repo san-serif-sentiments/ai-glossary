@@ -8,7 +8,18 @@
 **Categories:** Governance & Risk
 **Roles:** Communications & Enablement, Legal & Compliance, Policy & Risk, Product & Program Managers
 **Part of speech:** `concept`
-**Status:** `draft` (Last reviewed: 2024-11-01)
+**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-11-01)
+
+## Role takeaways
+- **Communications & Enablement:** Align messaging, FAQs, and enablement materials using this definition.
+- **Legal & Compliance:** Assess contractual and regulatory obligations tied to this term.
+- **Policy & Risk:** Map the definition to governance controls and review checklists.
+- **Product & Program Managers:** Translate this concept into user impact and rollout plans.
+
+## Practice & apply
+- Map this term to the governance dashboard and record accountable owners in the backlog.
+- Review current regulatory guidance or internal policy notes linked from the resources page before sign-off.
+- Share takeaways with the accountable roles listed above so actions land with the right owners.
 
 ## Short definition
 Making sure AI systems optimize for human values, policies, and intended outcomes.
@@ -35,6 +46,9 @@ Alignment is the multidisciplinary effort to design AI systems whose goals, beha
 - **Broader:** responsible AI
 - **Narrower:** constitutional AI, reinforcement learning from human feedback
 - **Related:** guardrails, evaluation, red teaming
+
+!!! info "Something missing?"
+    Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'alignment'.
 
 ## Citations
 - [NIST AI RMF Glossary](https://airc.nist.gov/glossary/)

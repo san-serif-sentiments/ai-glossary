@@ -1,0 +1,46 @@
+term: "function calling"
+aliases:
+  - "tool calling"
+  - "structured output invocation"
+categories:
+  - "Agents & Tooling"
+  - "LLM Core"
+roles:
+  - "engineering"
+  - "product"
+  - "data_science"
+part_of_speech: "process"
+short_def: "LLM capability that lets prompts invoke predefined functions and return structured arguments."
+long_def: >-
+  Function calling bridges natural language prompts and executable tools. Developers describe approved functions—such as retrieval queries, database lookups, or workflow automations—in a schema the model can reason about. During inference the model decides whether to call a function, fills the arguments with structured JSON, and uses the tool's response to continue the conversation. Product teams rely on function calling to chain RAG pipelines, trigger actions, or enforce form validation while keeping humans in the loop for sensitive steps. Robust implementations include guardrails on which functions are exposed, argument validation, and logging so security and compliance teams can audit usage. When paired with agent frameworks, function calling becomes the backbone for orchestrating multi-step tasks.
+audiences:
+  exec: "Function calling lets assistants take reliable actions by routing model suggestions into vetted business APIs."
+  engineer: "Expose idempotent, well-typed functions, validate arguments, and loop tool responses back into the conversation state."
+examples:
+  do:
+    - "Start with read-only functions and add write access only after logging and approval workflows exist."
+  dont:
+    - "Expose unrestricted shell commands or production secrets as callable functions."
+governance:
+  nist_rmf_tags:
+    - "accountability"
+    - "transparency"
+  risk_notes: "Unrestricted function catalogs can let models trigger unsafe actions without audit trails."
+relationships:
+  broader:
+    - "tool-use"
+  related:
+    - "agentic ai"
+    - "system prompt"
+    - "retrieval-augmented generation"
+    - "guardrails"
+citations:
+  - source: "OpenAI Glossary"
+    url: "https://platform.openai.com/docs/glossary"
+  - source: "LangChain Documentation Glossary"
+    url: "https://python.langchain.com/docs/glossary"
+  - source: "Hugging Face Glossary"
+    url: "https://huggingface.co/docs/transformers/en/glossary"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-26"

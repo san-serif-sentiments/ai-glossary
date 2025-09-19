@@ -1,0 +1,48 @@
+term: "fairness metrics"
+aliases:
+  - "fairness measures"
+  - "fairness evaluation"
+categories:
+  - "Governance & Risk"
+  - "Operations & Monitoring"
+roles:
+  - "policy"
+  - "legal"
+  - "engineering"
+  - "product"
+part_of_speech: "noun"
+short_def: "Quantitative measures that evaluate whether model performance is equitable across groups."
+long_def: >-
+  Fairness metrics quantify disparities between demographic or contextual groups. Common measures include demographic parity, equalized odds, equal opportunity, predictive parity, and subgroup-specific precision/recall. Teams apply these metrics during model evaluation, post-deployment monitoring, and incident response to detect fairness regressions. Choosing the right metric depends on regulatory requirements and domain priorities; not all metrics can be optimized simultaneously. Policy and legal stakeholders define fairness thresholds, while engineers build pipelines that compute metrics for each release and in production dashboards. Findings feed into model cards, governance reviews, and mitigation plans.
+audiences:
+  exec: "Fairness metrics tell us whether different groups get comparable outcomes from the AI."
+  engineer: "Compute metrics such as equalized odds, statistical parity difference, or subgroup ROC; monitor trends across releases and production."
+examples:
+  do:
+    - "Align fairness thresholds with business and regulatory requirements."
+    - "Track fairness metrics alongside traditional accuracy metrics in CI/CD."
+  dont:
+    - "Rely on a single fairness metric without understanding trade-offs."
+    - "Evaluate overall fairness without subgroup data or feedback from impacted communities."
+governance:
+  nist_rmf_tags:
+    - "fairness"
+    - "transparency"
+  risk_notes: "Failure to monitor fairness metrics can lead to discrimination, legal liability, and loss of trust."
+relationships:
+  broader:
+    - "algorithmic bias"
+  related:
+    - "model interpretability"
+    - "evaluation"
+    - "model card"
+citations:
+  - source: "NIST AI RMF Glossary"
+    url: "https://airc.nist.gov/glossary/"
+  - source: "UK POST AI Glossary"
+    url: "https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/"
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+license: "CC BY-SA 4.0"
+status: "draft"
+last_reviewed: "2024-11-04"
