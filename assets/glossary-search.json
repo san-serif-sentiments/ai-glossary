@@ -21,6 +21,30 @@
     "slug": "agentic-ai"
   },
   {
+    "term": "ai assurance",
+    "aliases": [
+      "AI assurance program"
+    ],
+    "categories": [
+      "Governance & Risk"
+    ],
+    "roles": [
+      "product",
+      "engineering",
+      "policy",
+      "legal",
+      "security"
+    ],
+    "short_def": "Discipline that produces evidence, controls, and attestations showing an AI system meets agreed safety, compliance, and performance thresholds.",
+    "nist_rmf_tags": [
+      "accountability",
+      "risk_management",
+      "transparency"
+    ],
+    "status": "draft",
+    "slug": "ai-assurance"
+  },
+  {
     "term": "ai incident response",
     "aliases": [
       "model incident response",
@@ -47,6 +71,30 @@
     "slug": "ai-incident-response"
   },
   {
+    "term": "algorithmic audit",
+    "aliases": [
+      "algorithm accountability audit"
+    ],
+    "categories": [
+      "Governance & Risk"
+    ],
+    "roles": [
+      "product",
+      "engineering",
+      "policy",
+      "legal",
+      "communications"
+    ],
+    "short_def": "Independent review of an AI system’s data, design, and outcomes to verify compliance, fairness, and risk controls.",
+    "nist_rmf_tags": [
+      "accountability",
+      "fairness",
+      "transparency"
+    ],
+    "status": "draft",
+    "slug": "algorithmic-audit"
+  },
+  {
     "term": "algorithmic bias",
     "aliases": [
       "systemic bias",
@@ -69,6 +117,31 @@
     ],
     "status": "draft",
     "slug": "algorithmic-bias"
+  },
+  {
+    "term": "algorithmic impact assessment",
+    "aliases": [
+      "AIA",
+      "AI impact assessment"
+    ],
+    "categories": [
+      "Governance & Risk"
+    ],
+    "roles": [
+      "policy",
+      "legal",
+      "product",
+      "communications",
+      "engineering"
+    ],
+    "short_def": "Structured review that documents how an AI system may affect people, processes, and compliance obligations.",
+    "nist_rmf_tags": [
+      "accountability",
+      "risk_management",
+      "transparency"
+    ],
+    "status": "draft",
+    "slug": "algorithmic-impact-assessment"
   },
   {
     "term": "alignment",
@@ -228,6 +301,30 @@
     ],
     "status": "draft",
     "slug": "confusion-matrix"
+  },
+  {
+    "term": "constitutional ai",
+    "aliases": [
+      "principle-guided alignment",
+      "self-critique alignment"
+    ],
+    "categories": [
+      "Governance & Risk",
+      "LLM Core"
+    ],
+    "roles": [
+      "product",
+      "engineering",
+      "policy"
+    ],
+    "short_def": "Alignment approach where models critique and revise their own outputs against a written set of principles.",
+    "nist_rmf_tags": [
+      "accountability",
+      "validity",
+      "transparency"
+    ],
+    "status": "draft",
+    "slug": "constitutional-ai"
   },
   {
     "term": "content moderation",
@@ -527,6 +624,29 @@
     ],
     "status": "draft",
     "slug": "fine-tuning"
+  },
+  {
+    "term": "function calling",
+    "aliases": [
+      "tool calling",
+      "structured output invocation"
+    ],
+    "categories": [
+      "Agents & Tooling",
+      "LLM Core"
+    ],
+    "roles": [
+      "engineering",
+      "product",
+      "data_science"
+    ],
+    "short_def": "LLM capability that lets prompts invoke predefined functions and return structured arguments.",
+    "nist_rmf_tags": [
+      "accountability",
+      "transparency"
+    ],
+    "status": "draft",
+    "slug": "function-calling"
   },
   {
     "term": "generative ai",
@@ -1191,6 +1311,32 @@
     ],
     "status": "draft",
     "slug": "safety-evaluation"
+  },
+  {
+    "term": "safety spec",
+    "aliases": [
+      "safety specification",
+      "model safety policy"
+    ],
+    "categories": [
+      "Governance & Risk",
+      "LLM Core"
+    ],
+    "roles": [
+      "product",
+      "engineering",
+      "policy",
+      "security",
+      "communications"
+    ],
+    "short_def": "Document that codifies allowed, disallowed, and escalated behaviours for an AI system so teams can enforce safety and policy expectations.",
+    "nist_rmf_tags": [
+      "risk_management",
+      "accountability",
+      "transparency"
+    ],
+    "status": "draft",
+    "slug": "safety-spec"
   },
   {
     "term": "synthetic data evaluation",
