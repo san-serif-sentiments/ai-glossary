@@ -26,6 +26,8 @@ exclude = [
 # Each string should contain the original URL regex pattern and its replacement, separated by a space.
 # Use a single `remap` key that holds an array of strings.
 # Each string contains the original URL regex pattern and its replacement, separated by a space.
+# Use a single `remap` key that holds an array of strings.
+# Each string contains the original URL regex pattern and its replacement, separated by a space.
 remap = [
   "^/terms/ terms/",
   "^/roles/ roles.md",
@@ -33,6 +35,7 @@ remap = [
   "^/search/index.html$ search.md",
   "^/governance-dashboard/index.html$ governance-dashboard.md"
 ]
+
 
 # Optional: ignore CI/config folders
 exclude_path = [
