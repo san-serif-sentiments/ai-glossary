@@ -316,11 +316,15 @@ team needs.
           const highlightedTerm = highlightMatch(item.term, query);
           const highlightedSummary = highlightMatch(item.short_def || '', query);
           li.innerHTML = `
-            <a href="${href}">${highlightedTerm}</a>
+            <a data-term-link>${highlightedTerm}</a>
             ${aliases}
             <div class="search-meta">${categories} ${statusMarkup} ${rolesMarkup} ${lastReviewedMarkup}</div>
             <p>${highlightedSummary}</p>
           `;
+          const link = li.querySelector('[data-term-link]');
+          if (link) {
+            link.setAttribute('href', href);
+          }
           list.appendChild(li);
         });
 
