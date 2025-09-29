@@ -1,9 +1,33 @@
+# lychee.toml (repo root)
+
+# Treat root-relative links like `/terms/...` as on-site URLs.
+base = "https://san-serif-sentiments.github.io/ai-glossary"
+
+# Caching & retries
 cache = true
 max-concurrency = 6
 retry-wait-time = 2
 retry-count = 2
+
+# Accept common success/redirect/ratelimit statuses
 accept = [200, 201, 202, 204, 206, 301, 302, 307, 308, 429]
+
+# Ignore obviously placeholder/external examples
 exclude = [
   "https://example.com/ai-glossary",
   "https://github.com/your-org/ai-glossary"
+]
+
+# Don’t try to resolve raw source tree paths that aren’t built HTML.
+# Adjust these to your repo layout if needed.
+exclude_path = [
+  "^site/docs/.*",          # your Markdown source folder (given your structure)
+  "^docs/.*",               # common default source folder (safety)
+  "^mkdocs\\.yml$",         # config files
+  "^\\.github/.*"           # workflows etc.
+]
+
+# If you have very slow sites/APIs you still want to pass on 429 + retry, keep accept above.
+# If you want to fail on 429, remove it from `accept`.
+
 ]

@@ -51,6 +51,7 @@ def build_search_index(terms: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
                 "short_def": entry.get("short_def"),
                 "nist_rmf_tags": entry.get("governance", {}).get("nist_rmf_tags", []),
                 "status": entry.get("status"),
+                "last_reviewed": entry.get("last_reviewed"),
                 "slug": entry.get("slug"),
             }
         )
