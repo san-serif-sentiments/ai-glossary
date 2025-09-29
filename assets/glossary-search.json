@@ -1,5 +1,28 @@
 [
   {
+    "term": "agent executor",
+    "aliases": [
+      "agent run loop",
+      "agent controller"
+    ],
+    "categories": [
+      "Agents & Tooling"
+    ],
+    "roles": [
+      "engineering",
+      "product"
+    ],
+    "short_def": "Controller layer that schedules planning, tool calls, and stop conditions so an AI agent completes tasks safely.",
+    "nist_rmf_tags": [
+      "governance",
+      "risk_management",
+      "transparency"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
+    "slug": "agent-executor"
+  },
+  {
     "term": "agentic ai",
     "aliases": [
       "ai agents",
@@ -17,7 +40,8 @@
       "accountability",
       "risk_management"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "agentic-ai"
   },
   {
@@ -41,8 +65,34 @@
       "risk_management",
       "transparency"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "ai-assurance"
+  },
+  {
+    "term": "ai circuit breaker",
+    "aliases": [
+      "kill switch",
+      "automated shutdown"
+    ],
+    "categories": [
+      "Operations & Monitoring"
+    ],
+    "roles": [
+      "engineering",
+      "security",
+      "policy",
+      "product"
+    ],
+    "short_def": "Automated control that halts model responses or tool access when risk thresholds are exceeded.",
+    "nist_rmf_tags": [
+      "risk_management",
+      "monitoring",
+      "security"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
+    "slug": "ai-circuit-breaker"
   },
   {
     "term": "ai incident response",
@@ -67,7 +117,8 @@
       "risk_management",
       "accountability"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "ai-incident-response"
   },
   {
@@ -91,7 +142,8 @@
       "fairness",
       "transparency"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "algorithmic-audit"
   },
   {
@@ -115,7 +167,8 @@
       "fairness",
       "transparency"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "algorithmic-bias"
   },
   {
@@ -140,7 +193,8 @@
       "risk_management",
       "transparency"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "algorithmic-impact-assessment"
   },
   {
@@ -164,8 +218,33 @@
       "transparency",
       "validity"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "alignment"
+  },
+  {
+    "term": "assurance case",
+    "aliases": [
+      "safety case",
+      "structured assurance argument"
+    ],
+    "categories": [
+      "Governance & Risk"
+    ],
+    "roles": [
+      "policy",
+      "legal",
+      "engineering"
+    ],
+    "short_def": "Structured argument that proves an AI system meets safety and compliance expectations.",
+    "nist_rmf_tags": [
+      "governance",
+      "accountability",
+      "risk_management"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
+    "slug": "assurance-case"
   },
   {
     "term": "attention",
@@ -186,7 +265,8 @@
       "transparency",
       "robustness"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "attention"
   },
   {
@@ -208,7 +288,8 @@
       "robustness",
       "transparency"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "beam-search"
   },
   {
@@ -230,8 +311,33 @@
       "validity",
       "transparency"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "bias-variance-tradeoff"
+  },
+  {
+    "term": "chain-of-thought prompting",
+    "aliases": [
+      "cot prompting",
+      "step-by-step prompting"
+    ],
+    "categories": [
+      "LLM Core"
+    ],
+    "roles": [
+      "engineering",
+      "data_science",
+      "product"
+    ],
+    "short_def": "Prompting technique that asks models to reason through intermediate steps before giving a final answer.",
+    "nist_rmf_tags": [
+      "transparency",
+      "risk_management",
+      "monitoring"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
+    "slug": "chain-of-thought-prompting"
   },
   {
     "term": "chunking",
@@ -252,7 +358,8 @@
       "data_quality",
       "privacy"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "chunking"
   },
   {
@@ -276,7 +383,8 @@
       "data_quality",
       "transparency"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "clip"
   },
   {
@@ -299,8 +407,34 @@
       "transparency",
       "validity"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "confusion-matrix"
+  },
+  {
+    "term": "consent management",
+    "aliases": [
+      "consent governance",
+      "user consent tracking"
+    ],
+    "categories": [
+      "Governance & Risk"
+    ],
+    "roles": [
+      "legal",
+      "policy",
+      "product",
+      "engineering"
+    ],
+    "short_def": "Practices that capture, honor, and audit user permissions across AI features.",
+    "nist_rmf_tags": [
+      "privacy",
+      "accountability",
+      "governance"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
+    "slug": "consent-management"
   },
   {
     "term": "constitutional ai",
@@ -323,7 +457,8 @@
       "validity",
       "transparency"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "constitutional-ai"
   },
   {
@@ -348,7 +483,8 @@
       "risk_management",
       "accountability"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "content-moderation"
   },
   {
@@ -370,7 +506,8 @@
       "transparency",
       "privacy"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "context-window"
   },
   {
@@ -392,8 +529,34 @@
       "validity",
       "transparency"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "cross-validation"
+  },
+  {
+    "term": "data lineage",
+    "aliases": [
+      "lineage tracking",
+      "data provenance"
+    ],
+    "categories": [
+      "Operations & Monitoring"
+    ],
+    "roles": [
+      "engineering",
+      "data_science",
+      "policy",
+      "legal"
+    ],
+    "short_def": "Traceable record of how data moves, transforms, and is used across AI systems.",
+    "nist_rmf_tags": [
+      "accountability",
+      "governance",
+      "risk_management"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
+    "slug": "data-lineage"
   },
   {
     "term": "data minimization",
@@ -415,8 +578,34 @@
       "privacy",
       "risk_management"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "data-minimization"
+  },
+  {
+    "term": "data redaction",
+    "aliases": [
+      "pii redaction",
+      "sensitive data masking"
+    ],
+    "categories": [
+      "Governance & Risk"
+    ],
+    "roles": [
+      "engineering",
+      "policy",
+      "legal",
+      "security"
+    ],
+    "short_def": "Removal or masking of sensitive fields before data is stored, shared, or used for model training.",
+    "nist_rmf_tags": [
+      "privacy",
+      "risk_management",
+      "security"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
+    "slug": "data-redaction"
   },
   {
     "term": "data retention",
@@ -438,8 +627,34 @@
       "privacy",
       "risk_management"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "data-retention"
+  },
+  {
+    "term": "dataset card",
+    "aliases": [
+      "dataset documentation",
+      "data sheet"
+    ],
+    "categories": [
+      "Governance & Risk"
+    ],
+    "roles": [
+      "data_science",
+      "policy",
+      "legal",
+      "product"
+    ],
+    "short_def": "Structured documentation describing a dataset’s purpose, composition, risks, and usage constraints.",
+    "nist_rmf_tags": [
+      "transparency",
+      "governance",
+      "accountability"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
+    "slug": "dataset-card"
   },
   {
     "term": "decoding",
@@ -460,7 +675,8 @@
       "transparency",
       "robustness"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "decoding"
   },
   {
@@ -483,7 +699,8 @@
       "privacy",
       "risk_management"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "differential-privacy"
   },
   {
@@ -507,8 +724,32 @@
       "risk_management",
       "transparency"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "diffusion-model"
+  },
+  {
+    "term": "direct preference optimization",
+    "aliases": [
+      "dpo",
+      "preference optimization without rlhf"
+    ],
+    "categories": [
+      "LLM Core"
+    ],
+    "roles": [
+      "engineering",
+      "data_science",
+      "product"
+    ],
+    "short_def": "Alignment technique that fine-tunes models directly on preference data without training a separate reward model.",
+    "nist_rmf_tags": [
+      "measurement",
+      "risk_management"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
+    "slug": "direct-preference-optimization"
   },
   {
     "term": "embedding",
@@ -529,8 +770,58 @@
       "data_quality",
       "accountability"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "embedding"
+  },
+  {
+    "term": "escalation policy",
+    "aliases": [
+      "human escalation policy",
+      "handoff policy"
+    ],
+    "categories": [
+      "Governance & Risk"
+    ],
+    "roles": [
+      "product",
+      "policy",
+      "security",
+      "engineering"
+    ],
+    "short_def": "Playbook that defines when and how AI systems route control to human reviewers.",
+    "nist_rmf_tags": [
+      "governance",
+      "monitoring",
+      "risk_management"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
+    "slug": "escalation-policy"
+  },
+  {
+    "term": "evaluation harness",
+    "aliases": [
+      "eval harness",
+      "agent evaluation pipeline"
+    ],
+    "categories": [
+      "Operations & Monitoring"
+    ],
+    "roles": [
+      "engineering",
+      "data_science",
+      "product"
+    ],
+    "short_def": "Automated pipeline that replays tasks, scores outputs, and reports regressions for AI systems.",
+    "nist_rmf_tags": [
+      "measurement",
+      "monitoring",
+      "risk_management"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
+    "slug": "evaluation-harness"
   },
   {
     "term": "evaluation",
@@ -555,7 +846,8 @@
       "validity",
       "accountability"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "evaluation"
   },
   {
@@ -577,7 +869,8 @@
       "validity",
       "transparency"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "f1-score"
   },
   {
@@ -601,7 +894,8 @@
       "fairness",
       "transparency"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "fairness-metrics"
   },
   {
@@ -622,7 +916,8 @@
       "accountability",
       "validity"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "fine-tuning"
   },
   {
@@ -645,7 +940,8 @@
       "accountability",
       "transparency"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "function-calling"
   },
   {
@@ -667,7 +963,8 @@
       "transparency",
       "risk_management"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "generative-ai"
   },
   {
@@ -688,8 +985,34 @@
       "validity",
       "accountability"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "greedy-decoding"
+  },
+  {
+    "term": "guardrail policy",
+    "aliases": [
+      "guardrail playbook",
+      "safety policy prompt"
+    ],
+    "categories": [
+      "Governance & Risk"
+    ],
+    "roles": [
+      "policy",
+      "product",
+      "security",
+      "engineering"
+    ],
+    "short_def": "Documented rules and prompts that define allowed, blocked, and escalated behaviors for AI systems.",
+    "nist_rmf_tags": [
+      "governance",
+      "risk_management",
+      "accountability"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
+    "slug": "guardrail-policy"
   },
   {
     "term": "guardrails",
@@ -712,7 +1035,8 @@
       "privacy",
       "robustness"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "guardrails"
   },
   {
@@ -739,8 +1063,133 @@
       "transparency",
       "validity"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "hallucination"
+  },
+  {
+    "term": "human handoff",
+    "aliases": [
+      "agent-to-human handoff",
+      "human-in-the-loop handoff"
+    ],
+    "categories": [
+      "Agents & Tooling"
+    ],
+    "roles": [
+      "product",
+      "communications",
+      "engineering",
+      "policy"
+    ],
+    "short_def": "Moment when an AI workflow transfers control to a human for review or action.",
+    "nist_rmf_tags": [
+      "governance",
+      "monitoring",
+      "risk_management"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
+    "slug": "human-handoff"
+  },
+  {
+    "term": "impact mitigation plan",
+    "aliases": [
+      "mitigation roadmap",
+      "risk remediation plan"
+    ],
+    "categories": [
+      "Governance & Risk"
+    ],
+    "roles": [
+      "policy",
+      "product",
+      "legal",
+      "engineering"
+    ],
+    "short_def": "Action plan that tracks risks, mitigations, owners, and timelines for an AI deployment.",
+    "nist_rmf_tags": [
+      "risk_management",
+      "accountability",
+      "monitoring"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
+    "slug": "impact-mitigation-plan"
+  },
+  {
+    "term": "incident taxonomy",
+    "aliases": [
+      "incident classification",
+      "risk taxonomy"
+    ],
+    "categories": [
+      "Operations & Monitoring"
+    ],
+    "roles": [
+      "policy",
+      "security",
+      "product",
+      "engineering"
+    ],
+    "short_def": "Standardized categories used to tag, analyze, and report AI incidents consistently.",
+    "nist_rmf_tags": [
+      "governance",
+      "monitoring",
+      "accountability"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
+    "slug": "incident-taxonomy"
+  },
+  {
+    "term": "instruction tuning",
+    "aliases": [
+      "instruction fine-tuning",
+      "supervised fine-tuning"
+    ],
+    "categories": [
+      "Optimization & Efficiency"
+    ],
+    "roles": [
+      "engineering",
+      "data_science",
+      "product",
+      "policy"
+    ],
+    "short_def": "Supervised training that teaches models to follow natural-language instructions using curated examples.",
+    "nist_rmf_tags": [
+      "risk_management",
+      "measurement",
+      "accountability"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
+    "slug": "instruction-tuning"
+  },
+  {
+    "term": "jailbreak prompt",
+    "aliases": [
+      "prompt jailbreak",
+      "guardrail bypass"
+    ],
+    "categories": [
+      "Governance & Risk"
+    ],
+    "roles": [
+      "security",
+      "product",
+      "engineering"
+    ],
+    "short_def": "Crafted input that persuades a model to ignore safety instructions and produce disallowed responses.",
+    "nist_rmf_tags": [
+      "security",
+      "monitoring",
+      "risk_management"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
+    "slug": "jailbreak-prompt"
   },
   {
     "term": "knowledge distillation",
@@ -760,7 +1209,8 @@
       "efficiency",
       "validity"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "knowledge-distillation"
   },
   {
@@ -782,7 +1232,8 @@
       "efficiency",
       "privacy"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "kv-cache"
   },
   {
@@ -804,7 +1255,8 @@
       "transparency",
       "validity"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "log-probability"
   },
   {
@@ -825,8 +1277,56 @@
       "efficiency",
       "accountability"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "low-rank-adaptation"
+  },
+  {
+    "term": "memory strategy",
+    "aliases": [
+      "agent memory strategy",
+      "memory policy"
+    ],
+    "categories": [
+      "Agents & Tooling"
+    ],
+    "roles": [
+      "engineering",
+      "product"
+    ],
+    "short_def": "Deliberate approach for when an AI agent stores, retrieves, or forgets context across tasks.",
+    "nist_rmf_tags": [
+      "governance",
+      "privacy",
+      "risk_management"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
+    "slug": "memory-strategy"
+  },
+  {
+    "term": "mixture of experts",
+    "aliases": [
+      "moe",
+      "expert gating"
+    ],
+    "categories": [
+      "Optimization & Efficiency"
+    ],
+    "roles": [
+      "engineering",
+      "data_science",
+      "product"
+    ],
+    "short_def": "Neural architecture that routes tokens to specialized submodels to scale capacity efficiently.",
+    "nist_rmf_tags": [
+      "monitoring",
+      "risk_management",
+      "transparency"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
+    "slug": "mixture-of-experts"
   },
   {
     "term": "ml observability",
@@ -847,7 +1347,8 @@
       "monitoring",
       "accountability"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "ml-observability"
   },
   {
@@ -869,7 +1370,8 @@
       "accountability",
       "monitoring"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "ml-ops"
   },
   {
@@ -894,7 +1396,8 @@
       "documentation",
       "accountability"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "model-card"
   },
   {
@@ -920,7 +1423,8 @@
       "monitoring",
       "validity"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "model-drift"
   },
   {
@@ -943,7 +1447,8 @@
       "accountability",
       "risk_management"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "model-governance"
   },
   {
@@ -967,7 +1472,8 @@
       "transparency",
       "accountability"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "model-interpretability"
   },
   {
@@ -989,7 +1495,8 @@
       "validity",
       "data_quality"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "overfitting"
   },
   {
@@ -1012,8 +1519,59 @@
       "validity",
       "accountability"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "precision"
+  },
+  {
+    "term": "preference dataset",
+    "aliases": [
+      "preference data",
+      "human feedback dataset"
+    ],
+    "categories": [
+      "LLM Core"
+    ],
+    "roles": [
+      "data_science",
+      "policy",
+      "product",
+      "engineering"
+    ],
+    "short_def": "Labeled comparisons of model outputs that capture which responses humans prefer.",
+    "nist_rmf_tags": [
+      "accountability",
+      "risk_management",
+      "privacy"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
+    "slug": "preference-dataset"
+  },
+  {
+    "term": "privacy budget",
+    "aliases": [
+      "epsilon budget",
+      "differential privacy budget"
+    ],
+    "categories": [
+      "Governance & Risk"
+    ],
+    "roles": [
+      "data_science",
+      "policy",
+      "legal",
+      "engineering"
+    ],
+    "short_def": "Quantitative limit on how much privacy loss is allowed when applying differential privacy.",
+    "nist_rmf_tags": [
+      "privacy",
+      "risk_management",
+      "governance"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
+    "slug": "privacy-budget"
   },
   {
     "term": "privacy impact assessment",
@@ -1035,7 +1593,8 @@
       "privacy",
       "documentation"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "privacy-impact-assessment"
   },
   {
@@ -1058,7 +1617,8 @@
       "privacy",
       "risk_management"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "privacy"
   },
   {
@@ -1080,8 +1640,33 @@
       "accountability",
       "transparency"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "prompt-engineering"
+  },
+  {
+    "term": "prompt injection",
+    "aliases": [
+      "prompt attack",
+      "context hijacking"
+    ],
+    "categories": [
+      "Governance & Risk"
+    ],
+    "roles": [
+      "security",
+      "engineering",
+      "product"
+    ],
+    "short_def": "Attack that inserts malicious instructions into model inputs to override original prompts or policies.",
+    "nist_rmf_tags": [
+      "security",
+      "risk_management",
+      "monitoring"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
+    "slug": "prompt-injection"
   },
   {
     "term": "quantization",
@@ -1102,7 +1687,8 @@
       "robustness",
       "documentation"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "quantization"
   },
   {
@@ -1125,7 +1711,8 @@
       "validity",
       "accountability"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "recall"
   },
   {
@@ -1151,8 +1738,34 @@
       "risk_management",
       "accountability"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "red-teaming"
+  },
+  {
+    "term": "reinforcement learning from human feedback",
+    "aliases": [
+      "rlhf",
+      "preference optimization"
+    ],
+    "categories": [
+      "LLM Core"
+    ],
+    "roles": [
+      "engineering",
+      "data_science",
+      "product",
+      "policy"
+    ],
+    "short_def": "Training approach that tunes a model using reward signals learned from human preference data.",
+    "nist_rmf_tags": [
+      "risk_management",
+      "monitoring",
+      "transparency"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
+    "slug": "reinforcement-learning-from-human-feedback"
   },
   {
     "term": "repetition penalty",
@@ -1173,7 +1786,8 @@
       "robustness",
       "transparency"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "repetition-penalty"
   },
   {
@@ -1195,7 +1809,8 @@
       "validity",
       "transparency"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "reranking"
   },
   {
@@ -1218,7 +1833,8 @@
       "risk_management",
       "accountability"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "responsible-ai"
   },
   {
@@ -1241,7 +1857,8 @@
       "data_quality",
       "documentation"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "retrieval-augmented-generation"
   },
   {
@@ -1263,8 +1880,82 @@
       "data_quality",
       "transparency"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "retrieval"
+  },
+  {
+    "term": "reward model",
+    "aliases": [
+      "preference model",
+      "policy reward model"
+    ],
+    "categories": [
+      "LLM Core"
+    ],
+    "roles": [
+      "engineering",
+      "data_science",
+      "policy"
+    ],
+    "short_def": "Model trained on human preferences that scores AI responses for alignment or quality.",
+    "nist_rmf_tags": [
+      "measurement",
+      "risk_management",
+      "accountability"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
+    "slug": "reward-model"
+  },
+  {
+    "term": "risk register",
+    "aliases": [
+      "risk log",
+      "risk inventory"
+    ],
+    "categories": [
+      "Governance & Risk"
+    ],
+    "roles": [
+      "policy",
+      "product",
+      "legal",
+      "engineering"
+    ],
+    "short_def": "Central list of identified AI risks, their owners, mitigations, and review status.",
+    "nist_rmf_tags": [
+      "risk_management",
+      "accountability",
+      "governance"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
+    "slug": "risk-register"
+  },
+  {
+    "term": "robust prompting",
+    "aliases": [
+      "defensive prompting",
+      "resilient prompting"
+    ],
+    "categories": [
+      "LLM Core"
+    ],
+    "roles": [
+      "engineering",
+      "product",
+      "security"
+    ],
+    "short_def": "Prompt design techniques that harden models against injections, ambiguity, and unsafe outputs.",
+    "nist_rmf_tags": [
+      "risk_management",
+      "safety",
+      "monitoring"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
+    "slug": "robust-prompting"
   },
   {
     "term": "roc auc",
@@ -1285,8 +1976,34 @@
       "validity",
       "transparency"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "roc-auc"
+  },
+  {
+    "term": "safety classifier",
+    "aliases": [
+      "safety filter",
+      "policy classifier"
+    ],
+    "categories": [
+      "Governance & Risk"
+    ],
+    "roles": [
+      "security",
+      "policy",
+      "product",
+      "engineering"
+    ],
+    "short_def": "Model that detects policy-violating or risky content before or after generation.",
+    "nist_rmf_tags": [
+      "monitoring",
+      "risk_management",
+      "security"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
+    "slug": "safety-classifier"
   },
   {
     "term": "safety evaluation",
@@ -1309,8 +2026,34 @@
       "risk_management",
       "accountability"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "safety-evaluation"
+  },
+  {
+    "term": "safety review board",
+    "aliases": [
+      "ai safety council",
+      "responsible ai board"
+    ],
+    "categories": [
+      "Governance & Risk"
+    ],
+    "roles": [
+      "policy",
+      "legal",
+      "security",
+      "product"
+    ],
+    "short_def": "Cross-functional committee that approves high-risk AI launches and monitors mitigations.",
+    "nist_rmf_tags": [
+      "governance",
+      "accountability",
+      "risk_management"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
+    "slug": "safety-review-board"
   },
   {
     "term": "safety spec",
@@ -1335,8 +2078,80 @@
       "accountability",
       "transparency"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "safety-spec"
+  },
+  {
+    "term": "self-consistency decoding",
+    "aliases": [
+      "self-consistency",
+      "majority-vote reasoning"
+    ],
+    "categories": [
+      "LLM Core"
+    ],
+    "roles": [
+      "engineering",
+      "data_science"
+    ],
+    "short_def": "Decoding strategy that samples multiple reasoning paths and aggregates the most consistent answer.",
+    "nist_rmf_tags": [
+      "monitoring",
+      "risk_management"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
+    "slug": "self-consistency-decoding"
+  },
+  {
+    "term": "self-critique loop",
+    "aliases": [
+      "self-reflection loop",
+      "critique-and-revise"
+    ],
+    "categories": [
+      "Agents & Tooling"
+    ],
+    "roles": [
+      "engineering",
+      "product",
+      "policy"
+    ],
+    "short_def": "Pattern where a model reviews its own outputs, critiques them, and produces revisions before responding.",
+    "nist_rmf_tags": [
+      "monitoring",
+      "risk_management",
+      "transparency"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
+    "slug": "self-critique-loop"
+  },
+  {
+    "term": "shadow deployment",
+    "aliases": [
+      "shadow mode",
+      "silent launch"
+    ],
+    "categories": [
+      "Operations & Monitoring"
+    ],
+    "roles": [
+      "engineering",
+      "product",
+      "policy",
+      "security"
+    ],
+    "short_def": "Deploying an AI system alongside the existing workflow without user impact to collect telemetry.",
+    "nist_rmf_tags": [
+      "monitoring",
+      "risk_management",
+      "governance"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
+    "slug": "shadow-deployment"
   },
   {
     "term": "synthetic data evaluation",
@@ -1359,7 +2174,8 @@
       "data_quality",
       "privacy"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "synthetic-data-evaluation"
   },
   {
@@ -1384,7 +2200,8 @@
       "privacy",
       "data_quality"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "synthetic-data"
   },
   {
@@ -1406,7 +2223,8 @@
       "transparency",
       "accountability"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "system-prompt"
   },
   {
@@ -1428,7 +2246,8 @@
       "robustness",
       "transparency"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "temperature"
   },
   {
@@ -1450,7 +2269,8 @@
       "transparency",
       "validity"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "token"
   },
   {
@@ -1471,7 +2291,8 @@
       "accountability",
       "transparency"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "tool-use"
   },
   {
@@ -1493,7 +2314,8 @@
       "robustness",
       "transparency"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "top-k-sampling"
   },
   {
@@ -1515,8 +2337,34 @@
       "robustness",
       "transparency"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "top-p-sampling"
+  },
+  {
+    "term": "transparency report",
+    "aliases": [
+      "algorithmic transparency report",
+      "safety disclosure report"
+    ],
+    "categories": [
+      "Governance & Risk"
+    ],
+    "roles": [
+      "policy",
+      "legal",
+      "communications",
+      "product"
+    ],
+    "short_def": "Periodic disclosure that details how an AI system operates, what data it handles, and how risks are mitigated.",
+    "nist_rmf_tags": [
+      "transparency",
+      "accountability",
+      "governance"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
+    "slug": "transparency-report"
   },
   {
     "term": "vector store",
@@ -1537,7 +2385,8 @@
       "accountability",
       "data_quality"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "vector-store"
   },
   {
@@ -1562,7 +2411,8 @@
       "risk_management",
       "transparency"
     ],
-    "status": "draft",
+    "status": "reviewed",
+    "last_reviewed": "2025-09-28",
     "slug": "voice-cloning"
   }
 ]
