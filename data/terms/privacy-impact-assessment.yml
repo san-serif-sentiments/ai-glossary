@@ -38,8 +38,8 @@ relationships:
 citations:
   - source: "NIST AI RMF Glossary"
     url: "https://airc.nist.gov/glossary/"
-  - source: "UK POST AI Glossary"
-    url: "https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/"
+  - source: "ICO – Data Protection Impact Assessments"
+    url: "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-impact-assessments-dpias/"
   - source: "Stanford HAI Brief Definitions"
     url: "https://hai.stanford.edu/news/brief-definitions"
 license: "CC BY-SA 4.0"

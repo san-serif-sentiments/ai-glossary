@@ -39,8 +39,8 @@ relationships:
 citations:
   - source: "NIST AI RMF Glossary"
     url: "https://airc.nist.gov/glossary/"
-  - source: "UK POST AI Glossary"
-    url: "https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/"
+  - source: "Anthropic – Red Teaming LLMs"
+    url: "https://arxiv.org/abs/2309.04026"
   - source: "Stanford HAI Brief Definitions"
     url: "https://hai.stanford.edu/news/brief-definitions"
 license: "CC BY-SA 4.0"

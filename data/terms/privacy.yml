@@ -36,8 +36,8 @@ relationships:
 citations:
   - source: "NIST AI RMF Glossary"
     url: "https://airc.nist.gov/glossary/"
-  - source: "UK POST AI Glossary"
-    url: "https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/"
+  - source: "OECD – Privacy Guidelines"
+    url: "https://www.oecd.org/digital/privacy-guidelines/"
   - source: "Wikipedia AI Glossary"
     url: "https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence"
 license: "CC BY-SA 4.0"

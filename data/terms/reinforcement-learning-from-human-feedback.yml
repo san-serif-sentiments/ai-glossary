@@ -46,8 +46,8 @@ relationships:
 citations:
   - source: "OpenAI – InstructGPT Paper"
     url: "https://arxiv.org/abs/2203.02155"
-  - source: "Anthropic – RLHF Overview"
-    url: "https://www.anthropic.com/news/rlhf"
+  - source: "Hugging Face – RLHF Guide"
+    url: "https://huggingface.co/blog/rlhf"
 license: "CC BY-SA 4.0"
 status: "approved"
 last_reviewed: "2025-09-29"

@@ -38,8 +38,8 @@ relationships:
     - "incident response"
     - "algorithmic bias"
 citations:
-  - source: "UK POST AI Glossary"
-    url: "https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/"
+  - source: "European Commission – Content Moderation Policy"
+    url: "https://digital-strategy.ec.europa.eu/en/policies/content-moderation"
   - source: "NIST AI RMF Glossary"
     url: "https://airc.nist.gov/glossary/"
   - source: "Stanford HAI Brief Definitions"

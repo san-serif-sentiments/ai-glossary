@@ -14,9 +14,9 @@
     </div>
   </div>
   <div class="hero-actions">
-    <a class="cta" href="search/">🔍 Explore the interactive search</a>
-    <a class="cta secondary" href="roles/">👥 Role starter packs</a>
-    <a class="cta secondary" href="categories/">🧭 Category explorer</a>
+    <a class="cta" href="search.md">🔍 Explore the interactive search</a>
+    <a class="cta secondary" href="roles.md">👥 Role starter packs</a>
+    <a class="cta secondary" href="categories.md">🧭 Category explorer</a>
   </div>
 </div>
 
@@ -28,7 +28,7 @@
     <li><strong>100-term milestone:</strong> Added new entries spanning assurance cases, RLHF workflows, and safety controls to push the glossary past one hundred vetted terms.</li>
     <li><strong>Sort for relevance:</strong> Reorder results by freshness or category to share curated views with stakeholders in seconds.</li>
   </ul>
-  <p class="whats-new-footer">Submit feedback or new term ideas via the <a href="term-request/">term request intake</a>.</p>
+  <p class="whats-new-footer">Submit feedback or new term ideas via the <a href="term-request.md">term request intake</a>.</p>
 </div>
 
 ## Project focus
@@ -65,22 +65,22 @@
   <div class="category-card">
     <h3>LLM Core</h3>
     <p>Attention, decoding, prompting, and the building blocks behind language models.</p>
-    <a href="categories/#llm-core">Browse terms →</a>
+    <a href="categories.md#llm-core">Browse terms →</a>
   </div>
   <div class="category-card">
     <h3>Retrieval &amp; RAG</h3>
     <p>Grounding models with hybrid search, chunking, reranking, and retrieval pipelines.</p>
-    <a href="categories/#retrieval--rag">Browse terms →</a>
+    <a href="categories.md#retrieval--rag">Browse terms →</a>
   </div>
   <div class="category-card">
     <h3>Governance &amp; Risk</h3>
     <p>Responsible AI practices, documentation, privacy, and safety mitigation.</p>
-    <a href="categories/#governance--risk">Browse terms →</a>
+    <a href="categories.md#governance--risk">Browse terms →</a>
   </div>
   <div class="category-card">
     <h3>Optimization &amp; Efficiency</h3>
     <p>Quantization, LoRA, distillation, and performance tuning for deployment.</p>
-    <a href="categories/#optimization--efficiency">Browse terms →</a>
+    <a href="categories.md#optimization--efficiency">Browse terms →</a>
   </div>
 </div>
 

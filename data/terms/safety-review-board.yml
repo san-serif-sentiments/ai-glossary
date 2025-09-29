@@ -42,8 +42,8 @@ relationships:
     - "risk register"
     - "impact mitigation plan"
 citations:
-  - source: "UK CDEI – Responsible AI Assurance"
-    url: "https://www.gov.uk/government/publications/responsible-ai-assurance"
+  - source: "CDEI – Responsible AI Assurance Framework"
+    url: "https://cdei.blog.gov.uk/2022/07/26/introducing-the-responsible-ai-assurance-framework/"
   - source: "NIST AI RMF – Governance Function"
     url: "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf"
 license: "CC BY-SA 4.0"

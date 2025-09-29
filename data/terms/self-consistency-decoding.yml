@@ -41,8 +41,8 @@ relationships:
 citations:
   - source: "Google – Self-Consistency Improves Chain of Thought"
     url: "https://arxiv.org/abs/2203.11171"
-  - source: "DeepMind – Verifiers Improve Reasoning"
-    url: "https://www.deepmind.com/blog/better-language-models-and-their-implications"
+  - source: "OpenAI – Better Language Models and Their Implications"
+    url: "https://openai.com/research/better-language-models"
 license: "CC BY-SA 4.0"
 status: "approved"
 last_reviewed: "2025-09-29"

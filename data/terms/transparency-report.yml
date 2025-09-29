@@ -49,8 +49,8 @@ relationships:
 citations:
   - source: "European Commission – DSA Transparency Database"
     url: "https://digital-strategy.ec.europa.eu/en/policies/dsa-transparency-database"
-  - source: "Partnership on AI – Transparency Reporting Template"
-    url: "https://partnershiponai.org/resource/transparency-reporting-template/"
+  - source: "Access Now – Transparency Reporting for AI"
+    url: "https://www.accessnow.org/artificial-intelligence-transparency-reporting/"
 license: "CC BY-SA 4.0"
 status: "approved"
 last_reviewed: "2025-09-29"

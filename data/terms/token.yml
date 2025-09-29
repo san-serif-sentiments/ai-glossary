@@ -36,7 +36,7 @@ citations:
   - source: "Google ML Glossary"
     url: "https://developers.google.com/machine-learning/glossary"
   - source: "Hugging Face Tokenizers"
-    url: "https://huggingface.co/docs/tokenizers/python/latest/"
+    url: "https://huggingface.co/docs/tokenizers/index"
   - source: "Stanford HAI Brief Definitions"
     url: "https://hai.stanford.edu/news/brief-definitions"
 license: "CC BY-SA 4.0"
