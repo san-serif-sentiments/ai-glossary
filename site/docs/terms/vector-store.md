@@ -52,7 +52,7 @@ A vector store persists embeddings alongside metadata and exposes similarity sea
 ## Citations
 - [Hugging Face Glossary](https://huggingface.co/docs/transformers/en/glossary)
 - [Google ML Glossary](https://developers.google.com/machine-learning/glossary)
-- [NIST AI RMF Glossary](https://airc.nist.gov/glossary/)
+- [NIST AI RMF Glossary](https://www.nist.gov/itl/ai-risk-management-framework)
 
 _License: CC BY-SA 4.0_
 

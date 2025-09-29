@@ -43,9 +43,9 @@ relationships:
     - "guardrails"
 citations:
   - source: "Anthropic – Prompt Jailbreaks"
-    url: "https://www.anthropic.com/news/prompt-jailbreaks"
+    url: "https://www.anthropic.com/index/prompt-jailbreaks"
   - source: "OpenAI – Safety Best Practices"
-    url: "https://platform.openai.com/docs/guides/safety-best-practices"
+    url: "https://help.openai.com/en/articles/7039943-safety-best-practices-for-openai-apis"
 license: "CC BY-SA 4.0"
 status: "approved"
 last_reviewed: "2025-09-29"

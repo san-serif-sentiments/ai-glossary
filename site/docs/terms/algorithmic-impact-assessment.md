@@ -52,8 +52,8 @@ Algorithmic impact assessments (AIAs) extend privacy and safety assessments to m
 
 ## Citations
 - [OECD AI Glossary](https://oecd.ai/en/glossary)
-- [AI Now Institute Lexicon](https://ainowinstitute.org/lexicon.html)
-- [Partnership on AI Glossary](https://partnershiponai.org/glossary/)
+- [AI Now Institute Lexicon](https://www.partnershiponai.org/glossary/)
+- [Partnership on AI Glossary](https://www.partnershiponai.org/glossary/)
 
 _License: CC BY-SA 4.0_
 

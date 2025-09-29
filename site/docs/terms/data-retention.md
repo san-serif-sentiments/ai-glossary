@@ -55,8 +55,8 @@ Data retention policies specify how long different data types are stored, why th
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'data retention'.
 
 ## Citations
-- [NIST AI RMF Glossary](https://airc.nist.gov/glossary/)
-- [UK POST AI Glossary](https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/)
+- [NIST AI RMF Glossary](https://www.nist.gov/itl/ai-risk-management-framework)
+- [NIST – Privacy Framework](https://www.nist.gov/privacy-framework/privacy-framework)
 - [Stanford HAI Brief Definitions](https://hai.stanford.edu/news/brief-definitions)
 
 _License: CC BY-SA 4.0_

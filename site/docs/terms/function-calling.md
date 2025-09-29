@@ -51,8 +51,8 @@ Function calling bridges natural language prompts and executable tools. Develope
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'function calling'.
 
 ## Citations
-- [OpenAI Glossary](https://platform.openai.com/docs/glossary)
-- [LangChain Documentation Glossary](https://python.langchain.com/docs/glossary)
+- [OpenAI Glossary](https://help.openai.com/en/articles/6825453-openai-api-glossary)
+- [LangChain Documentation Glossary](https://python.langchain.com/v0.2/docs/concepts)
 - [Hugging Face Glossary](https://huggingface.co/docs/transformers/en/glossary)
 
 _License: CC BY-SA 4.0_

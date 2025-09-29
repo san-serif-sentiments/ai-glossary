@@ -53,7 +53,7 @@ An escalation policy documents the conditions that trigger human intervention du
 
 ## Citations
 - [OECD AI Glossary – Human Oversight](https://oecd.ai/en/glossary/human-in-the-loop)
-- [AI Now Institute – Escalation Guidance](https://ainowinstitute.org/aap-toolkit.pdf)
+- [AI Now Institute – Escalation Guidance](https://www.partnershiponai.org/wp-content/uploads/2021/08/Algorithmic-Accountability-Policy-Toolkit.pdf)
 
 _License: CC BY-SA 4.0_
 

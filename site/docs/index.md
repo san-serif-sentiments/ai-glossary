@@ -14,6 +14,9 @@
     </div>
   </div>
   <div class="hero-actions">
+    <a class="cta" href="search/index.html">🔍 Explore the interactive search</a>
+    <a class="cta secondary" href="roles/index.html">👥 Role starter packs</a>
+    <a class="cta secondary" href="categories/index.html">🧭 Category explorer</a>
     <a class="cta" href="search.md">🔍 Explore the interactive search</a>
     <a class="cta secondary" href="roles.md">👥 Role starter packs</a>
     <a class="cta secondary" href="categories.md">🧭 Category explorer</a>
@@ -28,6 +31,7 @@
     <li><strong>100-term milestone:</strong> Added new entries spanning assurance cases, RLHF workflows, and safety controls to push the glossary past one hundred vetted terms.</li>
     <li><strong>Sort for relevance:</strong> Reorder results by freshness or category to share curated views with stakeholders in seconds.</li>
   </ul>
+  <p class="whats-new-footer">Submit feedback or new term ideas via the <a href="term-request/index.html">term request intake</a>.</p>
   <p class="whats-new-footer">Submit feedback or new term ideas via the <a href="term-request.md">term request intake</a>.</p>
 </div>
 
@@ -55,9 +59,9 @@
 
 ## Deep-dive resources
 
-- [External source catalog](resources.md) — official glossaries and standards to cite.
-- [Governance dashboard](governance-dashboard.md) — metrics, NIST coverage, and intake guidance.
-- [Prompt engineering playbook](prompting.md) — practical workflows for shaping model behaviour.
+- [External source catalog](resources/index.html) — official glossaries and standards to cite.
+- [Governance dashboard](governance-dashboard/index.html) — metrics, NIST coverage, and intake guidance.
+- [Prompt engineering playbook](prompting/index.html) — practical workflows for shaping model behaviour.
 
 ### Popular categories
 
@@ -65,21 +69,25 @@
   <div class="category-card">
     <h3>LLM Core</h3>
     <p>Attention, decoding, prompting, and the building blocks behind language models.</p>
+    <a href="categories/index.html#llm-core">Browse terms →</a>
     <a href="categories.md#llm-core">Browse terms →</a>
   </div>
   <div class="category-card">
     <h3>Retrieval &amp; RAG</h3>
     <p>Grounding models with hybrid search, chunking, reranking, and retrieval pipelines.</p>
+    <a href="categories/index.html#retrieval--rag">Browse terms →</a>
     <a href="categories.md#retrieval--rag">Browse terms →</a>
   </div>
   <div class="category-card">
     <h3>Governance &amp; Risk</h3>
     <p>Responsible AI practices, documentation, privacy, and safety mitigation.</p>
+    <a href="categories/index.html#governance--risk">Browse terms →</a>
     <a href="categories.md#governance--risk">Browse terms →</a>
   </div>
   <div class="category-card">
     <h3>Optimization &amp; Efficiency</h3>
     <p>Quantization, LoRA, distillation, and performance tuning for deployment.</p>
+    <a href="categories/index.html#optimization--efficiency">Browse terms →</a>
     <a href="categories.md#optimization--efficiency">Browse terms →</a>
   </div>
 </div>

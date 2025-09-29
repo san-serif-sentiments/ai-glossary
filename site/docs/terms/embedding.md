@@ -52,7 +52,7 @@ Embeddings map pieces of information—such as words, sentences, images, or audi
 ## Citations
 - [Google ML Glossary](https://developers.google.com/machine-learning/glossary)
 - [Hugging Face Glossary](https://huggingface.co/docs/transformers/en/glossary)
-- [NIST AI RMF Glossary](https://airc.nist.gov/glossary/)
+- [NIST AI RMF Glossary](https://www.nist.gov/itl/ai-risk-management-framework)
 
 _License: CC BY-SA 4.0_
 

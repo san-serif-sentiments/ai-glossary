@@ -58,8 +58,8 @@ A model card summarizes key information about an AI system, including intended u
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'model card'.
 
 ## Citations
-- [NIST AI RMF Glossary](https://airc.nist.gov/glossary/)
-- [UK POST AI Glossary](https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/)
+- [NIST AI RMF Glossary](https://www.nist.gov/itl/ai-risk-management-framework)
+- [Google – Model Cards for Model Reporting](https://modelcards.withgoogle.com/about)
 - [Stanford HAI Brief Definitions](https://hai.stanford.edu/news/brief-definitions)
 
 _License: CC BY-SA 4.0_

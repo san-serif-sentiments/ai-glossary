@@ -54,9 +54,9 @@ Red teaming mobilizes interdisciplinary experts to craft adversarial prompts, sc
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'red teaming'.
 
 ## Citations
-- [NIST AI RMF Glossary](https://airc.nist.gov/glossary/)
-- [UK POST AI Glossary](https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/)
-- [Stanford HAI Brief Definitions](https://hai.stanford.edu/news/brief-definitions)
+- [CISA – Joint Guidance on AI Red Teaming](https://www.cisa.gov/news-events/news/joint-guidance-promotes-ai-red-teaming)
+- [OpenAI – Red Teaming Network](https://openai.com/research/red-teaming-network)
+- [Wikipedia – Red Team](https://en.wikipedia.org/wiki/Red_team)
 
 _License: CC BY-SA 4.0_
 

@@ -52,8 +52,8 @@ A safety classifier screens prompts and outputs to catch disallowed topics such 
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'safety classifier'.
 
 ## Citations
-- [OpenAI – Moderation Models](https://platform.openai.com/docs/guides/moderation)
-- [Google – Safety Classifiers for Generative AI](https://ai.google.dev/responsible-ai/generative-ai-safety)
+- [OpenAI – New Moderation Tools](https://openai.com/blog/new-moderation-tools)
+- [Google Cloud – Content Safety Tools](https://cloud.google.com/blog/products/ai-machine-learning/responsible-ai-toolkits-content-safety)
 
 _License: CC BY-SA 4.0_
 

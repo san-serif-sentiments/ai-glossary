@@ -49,9 +49,9 @@ Agentic AI describes architectures where models make decisions about what action
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'agentic ai'.
 
 ## Citations
-- [NIST AI RMF Glossary](https://airc.nist.gov/glossary/)
-- [Hugging Face Glossary](https://huggingface.co/docs/transformers/en/glossary)
-- [UK POST AI Glossary](https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/)
+- [Stanford HAI – What Are Agentic AI Systems?](https://hai.stanford.edu/news/what-are-agentic-ai-systems)
+- [LangChain Concepts – Agents](https://python.langchain.com/v0.2/docs/concepts/agents)
+- [Generative Agents – Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442)
 
 _License: CC BY-SA 4.0_
 

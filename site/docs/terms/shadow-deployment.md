@@ -53,7 +53,7 @@ In a shadow deployment, an AI model runs in production but its outputs are not s
 
 ## Citations
 - [Google SRE – Canary Releases and Shadowing](https://sre.google/sre-book/release-engineering/)
-- [NVIDIA – Shadow Deployment for Generative AI](https://developer.nvidia.com/blog/shadow-deployment-generative-ai/)
+- [AWS – Shadow Testing Machine Learning Models](https://aws.amazon.com/blogs/machine-learning/how-to-shadow-test-machine-learning-models/)
 
 _License: CC BY-SA 4.0_
 

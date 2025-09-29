@@ -43,7 +43,7 @@ citations:
   - source: "Stanford – Direct Preference Optimization"
     url: "https://arxiv.org/abs/2305.18290"
   - source: "Anthropic – Lessons from Preference Optimization"
-    url: "https://www.anthropic.com/research/preference-optimization"
+    url: "https://www.anthropic.com/news/direct-preference-optimization"
 license: "CC BY-SA 4.0"
 status: "approved"
 last_reviewed: "2025-09-29"

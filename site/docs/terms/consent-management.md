@@ -53,7 +53,7 @@ Consent management ensures AI systems only process data in ways users or data su
 
 ## Citations
 - [OECD AI Glossary – Consent](https://oecd.ai/en/glossary/consent)
-- [Partnership on AI – Responsible Data Use](https://partnershiponai.org/resource/responsible-sourcing-of-data/)
+- [Partnership on AI – Responsible Data Use](https://www.partnershiponai.org/resource/responsible-sourcing-of-data/)
 
 _License: CC BY-SA 4.0_
 

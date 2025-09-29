@@ -44,9 +44,9 @@ relationships:
     - "impact mitigation plan"
 citations:
   - source: "LangChain Glossary – Human-in-the-loop"
-    url: "https://python.langchain.com/docs/concepts/human_in_the_loop/"
+    url: "https://python.langchain.com/v0.2/docs/concepts/human_in_the_loop"
   - source: "Partnership on AI – Responsible Practices for AI Customer Service"
-    url: "https://partnershiponai.org/resource/responsible-ai-customer-service/"
+    url: "https://www.partnershiponai.org/resource/responsible-ai-for-customer-service/"
 license: "CC BY-SA 4.0"
 status: "approved"
 last_reviewed: "2025-09-29"

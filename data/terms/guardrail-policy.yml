@@ -48,9 +48,9 @@ relationships:
     - "system prompt"
 citations:
   - source: "Anthropic Safety Best Practices"
-    url: "https://docs.anthropic.com/claude/docs/safety-best-practices"
+    url: "https://www.anthropic.com/news/model-spec-for-ai-safety"
   - source: "OpenAI Policy – Safety Best Practices"
-    url: "https://platform.openai.com/docs/guides/safety-best-practices"
+    url: "https://help.openai.com/en/articles/7039943-safety-best-practices-for-openai-apis"
 license: "CC BY-SA 4.0"
 status: "approved"
 last_reviewed: "2025-09-29"

@@ -51,8 +51,8 @@ A self-critique loop introduces an internal review step into an AI workflow. Aft
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'self-critique loop'.
 
 ## Citations
-- [Anthropic – Constitutional AI Research](https://www.anthropic.com/research/constitutional-ai)
-- [DeepLearning.AI – Self-Consistency and Reflection](https://www.deeplearning.ai/the-batch/how-self-reflection-improves-llm-reasoning/)
+- [Anthropic – Constitutional AI](https://arxiv.org/abs/2212.08073)
+- [Self-Refine – Iterative Refinement with LLMs](https://arxiv.org/abs/2303.11366)
 
 _License: CC BY-SA 4.0_
 

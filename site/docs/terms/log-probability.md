@@ -51,7 +51,7 @@ Log probability represents the natural logarithm of a token’s predicted probab
 ## Citations
 - [Google ML Glossary](https://developers.google.com/machine-learning/glossary)
 - [Hugging Face Glossary](https://huggingface.co/docs/transformers/en/glossary)
-- [NIST AI RMF Glossary](https://airc.nist.gov/glossary/)
+- [NIST AI RMF Glossary](https://www.nist.gov/itl/ai-risk-management-framework)
 
 _License: CC BY-SA 4.0_
 

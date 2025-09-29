@@ -49,9 +49,9 @@ In language models a token is the discrete unit produced by a tokenizer before f
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'token'.
 
 ## Citations
-- [Google ML Glossary](https://developers.google.com/machine-learning/glossary)
-- [Hugging Face Tokenizers](https://huggingface.co/docs/tokenizers/python/latest/)
-- [Stanford HAI Brief Definitions](https://hai.stanford.edu/news/brief-definitions)
+- [Wikipedia – Tokenization](https://en.wikipedia.org/wiki/Tokenization_(lexical_analysis))
+- [OpenAI API Glossary](https://help.openai.com/en/articles/6825453-openai-api-glossary)
+- [Hugging Face – Tokenizers Quicktour](https://huggingface.co/docs/tokenizers/python/latest/quicktour)
 
 _License: CC BY-SA 4.0_
 

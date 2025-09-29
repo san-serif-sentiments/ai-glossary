@@ -50,8 +50,8 @@ Privacy in AI systems focuses on controlling how personal or sensitive data is c
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'privacy'.
 
 ## Citations
-- [NIST AI RMF Glossary](https://airc.nist.gov/glossary/)
-- [UK POST AI Glossary](https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/)
+- [NIST AI RMF Glossary](https://www.nist.gov/itl/ai-risk-management-framework)
+- [OECD – Privacy Guidelines](https://www.oecd.org/digital/data-governance/privacy-guidelines/)
 - [Wikipedia AI Glossary](https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence)
 
 _License: CC BY-SA 4.0_

@@ -51,9 +51,9 @@ Responsible AI encompasses the policies, technical controls, and cultural norms 
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'responsible ai'.
 
 ## Citations
-- [NIST AI RMF Glossary](https://airc.nist.gov/glossary/)
-- [UK POST AI Glossary](https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/)
-- [Stanford HAI Brief Definitions](https://hai.stanford.edu/news/brief-definitions)
+- [OECD – AI Principles](https://oecd.ai/en/ai-principles)
+- [IBM – AI Ethics](https://www.ibm.com/policy/ai-ethics/)
+- [White House – Blueprint for an AI Bill of Rights](https://www.whitehouse.gov/wp-content/uploads/2022/10/Blueprint-for-an-AI-Bill-of-Rights.pdf)
 
 _License: CC BY-SA 4.0_
 

@@ -51,8 +51,8 @@ Robust prompting combines structured instructions, guard clauses, and response c
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'robust prompting'.
 
 ## Citations
-- [MIT Technology Review – Defensive Prompt Engineering](https://www.technologyreview.com/2023/08/03/1077110/defensive-prompting-ai-safety/)
-- [Anthropic – Prompting for Safety](https://docs.anthropic.com/claude/docs/prompting-and-safety)
+- [Prompting Guide – Defensive Prompting](https://www.promptingguide.ai/techniques/defensive)
+- [Anthropic – Prompting for Safety](https://docs.anthropic.com/en/docs/build-with-claude/prompting-and-safety)
 
 _License: CC BY-SA 4.0_
 

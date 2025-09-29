@@ -54,7 +54,8 @@ A transparency report is a structured publication that explains how an AI system
 
 ## Citations
 - [European Commission – DSA Transparency Database](https://digital-strategy.ec.europa.eu/en/policies/dsa-transparency-database)
-- [Partnership on AI – Transparency Reporting Template](https://partnershiponai.org/resource/transparency-reporting-template/)
+- [Access Now – Transparency Reporting for AI](https://www.accessnow.org/ai-transparency-reporting/)
+- [Partnership on AI – Reporting in Plain Language](https://www.partnershiponai.org/resource/reporting-in-plain-language/)
 
 _License: CC BY-SA 4.0_
 

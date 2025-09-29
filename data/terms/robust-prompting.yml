@@ -42,10 +42,10 @@ relationships:
     - "guardrail policy"
     - "self-critique loop"
 citations:
-  - source: "MIT Technology Review – Defensive Prompt Engineering"
-    url: "https://www.technologyreview.com/2023/08/03/1077110/defensive-prompting-ai-safety/"
+  - source: "Prompting Guide – Defensive Prompting"
+    url: "https://www.promptingguide.ai/techniques/defensive"
   - source: "Anthropic – Prompting for Safety"
-    url: "https://docs.anthropic.com/claude/docs/prompting-and-safety"
+    url: "https://docs.anthropic.com/en/docs/build-with-claude/prompting-and-safety"
 license: "CC BY-SA 4.0"
 status: "approved"
 last_reviewed: "2025-09-29"

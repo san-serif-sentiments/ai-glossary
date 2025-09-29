@@ -58,8 +58,8 @@ Content moderation combines automation, human review, and escalation procedures 
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'content moderation'.
 
 ## Citations
-- [UK POST AI Glossary](https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/)
-- [NIST AI RMF Glossary](https://airc.nist.gov/glossary/)
+- [European Commission – Content Moderation Policy](https://digital-strategy.ec.europa.eu/en/policies/content-moderation)
+- [NIST AI RMF Glossary](https://www.nist.gov/itl/ai-risk-management-framework)
 - [Stanford HAI Brief Definitions](https://hai.stanford.edu/news/brief-definitions)
 
 _License: CC BY-SA 4.0_

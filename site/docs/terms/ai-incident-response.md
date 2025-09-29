@@ -54,9 +54,9 @@ AI incident response adapts traditional incident management to the unique risks 
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'ai incident response'.
 
 ## Citations
-- [NIST AI RMF Glossary](https://airc.nist.gov/glossary/)
-- [UK POST AI Glossary](https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/)
-- [Stanford HAI Brief Definitions](https://hai.stanford.edu/news/brief-definitions)
+- [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+- [CISA – AI Security Incident Response Guidelines](https://www.cisa.gov/news-events/news/cisa-releases-artificial-intelligence-security-incident-response-guidelines)
+- [Center for Internet Security – Developing an AI Incident Response Plan](https://www.cisecurity.org/insights/blog/developing-an-ai-incident-response-plan)
 
 _License: CC BY-SA 4.0_
 

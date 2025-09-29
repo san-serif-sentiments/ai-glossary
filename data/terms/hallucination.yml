@@ -57,7 +57,7 @@ citations:
   - source: "Hugging Face Glossary"
     url: "https://huggingface.co/docs/transformers/en/glossary"
   - source: "NIST AI RMF Glossary"
-    url: "https://airc.nist.gov/glossary/"
+    url: "https://www.nist.gov/itl/ai-risk-management-framework"
   - source: "Google ML Glossary"
     url: "https://developers.google.com/machine-learning/glossary"
 license: "CC BY-SA 4.0"

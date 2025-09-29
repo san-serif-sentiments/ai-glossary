@@ -43,8 +43,8 @@ relationships:
 citations:
   - source: "Google SRE – Canary Releases and Shadowing"
     url: "https://sre.google/sre-book/release-engineering/"
-  - source: "NVIDIA – Shadow Deployment for Generative AI"
-    url: "https://developer.nvidia.com/blog/shadow-deployment-generative-ai/"
+  - source: "AWS – Shadow Testing Machine Learning Models"
+    url: "https://aws.amazon.com/blogs/machine-learning/how-to-shadow-test-machine-learning-models/"
 license: "CC BY-SA 4.0"
 status: "approved"
 last_reviewed: "2025-09-29"

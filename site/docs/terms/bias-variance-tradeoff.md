@@ -53,7 +53,7 @@ The bias-variance tradeoff describes how model complexity influences generalizat
 ## Citations
 - [Google ML Glossary](https://developers.google.com/machine-learning/glossary)
 - [Wikipedia AI Glossary](https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence)
-- [UK POST AI Glossary](https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/)
+- [scikit-learn – Underfitting vs. Overfitting](https://scikit-learn.org/stable/auto_examples/model_selection/plot_underfitting_overfitting.html)
 
 _License: CC BY-SA 4.0_
 

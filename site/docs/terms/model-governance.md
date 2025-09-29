@@ -51,9 +51,9 @@ Model governance coordinates legal, risk, engineering, and product roles to over
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'model governance'.
 
 ## Citations
-- [NIST AI RMF Glossary](https://airc.nist.gov/glossary/)
-- [UK POST AI Glossary](https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/)
-- [Stanford HAI Brief Definitions](https://hai.stanford.edu/news/brief-definitions)
+- [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+- [IBM – What Is AI Governance?](https://www.ibm.com/topics/ai-governance)
+- [White House Executive Order 14110 on Safe, Secure, and Trustworthy AI](https://www.whitehouse.gov/wp-content/uploads/2023/10/Executive-Order-on-the-Safe-Secure-and-Trustworthy-Development-and-Use-of-Artificial-Intelligence.pdf)
 
 _License: CC BY-SA 4.0_
 

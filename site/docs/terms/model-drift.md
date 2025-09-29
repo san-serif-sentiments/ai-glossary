@@ -54,7 +54,7 @@ Model drift arises when the data encountered in production no longer matches the
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'model drift'.
 
 ## Citations
-- [NIST AI RMF Glossary](https://airc.nist.gov/glossary/)
+- [NIST AI RMF Glossary](https://www.nist.gov/itl/ai-risk-management-framework)
 - [Google ML Glossary](https://developers.google.com/machine-learning/glossary)
 - [Stanford HAI Brief Definitions](https://hai.stanford.edu/news/brief-definitions)
 

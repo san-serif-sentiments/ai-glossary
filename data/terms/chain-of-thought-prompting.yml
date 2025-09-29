@@ -43,7 +43,7 @@ citations:
   - source: "Google – Chain of Thought Prompting"
     url: "https://arxiv.org/abs/2201.11903"
   - source: "DeepMind – Improving Reasoning in Language Models"
-    url: "https://www.deepmind.com/blog/chain-of-thought-reasoning-helps-language-models-solve-math"
+    url: "https://www.deepmind.com/blog/how-chain-of-thought-reasoning-helps-language-models-solve-math"
 license: "CC BY-SA 4.0"
 status: "approved"
 last_reviewed: "2025-09-29"
