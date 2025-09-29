@@ -57,7 +57,7 @@ Model interpretability encompasses methods and practices that reveal why an AI s
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'model interpretability'.
 
 ## Citations
-- [NIST AI RMF Glossary](https://airc.nist.gov/glossary/)
+- [NIST AI RMF Glossary](https://www.nist.gov/itl/ai-risk-management-framework)
 - [Google ML Glossary](https://developers.google.com/machine-learning/glossary)
 - [Stanford HAI Brief Definitions](https://hai.stanford.edu/news/brief-definitions)
 

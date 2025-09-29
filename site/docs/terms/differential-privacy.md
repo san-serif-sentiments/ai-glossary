@@ -53,7 +53,7 @@ Differential privacy protects individuals in a dataset by adding calibrated nois
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'differential privacy'.
 
 ## Citations
-- [NIST AI RMF Glossary](https://airc.nist.gov/glossary/)
+- [NIST AI RMF Glossary](https://www.nist.gov/itl/ai-risk-management-framework)
 - [Google ML Glossary](https://developers.google.com/machine-learning/glossary)
 - [Wikipedia AI Glossary](https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence)
 

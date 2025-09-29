@@ -4,34 +4,35 @@ To seed the glossary we reference widely-used industry and academic vocabularies
 
 ## Technical Foundations
 - **Google ML Glossary** — classic machine learning terminology with engineer-focused explanations. <https://developers.google.com/machine-learning/glossary>
-- **Hugging Face Glossary** — modern transformer and large language model vocabulary tied to code examples. <https://huggingface.co/docs/transformers/en/glossary>
-- **DeepLearning.AI AI Glossary** — practitioner-friendly definitions that balance depth and accessibility. <https://www.deeplearning.ai/resources/glossary/>
+- **Hugging Face Glossary** — modern transformer and large language model vocabulary tied to code examples. <https://huggingface.co/docs/transformers/main/en/glossary>
+- **AWS Machine Learning Glossary** — cloud-focused terminology covering services, algorithms, and operational best practices. <https://aws.amazon.com/machine-learning/glossary/>
+- **DeepLearning.AI AI Glossary** — practitioner-friendly definitions that balance depth and accessibility. <https://www.deeplearning.ai/glossary/>
 
 ## Standards & Governance
-- **NIST AI RMF Glossary (AIRC)** — trust, risk, bias, and governance concepts aligned to the NIST AI Risk Management Framework. <https://airc.nist.gov/glossary/>
-- **ISO/IEC JTC 1/SC 42 AI Standards Glossary** — formal standards vocabulary used across ISO and IEC publications. *(PDF availability varies; summaries may be required).* 
+- **NIST AI Risk Management Framework** — trust, risk, bias, and governance concepts aligned to the NIST AI RMF. <https://www.nist.gov/itl/ai-risk-management-framework>
+- **ISO/IEC JTC 1/SC 42 AI Standards Glossary** — formal standards vocabulary used across ISO and IEC publications. *(PDF availability varies; summaries may be required).*
 - **OECD AI Glossary** — policy and ethics terminology used by member nations. <https://oecd.ai/en/glossary>
 
 ## Academic & Public Reference
 - **Wikipedia: Glossary of Artificial Intelligence** — broad coverage updated continually by the community. <https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence>
-- **Stanford HAI Brief Definitions** — concise academic and policy definitions from Stanford's Institute for Human-Centered AI. <https://hai.stanford.edu/ai-glossary>
-- **MIT Technology Review AI Dictionary** — journalistic framing of common AI buzzwords and emerging concepts. <https://www.technologyreview.com/2023/ai-dictionary/>
+- **Stanford HAI Glossary** — concise academic and policy definitions from Stanford's Institute for Human-Centered AI. <https://hai.stanford.edu/education/ai-glossary>
+- **Built In AI Glossary** — journalistic framing of common AI buzzwords and emerging concepts. <https://builtin.com/artificial-intelligence/glossary-artificial-intelligence>
 
 ## Sector-Specific Perspectives
-- **UK Parliament POST AI Glossary** — plain-language explanations oriented toward public sector stakeholders. <https://post.parliament.uk/ai-glossary/>
-- **AI Now Institute Lexicon** — sociotechnical and ethical terminology focused on societal impacts. <https://ainowinstitute.org/lexicon.html>
-- **Partnership on AI Glossary** — industry-policy bridge for responsible AI language. <https://partnershiponai.org/glossary/>
+- **UK Government AI Playbook Glossary** — plain-language explanations oriented toward public sector stakeholders. <https://www.gov.uk/government/publications/office-for-artificial-intelligence-ai-playbook/ai-glossary>
+- **World Economic Forum AI Glossary** — sociotechnical and ethical terminology for global policy audiences. <https://www.weforum.org/agenda/2023/06/artificial-intelligence-glossary/>
+- **Partnership on AI Glossary** — industry-policy bridge for responsible AI language. <https://www.partnershiponai.org/glossary/>
 
 ## Ecosystem & Tooling
-- **LangChain Documentation Glossary** — agentic system and retrieval-augmented generation terminology from the LangChain ecosystem. <https://python.langchain.com/docs/glossary>
-- **OpenAI Glossary** — concepts related to large language model APIs, usage patterns, and safety tools. <https://platform.openai.com/docs/glossary>
-- **Anthropic / Claude Glossary** — alternative vocabulary for Claude models and safety practices. *(See FAQ and documentation sections for current terms.)*
+- **LangChain Concepts Overview** — agentic system and retrieval-augmented generation terminology from the LangChain ecosystem. <https://python.langchain.com/v0.2/docs/concepts>
+- **OpenAI API Glossary** — concepts related to large language model APIs, usage patterns, and safety tools. <https://help.openai.com/en/articles/6825453-openai-api-glossary>
+- **Anthropic Tool Use Guide** — alternative vocabulary for Claude models and safety practices. <https://docs.anthropic.com/en/docs/build-with-claude/tool-use>
 
 Use these sources when drafting new entries to keep definitions consistent, well-cited, and grounded in widely recognized language.
 
 ## Deep-dive documentation
-- **OpenAI Safety Best Practices** — operational guardrails, evaluations, and policy notes for production LLMs. <https://platform.openai.com/docs/guides/safety-best-practices>
-- **Anthropic Safety Spec** — constitutional AI principles and enforcement examples. <https://docs.anthropic.com/claude/docs/constitutional-ai>
-- **LangChain Evaluation Guide** — workflows for testing agents and RAG pipelines. <https://python.langchain.com/docs/guides/evaluation>
-- **NIST AI RMF Playbook** — implementation profiles and worksheets that complement glossary governance terms. <https://ai.gov/nist-ai-rmf/>
+- **OpenAI Safety Best Practices** — operational guardrails, evaluations, and policy notes for production LLMs. <https://help.openai.com/en/articles/7039943-safety-best-practices-for-openai-apis>
+- **Anthropic Safety Spec** — constitutional AI principles and enforcement examples. <https://www.anthropic.com/news/model-spec-for-ai-safety>
+- **LangChain Evaluation Guide** — workflows for testing agents and RAG pipelines. <https://python.langchain.com/v0.2/docs/guides/evaluation/overview>
+- **NIST AI RMF Playbook** — implementation profiles and worksheets that complement glossary governance terms. <https://www.nist.gov/itl/ai-risk-management-framework/ai-rmf-playbook>
 - **OECD AI Policy Observatory** — case studies and policy toolkits for responsible AI adoption. <https://oecd.ai/en/policy>

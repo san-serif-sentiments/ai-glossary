@@ -37,7 +37,7 @@ relationships:
     - "incident response"
 citations:
   - source: "NIST AI RMF Glossary"
-    url: "https://airc.nist.gov/glossary/"
+    url: "https://www.nist.gov/itl/ai-risk-management-framework"
   - source: "NIST – Privacy Framework"
     url: "https://www.nist.gov/privacy-framework/privacy-framework"
   - source: "Stanford HAI Brief Definitions"

@@ -39,7 +39,7 @@ relationships:
     - "incident response"
 citations:
   - source: "NIST AI RMF Glossary"
-    url: "https://airc.nist.gov/glossary/"
+    url: "https://www.nist.gov/itl/ai-risk-management-framework"
   - source: "Wikipedia AI Glossary"
     url: "https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence"
   - source: "FTC – Guarding Against Voice Cloning Scams"

@@ -37,7 +37,7 @@ relationships:
     - "guardrails"
 citations:
   - source: "NIST AI RMF Glossary"
-    url: "https://airc.nist.gov/glossary/"
+    url: "https://www.nist.gov/itl/ai-risk-management-framework"
   - source: "ICO – Data Protection Impact Assessments"
     url: "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-impact-assessments-dpias/"
   - source: "Stanford HAI Brief Definitions"

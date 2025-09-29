@@ -52,7 +52,7 @@ Data lineage maps the lifecycle of data from ingestion through processing, train
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'data lineage'.
 
 ## Citations
-- [NIST AI RMF – Data Management](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook)
+- [NIST AI RMF – Data Management](https://www.nist.gov/itl/ai-risk-management-framework/ai-rmf-playbook)
 - [Google – Data Lineage for ML](https://cloud.google.com/blog/products/data-analytics/why-data-lineage-is-critical-for-machine-learning)
 
 _License: CC BY-SA 4.0_

@@ -42,9 +42,9 @@ relationships:
     - "transparency report"
 citations:
   - source: "NIST AI RMF – Risk Management Playbook"
-    url: "https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook"
-  - source: "ISACA – Building AI Risk Registers"
-    url: "https://www.isaca.org/resources/news-and-trends/insights/2023/risk-registers-for-ai"
+    url: "https://www.nist.gov/itl/ai-risk-management-framework/ai-rmf-playbook"
+  - source: "World Economic Forum – How to Build an AI Risk Register"
+    url: "https://www.weforum.org/agenda/2023/06/how-to-build-an-ai-risk-register/"
 license: "CC BY-SA 4.0"
 status: "approved"
 last_reviewed: "2025-09-29"

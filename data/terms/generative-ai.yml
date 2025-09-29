@@ -38,7 +38,7 @@ relationships:
     - "guardrails"
 citations:
   - source: "NIST AI RMF Glossary"
-    url: "https://airc.nist.gov/glossary/"
+    url: "https://www.nist.gov/itl/ai-risk-management-framework"
   - source: "Google ML Glossary"
     url: "https://developers.google.com/machine-learning/glossary"
   - source: "Wikipedia AI Glossary"

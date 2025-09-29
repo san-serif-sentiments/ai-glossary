@@ -55,9 +55,9 @@ Voice cloning systems learn a speaker’s vocal characteristics from recorded sa
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'voice cloning'.
 
 ## Citations
-- [NIST AI RMF Glossary](https://airc.nist.gov/glossary/)
+- [NIST AI RMF Glossary](https://www.nist.gov/itl/ai-risk-management-framework)
 - [Wikipedia AI Glossary](https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence)
-- [UK POST AI Glossary](https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/)
+- [FTC – Guarding Against Voice Cloning Scams](https://www.ftc.gov/business-guidance/blog/2023/05/how-guard-against-new-wave-voice-cloning-fraud)
 
 _License: CC BY-SA 4.0_
 

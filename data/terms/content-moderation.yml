@@ -41,7 +41,7 @@ citations:
   - source: "European Commission – Content Moderation Policy"
     url: "https://digital-strategy.ec.europa.eu/en/policies/content-moderation"
   - source: "NIST AI RMF Glossary"
-    url: "https://airc.nist.gov/glossary/"
+    url: "https://www.nist.gov/itl/ai-risk-management-framework"
   - source: "Stanford HAI Brief Definitions"
     url: "https://hai.stanford.edu/news/brief-definitions"
 license: "CC BY-SA 4.0"

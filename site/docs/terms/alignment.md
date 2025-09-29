@@ -51,9 +51,9 @@ Alignment is the multidisciplinary effort to design AI systems whose goals, beha
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'alignment'.
 
 ## Citations
-- [NIST AI RMF Glossary](https://airc.nist.gov/glossary/)
-- [Stanford HAI Brief Definitions](https://hai.stanford.edu/news/brief-definitions)
-- [UK POST AI Glossary](https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/)
+- [Wikipedia – AI Alignment](https://en.wikipedia.org/wiki/AI_alignment)
+- [OpenAI – Learning from Human Preferences](https://openai.com/research/learning-from-human-preferences)
+- [Anthropic – Introducing Constitutional AI](https://www.anthropic.com/news/introducing-constitutional-ai)
 
 _License: CC BY-SA 4.0_
 

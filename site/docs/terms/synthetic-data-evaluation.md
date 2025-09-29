@@ -54,7 +54,7 @@ Synthetic data evaluation verifies that generated datasets mirror the statistica
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'synthetic data evaluation'.
 
 ## Citations
-- [NIST AI RMF Glossary](https://airc.nist.gov/glossary/)
+- [NIST AI RMF Glossary](https://www.nist.gov/itl/ai-risk-management-framework)
 - [Google ML Glossary](https://developers.google.com/machine-learning/glossary)
 - [Wikipedia AI Glossary](https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence)
 

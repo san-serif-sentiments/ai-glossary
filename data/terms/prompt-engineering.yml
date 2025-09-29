@@ -39,7 +39,7 @@ citations:
   - source: "Hugging Face Glossary"
     url: "https://huggingface.co/docs/transformers/en/glossary"
   - source: "Learn Prompting – Introduction"
-    url: "https://learnprompting.org/docs/intro"
+    url: "https://www.promptingguide.ai/introduction"
   - source: "Wikipedia AI Glossary"
     url: "https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence"
 license: "CC BY-SA 4.0"

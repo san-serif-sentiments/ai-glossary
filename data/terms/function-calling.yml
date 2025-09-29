@@ -36,9 +36,9 @@ relationships:
     - "guardrails"
 citations:
   - source: "OpenAI Glossary"
-    url: "https://platform.openai.com/docs/glossary"
+    url: "https://help.openai.com/en/articles/6825453-openai-api-glossary"
   - source: "LangChain Documentation Glossary"
-    url: "https://python.langchain.com/docs/glossary"
+    url: "https://python.langchain.com/v0.2/docs/concepts"
   - source: "Hugging Face Glossary"
     url: "https://huggingface.co/docs/transformers/en/glossary"
 license: "CC BY-SA 4.0"

@@ -42,7 +42,7 @@ relationships:
     - "ai incident response"
 citations:
   - source: "Anthropic Safety Spec"
-    url: "https://docs.anthropic.com/claude/docs/safety-spec"
+    url: "https://www.anthropic.com/news/model-spec-for-ai-safety"
   - source: "OpenAI – Usage Policies"
     url: "https://openai.com/policies/usage-policies"
   - source: "Anthropic – Model Spec for AI Safety"

@@ -37,7 +37,7 @@ relationships:
     - "incident response"
 citations:
   - source: "NIST AI RMF Glossary"
-    url: "https://airc.nist.gov/glossary/"
+    url: "https://www.nist.gov/itl/ai-risk-management-framework"
   - source: "ICO – Data Minimisation Principle"
     url: "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/principles/data-minimisation/"
   - source: "Stanford HAI Brief Definitions"

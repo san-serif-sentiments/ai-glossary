@@ -55,9 +55,9 @@ Synthetic data recreates statistical properties of real datasets without exposin
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'synthetic data'.
 
 ## Citations
-- [NIST AI RMF Glossary](https://airc.nist.gov/glossary/)
+- [NIST AI RMF Glossary](https://www.nist.gov/itl/ai-risk-management-framework)
 - [Google ML Glossary](https://developers.google.com/machine-learning/glossary)
-- [UK POST AI Glossary](https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/)
+- [Google Cloud – What Is Synthetic Data?](https://cloud.google.com/blog/products/ai-machine-learning/what-is-synthetic-data)
 
 _License: CC BY-SA 4.0_
 

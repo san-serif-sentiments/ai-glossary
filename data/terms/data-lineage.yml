@@ -44,7 +44,7 @@ relationships:
     - "risk register"
 citations:
   - source: "NIST AI RMF – Data Management"
-    url: "https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook"
+    url: "https://www.nist.gov/itl/ai-risk-management-framework/ai-rmf-playbook"
   - source: "Google – Data Lineage for ML"
     url: "https://cloud.google.com/blog/products/data-analytics/why-data-lineage-is-critical-for-machine-learning"
 license: "CC BY-SA 4.0"

@@ -45,9 +45,9 @@ relationships:
     - "risk register"
 citations:
   - source: "AI Now Institute – Algorithmic Accountability Policy Toolkit"
-    url: "https://ainowinstitute.org/aap-toolkit.pdf"
+    url: "https://www.partnershiponai.org/wp-content/uploads/2021/08/Algorithmic-Accountability-Policy-Toolkit.pdf"
   - source: "NIST AI RMF Playbook"
-    url: "https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook"
+    url: "https://www.nist.gov/itl/ai-risk-management-framework/ai-rmf-playbook"
 license: "CC BY-SA 4.0"
 status: "approved"
 last_reviewed: "2025-09-29"

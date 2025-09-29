@@ -51,7 +51,7 @@ Tool use occurs when a language model defers specific subtasks to external funct
 ## Citations
 - [Hugging Face Glossary](https://huggingface.co/docs/transformers/en/glossary)
 - [Google ML Glossary](https://developers.google.com/machine-learning/glossary)
-- [UK POST AI Glossary](https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/)
+- [Anthropic – Tool Use](https://docs.anthropic.com/en/docs/build-with-claude/tool-use)
 
 _License: CC BY-SA 4.0_
 

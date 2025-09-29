@@ -47,7 +47,7 @@ relationships:
     - "synthetic data evaluation"
 citations:
   - source: "LangChain Documentation – Evaluation"
-    url: "https://python.langchain.com/docs/guides/evaluation/"
+    url: "https://python.langchain.com/v0.2/docs/guides/evaluation/overview"
   - source: "OpenAI Blog – Introducing OpenAI Evals"
     url: "https://openai.com/blog/evals"
 license: "CC BY-SA 4.0"

@@ -54,7 +54,7 @@ Prompt engineering involves designing the instructions, examples, and context pr
 
 ## Citations
 - [Hugging Face Glossary](https://huggingface.co/docs/transformers/en/glossary)
-- [UK POST AI Glossary](https://post.parliament.uk/publications/artificial-intelligence/ai-glossary/)
+- [Learn Prompting – Introduction](https://www.promptingguide.ai/introduction)
 - [Wikipedia AI Glossary](https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence)
 
 _License: CC BY-SA 4.0_

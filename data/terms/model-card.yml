@@ -39,7 +39,7 @@ relationships:
     - "evaluation"
 citations:
   - source: "NIST AI RMF Glossary"
-    url: "https://airc.nist.gov/glossary/"
+    url: "https://www.nist.gov/itl/ai-risk-management-framework"
   - source: "Google – Model Cards for Model Reporting"
     url: "https://modelcards.withgoogle.com/about"
   - source: "Stanford HAI Brief Definitions"

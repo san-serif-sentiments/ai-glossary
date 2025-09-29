@@ -50,7 +50,7 @@ Low-rank adaptation (LoRA) fine-tunes large language models by learning compact 
 ## Citations
 - [Hugging Face Glossary](https://huggingface.co/docs/transformers/en/glossary)
 - [Google ML Glossary](https://developers.google.com/machine-learning/glossary)
-- [NIST AI RMF Glossary](https://airc.nist.gov/glossary/)
+- [NIST AI RMF Glossary](https://www.nist.gov/itl/ai-risk-management-framework)
 
 _License: CC BY-SA 4.0_
 
