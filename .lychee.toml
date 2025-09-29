@@ -1,6 +1,6 @@
 # .lychee.toml
 
-# Point root-relative links to your published site base
+# Base URL of your published site (used to resolve root-relative links in HTML)
 base = "https://san-serif-sentiments.github.io/ai-glossary"
 
 # Retries & concurrency
@@ -9,35 +9,19 @@ max-concurrency = 6
 retry-wait-time = 2
 retry-count = 2
 
-# Force GET (some servers 403/405 on HEAD); add a browser UA
+# Many sites 403/405 on HEAD; use GET and a browser-like UA
 method = "GET"
-user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127 Safari/537.36"
+user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36"
 
 # Accept common success/redirect/ratelimit statuses
 accept = [200, 201, 202, 204, 206, 301, 302, 307, 308, 429]
 
-# Sites that block automated requests even with GET+UA: exclude them (or keep if you want them enforced)
+# Domains that frequently 403 to bots even with GET+UA
 exclude = [
-  "https://platform.openai.com/docs/*" # OpenAI Docs commonly 403 to bots in CI
+  "https://platform.openai.com/docs/*"
 ]
 
-# Optional: if you keep site-absolute links in content, remap them to on-site relatives for validation
-[# Use a single `remap` key that holds an array of strings.
-# Each string should contain the original URL regex pattern and its replacement, separated by a space.
-# Use a single `remap` key that holds an array of strings.
-# Each string contains the original URL regex pattern and its replacement, separated by a space.
-# Use a single `remap` key that holds an array of strings.
-# Each string contains the original URL regex pattern and its replacement, separated by a space.
-remap = [
-  "^/terms/ terms/",
-  "^/roles/ roles.md",
-  "^/categories/ categories.md",
-  "^/search/index.html$ search.md",
-  "^/governance-dashboard/index.html$ governance-dashboard.md"
-]
-
-
-# Optional: ignore CI/config folders
+# Ignore CI/config folders
 exclude_path = [
   "^\\.github/.*"
 ]
