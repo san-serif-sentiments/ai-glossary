@@ -7,7 +7,7 @@ import json
 import sys
 from datetime import datetime
 from pathlib import Path
-from typing import Iterable, List
+from typing import Iterable, List, Optional
 
 CURRENT_DIR = Path(__file__).resolve().parent
 REPO_ROOT = CURRENT_DIR.parent
@@ -197,7 +197,7 @@ def iter_term_files(data_dir: Path) -> Iterable[Path]:
     return sorted(data_dir.glob("*.yml"))
 
 
-def main(argv: list[str] | None = None) -> int:
+def main(argv: Optional[List[str]] = None) -> int:
     parser = argparse.ArgumentParser(description="Validate glossary term files")
     parser.add_argument(
         "--data-dir",
