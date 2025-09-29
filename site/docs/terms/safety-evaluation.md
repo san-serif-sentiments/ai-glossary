@@ -8,7 +8,7 @@
 **Categories:** Governance & Risk, Operations & Monitoring
 **Roles:** Engineering & Platform, Policy & Risk, Product & Program Managers, Communications & Enablement
 **Part of speech:** `process`
-**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-11-02)
+**Status:** <span class="status-chip status-reviewed">Reviewed</span> (Last reviewed: 2025-09-28)
 
 ## Role takeaways
 - **Engineering & Platform:** Document implementation requirements and operational caveats.

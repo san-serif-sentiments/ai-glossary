@@ -1,0 +1,51 @@
+term: "incident taxonomy"
+aliases:
+  - "incident classification"
+  - "risk taxonomy"
+categories:
+  - "Operations & Monitoring"
+roles:
+  - "policy"
+  - "security"
+  - "product"
+  - "engineering"
+part_of_speech: "noun_phrase"
+short_def: "Standardized categories used to tag, analyze, and report AI incidents consistently."
+long_def: >-
+  An incident taxonomy defines the categories and severity levels used when logging AI failures or near misses. It enables
+  consistent reporting across teams, trend analysis, and regulatory submissions. The taxonomy should map to policy
+  commitments (e.g., privacy, bias, safety), specify severity criteria, and align with incident response playbooks.
+  Policy teams maintain the taxonomy, engineering and support staff apply it during postmortems, and executives use the
+  data to prioritize mitigations. Without a shared taxonomy, incident data becomes noisy, making it difficult to learn
+  from patterns or demonstrate accountability to regulators.
+audiences:
+  exec: "Mandate taxonomy usage so incident trends inform roadmap and governance decisions."
+  engineer: "Tag incidents accurately and link them to the taxonomy when filing postmortems."
+examples:
+  do:
+    - "Review taxonomy definitions annually with policy and security stakeholders."
+    - "Tie mitigation backlog items to taxonomy categories for tracking."
+  dont:
+    - "Let teams create ad hoc categories that fragment reporting."
+    - "Ignore low-severity categories; they often reveal emerging risks."
+governance:
+  nist_rmf_tags:
+    - "governance"
+    - "monitoring"
+    - "accountability"
+  risk_notes: "Inconsistent classification hides systemic issues and complicates regulatory disclosure."
+relationships:
+  broader:
+    - "ai incident response"
+  related:
+    - "risk register"
+    - "impact mitigation plan"
+    - "transparency report"
+citations:
+  - source: "Partnership on AI – Incident Sharing"
+    url: "https://partnershiponai.org/resource/ai-incident-sharing-framework/"
+  - source: "NIST AI RMF Playbook – Govern"
+    url: "https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook"
+license: "CC BY-SA 4.0"
+status: "reviewed"
+last_reviewed: "2025-09-28"

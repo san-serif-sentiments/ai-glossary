@@ -1,0 +1,52 @@
+term: "self-critique loop"
+aliases:
+  - "self-reflection loop"
+  - "critique-and-revise"
+categories:
+  - "Agents & Tooling"
+roles:
+  - "engineering"
+  - "product"
+  - "policy"
+part_of_speech: "process"
+short_def: "Pattern where a model reviews its own outputs, critiques them, and produces revisions before responding."
+long_def: >-
+  A self-critique loop introduces an internal review step into an AI workflow. After generating an initial answer, the
+  model (or a paired model) evaluates the response against instructions, safety policies, or quality rubrics, then
+  revises the output. Engineers use the loop to catch hallucinations or policy violations automatically, while product
+  teams tune the number of critique iterations to balance latency and reliability. Governance partners supply critique
+  prompts that focus on harm categories and compliance language. Without clear stop conditions, self-critique can
+  increase cost or drift toward repetitive edits, so loops should cap iterations and escalate to humans when
+  uncertainty remains high.
+audiences:
+  exec: "Invest in self-critique loops to raise reliability without assigning every response to manual review."
+  engineer: "Instrument critique prompts, scoring, and escalation thresholds to keep loops fast and auditable."
+examples:
+  do:
+    - "Log critique reasons and revision diffs so policy teams can audit how safety issues were resolved."
+    - "Limit the loop to two or three iterations before escalating to a human reviewer."
+  dont:
+    - "Allow the loop to run indefinitely chasing marginal quality gains."
+    - "Rely solely on self-critique for high-severity categories without human oversight."
+governance:
+  nist_rmf_tags:
+    - "monitoring"
+    - "risk_management"
+    - "transparency"
+  risk_notes: "Unbounded self-critique can mask uncertain decisions and increase compute cost without clear accountability."
+relationships:
+  broader:
+    - "constitutional ai"
+    - "guardrails"
+  related:
+    - "robust prompting"
+    - "safety spec"
+    - "ai incident response"
+citations:
+  - source: "Anthropic – Constitutional AI Research"
+    url: "https://www.anthropic.com/research/constitutional-ai"
+  - source: "DeepLearning.AI – Self-Consistency and Reflection"
+    url: "https://www.deeplearning.ai/the-batch/how-self-reflection-improves-llm-reasoning/"
+license: "CC BY-SA 4.0"
+status: "reviewed"
+last_reviewed: "2025-09-28"

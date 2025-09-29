@@ -1,0 +1,53 @@
+term: "escalation policy"
+aliases:
+  - "human escalation policy"
+  - "handoff policy"
+categories:
+  - "Governance & Risk"
+roles:
+  - "product"
+  - "policy"
+  - "security"
+  - "engineering"
+part_of_speech: "noun_phrase"
+short_def: "Playbook that defines when and how AI systems route control to human reviewers."
+long_def: >-
+  An escalation policy documents the conditions that trigger human intervention during automated workflows. For AI
+  systems, it specifies risk thresholds, user signals, compliance events, and operational failures that require a
+  person to review or take over. The policy names accountable roles, time-to-response expectations, and communication
+  paths so incidents resolve quickly. Product teams embed escalation hooks in UX flows, engineering implements the
+  routing logic, and security or policy leaders ensure the policy covers legal and ethical obligations. Without a
+  maintained policy, escalations become ad hoc, increasing the chance that sensitive actions remain unreviewed or
+  stuck in queues.
+audiences:
+  exec: "Use escalation policies to prove that sensitive AI decisions receive timely human scrutiny."
+  engineer: "Wire instrumentation that triggers the policy reliably and logs every escalation for auditing."
+examples:
+  do:
+    - "Define severity tiers with maximum response windows for each reviewer group."
+    - "Test escalation paths during chaos exercises to confirm alerts reach on-call owners."
+  dont:
+    - "Rely on verbal agreements about who will intervene when policies fire."
+    - "Allow blocked escalations to sit without rerouting or notifying backups."
+governance:
+  nist_rmf_tags:
+    - "governance"
+    - "monitoring"
+    - "risk_management"
+  risk_notes: "Undefined escalation paths leave high-impact failures unreviewed and erode regulatory trust."
+relationships:
+  broader:
+    - "ai incident response"
+    - "guardrail policy"
+  related:
+    - "human handoff"
+    - "risk register"
+    - "safety spec"
+citations:
+  - source: "OECD AI Glossary – Human Oversight"
+    url: "https://oecd.ai/en/glossary/human-in-the-loop"
+  - source: "AI Now Institute – Escalation Guidance"
+    url: "https://ainowinstitute.org/aap-toolkit.pdf"
+license: "CC BY-SA 4.0"
+status: "reviewed"
+last_reviewed: "2025-09-28"

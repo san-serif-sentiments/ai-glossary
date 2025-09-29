@@ -8,7 +8,7 @@
 **Categories:** Governance & Risk, Operations & Monitoring
 **Roles:** Policy & Risk, Legal & Compliance, Product & Program Managers, Engineering & Platform, Communications & Enablement
 **Part of speech:** `noun`
-**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-11-03)
+**Status:** <span class="status-chip status-reviewed">Reviewed</span> (Last reviewed: 2025-09-28)
 
 !!! tip "Put it into practice"
     Document changes using the [Governance & Risk section](../categories.md#governance--risk).

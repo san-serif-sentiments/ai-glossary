@@ -1,0 +1,56 @@
+term: "transparency report"
+aliases:
+  - "algorithmic transparency report"
+  - "safety disclosure report"
+categories:
+  - "Governance & Risk"
+roles:
+  - "policy"
+  - "legal"
+  - "communications"
+  - "product"
+part_of_speech: "noun_phrase"
+short_def: "Periodic disclosure that details how an AI system operates, what data it handles, and how risks are mitigated."
+long_def: >-
+  A transparency report is a structured publication that explains how an AI system was built, deployed, and governed.
+  It typically documents training data provenance, safety mitigations, evaluation outcomes, incidents, and law-enforcement
+  or policy interactions. Regulators increasingly require providers to publish these reports on a fixed cadence, while
+  enterprises use them to demonstrate accountability to customers and civil society. Effective reports pair quantitative
+  metrics with narrative context so stakeholders can understand both capabilities and limitations. Policy and legal teams
+  coordinate the disclosure scope, communications tailors the narrative, and product owners provide operational detail.
+  Without disciplined reporting, organizations struggle to prove compliance, respond to audits, or build trust with users.
+audiences:
+  exec: "Use transparency reports to show regulators and customers that your AI program meets accountability expectations."
+  engineer: "Treat the report as a contract: ensure logs, metrics, and documentation can back every disclosure you publish."
+examples:
+  do:
+    - "Publish red-team findings, mitigation steps, and open risks alongside capability highlights."
+    - "Describe data retention periods and consent mechanisms in plain language instead of legal shorthand."
+  dont:
+    - "Release marketing copy that omits failure modes, known biases, or the limits of human oversight."
+    - "Bundle multiple system changes into one vague update that hides the timeline regulators expect."
+governance:
+  nist_rmf_tags:
+    - "transparency"
+    - "accountability"
+    - "governance"
+  risk_notes: "Incomplete or inaccurate disclosures expose the organization to regulatory penalties and reputational damage."
+relationships:
+  broader:
+    - "responsible ai"
+    - "model governance"
+  related:
+    - "algorithmic audit"
+    - "ai assurance"
+    - "privacy impact assessment"
+  narrower:
+    - "safety spec"
+    - "risk register"
+citations:
+  - source: "European Commission – DSA Transparency Database"
+    url: "https://digital-strategy.ec.europa.eu/en/policies/dsa-transparency-database"
+  - source: "Partnership on AI – Transparency Reporting Template"
+    url: "https://partnershiponai.org/resource/transparency-reporting-template/"
+license: "CC BY-SA 4.0"
+status: "reviewed"
+last_reviewed: "2025-09-28"

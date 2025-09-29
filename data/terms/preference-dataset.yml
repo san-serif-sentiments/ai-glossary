@@ -1,0 +1,51 @@
+term: "preference dataset"
+aliases:
+  - "preference data"
+  - "human feedback dataset"
+categories:
+  - "LLM Core"
+roles:
+  - "data_science"
+  - "policy"
+  - "product"
+  - "engineering"
+part_of_speech: "noun_phrase"
+short_def: "Labeled comparisons of model outputs that capture which responses humans prefer."
+long_def: >-
+  A preference dataset contains prompts, model outputs, and human annotations indicating which output better satisfies
+  instructions or policies. Teams use it to train reward models or perform direct preference optimization. Gathering
+  preference data requires clear labeling rubrics, diverse annotators, and safeguards for sensitive content. Policy teams
+  define decision criteria, product teams ensure tone and UX requirements are reflected, and engineers manage secure
+  tooling for annotation. Poorly managed preference data can leak personal information or encode unintended bias that
+  later influences RLHF or reranking systems.
+audiences:
+  exec: "Protect preference data like any user research asset—it shapes model behavior and compliance."
+  engineer: "Track lineage from annotation tools to training pipelines and enforce access controls."
+examples:
+  do:
+    - "Capture rationale alongside preferences so reviewers understand annotations."
+    - "Audit samples regularly for bias or policy drift."
+  dont:
+    - "Mix production user data into preference datasets without consent."
+    - "Allow annotators to work without updated safety guidelines."
+governance:
+  nist_rmf_tags:
+    - "accountability"
+    - "risk_management"
+    - "privacy"
+  risk_notes: "Lax controls can leak sensitive prompts or entrench biased judgments into downstream models."
+relationships:
+  broader:
+    - "reinforcement learning from human feedback"
+  related:
+    - "reward model"
+    - "instruction tuning"
+    - "risk register"
+citations:
+  - source: "OpenAI – InstructGPT"
+    url: "https://arxiv.org/abs/2203.02155"
+  - source: "Anthropic – Constitutional AI Data Collection"
+    url: "https://www.anthropic.com/research/constitutional-ai"
+license: "CC BY-SA 4.0"
+status: "reviewed"
+last_reviewed: "2025-09-28"

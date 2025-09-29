@@ -1,0 +1,50 @@
+term: "dataset card"
+aliases:
+  - "dataset documentation"
+  - "data sheet"
+categories:
+  - "Governance & Risk"
+roles:
+  - "data_science"
+  - "policy"
+  - "legal"
+  - "product"
+part_of_speech: "noun_phrase"
+short_def: "Structured documentation describing a dataset’s purpose, composition, risks, and usage constraints."
+long_def: >-
+  A dataset card records how and why data was collected, what populations it represents, known biases, licensing, and
+  recommended uses. Inspired by model cards and “datasheets for datasets,” the card gives reviewers the context needed to
+  judge fitness for training or evaluation. Data scientists author technical details, policy and legal teams capture risk
+  considerations, and product teams reference the card when scoping features. Keeping cards up to date enables auditors to
+  trace claims back to source data and supports transparency commitments.
+audiences:
+  exec: "Require dataset cards before approving new training data to avoid surprises later."
+  engineer: "Link data pipelines and model training jobs back to the referenced card for traceability."
+examples:
+  do:
+    - "Document demographic coverage, labeling processes, and known limitations."
+    - "Include contact points for questions or takedown requests."
+  dont:
+    - "Publish datasets without clarifying licensing or consent status."
+    - "Let cards drift after significant data updates."
+governance:
+  nist_rmf_tags:
+    - "transparency"
+    - "governance"
+    - "accountability"
+  risk_notes: "Missing documentation obscures bias, licensing, and consent concerns tied to data."
+relationships:
+  broader:
+    - "model governance"
+  related:
+    - "model card"
+    - "consent management"
+    - "transparency report"
+citations:
+  - source: "Datasheets for Datasets"
+    url: "https://arxiv.org/abs/1803.09010"
+  - source: "Stanford HAI – Dataset Cards"
+    url: "https://hai.stanford.edu/policy-brief/dataset-cards"
+license: "CC BY-SA 4.0"
+status: "reviewed"
+last_reviewed: "2025-09-28"

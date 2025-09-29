@@ -8,7 +8,7 @@
 **Categories:** Governance & Risk, Operations & Monitoring
 **Roles:** Data Science & Research, Engineering & Platform, Policy & Risk, Product & Program Managers, Security & Trust
 **Part of speech:** `noun`
-**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-11-02)
+**Status:** <span class="status-chip status-reviewed">Reviewed</span> (Last reviewed: 2025-09-28)
 
 ## Role takeaways
 - **Data Science & Research:** Incorporate the metric or method into evaluation pipelines.

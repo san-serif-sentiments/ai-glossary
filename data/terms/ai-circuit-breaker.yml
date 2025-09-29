@@ -1,0 +1,51 @@
+term: "ai circuit breaker"
+aliases:
+  - "kill switch"
+  - "automated shutdown"
+categories:
+  - "Operations & Monitoring"
+roles:
+  - "engineering"
+  - "security"
+  - "policy"
+  - "product"
+part_of_speech: "noun_phrase"
+short_def: "Automated control that halts model responses or tool access when risk thresholds are exceeded."
+long_def: >-
+  An AI circuit breaker detects abnormal behavior—such as rapid policy violations, runaway tool use, or anomalous
+  telemetry—and stops the system from continuing without human approval. It can disable outputs, revoke tool permissions,
+  or route all traffic to human agents. Security and engineering teams design detection logic, policy leaders set
+  thresholds, and product teams coordinate user messaging. Circuit breakers complement escalation policies and incident
+  response plans, providing a fast path to contain harm. Without them, incidents may escalate faster than humans can
+  intervene manually.
+audiences:
+  exec: "Mandate circuit breakers for high-impact automations to cap worst-case scenarios."
+  engineer: "Log activations, reasons, and resolution notes so the control remains auditable."
+examples:
+  do:
+    - "Trigger a breaker if safety classifiers flag repeated violations within a session."
+    - "Simulate breaker events during chaos exercises to ensure recovery paths work."
+  dont:
+    - "Leave breaker logic undocumented or dependent on a single engineer."
+    - "Ignore alerts after a breaker fires; reset only after root cause analysis."
+governance:
+  nist_rmf_tags:
+    - "risk_management"
+    - "monitoring"
+    - "security"
+  risk_notes: "Without emergency stops, AI incidents can cause cascading harm before humans respond."
+relationships:
+  broader:
+    - "ai incident response"
+  related:
+    - "escalation policy"
+    - "safety classifier"
+    - "guardrail policy"
+citations:
+  - source: "NIST AI RMF – Protection Function"
+    url: "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf"
+  - source: "Microsoft – Safe Deployment Practices"
+    url: "https://learn.microsoft.com/azure/ai-services/openai/concepts/safe-deployment"
+license: "CC BY-SA 4.0"
+status: "reviewed"
+last_reviewed: "2025-09-28"

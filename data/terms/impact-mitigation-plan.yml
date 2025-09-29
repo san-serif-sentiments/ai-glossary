@@ -1,0 +1,53 @@
+term: "impact mitigation plan"
+aliases:
+  - "mitigation roadmap"
+  - "risk remediation plan"
+categories:
+  - "Governance & Risk"
+roles:
+  - "policy"
+  - "product"
+  - "legal"
+  - "engineering"
+part_of_speech: "noun_phrase"
+short_def: "Action plan that tracks risks, mitigations, owners, and timelines for an AI deployment."
+long_def: >-
+  An impact mitigation plan documents the risks identified during assessments, the mitigation steps the organization
+  will take, and the owners accountable for each action. It connects findings from algorithmic impact assessments,
+  red-team exercises, and audits to specific deadlines, metrics, and escalation triggers. Policy leads maintain the
+  plan to satisfy regulatory expectations, product teams map mitigations to launch gates, and engineering tracks the
+  technical work needed to close gaps. When kept current, the plan provides a single source of truth for audits and
+  post-incident reviews. When neglected, risks stay unaddressed and stakeholders lose visibility into whether controls
+  are actually landing.
+audiences:
+  exec: "Use the mitigation plan to monitor whether high-severity risks are closing before committing to launch dates."
+  engineer: "Link each mitigation to backlog tickets and telemetry so progress stays measurable and auditable."
+examples:
+  do:
+    - "Record status updates and evidence links for every mitigation before major launch reviews."
+    - "Flag blocked mitigations with escalation paths and decision deadlines for leadership."
+  dont:
+    - "Let mitigation owners slip without documenting rationale or alternate controls."
+    - "Track mitigations in private spreadsheets that governance teams cannot access."
+governance:
+  nist_rmf_tags:
+    - "risk_management"
+    - "accountability"
+    - "monitoring"
+  risk_notes: "Missing mitigation follow-through leaves organizations exposed to repeat incidents and regulatory penalties."
+relationships:
+  broader:
+    - "algorithmic impact assessment"
+    - "model governance"
+  related:
+    - "ai assurance"
+    - "transparency report"
+    - "risk register"
+citations:
+  - source: "AI Now Institute – Algorithmic Accountability Policy Toolkit"
+    url: "https://ainowinstitute.org/aap-toolkit.pdf"
+  - source: "NIST AI RMF Playbook"
+    url: "https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook"
+license: "CC BY-SA 4.0"
+status: "reviewed"
+last_reviewed: "2025-09-28"

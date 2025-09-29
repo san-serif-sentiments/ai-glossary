@@ -8,7 +8,7 @@
 **Categories:** Governance & Risk
 **Roles:** Product & Program Managers, Engineering & Platform, Policy & Risk, Legal & Compliance, Communications & Enablement
 **Part of speech:** `concept`
-**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-11-26)
+**Status:** <span class="status-chip status-reviewed">Reviewed</span> (Last reviewed: 2025-09-28)
 
 ## Role takeaways
 - **Product & Program Managers:** Translate this concept into user impact and rollout plans.

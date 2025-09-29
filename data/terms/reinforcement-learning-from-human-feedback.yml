@@ -1,0 +1,53 @@
+term: "reinforcement learning from human feedback"
+aliases:
+  - "rlhf"
+  - "preference optimization"
+categories:
+  - "LLM Core"
+roles:
+  - "engineering"
+  - "data_science"
+  - "product"
+  - "policy"
+part_of_speech: "process"
+short_def: "Training approach that tunes a model using reward signals learned from human preference data."
+long_def: >-
+  Reinforcement learning from human feedback (RLHF) trains a reward model on human preference comparisons, then uses that
+  reward model to fine-tune a base language model with reinforcement learning. The process typically involves collecting
+  prompts and multiple responses, asking human labelers which response better follows policy, training a reward model on
+  those rankings, and running a reinforcement learning algorithm (often PPO) to optimize the model’s behavior. RLHF
+  aligns outputs with human expectations when explicit rules are difficult to encode. Product teams define the
+  guidelines labelers follow, policy teams ensure safety requirements are reflected, and engineers monitor for reward
+  hacking or regressions. RLHF requires continuous refreshes as policies evolve; stale preference data can drift from
+  current standards.
+audiences:
+  exec: "Budget for ongoing RLHF cycles so the model keeps pace with policy and product shifts."
+  engineer: "Instrument reward signals, evaluation sets, and safety metrics to catch regressions early."
+examples:
+  do:
+    - "Collect diverse preference data that captures edge cases and sensitive topics."
+    - "Audit reward model calibration to prevent exploiting annotation quirks."
+  dont:
+    - "Assume one RLHF pass will keep a model aligned indefinitely."
+    - "Let annotator instructions diverge from published safety or product policies."
+governance:
+  nist_rmf_tags:
+    - "risk_management"
+    - "monitoring"
+    - "transparency"
+  risk_notes: "Poorly curated feedback can encode bias or create reward hacking that violates policy."
+relationships:
+  broader:
+    - "fine-tuning"
+  related:
+    - "reward model"
+    - "alignment"
+    - "robust prompting"
+citations:
+  - source: "OpenAI – InstructGPT Paper"
+    url: "https://arxiv.org/abs/2203.02155"
+  - source: "Anthropic – RLHF Overview"
+    url: "https://www.anthropic.com/news/rlhf"
+license: "CC BY-SA 4.0"
+status: "reviewed"
+last_reviewed: "2025-09-28"

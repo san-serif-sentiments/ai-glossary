@@ -1,0 +1,49 @@
+term: "direct preference optimization"
+aliases:
+  - "dpo"
+  - "preference optimization without rlhf"
+categories:
+  - "LLM Core"
+roles:
+  - "engineering"
+  - "data_science"
+  - "product"
+part_of_speech: "process"
+short_def: "Alignment technique that fine-tunes models directly on preference data without training a separate reward model."
+long_def: >-
+  Direct preference optimization (DPO) replaces the reward-model-and-RL step in traditional RLHF with a closed-form
+  objective that pushes the model toward preferred responses. Using paired comparisons, it optimizes log-likelihood ratios
+  so preferred outputs receive higher probability while disfavored ones decrease. DPO simplifies infrastructure and
+  reduces instability caused by reinforcement learning. Engineers still need high-quality preference datasets and
+  evaluation benchmarks, while policy teams confirm that annotator guidance reflects safety requirements. Poor datasets or
+  hyperparameter choices can lead to overfitting, regressions, or policy drift, so monitoring remains critical.
+audiences:
+  exec: "DPO lowers alignment overhead but still requires tight governance on data quality and evaluations."
+  engineer: "Track win rates and safety metrics before and after DPO to ensure improvements hold."
+examples:
+  do:
+    - "Re-run safety and quality benchmarks after each optimization pass."
+    - "Blend DPO with instruction tuning refreshes to keep behavior current."
+  dont:
+    - "Assume DPO eliminates the need for human review or reward analyses."
+    - "Train on preference data without validating annotator consistency."
+governance:
+  nist_rmf_tags:
+    - "measurement"
+    - "risk_management"
+  risk_notes: "Misaligned preference data can push the model toward unsafe behavior even without RL instabilities."
+relationships:
+  broader:
+    - "reinforcement learning from human feedback"
+  related:
+    - "preference dataset"
+    - "instruction tuning"
+    - "reward model"
+citations:
+  - source: "Stanford – Direct Preference Optimization"
+    url: "https://arxiv.org/abs/2305.18290"
+  - source: "Anthropic – Lessons from Preference Optimization"
+    url: "https://www.anthropic.com/research/preference-optimization"
+license: "CC BY-SA 4.0"
+status: "reviewed"
+last_reviewed: "2025-09-28"

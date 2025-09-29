@@ -8,7 +8,7 @@
 **Categories:** Foundations, LLM Core
 **Roles:** Engineering & Platform, Data Science & Research, Product & Program Managers, Communications & Enablement
 **Part of speech:** `noun`
-**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-11-03)
+**Status:** <span class="status-chip status-reviewed">Reviewed</span> (Last reviewed: 2025-09-28)
 
 ## Role takeaways
 - **Engineering & Platform:** Document implementation requirements and operational caveats.

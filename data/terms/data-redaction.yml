@@ -1,0 +1,52 @@
+term: "data redaction"
+aliases:
+  - "pii redaction"
+  - "sensitive data masking"
+categories:
+  - "Governance & Risk"
+roles:
+  - "engineering"
+  - "policy"
+  - "legal"
+  - "security"
+part_of_speech: "process"
+short_def: "Removal or masking of sensitive fields before data is stored, shared, or used for model training."
+long_def: >-
+  Data redaction removes or obfuscates sensitive information—such as personal identifiers, secrets, or confidential
+  business details—before data is logged, retrained, or surfaced to analysts. Techniques include masking, hashing, token
+  substitution, and selective deletion. Policy and legal teams define what must be redacted, engineers implement automated
+  pipelines, and security verifies effectiveness through sampling and audits. Mature programs document redaction
+  effectiveness, expose dashboards to auditors, and tie results to incident response drills. Redaction protects privacy,
+  reduces breach impact, and supports compliance with consent and retention requirements. Incomplete redaction can leak
+  sensitive information into training data or logs.
+audiences:
+  exec: "Require automated redaction in telemetry and training pipelines to reduce regulatory exposure."
+  engineer: "Build redaction into ingestion pipelines and confirm outputs with monitoring."
+examples:
+  do:
+    - "Redact PII at the edge before persisting chat transcripts."
+    - "Track redaction effectiveness with periodic manual reviews."
+  dont:
+    - "Rely solely on manual processes to strip sensitive data."
+    - "Redact without documenting which fields are affected, confusing downstream users."
+governance:
+  nist_rmf_tags:
+    - "privacy"
+    - "risk_management"
+    - "security"
+  risk_notes: "Poor redaction leaks sensitive data into models, logs, or analytics workflows."
+relationships:
+  broader:
+    - "data minimization"
+  related:
+    - "consent management"
+    - "data retention"
+    - "privacy impact assessment"
+citations:
+  - source: "NIST Privacy Framework"
+    url: "https://www.nist.gov/privacy-framework"
+  - source: "Google – Data Loss Prevention Redaction"
+    url: "https://cloud.google.com/dlp/docs/redacting-sensitive-data"
+license: "CC BY-SA 4.0"
+status: "reviewed"
+last_reviewed: "2025-09-28"

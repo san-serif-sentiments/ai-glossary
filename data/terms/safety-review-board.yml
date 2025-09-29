@@ -1,0 +1,51 @@
+term: "safety review board"
+aliases:
+  - "ai safety council"
+  - "responsible ai board"
+categories:
+  - "Governance & Risk"
+roles:
+  - "policy"
+  - "legal"
+  - "security"
+  - "product"
+part_of_speech: "noun_phrase"
+short_def: "Cross-functional committee that approves high-risk AI launches and monitors mitigations."
+long_def: >-
+  A safety review board brings together policy, legal, security, product, and engineering leaders to evaluate AI systems
+  before deployment. The board reviews risk registers, assurance cases, evaluation results, and mitigation plans, then
+  issues approvals or action items. It also monitors incidents, tracks mitigation follow-through, and ensures governance
+  policies evolve with capabilities. Effective boards maintain charters, meeting cadences, and decision logs that feed
+  back into assurance cases and executive reporting. Without a formal board, decisions may be made piecemeal, leaving
+  organizations exposed to fragmented oversight and inconsistent accountability.
+audiences:
+  exec: "Empower a safety board with decision rights so responsibility for high-risk launches is explicit."
+  engineer: "Prepare evidence packages that address the board’s checklist and document follow-ups."
+examples:
+  do:
+    - "Publish a charter defining scope, membership, and escalation paths."
+    - "Record decisions and rationale to inform future reviews."
+  dont:
+    - "Treat approvals as rubber stamps without requiring evidence of mitigations."
+    - "Leave the board uninformed about production incidents."
+governance:
+  nist_rmf_tags:
+    - "governance"
+    - "accountability"
+    - "risk_management"
+  risk_notes: "Absent governance bodies, high-severity decisions can bypass oversight and create liability."
+relationships:
+  broader:
+    - "model governance"
+  related:
+    - "assurance case"
+    - "risk register"
+    - "impact mitigation plan"
+citations:
+  - source: "UK CDEI – Responsible AI Assurance"
+    url: "https://www.gov.uk/government/publications/responsible-ai-assurance"
+  - source: "NIST AI RMF – Governance Function"
+    url: "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf"
+license: "CC BY-SA 4.0"
+status: "reviewed"
+last_reviewed: "2025-09-28"

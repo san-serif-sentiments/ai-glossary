@@ -1,0 +1,56 @@
+term: "guardrail policy"
+aliases:
+  - "guardrail playbook"
+  - "safety policy prompt"
+categories:
+  - "Governance & Risk"
+roles:
+  - "policy"
+  - "product"
+  - "security"
+  - "engineering"
+part_of_speech: "noun_phrase"
+short_def: "Documented rules and prompts that define allowed, blocked, and escalated behaviors for AI systems."
+long_def: >-
+  A guardrail policy spells out how an AI system should respond to risky scenarios, combining policy prompts, tool
+  restrictions, monitoring hooks, and escalation paths. It anchors the guardrails implemented in code to clear
+  governance expectations so product, safety, and engineering teams act in sync. The policy enumerates prohibited
+  content, required disclosures, human handoff triggers, and review cadences, and maps each rule to enforcement
+  controls in the stack. Security leaders reference it when auditing access, while product owners ensure the policy
+  keeps user experience coherent. Without this shared artifact, teams risk shipping fragmented mitigations that fail
+  investigative audits or leave gaps between policy intent and agent behavior.
+audiences:
+  exec: "Use the guardrail policy to prove you have enforceable boundaries before scaling sensitive features."
+  engineer: "Translate each rule into prompts, filters, and monitoring alerts so violations are caught automatically."
+examples:
+  do:
+    - "Version-control policy prompts alongside code so deployments document why changes were made."
+    - "Define human approval checkpoints for financial or legal actions triggered by the agent."
+  dont:
+    - "Rely on ad-hoc prompt tweaks without peer review or governance sign-off."
+    - "Ship new tools without mapping them to prohibited-use clauses in the policy."
+governance:
+  nist_rmf_tags:
+    - "governance"
+    - "risk_management"
+    - "accountability"
+  risk_notes: "Missing or outdated guardrail policies make it impossible to demonstrate control effectiveness during audits."
+relationships:
+  broader:
+    - "responsible ai"
+    - "safety spec"
+  related:
+    - "guardrails"
+    - "ai incident response"
+    - "red teaming"
+  narrower:
+    - "escalation policy"
+    - "system prompt"
+citations:
+  - source: "Anthropic Safety Best Practices"
+    url: "https://docs.anthropic.com/claude/docs/safety-best-practices"
+  - source: "OpenAI Policy – Safety Best Practices"
+    url: "https://platform.openai.com/docs/guides/safety-best-practices"
+license: "CC BY-SA 4.0"
+status: "reviewed"
+last_reviewed: "2025-09-28"

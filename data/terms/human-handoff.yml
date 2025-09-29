@@ -1,0 +1,52 @@
+term: "human handoff"
+aliases:
+  - "agent-to-human handoff"
+  - "human-in-the-loop handoff"
+categories:
+  - "Agents & Tooling"
+roles:
+  - "product"
+  - "communications"
+  - "engineering"
+  - "policy"
+part_of_speech: "process"
+short_def: "Moment when an AI workflow transfers control to a human for review or action."
+long_def: >-
+  A human handoff occurs when an AI agent or automation pauses and routes context to a person for judgment, approval, or
+  next steps. Effective handoffs bundle conversation history, risk signals, and recommended actions so humans can respond
+  quickly. Product and support teams design the experience, engineering ensures state is preserved across channels, and
+  policy leaders define which scenarios must escalate to people. Handoffs should capture audit trails, notify owners, and
+  allow the human to resume the AI-assisted workflow. Poorly designed handoffs create dead ends, slow response times, or
+  leave users confused about who's in control.
+audiences:
+  exec: "Guarantee there is a clear path to human help in sensitive journeys to maintain trust."
+  engineer: "Package context, risk scores, and next best actions so reviewers can resolve the handoff quickly."
+examples:
+  do:
+    - "Route escalations to a staffed queue with SLAs and full conversation summaries."
+    - "Allow humans to annotate the outcome so the agent can learn from future cases."
+  dont:
+    - "Drop the user into a blank chat with no explanation of what the agent attempted."
+    - "Overlook accessibility needs when transferring to human support channels."
+governance:
+  nist_rmf_tags:
+    - "governance"
+    - "monitoring"
+    - "risk_management"
+  risk_notes: "Weak handoffs undermine accountability and can leave high-risk cases unresolved."
+relationships:
+  broader:
+    - "agent executor"
+    - "escalation policy"
+  related:
+    - "guardrail policy"
+    - "ai incident response"
+    - "impact mitigation plan"
+citations:
+  - source: "LangChain Glossary – Human-in-the-loop"
+    url: "https://python.langchain.com/docs/concepts/human_in_the_loop/"
+  - source: "Partnership on AI – Responsible Practices for AI Customer Service"
+    url: "https://partnershiponai.org/resource/responsible-ai-customer-service/"
+license: "CC BY-SA 4.0"
+status: "reviewed"
+last_reviewed: "2025-09-28"

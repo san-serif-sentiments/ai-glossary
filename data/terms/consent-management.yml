@@ -1,0 +1,52 @@
+term: "consent management"
+aliases:
+  - "consent governance"
+  - "user consent tracking"
+categories:
+  - "Governance & Risk"
+roles:
+  - "legal"
+  - "policy"
+  - "product"
+  - "engineering"
+part_of_speech: "process"
+short_def: "Practices that capture, honor, and audit user permissions across AI features."
+long_def: >-
+  Consent management ensures AI systems only process data in ways users or data subjects have authorized. It covers how
+  organizations collect consent, represent it in data pipelines, respect withdrawal requests, and surface disclosures in
+  product experiences. Legal and policy teams define the consent taxonomy, product teams design user flows, and
+  engineers propagate consent flags through storage, training, and inference systems. Mature programs monitor for drift
+  and provide regulators with evidence that consent was honored. Weak consent management risks privacy violations,
+  regulatory fines, and erosion of customer trust.
+audiences:
+  exec: "Treat consent as an auditable control so expansion plans avoid regulatory setbacks."
+  engineer: "Propagate consent metadata end-to-end and block models from accessing disallowed data."
+examples:
+  do:
+    - "Record granular consent states and expiration dates for every data subject."
+    - "Automate purge workflows when users revoke consent."
+  dont:
+    - "Bundle broad AI permissions into generic terms-of-service text without explicit choice."
+    - "Retrofit consent flags after data has already trained foundational models."
+governance:
+  nist_rmf_tags:
+    - "privacy"
+    - "accountability"
+    - "governance"
+  risk_notes: "Ignoring consent boundaries invites regulatory penalties and reputational harm."
+relationships:
+  broader:
+    - "privacy"
+    - "data minimization"
+  related:
+    - "impact mitigation plan"
+    - "transparency report"
+    - "risk register"
+citations:
+  - source: "OECD AI Glossary – Consent"
+    url: "https://oecd.ai/en/glossary/consent"
+  - source: "Partnership on AI – Responsible Data Use"
+    url: "https://partnershiponai.org/resource/responsible-sourcing-of-data/"
+license: "CC BY-SA 4.0"
+status: "reviewed"
+last_reviewed: "2025-09-28"

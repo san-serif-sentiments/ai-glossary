@@ -8,7 +8,7 @@
 **Categories:** Agents & Tooling, LLM Core
 **Roles:** Engineering & Platform, Product & Program Managers, Data Science & Research
 **Part of speech:** `process`
-**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-11-26)
+**Status:** <span class="status-chip status-reviewed">Reviewed</span> (Last reviewed: 2025-09-28)
 
 ## Role takeaways
 - **Engineering & Platform:** Document implementation requirements and operational caveats.

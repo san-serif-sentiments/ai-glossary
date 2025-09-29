@@ -1,0 +1,51 @@
+term: "instruction tuning"
+aliases:
+  - "instruction fine-tuning"
+  - "supervised fine-tuning"
+categories:
+  - "Optimization & Efficiency"
+roles:
+  - "engineering"
+  - "data_science"
+  - "product"
+  - "policy"
+part_of_speech: "process"
+short_def: "Supervised training that teaches models to follow natural-language instructions using curated examples."
+long_def: >-
+  Instruction tuning (often called supervised fine-tuning) adapts a pretrained model on datasets of prompts and ideal
+  responses so it learns to follow instructions. Annotators craft demonstrations that reflect desired tone, safety, and
+  reasoning patterns. Engineers run fine-tuning jobs, data scientists manage dataset quality, and policy teams ensure
+  instructions encode governance requirements. The process is typically the first step before RLHF or other alignment
+  work. Poorly curated instruction data can introduce bias, regress safety, or drift from product expectations, so teams
+  monitor evaluation metrics and refresh the dataset as policies evolve.
+audiences:
+  exec: "Budget for recurring instruction tuning to keep models aligned with evolving strategy."
+  engineer: "Version datasets, hyperparameters, and evaluation checkpoints for every tuning run."
+examples:
+  do:
+    - "Label edge cases and refusal scenarios so the model learns safety boundaries."
+    - "Combine instruction data with role-based tone guidelines for different audiences."
+  dont:
+    - "Assume open-source instruction datasets cover your policy requirements."
+    - "Overwrite the base model without comparing against prior alignment baselines."
+governance:
+  nist_rmf_tags:
+    - "risk_management"
+    - "measurement"
+    - "accountability"
+  risk_notes: "Uncontrolled tuning can undo prior safety work and confuse governance owners."
+relationships:
+  broader:
+    - "fine-tuning"
+  related:
+    - "reinforcement learning from human feedback"
+    - "reward model"
+    - "robust prompting"
+citations:
+  - source: "OpenAI – InstructGPT"
+    url: "https://arxiv.org/abs/2203.02155"
+  - source: "Stanford – Self-Instruct"
+    url: "https://arxiv.org/abs/2212.10560"
+license: "CC BY-SA 4.0"
+status: "reviewed"
+last_reviewed: "2025-09-28"

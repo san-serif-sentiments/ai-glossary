@@ -1,0 +1,51 @@
+term: "agent executor"
+aliases:
+  - "agent run loop"
+  - "agent controller"
+categories:
+  - "Agents & Tooling"
+roles:
+  - "engineering"
+  - "product"
+part_of_speech: "concept"
+short_def: "Controller layer that schedules planning, tool calls, and stop conditions so an AI agent completes tasks safely."
+long_def: >-
+  An agent executor is the control loop that wraps a language model with planning, tool routing, memory updates,
+  and termination rules. It interprets the model's action plans, selects the right tool or retriever, enforces
+  guardrails, and decides when the task is complete or needs human escalation. Mature executors persist interim
+  state, log each decision for observability, and cap iteration budgets to avoid runaway loops. Product teams set
+  policies for the executor about tool eligibility or human approval, while engineers own the orchestration logic
+  that keeps the agent explainable and reversible. Without a disciplined executor, agent architectures tend to
+  overrun budgets, trigger risky actions, or hide provenance needed for governance reviews.
+audiences:
+  exec: "Clarify what control layer governs autonomous workflows so you can scope approvals and accountability."
+  engineer: "Treat the executor as orchestrator code: build deterministic plans, enforce stop criteria, and log every action."
+examples:
+  do:
+    - "Cap the number of tool invocations per task and emit structured traces for monitoring."
+    - "Define escalation triggers that halt the loop when confidence drops or policies flag sensitive data."
+  dont:
+    - "Let the agent call privileged tools without a permissions check in the executor."
+    - "Ship an executor without human-readable logs or telemetry for audit reviews."
+governance:
+  nist_rmf_tags:
+    - "governance"
+    - "risk_management"
+    - "transparency"
+  risk_notes: "Unbounded loops or opaque routing decisions can create safety, compliance, and cost exposures."
+relationships:
+  broader:
+    - "agentic ai"
+    - "tool use"
+  related:
+    - "guardrails"
+    - "retrieval-augmented generation"
+    - "ml ops"
+citations:
+  - source: "LangChain Documentation – Agent Executors"
+    url: "https://python.langchain.com/docs/modules/agents/agent_executors/"
+  - source: "Anthropic Docs – Building Agentic Workflows"
+    url: "https://docs.anthropic.com/claude/docs/building-agentic-workflows"
+license: "CC BY-SA 4.0"
+status: "reviewed"
+last_reviewed: "2025-09-28"

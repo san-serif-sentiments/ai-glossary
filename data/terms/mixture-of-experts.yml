@@ -1,0 +1,51 @@
+term: "mixture of experts"
+aliases:
+  - "moe"
+  - "expert gating"
+categories:
+  - "Optimization & Efficiency"
+roles:
+  - "engineering"
+  - "data_science"
+  - "product"
+part_of_speech: "concept"
+short_def: "Neural architecture that routes tokens to specialized submodels to scale capacity efficiently."
+long_def: >-
+  Mixture-of-experts (MoE) models split a network into many expert submodels and use a gating function to decide which
+  experts process each token. This allows models to increase parameter counts without running every computation for every
+  input, improving efficiency and enabling specialization (e.g., code vs. dialogue experts). Engineers must manage load
+  balancing, routing stability, and inference infrastructure that can handle sparse activation. Product teams care about
+  how specialization affects consistency across use cases, and governance teams assess whether routing introduces bias or
+  explainability challenges. Operationally, MoE systems demand robust logging to trace which experts contributed to an
+  output for debugging and accountability.
+audiences:
+  exec: "MoE architectures stretch compute budgets while boosting quality, but require investment in routing controls."
+  engineer: "Monitor expert utilization, balance routing, and record which experts fired for auditability."
+examples:
+  do:
+    - "Set guardrails for experts that handle sensitive domains like legal or medical content."
+    - "Instrument per-expert performance metrics to catch degradation early."
+  dont:
+    - "Assume routing is fair without analyzing demographic or domain skew."
+    - "Deploy MoE models without redundancy plans for underperforming experts."
+governance:
+  nist_rmf_tags:
+    - "monitoring"
+    - "risk_management"
+    - "transparency"
+  risk_notes: "Opaque routing can hide failures or bias; sparse activation complicates reproducibility."
+relationships:
+  broader:
+    - "fine-tuning"
+  related:
+    - "knowledge distillation"
+    - "model interpretability"
+    - "evaluation"
+citations:
+  - source: "Google Research – Switch Transformers"
+    url: "https://arxiv.org/abs/2101.03961"
+  - source: "Google Brain – Outrageously Large Neural Networks"
+    url: "https://arxiv.org/abs/1701.06538"
+license: "CC BY-SA 4.0"
+status: "reviewed"
+last_reviewed: "2025-09-28"

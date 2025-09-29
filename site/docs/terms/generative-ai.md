@@ -8,7 +8,7 @@
 **Categories:** Foundations
 **Roles:** Communications & Enablement, Policy & Risk, Product & Program Managers
 **Part of speech:** `concept`
-**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-11-01)
+**Status:** <span class="status-chip status-reviewed">Reviewed</span> (Last reviewed: 2025-09-28)
 
 ## Role takeaways
 - **Communications & Enablement:** Align messaging, FAQs, and enablement materials using this definition.

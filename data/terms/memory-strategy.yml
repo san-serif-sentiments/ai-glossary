@@ -1,0 +1,51 @@
+term: "memory strategy"
+aliases:
+  - "agent memory strategy"
+  - "memory policy"
+categories:
+  - "Agents & Tooling"
+roles:
+  - "engineering"
+  - "product"
+part_of_speech: "concept"
+short_def: "Deliberate approach for when an AI agent stores, retrieves, or forgets context across tasks."
+long_def: >-
+  A memory strategy defines how an AI agent captures, retrieves, and expires contextual information while executing
+  tasks. It balances cost, latency, privacy, and safety considerations by deciding which events to persist, where to
+  store them, and which signals trigger deletion. Engineers design memory policies to avoid stale or sensitive data
+  leaking into future prompts, while product teams ensure the experience remains transparent to users. Common patterns
+  include stateless execution, short-term scratchpads, vector memory with embeddings, and human-curated summaries. The
+  right strategy depends on regulatory constraints, user consent, and the risk tolerance for hallucinations or runaway
+  tool use. Without clear guardrails, agents can over-collect data, misapply outdated facts, or introduce compliance gaps.
+audiences:
+  exec: "Align on what information the agent keeps so you can set customer trust and compliance expectations."
+  engineer: "Codify storage tiers, retention windows, and redaction rules before wiring memory into agent workflows."
+examples:
+  do:
+    - "Expire vector memories that include personally identifiable information within 24 hours unless explicit consent exists."
+    - "Store only structured summaries of previous steps so downstream prompts stay within token and privacy budgets."
+  dont:
+    - "Persist raw chat transcripts indefinitely without auditing for sensitive attributes."
+    - "Reuse memories from one customer tenant inside another tenant's session."
+governance:
+  nist_rmf_tags:
+    - "governance"
+    - "privacy"
+    - "risk_management"
+  risk_notes: "Poorly scoped memory increases the blast radius for privacy violations and policy noncompliance."
+relationships:
+  broader:
+    - "agentic ai"
+    - "tool use"
+  related:
+    - "vector store"
+    - "retrieval"
+    - "data minimization"
+citations:
+  - source: "LangChain Documentation – Memory"
+    url: "https://python.langchain.com/docs/modules/memory/"
+  - source: "Anthropic Docs – Building Agentic Workflows"
+    url: "https://docs.anthropic.com/claude/docs/building-agentic-workflows"
+license: "CC BY-SA 4.0"
+status: "reviewed"
+last_reviewed: "2025-09-28"

@@ -4,4 +4,6 @@ __pycache__/
 .env
 build/
 site/site/
+models/
+site/models/
 .DS_Store

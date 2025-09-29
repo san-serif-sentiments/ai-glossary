@@ -8,6 +8,10 @@
       structured YAML so it can power docs, APIs, and review workflows. Browse by
       category, role, or metric to keep product, engineering, and governance teams in sync.
     </p>
+    <div class="brand-signature">
+      <span class="brand-name">Shailesh Rawat</span>
+      <span class="brand-handle">@sans_serif_sentiments</span>
+    </div>
   </div>
   <div class="hero-actions">
     <a class="cta" href="search/">🔍 Explore the interactive search</a>
@@ -16,13 +20,13 @@
   </div>
 </div>
 
-## What's new (Nov 26 2024)
+## What's new (Sep 28 2025)
 
 <div class="whats-new">
   <ul>
-    <li><strong>Guided search filters:</strong> Quick chips for roles, categories, and status now help you zero in on the terms that match your current workflow.</li>
-    <li><strong>Role learning paths:</strong> Each starter pack includes a three-step journey so teams know where to begin, what to review, and who to loop in.</li>
-    <li><strong>Contributor shortcuts:</strong> `make new-term` scaffolds high-quality entries, while `make check` validates schema, tests, and docs in one command.</li>
+    <li><strong>Lifecycle snapshot:</strong> Search now surfaces status counts and the latest review date so teams can see glossary health at a glance.</li>
+    <li><strong>100-term milestone:</strong> Added new entries spanning assurance cases, RLHF workflows, and safety controls to push the glossary past one hundred vetted terms.</li>
+    <li><strong>Sort for relevance:</strong> Reorder results by freshness or category to share curated views with stakeholders in seconds.</li>
   </ul>
   <p class="whats-new-footer">Submit feedback or new term ideas via the <a href="term-request/">term request intake</a>.</p>
 </div>
@@ -82,9 +86,11 @@
 
 ## Roadmap highlights
 
-- Grow the corpus to 50+ prioritized LLM, infrastructure, and risk terms.
-- Publish the static site for public access and contributor discovery.
-- Expose the lightweight API to support integrations and chat assistants.
+- Curate the next 150 terms with deeper coverage of safety tooling, security, and applied UX patterns.
+- Launch a public design kit so teams can reuse the Shailesh Rawat (sans_serif_sentiments) brand components across docs and products.
+- Publish live health dashboards that blend glossary freshness, evaluation signals, and intake response times.
 
 Contributors can review the [Contribution guide](contributing.md) to learn how
 to add or refine glossary entries.
+
+<p class="brand-footer">✨ Crafted and curated by Shailesh Rawat · sans_serif_sentiments</p>

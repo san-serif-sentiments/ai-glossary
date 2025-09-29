@@ -1,0 +1,52 @@
+term: "data lineage"
+aliases:
+  - "lineage tracking"
+  - "data provenance"
+categories:
+  - "Operations & Monitoring"
+roles:
+  - "engineering"
+  - "data_science"
+  - "policy"
+  - "legal"
+part_of_speech: "noun_phrase"
+short_def: "Traceable record of how data moves, transforms, and is used across AI systems."
+long_def: >-
+  Data lineage maps the lifecycle of data from ingestion through processing, training, evaluation, and deployment. It
+  records sources, transformations, storage locations, and downstream consumers so teams can audit usage, troubleshoot
+  quality issues, and respond to regulatory requests. Engineering automates lineage capture in pipelines, data scientists
+  log transformations in notebooks, and policy teams use lineage to verify compliance with consent and retention rules.
+  Effective lineage feeds governance dashboards, reminds owners to retire obsolete datasets, and documents which models
+  rely on each asset. Without lineage, it is difficult to honor deletion requests, explain model behavior, or investigate
+  incidents.
+audiences:
+  exec: "Treat lineage as foundational infrastructure for audit readiness and trust."
+  engineer: "Instrument pipelines to emit lineage metadata and expose it via searchable catalogs."
+examples:
+  do:
+    - "Link training datasets to their upstream sources and associated dataset cards."
+    - "Tag lineage records with retention and consent attributes."
+  dont:
+    - "Rely on tribal knowledge to track where sensitive data flows."
+    - "Break lineage chains when copying data to ad hoc storage."
+governance:
+  nist_rmf_tags:
+    - "accountability"
+    - "governance"
+    - "risk_management"
+  risk_notes: "Absent lineage hides policy violations and slows incident RCA."
+relationships:
+  broader:
+    - "ml ops"
+  related:
+    - "consent management"
+    - "dataset card"
+    - "risk register"
+citations:
+  - source: "NIST AI RMF – Data Management"
+    url: "https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook"
+  - source: "Google – Data Lineage for ML"
+    url: "https://cloud.google.com/blog/products/data-analytics/why-data-lineage-is-critical-for-machine-learning"
+license: "CC BY-SA 4.0"
+status: "reviewed"
+last_reviewed: "2025-09-28"

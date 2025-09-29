@@ -1,0 +1,52 @@
+term: "prompt injection"
+aliases:
+  - "prompt attack"
+  - "context hijacking"
+categories:
+  - "Governance & Risk"
+roles:
+  - "security"
+  - "engineering"
+  - "product"
+part_of_speech: "noun_phrase"
+short_def: "Attack that inserts malicious instructions into model inputs to override original prompts or policies."
+long_def: >-
+  Prompt injection is an adversarial technique where attackers craft inputs that smuggle new instructions into a model's
+  context. The injected text attempts to override safety policies, steal secrets, or trigger unintended actions, such as
+  exfiltrating data from tools connected to the agent. The attack can appear in user text, retrieved documents, or API
+  responses that the model reads. Security teams treat prompt injection like command injection: sanitizing inputs,
+  isolating tools, and limiting model permissions. Product teams communicate when defensive refusals occur, and
+  engineers add filters plus evaluation harnesses that test for jailbreaks. Without mitigations, attackers can bypass
+  guardrails or weaponize the model to call sensitive tools.
+audiences:
+  exec: "Track prompt injection risks the same way you monitor phishing and social engineering threats."
+  engineer: "Sanitize retrieved context, restrict tool scopes, and simulate attacks continuously."
+examples:
+  do:
+    - "Strip or quarantine untrusted instructions before feeding documents into the agent."
+    - "Log and share injection attempts with the security incident response team."
+  dont:
+    - "Allow the model to treat external data sources as authoritative without validation."
+    - "Expose long-lived secrets or admin tools to untrusted prompts."
+governance:
+  nist_rmf_tags:
+    - "security"
+    - "risk_management"
+    - "monitoring"
+  risk_notes: "Successful injections can leak data, perform unauthorized actions, or undermine governance commitments."
+relationships:
+  broader:
+    - "guardrails"
+    - "robust prompting"
+  related:
+    - "jailbreak prompt"
+    - "tool use"
+    - "ai incident response"
+citations:
+  - source: "OWASP – Prompt Injection Cheatsheet"
+    url: "https://owasp.org/www-community/attacks/Prompt_Injection"
+  - source: "Microsoft – Guidance for Defending against Prompt Injection"
+    url: "https://learn.microsoft.com/azure/ai-services/openai/concepts/prompt-injection"
+license: "CC BY-SA 4.0"
+status: "reviewed"
+last_reviewed: "2025-09-28"

@@ -8,7 +8,7 @@
 **Categories:** Governance & Risk
 **Roles:** Legal & Compliance, Policy & Risk, Security & Trust, Product & Program Managers
 **Part of speech:** `process`
-**Status:** <span class="status-chip status-draft">Draft</span> (Last reviewed: 2024-11-04)
+**Status:** <span class="status-chip status-reviewed">Reviewed</span> (Last reviewed: 2025-09-28)
 
 !!! tip "Put it into practice"
     Map retention updates to the [Governance Dashboard](../governance-dashboard.md).

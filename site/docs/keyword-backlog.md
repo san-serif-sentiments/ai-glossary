@@ -34,9 +34,9 @@ Learner moment: "I have to prove this system meets policy and regulatory expecta
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | AI assurance | Understand the controls and evidence needed to certify an AI system. | OECD AI Glossary; Partnership on AI Glossary; AI Now Lexicon | Policy & Governance pod | Discovery | Pair with upcoming risk playbook.| 
 | 1 | algorithmic audit | Clarify how independent audits test for bias, safety, and compliance. | OECD AI Glossary; AI Now Lexicon | Risk & Compliance guild | Discovery | Differentiate from internal evaluations.| 
-| 2 | transparency report | Summarize what disclosures regulators expect for AI deployments. | OECD AI Glossary; Partnership on AI Glossary | Policy & Governance pod | Backlog | Collect real-world report examples.| 
-| 2 | impact mitigation plan | Show how mitigation tracking links to AIAs and incident response. | AI Now Lexicon; Partnership on AI Glossary | Product Operations | Backlog | Tie to `algorithmic impact assessment`.| 
-| 3 | assurance case | Explain structured arguments used in safety-critical industries. | OECD AI Glossary; Partnership on AI Glossary | Safety Council | Backlog | Borrow structure from safety engineering.| 
+| 2 | transparency report | Summarize what disclosures regulators expect for AI deployments. | OECD AI Glossary; Partnership on AI Glossary | Policy & Governance pod | Published | Published as `transparency report` (2025-09-28).| 
+| 2 | impact mitigation plan | Show how mitigation tracking links to AIAs and incident response. | AI Now Lexicon; Partnership on AI Glossary | Product Operations | Published | Published as `impact mitigation plan` (2025-09-28).| 
+| 3 | assurance case | Explain structured arguments used in safety-critical industries. | OECD AI Glossary; Partnership on AI Glossary | Safety Council | Published | Published as `assurance case` (2025-09-28).| 
 
 ### Safety & Alignment
 Learner moment: "How do we keep models behaving safely as policies evolve?"
@@ -44,21 +44,21 @@ Learner moment: "How do we keep models behaving safely as policies evolve?"
 | Priority | Term | Employee need | Seed sources | Owner | Status | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | safety spec | Give cross-functional teams a single reference for allowed/blocked behaviors. | Anthropic / Claude Glossary; MIT Tech Review AI Dictionary | Alignment Working Group | Discovery | Should link to guardrail templates.| 
-| 1 | self-critique loop | Describe how models evaluate their own outputs before release. | Anthropic / Claude Glossary; DeepLearning.AI Glossary | Research Guild | Discovery | Connect to `constitutional ai`.| 
-| 2 | escalation policy | Clarify when humans take over from automated systems. | OECD AI Glossary; AI Now Lexicon | Operations | Backlog | Align with `ai incident response`.| 
-| 2 | robust prompting | Help enablement teams teach defensive prompt design. | MIT Tech Review AI Dictionary; Anthropic resources | Enablement Chapter | Backlog | Include inclusive examples.| 
-| 3 | consent management | Explain how user consent is honored in AI experiences. | OECD AI Glossary; Partnership on AI Glossary | Privacy Office | Backlog | Link to `data minimization` and `privacy`.| 
+| 1 | self-critique loop | Describe how models evaluate their own outputs before release. | Anthropic / Claude Glossary; DeepLearning.AI Glossary | Research Guild | Published | Published as `self-critique loop` (2025-09-28).| 
+| 2 | escalation policy | Clarify when humans take over from automated systems. | OECD AI Glossary; AI Now Lexicon | Operations | Published | Published as `escalation policy` (2025-09-28).| 
+| 2 | robust prompting | Help enablement teams teach defensive prompt design. | MIT Tech Review AI Dictionary; Anthropic resources | Enablement Chapter | Published | Published as `robust prompting` (2025-09-28).| 
+| 3 | consent management | Explain how user consent is honored in AI experiences. | OECD AI Glossary; Partnership on AI Glossary | Privacy Office | Published | Published as `consent management` (2025-09-28).| 
 
 ### Agent Orchestration & Tooling
 Learner moment: "How do I design agent workflows without exposing users to risk?"
 
 | Priority | Term | Employee need | Seed sources | Owner | Status | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | agent executor | Show engineers how orchestration loops schedule tool calls. | LangChain Glossary; OpenAI Glossary | Agent Platform team | Discovery | Pair with diagrams in `tool use`.| 
-| 1 | memory strategy | Teach when to use vector memory, summaries, or none. | LangChain Glossary; Hugging Face Glossary | Agent Platform team | Discovery | Should cross-reference `vector store`.| 
-| 2 | evaluation harness | Explain automated eval pipelines for agents and RAG flows. | LangChain Glossary; OpenAI Glossary | QA Guild | Backlog | Reuse content from evaluation playbook.| 
-| 2 | guardrail policy | Document how policy prompts map to enforcement levels. | Anthropic / Claude Glossary; OpenAI Glossary | Safety Engineering | Backlog | Distinguish from `guardrails` concept page.| 
-| 3 | human handoff | Outline UX patterns for escalating to people mid-session. | LangChain Glossary; Partnership on AI Glossary | Support Ops | Backlog | Capture accessibility considerations.| 
+| 1 | agent executor | Show engineers how orchestration loops schedule tool calls. | LangChain Glossary; OpenAI Glossary | Agent Platform team | Published | Published as `agent executor` (2025-09-28).| 
+| 1 | memory strategy | Teach when to use vector memory, summaries, or none. | LangChain Glossary; Hugging Face Glossary | Agent Platform team | Published | Published as `memory strategy` (2025-09-28).| 
+| 2 | evaluation harness | Explain automated eval pipelines for agents and RAG flows. | LangChain Glossary; OpenAI Glossary | QA Guild | Published | Published as `evaluation harness` (2025-09-28).| 
+| 2 | guardrail policy | Document how policy prompts map to enforcement levels. | Anthropic / Claude Glossary; OpenAI Glossary | Safety Engineering | Published | Published as `guardrail policy` (2025-09-28).| 
+| 3 | human handoff | Outline UX patterns for escalating to people mid-session. | LangChain Glossary; Partnership on AI Glossary | Support Ops | Published | Published as `human handoff` (2025-09-28).| 
 
 ## Seeding progress (Nov 26 2024)
 

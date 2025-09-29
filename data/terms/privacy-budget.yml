@@ -1,0 +1,50 @@
+term: "privacy budget"
+aliases:
+  - "epsilon budget"
+  - "differential privacy budget"
+categories:
+  - "Governance & Risk"
+roles:
+  - "data_science"
+  - "policy"
+  - "legal"
+  - "engineering"
+part_of_speech: "noun_phrase"
+short_def: "Quantitative limit on how much privacy loss is allowed when applying differential privacy."
+long_def: >-
+  A privacy budget sets the maximum cumulative privacy loss (often parameterized by epsilon) that an organization will
+  tolerate when querying or training with differentially private mechanisms. Each query or training run consumes part of
+  the budget, so teams must track usage and halt processing when the limit is reached. Policy and legal leaders define
+  acceptable thresholds, data scientists monitor consumption, and engineers enforce the budget in pipelines. Without
+  budget tracking, repeated queries can quietly degrade privacy guarantees beyond regulatory or ethical bounds.
+audiences:
+  exec: "Treat the privacy budget as a compliance control that requires monitoring and governance."
+  engineer: "Instrument analytics and training jobs to decrement the budget automatically and alert owners."
+examples:
+  do:
+    - "Document initial and remaining epsilon values alongside each release."
+    - "Aggregate similar queries to conserve budget and reduce risk."
+  dont:
+    - "Ignore budget depletion warnings for critical user data."
+    - "Share raw event logs when the privacy budget reaches zero."
+governance:
+  nist_rmf_tags:
+    - "privacy"
+    - "risk_management"
+    - "governance"
+  risk_notes: "Overrunning the budget invalidates differential privacy claims and increases legal exposure."
+relationships:
+  broader:
+    - "differential privacy"
+  related:
+    - "data minimization"
+    - "consent management"
+    - "risk register"
+citations:
+  - source: "NIST – Differential Privacy Overview"
+    url: "https://www.nist.gov/privacy-framework/differential-privacy"
+  - source: "Apple – Learning with Privacy Budget"
+    url: "https://machinelearning.apple.com/research/learning-with-privacy-at-scale"
+license: "CC BY-SA 4.0"
+status: "reviewed"
+last_reviewed: "2025-09-28"

@@ -4,44 +4,63 @@
 
 # Glossary Terms
 
-Total entries: 68
+Total entries: 100
 
+- [agent executor](./agent-executor.md) — Controller layer that schedules planning, tool calls, and stop conditions so an AI agent completes tasks safely.
 - [agentic ai](./agentic-ai.md) — Systems that plan, act, and iterate with minimal human prompts by chaining model calls and tools.
 - [ai assurance](./ai-assurance.md) — Discipline that produces evidence, controls, and attestations showing an AI system meets agreed safety, compliance, and performance thresholds.
+- [ai circuit breaker](./ai-circuit-breaker.md) — Automated control that halts model responses or tool access when risk thresholds are exceeded.
 - [ai incident response](./ai-incident-response.md) — Coordinated workflow for detecting, triaging, and remediating harmful or out-of-policy AI behavior.
 - [algorithmic audit](./algorithmic-audit.md) — Independent review of an AI system’s data, design, and outcomes to verify compliance, fairness, and risk controls.
 - [algorithmic bias](./algorithmic-bias.md) — Systematic unfairness in model outputs that disadvantages certain groups or outcomes.
 - [algorithmic impact assessment](./algorithmic-impact-assessment.md) — Structured review that documents how an AI system may affect people, processes, and compliance obligations.
 - [alignment](./alignment.md) — Making sure AI systems optimize for human values, policies, and intended outcomes.
+- [assurance case](./assurance-case.md) — Structured argument that proves an AI system meets safety and compliance expectations.
 - [attention](./attention.md) — Technique enabling models to weight input tokens differently when producing each output.
 - [beam search](./beam-search.md) — Deterministic decoding that keeps the top scoring sequences across multiple beams before selecting the final output.
 - [bias-variance tradeoff](./bias-variance-tradeoff.md) — Balance between underfitting and overfitting: low bias increases variance, while high bias lowers variance but misses patterns.
+- [chain-of-thought prompting](./chain-of-thought-prompting.md) — Prompting technique that asks models to reason through intermediate steps before giving a final answer.
 - [chunking](./chunking.md) — Splitting source documents into manageable pieces before indexing or feeding them to models.
 - [clip](./clip.md) — Multimodal model that embeds images and text into a shared space using contrastive learning.
 - [confusion matrix](./confusion-matrix.md) — Table that summarizes true/false positives and negatives to diagnose classification performance.
+- [consent management](./consent-management.md) — Practices that capture, honor, and audit user permissions across AI features.
 - [constitutional ai](./constitutional-ai.md) — Alignment approach where models critique and revise their own outputs against a written set of principles.
 - [content moderation](./content-moderation.md) — Workflows and tools that review, filter, and act on user-generated content to enforce policy.
 - [context window](./context-window.md) — Maximum number of tokens a model can consider at once during prompting or inference.
 - [cross-validation](./cross-validation.md) — Evaluation technique that splits data into multiple folds to estimate model performance on unseen samples.
+- [data lineage](./data-lineage.md) — Traceable record of how data moves, transforms, and is used across AI systems.
 - [data minimization](./data-minimization.md) — Principle of collecting and retaining only the data necessary for a defined purpose.
+- [data redaction](./data-redaction.md) — Removal or masking of sensitive fields before data is stored, shared, or used for model training.
 - [data retention](./data-retention.md) — Policies defining how long data is stored, where it lives, and how it is deleted.
+- [dataset card](./dataset-card.md) — Structured documentation describing a dataset’s purpose, composition, risks, and usage constraints.
 - [decoding](./decoding.md) — Algorithms that turn model probability distributions into output tokens during generation.
 - [differential privacy](./differential-privacy.md) — Mathematical framework that limits how much any single record influences published data or model outputs.
 - [diffusion model](./diffusion-model.md) — Generative model that iteratively denoises random noise to synthesize images, audio, or other data.
+- [direct preference optimization](./direct-preference-optimization.md) — Alignment technique that fine-tunes models directly on preference data without training a separate reward model.
 - [embedding](./embedding.md) — Dense numerical representation that captures semantic meaning of text, images, or other data.
+- [escalation policy](./escalation-policy.md) — Playbook that defines when and how AI systems route control to human reviewers.
 - [evaluation](./evaluation.md) — Systematic measurement of model performance, safety, and reliability using defined tests.
+- [evaluation harness](./evaluation-harness.md) — Automated pipeline that replays tasks, scores outputs, and reports regressions for AI systems.
 - [f1 score](./f1-score.md) — Harmonic mean of precision and recall, balancing false positives and false negatives.
 - [fairness metrics](./fairness-metrics.md) — Quantitative measures that evaluate whether model performance is equitable across groups.
 - [fine-tuning](./fine-tuning.md) — Additional training that adapts a pretrained model to a specific task or domain.
 - [function calling](./function-calling.md) — LLM capability that lets prompts invoke predefined functions and return structured arguments.
 - [generative ai](./generative-ai.md) — Family of models that produce new content—text, images, code—rather than only making predictions.
 - [greedy decoding](./greedy-decoding.md) — Strategy that selects the highest-probability token at each step, producing deterministic outputs.
+- [guardrail policy](./guardrail-policy.md) — Documented rules and prompts that define allowed, blocked, and escalated behaviors for AI systems.
 - [guardrails](./guardrails.md) — Controls that constrain model behavior to comply with safety, legal, or brand requirements.
 - [hallucination](./hallucination.md) — When an AI model presents fabricated or unsupported information as fact.
+- [human handoff](./human-handoff.md) — Moment when an AI workflow transfers control to a human for review or action.
+- [impact mitigation plan](./impact-mitigation-plan.md) — Action plan that tracks risks, mitigations, owners, and timelines for an AI deployment.
+- [incident taxonomy](./incident-taxonomy.md) — Standardized categories used to tag, analyze, and report AI incidents consistently.
+- [instruction tuning](./instruction-tuning.md) — Supervised training that teaches models to follow natural-language instructions using curated examples.
+- [jailbreak prompt](./jailbreak-prompt.md) — Crafted input that persuades a model to ignore safety instructions and produce disallowed responses.
 - [knowledge distillation](./knowledge-distillation.md) — Technique that trains a smaller student model to mimic a larger teacher model’s behavior.
 - [kv cache](./kv-cache.md) — Stored attention keys and values reused across decoding steps to speed sequential generation.
 - [log probability](./log-probability.md) — Logarithm of a token’s probability, used to inspect model confidence and guide decoding tweaks.
 - [low-rank adaptation](./low-rank-adaptation.md) — Parameter-efficient fine-tuning that injects low-rank update matrices into transformer weights.
+- [memory strategy](./memory-strategy.md) — Deliberate approach for when an AI agent stores, retrieves, or forgets context across tasks.
+- [mixture of experts](./mixture-of-experts.md) — Neural architecture that routes tokens to specialized submodels to scale capacity efficiently.
 - [ml observability](./ml-observability.md) — Practices and tooling that surface model health through metrics, traces, and alerts across the lifecycle.
 - [ml ops](./ml-ops.md) — Operational discipline that manages ML models from experimentation through deployment and monitoring.
 - [model card](./model-card.md) — Standardized documentation describing a model’s purpose, data, performance, and limitations.
@@ -50,20 +69,32 @@ Total entries: 68
 - [model interpretability](./model-interpretability.md) — Ability to explain how a model arrives at its predictions in ways stakeholders understand.
 - [overfitting](./overfitting.md) — When a model memorizes training data patterns so closely that it performs poorly on new samples.
 - [precision](./precision.md) — Share of predicted positives that are actually correct for a given classifier.
+- [preference dataset](./preference-dataset.md) — Labeled comparisons of model outputs that capture which responses humans prefer.
 - [privacy](./privacy.md) — Principle of limiting data collection, use, and exposure to protect individuals’ information.
+- [privacy budget](./privacy-budget.md) — Quantitative limit on how much privacy loss is allowed when applying differential privacy.
 - [privacy impact assessment](./privacy-impact-assessment.md) — Structured review that evaluates how a system collects, uses, and safeguards personal data.
 - [prompt engineering](./prompt-engineering.md) — Crafting and testing prompts to steer model behavior toward desired outcomes.
+- [prompt injection](./prompt-injection.md) — Attack that inserts malicious instructions into model inputs to override original prompts or policies.
 - [quantization](./quantization.md) — Technique that compresses model weights into lower-precision formats to shrink size and speed inference.
 - [recall](./recall.md) — Share of actual positives a model successfully identifies.
 - [red teaming](./red-teaming.md) — Deliberate stress testing that probes AI systems for harmful, biased, or policy-violating behavior.
+- [reinforcement learning from human feedback](./reinforcement-learning-from-human-feedback.md) — Training approach that tunes a model using reward signals learned from human preference data.
 - [repetition penalty](./repetition-penalty.md) — Decoding adjustment that down-weights tokens already generated to reduce loops and repeated phrases.
 - [reranking](./reranking.md) — Step that refines retrieval results using a more precise but slower scoring model.
 - [responsible ai](./responsible-ai.md) — Frameworks and practices that ensure AI systems are safe, fair, and aligned with ethical and legal expectations.
 - [retrieval](./retrieval.md) — Process of selecting relevant documents or vectors from a corpus in response to a query.
 - [retrieval-augmented generation](./retrieval-augmented-generation.md) — Workflow that grounds a generative model with retrieved context before producing output.
+- [reward model](./reward-model.md) — Model trained on human preferences that scores AI responses for alignment or quality.
+- [risk register](./risk-register.md) — Central list of identified AI risks, their owners, mitigations, and review status.
+- [robust prompting](./robust-prompting.md) — Prompt design techniques that harden models against injections, ambiguity, and unsafe outputs.
 - [roc auc](./roc-auc.md) — Metric summarizing binary classifier performance by measuring area under the ROC curve.
+- [safety classifier](./safety-classifier.md) — Model that detects policy-violating or risky content before or after generation.
 - [safety evaluation](./safety-evaluation.md) — Testing focused on preventing harmful, abusive, or policy-violating AI behavior before and after launch.
+- [safety review board](./safety-review-board.md) — Cross-functional committee that approves high-risk AI launches and monitors mitigations.
 - [safety spec](./safety-spec.md) — Document that codifies allowed, disallowed, and escalated behaviours for an AI system so teams can enforce safety and policy expectations.
+- [self-consistency decoding](./self-consistency-decoding.md) — Decoding strategy that samples multiple reasoning paths and aggregates the most consistent answer.
+- [self-critique loop](./self-critique-loop.md) — Pattern where a model reviews its own outputs, critiques them, and produces revisions before responding.
+- [shadow deployment](./shadow-deployment.md) — Deploying an AI system alongside the existing workflow without user impact to collect telemetry.
 - [synthetic data](./synthetic-data.md) — Artificially generated dataset used to augment training, testing, or privacy-preserving workflows.
 - [synthetic data evaluation](./synthetic-data-evaluation.md) — Process for measuring fidelity, utility, privacy, and bias of synthetic datasets before use.
 - [system prompt](./system-prompt.md) — Foundational instruction that sets role, tone, and guardrails for an AI assistant before user input.
@@ -72,5 +103,6 @@ Total entries: 68
 - [tool use](./tool-use.md) — Pattern where a model selects external tools or functions to handle parts of a task.
 - [top-k sampling](./top-k-sampling.md) — Decoding method that samples from the k most probable next tokens to balance diversity and control.
 - [top-p sampling](./top-p-sampling.md) — Decoding strategy that samples from the smallest set of tokens whose probabilities sum to p.
+- [transparency report](./transparency-report.md) — Periodic disclosure that details how an AI system operates, what data it handles, and how risks are mitigated.
 - [vector store](./vector-store.md) — Database optimized to store embeddings and execute similarity search over vectors.
 - [voice cloning](./voice-cloning.md) — Technique that replicates a person’s voice using generative models trained on audio samples.

@@ -1,0 +1,50 @@
+term: "reward model"
+aliases:
+  - "preference model"
+  - "policy reward model"
+categories:
+  - "LLM Core"
+roles:
+  - "engineering"
+  - "data_science"
+  - "policy"
+part_of_speech: "noun_phrase"
+short_def: "Model trained on human preferences that scores AI responses for alignment or quality."
+long_def: >-
+  A reward model predicts how well a generated response aligns with human preferences or policy guidelines. Teams train it
+  on comparison data where annotators choose the better of two or more outputs. The reward model then guides reinforcement
+  learning, ranking, or rejection sampling to steer the underlying AI system. Because it encodes policy judgments, the
+  model must be audited for bias, saturation, and overfitting. Engineers monitor reward drift, policy teams review
+  labeling instructions, and data scientists retrain the model as new behaviors emerge. If the reward model is misaligned
+  or gamed, the downstream system can optimize for the wrong incentives.
+audiences:
+  exec: "Treat reward models as governance artifacts—they translate policy into scalable automation."
+  engineer: "Version datasets, metrics, and calibration checks so the reward model stays trustworthy."
+examples:
+  do:
+    - "Validate reward scores against a holdout of human-reviewed examples."
+    - "Document known blind spots and include them in launch gates."
+  dont:
+    - "Deploy reward models without monitoring for reward hacking."
+    - "Train on unverified or biased annotations."
+governance:
+  nist_rmf_tags:
+    - "measurement"
+    - "risk_management"
+    - "accountability"
+  risk_notes: "Reward models encode subjective policy choices; poor oversight leads to misaligned optimization."
+relationships:
+  broader:
+    - "reinforcement learning from human feedback"
+  related:
+    - "alignment"
+    - "evaluation harness"
+    - "safety spec"
+citations:
+  - source: "OpenAI – InstructGPT Paper"
+    url: "https://arxiv.org/abs/2203.02155"
+  - source: "DeepMind – RLHF and Reward Modelling"
+    url: "https://www.deepmind.com/blog/learning-through-human-feedback"
+license: "CC BY-SA 4.0"
+status: "reviewed"
+last_reviewed: "2025-09-28"

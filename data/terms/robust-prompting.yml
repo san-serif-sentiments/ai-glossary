@@ -1,0 +1,51 @@
+term: "robust prompting"
+aliases:
+  - "defensive prompting"
+  - "resilient prompting"
+categories:
+  - "LLM Core"
+roles:
+  - "engineering"
+  - "product"
+  - "security"
+part_of_speech: "process"
+short_def: "Prompt design techniques that harden models against injections, ambiguity, and unsafe outputs."
+long_def: >-
+  Robust prompting combines structured instructions, guard clauses, and response checks to make language models more
+  resilient to adversarial or ambiguous inputs. Teams use it to constrain topics, refuse unsafe requests, and preserve
+  critical context even when users try to override instructions. Techniques include layered system messages, explicit
+  refusal criteria, verification prompts, and output formatting templates that make policy violations easier to detect.
+  Engineers pair robust prompts with automated tests, while product and security stakeholders review language to ensure
+  safety requirements and user empathy co-exist. Without defensive prompts, even well-governed systems can be steered
+  into disallowed actions by crafted jailbreaks or accidental misuse.
+audiences:
+  exec: "Invest in robust prompts to reduce incident volume before adding expensive human moderation."
+  engineer: "Version prompts, test for bypasses, and log refusals so you can tune protections proactively."
+examples:
+  do:
+    - "Include explicit refusal language and escalation guidance when requests break policy."
+    - "Pair prompts with automated prompt-injection tests in CI."
+  dont:
+    - "Rely on a single system message to enforce all safety requirements."
+    - "Ship prompt changes without regression testing for jailbreak coverage."
+governance:
+  nist_rmf_tags:
+    - "risk_management"
+    - "safety"
+    - "monitoring"
+  risk_notes: "Weak prompts increase exposure to jailbreaks, data leakage, and brand-damaging outputs."
+relationships:
+  broader:
+    - "prompt engineering"
+  related:
+    - "prompt injection"
+    - "guardrail policy"
+    - "self-critique loop"
+citations:
+  - source: "MIT Technology Review – Defensive Prompt Engineering"
+    url: "https://www.technologyreview.com/2023/08/03/1077110/defensive-prompting-ai-safety/"
+  - source: "Anthropic – Prompting for Safety"
+    url: "https://docs.anthropic.com/claude/docs/prompting-and-safety"
+license: "CC BY-SA 4.0"
+status: "reviewed"
+last_reviewed: "2025-09-28"

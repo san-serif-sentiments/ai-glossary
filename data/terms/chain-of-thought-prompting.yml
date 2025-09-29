@@ -1,0 +1,49 @@
+term: "chain-of-thought prompting"
+aliases:
+  - "cot prompting"
+  - "step-by-step prompting"
+categories:
+  - "LLM Core"
+roles:
+  - "engineering"
+  - "data_science"
+  - "product"
+part_of_speech: "process"
+short_def: "Prompting technique that asks models to reason through intermediate steps before giving a final answer."
+long_def: >-
+  Chain-of-thought prompting instructs a model to show its reasoning by generating step-by-step explanations. The extra
+  reasoning tokens often improve accuracy on tasks like math, code, and logic by encouraging deliberate thinking.
+  Engineers use chain-of-thought to debug and audit reasoning, while policy teams review steps for safety or bias. Product
+  teams decide when to expose the chain to end users versus using it internally for verification. The technique increases
+  latency and risk of leaking sensitive reasoning, so outputs must still be checked by evaluations or secondary models.
+audiences:
+  exec: "Apply chain-of-thought selectively where explainability or reasoning accuracy matters most."
+  engineer: "Pair reasoning traces with validators to catch hallucinated logic or policy violations."
+examples:
+  do:
+    - "Prompt models with `Let's reason step by step` for complex calculations."
+    - "Filter intermediate reasoning before displaying responses to end users."
+  dont:
+    - "Assume longer reasoning always means higher accuracy."
+    - "Expose sensitive internal policies in reasoning traces."
+governance:
+  nist_rmf_tags:
+    - "transparency"
+    - "risk_management"
+    - "monitoring"
+  risk_notes: "Verbose reasoning can leak policy details or amplify biased logic if unchecked."
+relationships:
+  broader:
+    - "prompt engineering"
+  related:
+    - "self-consistency decoding"
+    - "robust prompting"
+    - "evaluation"
+citations:
+  - source: "Google – Chain of Thought Prompting"
+    url: "https://arxiv.org/abs/2201.11903"
+  - source: "DeepMind – Improving Reasoning in Language Models"
+    url: "https://www.deepmind.com/blog/chain-of-thought-reasoning-helps-language-models-solve-math"
+license: "CC BY-SA 4.0"
+status: "reviewed"
+last_reviewed: "2025-09-28"

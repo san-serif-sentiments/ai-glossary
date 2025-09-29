@@ -1,0 +1,55 @@
+term: "evaluation harness"
+aliases:
+  - "eval harness"
+  - "agent evaluation pipeline"
+categories:
+  - "Operations & Monitoring"
+roles:
+  - "engineering"
+  - "data_science"
+  - "product"
+part_of_speech: "concept"
+short_def: "Automated pipeline that replays tasks, scores outputs, and reports regressions for AI systems."
+long_def: >-
+  An evaluation harness packages datasets, prompts, grading logic, and reporting into a repeatable testing loop for
+  AI systems. Teams use it to replay golden tasks, compare new model checkpoints against baselines, and surface
+  regressions before releases. Mature harnesses capture qualitative rubrics, automated metrics, and policy checks in
+  the same run so results are auditable. Product managers wire the harness into launch gates, engineers integrate it
+  with CI/CD, and data scientists own the benchmarks and scoring logic. When paired with incident telemetry, the
+  harness becomes the source of truth for whether mitigations are holding. Without one, evaluation drifts to ad-hoc
+  notebook experiments, making safety, equity, and quality decisions opaque. 
+audiences:
+  exec: "Tie model releases to a standard testing loop so you can watch risk and quality trends across launches."
+  engineer: "Embed the harness into CI so every model or prompt change ships with quantitative and policy signals."
+examples:
+  do:
+    - "Schedule nightly harness runs against red-team prompts and archive reports in the governance dashboard."
+    - "Track score deltas by dataset slice so regressions in protected classes trigger blocking alerts."
+  dont:
+    - "Rely on one-off notebooks or manual spot checks to validate safety-critical behaviors."
+    - "Ignore harness failures when product metrics trend up; that hides governance or fairness regressions."
+governance:
+  nist_rmf_tags:
+    - "measurement"
+    - "monitoring"
+    - "risk_management"
+  risk_notes: "Skipping automation makes it impossible to prove controls work or to show due diligence during audits."
+relationships:
+  broader:
+    - "evaluation"
+    - "ml ops"
+  related:
+    - "safety evaluation"
+    - "red teaming"
+    - "responsible ai"
+  narrower:
+    - "robust prompting"
+    - "synthetic data evaluation"
+citations:
+  - source: "LangChain Documentation – Evaluation"
+    url: "https://python.langchain.com/docs/guides/evaluation/"
+  - source: "OpenAI Blog – Introducing OpenAI Evals"
+    url: "https://openai.com/blog/evals"
+license: "CC BY-SA 4.0"
+status: "reviewed"
+last_reviewed: "2025-09-28"

@@ -1,0 +1,50 @@
+term: "risk register"
+aliases:
+  - "risk log"
+  - "risk inventory"
+categories:
+  - "Governance & Risk"
+roles:
+  - "policy"
+  - "product"
+  - "legal"
+  - "engineering"
+part_of_speech: "noun_phrase"
+short_def: "Central list of identified AI risks, their owners, mitigations, and review status."
+long_def: >-
+  A risk register tracks every material risk an AI system poses, including potential harms, likelihood, impact, and planned
+  mitigations. It links each item to an accountable owner, current status, and evidence such as evaluation results or
+  assurance case references. Policy teams maintain the register for governance reviews, product owners prioritize fixes,
+  engineering updates mitigation progress, and legal teams map entries to regulatory obligations. The register should be
+  version-controlled and reviewed regularly; letting it go stale leaves leadership blind to emerging exposures.
+audiences:
+  exec: "Use the risk register as a single source of truth when approving launches or investments."
+  engineer: "Update mitigation status promptly so policy partners can judge readiness accurately."
+examples:
+  do:
+    - "Tag each risk with severity, detection method, and next review date."
+    - "Link mitigations to evaluation artifacts and assurance case claims."
+  dont:
+    - "Hide unresolved risks in private notes or disparate tools."
+    - "Close a risk without capturing verification evidence."
+governance:
+  nist_rmf_tags:
+    - "risk_management"
+    - "accountability"
+    - "governance"
+  risk_notes: "Without a maintained register, teams miss systemic issues and fail audits."
+relationships:
+  broader:
+    - "model governance"
+  related:
+    - "assurance case"
+    - "impact mitigation plan"
+    - "transparency report"
+citations:
+  - source: "NIST AI RMF – Risk Management Playbook"
+    url: "https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook"
+  - source: "AI Now Institute – Algorithmic Accountability Policy Toolkit"
+    url: "https://ainowinstitute.org/aap-toolkit.pdf"
+license: "CC BY-SA 4.0"
+status: "reviewed"
+last_reviewed: "2025-09-28"
