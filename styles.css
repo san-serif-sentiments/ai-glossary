@@ -156,8 +156,8 @@ body,
 }
 
 .status-chip.status-approved {
-  background: rgba(33, 150, 243, 0.18);
-  color: #0d47a1;
+  background: rgba(14, 165, 233, 0.18);
+  color: var(--brand-secondary);
 }
 
 .status-chip.status-deprecated {
