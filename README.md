@@ -163,9 +163,30 @@ Tip: Whenever you add new terms or change long descriptions, rerun the script so
   huggingface-cli download sentence-transformers/all-MiniLM-L6-v2 \
     --local-dir models/all-MiniLM-L6-v2 --local-dir-use-symlinks False
   ```
-  The script automatically looks in `models/all-MiniLM-L6-v2`, or set your own path with
+  (Newer CLIs accept the shorter `hf download … --local-dir models/all-MiniLM-L6-v2`.)
+  The script automatically checks `models/all-MiniLM-L6-v2`. Prefer a different folder? Set
   `export GLOSSARY_EMBEDDING_MODEL_PATH=/path/to/local/model` before running the command.
 - All embedding logic lives in [`scripts/enrich_related_terms.py`](scripts/enrich_related_terms.py); check the `embed_texts` function if you want to customise behaviour.
+
+**MiniLM cache cheat sheet**
+
+Once the model is downloaded locally you can run the script offline:
+
+```bash
+export GLOSSARY_EMBEDDING_MODEL_PATH="$(pwd)/models/all-MiniLM-L6-v2"  # adjust if you used a custom path
+source .venv/bin/activate
+python scripts/enrich_related_terms.py
+```
+
+Pros:
+
+- No network calls after the first download.
+- Everyone on your team gets consistent related-term panels.
+
+Watch-outs:
+
+- The model folder is large; it is ignored by `.gitignore` (`models/` and `site/models/`) and should not be committed.
+- If Hugging Face publishes an updated checkpoint you will need to re-download it manually.
 
 ---
 
@@ -198,6 +219,8 @@ Need teammates to preview locally? They can clone the repo, run `make build`, th
 | `make preview` | Runs `mkdocs serve` using the repo root config. |
 | `make check` | Runs validation, unit tests, and `mkdocs build --strict`. |
 | `make new-term NAME="Your Term"` | Creates a scaffold YAML file in `data/terms/`. |
+| `make github-push MESSAGE="..."` | Runs checks, commits staged files with your message, and pushes to `origin main`. |
+| `make gh-pages` | Builds the site in strict mode and deploys it to GitHub Pages (`mkdocs gh-deploy`). |
 
 ---
 
