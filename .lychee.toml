@@ -22,25 +22,15 @@ exclude = [
 ]
 
 # Optional: if you keep site-absolute links in content, remap them to on-site relatives for validation
-[[remap]]
-from = "^/terms/"
-to = "terms/"
-
-[[remap]]
-from = "^/roles/"
-to = "roles.md"
-
-[[remap]]
-from = "^/categories/"
-to = "categories.md"
-
-[[remap]]
-from = "^/search/index.html$"
-to = "search.md"
-
-[[remap]]
-from = "^/governance-dashboard/index.html$"
-to = "governance-dashboard.md"
+[# Use a single `remap` key that holds an array of strings.
+# Each string should contain the original URL regex pattern and its replacement, separated by a space.
+remap = [
+  "^/terms/ terms/",
+  "^/roles/ roles.md",
+  "^/categories/ categories.md",
+  "^/search/index.html$ search.md",
+  "^/governance-dashboard/index.html$ governance-dashboard.md"
+]
 
 # Optional: ignore CI/config folders
 exclude_path = [
