@@ -8,7 +8,7 @@
 **Categories:** Governance & Risk, Operations & Monitoring
 **Roles:** Policy & Risk, Communications & Enablement, Product & Program Managers, Security & Trust, Engineering & Platform
 **Part of speech:** `process`
-**Status:** <span class="status-chip status-reviewed">Reviewed</span> (Last reviewed: 2025-09-28)
+**Status:** <span class="status-chip status-approved">Approved</span> (Last reviewed: 2025-09-29)
 
 !!! tip "Put it into practice"
     Reference the [Governance Dashboard](../governance-dashboard.md) for monitoring obligations.

@@ -8,7 +8,7 @@
 **Categories:** Operations & Monitoring
 **Roles:** Engineering & Platform, Security & Trust, Policy & Risk, Product & Program Managers
 **Part of speech:** `noun_phrase`
-**Status:** <span class="status-chip status-reviewed">Reviewed</span> (Last reviewed: 2025-09-28)
+**Status:** <span class="status-chip status-approved">Approved</span> (Last reviewed: 2025-09-29)
 
 ## Role takeaways
 - **Engineering & Platform:** Document implementation requirements and operational caveats.

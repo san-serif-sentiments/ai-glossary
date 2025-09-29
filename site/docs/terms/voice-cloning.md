@@ -8,7 +8,7 @@
 **Categories:** Foundations, Governance & Risk
 **Roles:** Product & Program Managers, Communications & Enablement, Legal & Compliance, Policy & Risk, Security & Trust
 **Part of speech:** `process`
-**Status:** <span class="status-chip status-reviewed">Reviewed</span> (Last reviewed: 2025-09-28)
+**Status:** <span class="status-chip status-approved">Approved</span> (Last reviewed: 2025-09-29)
 
 ## Role takeaways
 - **Product & Program Managers:** Translate this concept into user impact and rollout plans.

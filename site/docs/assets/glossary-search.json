@@ -18,8 +18,8 @@
       "risk_management",
       "transparency"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "agent-executor"
   },
   {
@@ -40,8 +40,8 @@
       "accountability",
       "risk_management"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "agentic-ai"
   },
   {
@@ -65,8 +65,8 @@
       "risk_management",
       "transparency"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "ai-assurance"
   },
   {
@@ -90,8 +90,8 @@
       "monitoring",
       "security"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "ai-circuit-breaker"
   },
   {
@@ -117,8 +117,8 @@
       "risk_management",
       "accountability"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "ai-incident-response"
   },
   {
@@ -142,8 +142,8 @@
       "fairness",
       "transparency"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "algorithmic-audit"
   },
   {
@@ -167,8 +167,8 @@
       "fairness",
       "transparency"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "algorithmic-bias"
   },
   {
@@ -193,8 +193,8 @@
       "risk_management",
       "transparency"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "algorithmic-impact-assessment"
   },
   {
@@ -218,8 +218,8 @@
       "transparency",
       "validity"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "alignment"
   },
   {
@@ -242,8 +242,8 @@
       "accountability",
       "risk_management"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "assurance-case"
   },
   {
@@ -265,8 +265,8 @@
       "transparency",
       "robustness"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "attention"
   },
   {
@@ -288,8 +288,8 @@
       "robustness",
       "transparency"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "beam-search"
   },
   {
@@ -311,8 +311,8 @@
       "validity",
       "transparency"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "bias-variance-tradeoff"
   },
   {
@@ -335,8 +335,8 @@
       "risk_management",
       "monitoring"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "chain-of-thought-prompting"
   },
   {
@@ -358,8 +358,8 @@
       "data_quality",
       "privacy"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "chunking"
   },
   {
@@ -383,8 +383,8 @@
       "data_quality",
       "transparency"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "clip"
   },
   {
@@ -407,8 +407,8 @@
       "transparency",
       "validity"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "confusion-matrix"
   },
   {
@@ -432,8 +432,8 @@
       "accountability",
       "governance"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "consent-management"
   },
   {
@@ -457,8 +457,8 @@
       "validity",
       "transparency"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "constitutional-ai"
   },
   {
@@ -483,8 +483,8 @@
       "risk_management",
       "accountability"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "content-moderation"
   },
   {
@@ -506,8 +506,8 @@
       "transparency",
       "privacy"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "context-window"
   },
   {
@@ -529,8 +529,8 @@
       "validity",
       "transparency"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "cross-validation"
   },
   {
@@ -554,8 +554,8 @@
       "governance",
       "risk_management"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "data-lineage"
   },
   {
@@ -578,8 +578,8 @@
       "privacy",
       "risk_management"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "data-minimization"
   },
   {
@@ -603,8 +603,8 @@
       "risk_management",
       "security"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "data-redaction"
   },
   {
@@ -627,8 +627,8 @@
       "privacy",
       "risk_management"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "data-retention"
   },
   {
@@ -652,8 +652,8 @@
       "governance",
       "accountability"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "dataset-card"
   },
   {
@@ -675,8 +675,8 @@
       "transparency",
       "robustness"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "decoding"
   },
   {
@@ -699,8 +699,8 @@
       "privacy",
       "risk_management"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "differential-privacy"
   },
   {
@@ -724,8 +724,8 @@
       "risk_management",
       "transparency"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "diffusion-model"
   },
   {
@@ -747,8 +747,8 @@
       "measurement",
       "risk_management"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "direct-preference-optimization"
   },
   {
@@ -770,8 +770,8 @@
       "data_quality",
       "accountability"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "embedding"
   },
   {
@@ -795,8 +795,8 @@
       "monitoring",
       "risk_management"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "escalation-policy"
   },
   {
@@ -819,8 +819,8 @@
       "monitoring",
       "risk_management"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "evaluation-harness"
   },
   {
@@ -846,8 +846,8 @@
       "validity",
       "accountability"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "evaluation"
   },
   {
@@ -869,8 +869,8 @@
       "validity",
       "transparency"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "f1-score"
   },
   {
@@ -894,8 +894,8 @@
       "fairness",
       "transparency"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "fairness-metrics"
   },
   {
@@ -916,8 +916,8 @@
       "accountability",
       "validity"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "fine-tuning"
   },
   {
@@ -940,8 +940,8 @@
       "accountability",
       "transparency"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "function-calling"
   },
   {
@@ -963,8 +963,8 @@
       "transparency",
       "risk_management"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "generative-ai"
   },
   {
@@ -985,8 +985,8 @@
       "validity",
       "accountability"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "greedy-decoding"
   },
   {
@@ -1010,8 +1010,8 @@
       "risk_management",
       "accountability"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "guardrail-policy"
   },
   {
@@ -1035,8 +1035,8 @@
       "privacy",
       "robustness"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "guardrails"
   },
   {
@@ -1063,8 +1063,8 @@
       "transparency",
       "validity"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "hallucination"
   },
   {
@@ -1088,8 +1088,8 @@
       "monitoring",
       "risk_management"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "human-handoff"
   },
   {
@@ -1113,8 +1113,8 @@
       "accountability",
       "monitoring"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "impact-mitigation-plan"
   },
   {
@@ -1138,8 +1138,8 @@
       "monitoring",
       "accountability"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "incident-taxonomy"
   },
   {
@@ -1163,8 +1163,8 @@
       "measurement",
       "accountability"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "instruction-tuning"
   },
   {
@@ -1187,8 +1187,8 @@
       "monitoring",
       "risk_management"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "jailbreak-prompt"
   },
   {
@@ -1209,8 +1209,8 @@
       "efficiency",
       "validity"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "knowledge-distillation"
   },
   {
@@ -1232,8 +1232,8 @@
       "efficiency",
       "privacy"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "kv-cache"
   },
   {
@@ -1255,8 +1255,8 @@
       "transparency",
       "validity"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "log-probability"
   },
   {
@@ -1277,8 +1277,8 @@
       "efficiency",
       "accountability"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "low-rank-adaptation"
   },
   {
@@ -1300,8 +1300,8 @@
       "privacy",
       "risk_management"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "memory-strategy"
   },
   {
@@ -1324,8 +1324,8 @@
       "risk_management",
       "transparency"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "mixture-of-experts"
   },
   {
@@ -1347,8 +1347,8 @@
       "monitoring",
       "accountability"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "ml-observability"
   },
   {
@@ -1370,8 +1370,8 @@
       "accountability",
       "monitoring"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "ml-ops"
   },
   {
@@ -1396,8 +1396,8 @@
       "documentation",
       "accountability"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "model-card"
   },
   {
@@ -1423,8 +1423,8 @@
       "monitoring",
       "validity"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "model-drift"
   },
   {
@@ -1447,8 +1447,8 @@
       "accountability",
       "risk_management"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "model-governance"
   },
   {
@@ -1472,8 +1472,8 @@
       "transparency",
       "accountability"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "model-interpretability"
   },
   {
@@ -1495,8 +1495,8 @@
       "validity",
       "data_quality"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "overfitting"
   },
   {
@@ -1519,8 +1519,8 @@
       "validity",
       "accountability"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "precision"
   },
   {
@@ -1544,8 +1544,8 @@
       "risk_management",
       "privacy"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "preference-dataset"
   },
   {
@@ -1569,8 +1569,8 @@
       "risk_management",
       "governance"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "privacy-budget"
   },
   {
@@ -1593,8 +1593,8 @@
       "privacy",
       "documentation"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "privacy-impact-assessment"
   },
   {
@@ -1617,8 +1617,8 @@
       "privacy",
       "risk_management"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "privacy"
   },
   {
@@ -1640,8 +1640,8 @@
       "accountability",
       "transparency"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "prompt-engineering"
   },
   {
@@ -1664,8 +1664,8 @@
       "risk_management",
       "monitoring"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "prompt-injection"
   },
   {
@@ -1687,8 +1687,8 @@
       "robustness",
       "documentation"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "quantization"
   },
   {
@@ -1711,8 +1711,8 @@
       "validity",
       "accountability"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "recall"
   },
   {
@@ -1738,8 +1738,8 @@
       "risk_management",
       "accountability"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "red-teaming"
   },
   {
@@ -1763,8 +1763,8 @@
       "monitoring",
       "transparency"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "reinforcement-learning-from-human-feedback"
   },
   {
@@ -1786,8 +1786,8 @@
       "robustness",
       "transparency"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "repetition-penalty"
   },
   {
@@ -1809,8 +1809,8 @@
       "validity",
       "transparency"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "reranking"
   },
   {
@@ -1833,8 +1833,8 @@
       "risk_management",
       "accountability"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "responsible-ai"
   },
   {
@@ -1857,8 +1857,8 @@
       "data_quality",
       "documentation"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "retrieval-augmented-generation"
   },
   {
@@ -1880,8 +1880,8 @@
       "data_quality",
       "transparency"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "retrieval"
   },
   {
@@ -1904,8 +1904,8 @@
       "risk_management",
       "accountability"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "reward-model"
   },
   {
@@ -1929,8 +1929,8 @@
       "accountability",
       "governance"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "risk-register"
   },
   {
@@ -1953,8 +1953,8 @@
       "safety",
       "monitoring"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "robust-prompting"
   },
   {
@@ -1976,8 +1976,8 @@
       "validity",
       "transparency"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "roc-auc"
   },
   {
@@ -2001,8 +2001,8 @@
       "risk_management",
       "security"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "safety-classifier"
   },
   {
@@ -2026,8 +2026,8 @@
       "risk_management",
       "accountability"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "safety-evaluation"
   },
   {
@@ -2051,8 +2051,8 @@
       "accountability",
       "risk_management"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "safety-review-board"
   },
   {
@@ -2078,8 +2078,8 @@
       "accountability",
       "transparency"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "safety-spec"
   },
   {
@@ -2100,8 +2100,8 @@
       "monitoring",
       "risk_management"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "self-consistency-decoding"
   },
   {
@@ -2124,8 +2124,8 @@
       "risk_management",
       "transparency"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "self-critique-loop"
   },
   {
@@ -2149,8 +2149,8 @@
       "risk_management",
       "governance"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "shadow-deployment"
   },
   {
@@ -2174,8 +2174,8 @@
       "data_quality",
       "privacy"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "synthetic-data-evaluation"
   },
   {
@@ -2200,8 +2200,8 @@
       "privacy",
       "data_quality"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "synthetic-data"
   },
   {
@@ -2223,8 +2223,8 @@
       "transparency",
       "accountability"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "system-prompt"
   },
   {
@@ -2246,8 +2246,8 @@
       "robustness",
       "transparency"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "temperature"
   },
   {
@@ -2269,8 +2269,8 @@
       "transparency",
       "validity"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "token"
   },
   {
@@ -2291,8 +2291,8 @@
       "accountability",
       "transparency"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "tool-use"
   },
   {
@@ -2314,8 +2314,8 @@
       "robustness",
       "transparency"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "top-k-sampling"
   },
   {
@@ -2337,8 +2337,8 @@
       "robustness",
       "transparency"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "top-p-sampling"
   },
   {
@@ -2362,8 +2362,8 @@
       "accountability",
       "governance"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "transparency-report"
   },
   {
@@ -2385,8 +2385,8 @@
       "accountability",
       "data_quality"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "vector-store"
   },
   {
@@ -2411,8 +2411,8 @@
       "risk_management",
       "transparency"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2025-09-28",
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
     "slug": "voice-cloning"
   }
 ]

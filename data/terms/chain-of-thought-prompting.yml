@@ -45,5 +45,5 @@ citations:
   - source: "DeepMind – Improving Reasoning in Language Models"
     url: "https://www.deepmind.com/blog/chain-of-thought-reasoning-helps-language-models-solve-math"
 license: "CC BY-SA 4.0"
-status: "reviewed"
-last_reviewed: "2025-09-28"
+status: "approved"
+last_reviewed: "2025-09-29"

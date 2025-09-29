@@ -8,7 +8,7 @@
 **Categories:** Governance & Risk
 **Roles:** Policy & Risk, Legal & Compliance, Engineering & Platform
 **Part of speech:** `noun_phrase`
-**Status:** <span class="status-chip status-reviewed">Reviewed</span> (Last reviewed: 2025-09-28)
+**Status:** <span class="status-chip status-approved">Approved</span> (Last reviewed: 2025-09-29)
 
 ## Role takeaways
 - **Policy & Risk:** Map the definition to governance controls and review checklists.

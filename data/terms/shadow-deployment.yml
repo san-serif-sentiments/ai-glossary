@@ -46,5 +46,5 @@ citations:
   - source: "NVIDIA – Shadow Deployment for Generative AI"
     url: "https://developer.nvidia.com/blog/shadow-deployment-generative-ai/"
 license: "CC BY-SA 4.0"
-status: "reviewed"
-last_reviewed: "2025-09-28"
+status: "approved"
+last_reviewed: "2025-09-29"

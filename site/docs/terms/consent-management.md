@@ -8,7 +8,7 @@
 **Categories:** Governance & Risk
 **Roles:** Legal & Compliance, Policy & Risk, Product & Program Managers, Engineering & Platform
 **Part of speech:** `process`
-**Status:** <span class="status-chip status-reviewed">Reviewed</span> (Last reviewed: 2025-09-28)
+**Status:** <span class="status-chip status-approved">Approved</span> (Last reviewed: 2025-09-29)
 
 ## Role takeaways
 - **Legal & Compliance:** Assess contractual and regulatory obligations tied to this term.

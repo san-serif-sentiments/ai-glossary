@@ -47,5 +47,5 @@ citations:
   - source: "Microsoft – Safe Deployment Practices"
     url: "https://learn.microsoft.com/azure/ai-services/openai/concepts/safe-deployment"
 license: "CC BY-SA 4.0"
-status: "reviewed"
-last_reviewed: "2025-09-28"
+status: "approved"
+last_reviewed: "2025-09-29"

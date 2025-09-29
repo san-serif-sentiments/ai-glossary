@@ -8,7 +8,7 @@
 **Categories:** Governance & Risk
 **Roles:** Security & Trust, Product & Program Managers, Engineering & Platform
 **Part of speech:** `noun_phrase`
-**Status:** <span class="status-chip status-reviewed">Reviewed</span> (Last reviewed: 2025-09-28)
+**Status:** <span class="status-chip status-approved">Approved</span> (Last reviewed: 2025-09-29)
 
 ## Role takeaways
 - **Security & Trust:** Plan monitoring and abuse prevention scenarios influenced by this term.

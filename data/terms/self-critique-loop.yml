@@ -48,5 +48,5 @@ citations:
   - source: "DeepLearning.AI – Self-Consistency and Reflection"
     url: "https://www.deeplearning.ai/the-batch/how-self-reflection-improves-llm-reasoning/"
 license: "CC BY-SA 4.0"
-status: "reviewed"
-last_reviewed: "2025-09-28"
+status: "approved"
+last_reviewed: "2025-09-29"

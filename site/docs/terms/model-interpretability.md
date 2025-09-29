@@ -8,7 +8,7 @@
 **Categories:** Governance & Risk, Operations & Monitoring
 **Roles:** Engineering & Platform, Policy & Risk, Legal & Compliance, Product & Program Managers
 **Part of speech:** `concept`
-**Status:** <span class="status-chip status-reviewed">Reviewed</span> (Last reviewed: 2025-09-28)
+**Status:** <span class="status-chip status-approved">Approved</span> (Last reviewed: 2025-09-29)
 
 !!! tip "Put it into practice"
     Sync with the [Governance Dashboard](../governance-dashboard.md) to capture explanation plans.

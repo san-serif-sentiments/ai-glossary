@@ -8,7 +8,7 @@
 **Categories:** Governance & Risk
 **Roles:** Policy & Risk, Legal & Compliance, Product & Program Managers, Communications & Enablement, Security & Trust
 **Part of speech:** `concept`
-**Status:** <span class="status-chip status-reviewed">Reviewed</span> (Last reviewed: 2025-09-28)
+**Status:** <span class="status-chip status-approved">Approved</span> (Last reviewed: 2025-09-29)
 
 !!! tip "Put it into practice"
     Run the [Governance Dashboard](../governance-dashboard.md) checklist before launch.

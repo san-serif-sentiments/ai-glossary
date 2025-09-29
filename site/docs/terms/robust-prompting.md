@@ -8,7 +8,7 @@
 **Categories:** LLM Core
 **Roles:** Engineering & Platform, Product & Program Managers, Security & Trust
 **Part of speech:** `process`
-**Status:** <span class="status-chip status-reviewed">Reviewed</span> (Last reviewed: 2025-09-28)
+**Status:** <span class="status-chip status-approved">Approved</span> (Last reviewed: 2025-09-29)
 
 ## Role takeaways
 - **Engineering & Platform:** Document implementation requirements and operational caveats.

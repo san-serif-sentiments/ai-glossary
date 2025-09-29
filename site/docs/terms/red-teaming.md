@@ -8,7 +8,7 @@
 **Categories:** Governance & Risk, Operations & Monitoring
 **Roles:** Communications & Enablement, Engineering & Platform, Legal & Compliance, Policy & Risk, Product & Program Managers, Security & Trust
 **Part of speech:** `process`
-**Status:** <span class="status-chip status-reviewed">Reviewed</span> (Last reviewed: 2025-09-28)
+**Status:** <span class="status-chip status-approved">Approved</span> (Last reviewed: 2025-09-29)
 
 ## Role takeaways
 - **Communications & Enablement:** Align messaging, FAQs, and enablement materials using this definition.

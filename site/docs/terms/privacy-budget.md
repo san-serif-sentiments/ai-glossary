@@ -8,7 +8,7 @@
 **Categories:** Governance & Risk
 **Roles:** Data Science & Research, Policy & Risk, Legal & Compliance, Engineering & Platform
 **Part of speech:** `noun_phrase`
-**Status:** <span class="status-chip status-reviewed">Reviewed</span> (Last reviewed: 2025-09-28)
+**Status:** <span class="status-chip status-approved">Approved</span> (Last reviewed: 2025-09-29)
 
 ## Role takeaways
 - **Data Science & Research:** Incorporate the metric or method into evaluation pipelines.

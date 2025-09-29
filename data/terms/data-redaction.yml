@@ -48,5 +48,5 @@ citations:
   - source: "Google – Data Loss Prevention Redaction"
     url: "https://cloud.google.com/dlp/docs/redacting-sensitive-data"
 license: "CC BY-SA 4.0"
-status: "reviewed"
-last_reviewed: "2025-09-28"
+status: "approved"
+last_reviewed: "2025-09-29"
