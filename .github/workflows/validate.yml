@@ -34,15 +34,19 @@ jobs:
       - name: Run unit tests
         run: python -m unittest discover -s tests
 
+      # Build the docs to a known folder at the repo root
       - name: Build documentation site
-        working-directory: ${{ github.workspace }}
         run: mkdocs build -f site/mkdocs.yml -d site_build
 
+      # Prove the folder exists (helps debug paths)
+      - name: Verify build output
+        run: |
+          ls -la
+          ls -la site_build || (echo "site_build not found" && exit 1)
+
+      # Run lychee *inside* site_build so "." is unambiguous
       - name: Check links (Lychee on built HTML)
         uses: lycheeverse/lychee-action@v2
+        working-directory: ${{ github.workspace }}/site_build
         with:
-          # Use an ABSOLUTE filesystem path so Lychee doesn't treat it as a URL
-          args: >-
-            --config .lychee.toml
-            --no-progress
-            ${{ github.workspace }}/site_build
+          args: --config ../.lychee.toml --no-progress .
