@@ -32,16 +32,17 @@ jobs:
         run: make build
 
       - name: Run unit tests
-        run:
-          python -m unittest discover -s tests
+        run: python -m unittest discover -s tests
 
-          # 👇 Build site BEFORE link check
       - name: Build documentation site
-        run: |
-          mkdocs build -f site/mkdocs.yml -d site_build
+        working-directory: ${{ github.workspace }}
+        run: mkdocs build -f site/mkdocs.yml -d site_build
 
-      # 👇 Check links in built HTML instead of raw Markdown
-      - name: Check links
+      - name: Check links (Lychee on built HTML)
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --config .lychee.toml --no-progress ./site_build/
+          # Use an ABSOLUTE filesystem path so Lychee doesn't treat it as a URL
+          args: >-
+            --config .lychee.toml
+            --no-progress
+            ${{ github.workspace }}/site_build
