@@ -6,14 +6,17 @@
 
 **Aliases:** information retrieval, retriever
 **Categories:** Retrieval & RAG
-**Roles:** Data Science & Research, Engineering & Platform, Product & Program Managers
+**Roles:** Communications & Enablement, Data Science & Research, Product & Program Managers, Security & Trust, Engineering & Platform, Policy & Risk
 **Part of speech:** `process`
 **Status:** <span class="status-chip status-approved">Approved</span> (Last reviewed: 2025-09-29)
 
 ## Role takeaways
+- **Communications & Enablement:** Align messaging, FAQs, and enablement materials using this definition.
 - **Data Science & Research:** Incorporate the metric or method into evaluation pipelines.
-- **Engineering & Platform:** Document implementation requirements and operational caveats.
 - **Product & Program Managers:** Translate this concept into user impact and rollout plans.
+- **Security & Trust:** Plan monitoring and abuse prevention scenarios influenced by this term.
+- **Engineering & Platform:** Document implementation requirements and operational caveats.
+- **Policy & Risk:** Map the definition to governance controls and review checklists.
 
 ## Practice & apply
 - Validate retrieval quality using the evaluation guidance referenced in this entry.

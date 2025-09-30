@@ -336,6 +336,7 @@ Ensure responsible AI controls align with governance frameworks.
 - LLM Core (6 terms)
 - Agents & Tooling (2 terms)
 - Optimization & Efficiency (1 term)
+- Retrieval & RAG (1 term)
 
 ### Recommended terms
 - [ai assurance](terms/ai-assurance.md) — Discipline that produces evidence, controls, and attestations showing an AI system meets agreed safety, compliance, and performance thresholds.
@@ -383,6 +384,7 @@ Ensure responsible AI controls align with governance frameworks.
 - [red teaming](terms/red-teaming.md) — Deliberate stress testing that probes AI systems for harmful, biased, or policy-violating behavior.
 - [reinforcement learning from human feedback](terms/reinforcement-learning-from-human-feedback.md) — Training approach that tunes a model using reward signals learned from human preference data.
 - [responsible ai](terms/responsible-ai.md) — Frameworks and practices that ensure AI systems are safe, fair, and aligned with ethical and legal expectations.
+- [retrieval](terms/retrieval.md) — Process of selecting relevant documents or vectors from a corpus in response to a query.
 - [reward model](terms/reward-model.md) — Model trained on human preferences that scores AI responses for alignment or quality.
 - [risk register](terms/risk-register.md) — Central list of identified AI risks, their owners, mitigations, and review status.
 - [safety classifier](terms/safety-classifier.md) — Model that detects policy-violating or risky content before or after generation.
@@ -475,6 +477,7 @@ Safeguard data, access, and abuse prevention.
 - Operations & Monitoring (11 terms)
 - LLM Core (2 terms)
 - Foundations (1 term)
+- Retrieval & RAG (1 term)
 
 ### Recommended terms
 - [ai assurance](terms/ai-assurance.md) — Discipline that produces evidence, controls, and attestations showing an AI system meets agreed safety, compliance, and performance thresholds.
@@ -497,6 +500,7 @@ Safeguard data, access, and abuse prevention.
 - [privacy impact assessment](terms/privacy-impact-assessment.md) — Structured review that evaluates how a system collects, uses, and safeguards personal data.
 - [prompt injection](terms/prompt-injection.md) — Attack that inserts malicious instructions into model inputs to override original prompts or policies.
 - [red teaming](terms/red-teaming.md) — Deliberate stress testing that probes AI systems for harmful, biased, or policy-violating behavior.
+- [retrieval](terms/retrieval.md) — Process of selecting relevant documents or vectors from a corpus in response to a query.
 - [robust prompting](terms/robust-prompting.md) — Prompt design techniques that harden models against injections, ambiguity, and unsafe outputs.
 - [safety classifier](terms/safety-classifier.md) — Model that detects policy-violating or risky content before or after generation.
 - [safety review board](terms/safety-review-board.md) — Cross-functional committee that approves high-risk AI launches and monitors mitigations.
@@ -527,8 +531,8 @@ Craft messaging, disclosure, and stakeholder education.
 - Operations & Monitoring (7 terms)
 - Foundations (4 terms)
 - LLM Core (3 terms)
+- Retrieval & RAG (2 terms)
 - Agents & Tooling (1 term)
-- Retrieval & RAG (1 term)
 
 ### Recommended terms
 - [ai incident response](terms/ai-incident-response.md) — Coordinated workflow for detecting, triaging, and remediating harmful or out-of-policy AI behavior.
@@ -550,6 +554,7 @@ Craft messaging, disclosure, and stakeholder education.
 - [privacy](terms/privacy.md) — Principle of limiting data collection, use, and exposure to protect individuals’ information.
 - [red teaming](terms/red-teaming.md) — Deliberate stress testing that probes AI systems for harmful, biased, or policy-violating behavior.
 - [responsible ai](terms/responsible-ai.md) — Frameworks and practices that ensure AI systems are safe, fair, and aligned with ethical and legal expectations.
+- [retrieval](terms/retrieval.md) — Process of selecting relevant documents or vectors from a corpus in response to a query.
 - [safety evaluation](terms/safety-evaluation.md) — Testing focused on preventing harmful, abusive, or policy-violating AI behavior before and after launch.
 - [safety spec](terms/safety-spec.md) — Document that codifies allowed, disallowed, and escalated behaviours for an AI system so teams can enforce safety and policy expectations.
 - [transparency report](terms/transparency-report.md) — Periodic disclosure that details how an AI system operates, what data it handles, and how risks are mitigated.

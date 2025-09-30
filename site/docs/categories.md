@@ -54,7 +54,7 @@ Tools for grounding models with external knowledge and search infrastructure.
 - [chunking](terms/chunking.md) — Data Science & Research, Engineering & Platform, Product & Program Managers
 - [embedding](terms/embedding.md) — Data Science & Research, Engineering & Platform, Product & Program Managers
 - [reranking](terms/reranking.md) — Data Science & Research, Engineering & Platform, Product & Program Managers
-- [retrieval](terms/retrieval.md) — Data Science & Research, Engineering & Platform, Product & Program Managers
+- [retrieval](terms/retrieval.md) — Communications & Enablement, Data Science & Research, Product & Program Managers, Security & Trust, Engineering & Platform, Policy & Risk
 - [retrieval-augmented generation](terms/retrieval-augmented-generation.md) — Data Science & Research, Engineering & Platform, Product & Program Managers
 - [vector store](terms/vector-store.md) — Data Science & Research, Engineering & Platform, Product & Program Managers
 

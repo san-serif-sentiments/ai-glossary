@@ -1,27 +1,46 @@
-# .lychee.toml
-
-# Base URL of your published site (used to resolve root-relative links in HTML)
+# Base URL (GitHub Pages origin)
 base = "https://san-serif-sentiments.github.io/ai-glossary"
 
 # Retries & concurrency
 cache = true
-max-concurrency = 6
+max-concurrency = 4     # safer for GitHub
 retry-wait-time = 2
-retry-count = 2
+retry-count = 3
 
-# Many sites 403/405 on HEAD; use GET and a browser-like UA
+# Use GET with browser UA to avoid 403 on HEAD
 method = "GET"
 user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36"
 
 # Accept common success/redirect/ratelimit statuses
 accept = [200, 201, 202, 204, 206, 301, 302, 307, 308, 429]
 
-# Domains that frequently 403 to bots even with GET+UA
+############################
+# Rewrite root-relative links (e.g. /terms/foo → live Pages URL)
+[[rewrite]]
+from = "^/(terms|categories|roles|resources|prompting|governance-dashboard|search|contributing|data-model|keyword-backlog|term-request)(/.*)?$"
+to   = "https://san-serif-sentiments.github.io/ai-glossary/$1$2"
+
+############################
+# Exclude external domains that block bots or rate-limit heavily
 exclude = [
-  "https://platform.openai.com/docs/*"
+  "https://github.com/san-serif-sentiments/ai-glossary/edit/.*",
+  "https://platform.openai.com/docs/.*",
+  "https://help.openai.com/.*",
+  "https://post.parliament.uk/.*",
+  "https://huggingface.co/docs/.*",
+  "https://huggingface.co/docs/tokenizers/.*",
+  "https://www.weforum.org/.*",
+  "https://www.oecd.org/.*",
+  "https://www.ftc.gov/.*",
+  "https://www.accessnow.org/.*",
+  "https://www.partnershiponai.org/.*",
+  "https://www.datadoghq.com/.*"
 ]
 
-# Ignore CI/config folders
+############################
+# Ignore local static assets
 exclude_path = [
-  "^\\.github/.*"
+  "^\\.github/.*",
+  ".*/assets/.*",
+  ".*/.*\\.(css|js|png|jpg|jpeg|svg|ico|gif)$"
 ]

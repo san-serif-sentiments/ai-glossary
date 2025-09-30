@@ -21,7 +21,7 @@ Help us capture confusing AI vocabulary quickly without overwhelming employees.
 Keep the form mobile-friendly: short labels, sentence-case instructions, and confirmation copy that thanks the requester for their help.
 
 ## What happens next
-- Requests feed into the [keyword backlog](keyword-backlog.md) during the weekly triage review.
+- Requests feed into the [keyword backlog](keyword-backlog/) during the weekly triage review.
 - We tag each item with a cluster and owner, then update the status column so submitters can check progress.
 - When a term ships, we notify the requester and link to the published page.
 
