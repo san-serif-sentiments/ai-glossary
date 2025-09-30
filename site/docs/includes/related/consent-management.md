@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [privacy](terms/privacy)
-- [responsible ai](terms/responsible-ai)
-- [ai assurance](terms/ai-assurance)
-- [privacy impact assessment](terms/privacy-impact-assessment)
-- [data retention](terms/data-retention)
-- [data minimization](terms/data-minimization)
-- [model governance](terms/model-governance)
-- [content moderation](terms/content-moderation)
+- [privacy](https://san-serif-sentiments.github.io/ai-glossary/terms/privacy/)
+- [data lineage](https://san-serif-sentiments.github.io/ai-glossary/terms/data-lineage/)
+- [ai incident response](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-incident-response/)
+- [responsible ai](https://san-serif-sentiments.github.io/ai-glossary/terms/responsible-ai/)
+- [model governance](https://san-serif-sentiments.github.io/ai-glossary/terms/model-governance/)
+- [data redaction](https://san-serif-sentiments.github.io/ai-glossary/terms/data-redaction/)
+- [memory strategy](https://san-serif-sentiments.github.io/ai-glossary/terms/memory-strategy/)
+- [voice cloning](https://san-serif-sentiments.github.io/ai-glossary/terms/voice-cloning/)

@@ -60,15 +60,13 @@ def _load_sentence_transformer(cache_candidate: Path, model_path_override: Path 
 
     candidates = [path for path in [model_path_override, cache_candidate] if path]
 
-    # First try normal instantiation (downloads if needed)
     try:
         cache_candidate.mkdir(parents=True, exist_ok=True)
         model = SentenceTransformer(MODEL, cache_folder=str(cache_candidate))
         return model, "dense"
-    except Exception as error:  # pragma: no cover - depends on runtime env
+    except Exception as error:  # pragma: no cover
         last_error = error
 
-    # Fallback: try user-provided local directories
     for candidate in candidates:
         if candidate and candidate.exists():
             try:
@@ -82,7 +80,7 @@ def _load_sentence_transformer(cache_candidate: Path, model_path_override: Path 
 
 
 def embed_texts(texts: List[str]) -> Tuple[List, str]:
-    try:  # Prefer sentence-transformers when available
+    try:
         import huggingface_hub  # type: ignore
         if not hasattr(huggingface_hub, "cached_download"):
             try:
@@ -92,10 +90,7 @@ def embed_texts(texts: List[str]) -> Tuple[List, str]:
             if hf_hub_download is not None:
                 huggingface_hub.cached_download = hf_hub_download  # type: ignore[attr-defined]
     except ImportError:
-        print(
-            "sentence-transformers not available; falling back to local TF-IDF embeddings.",
-            flush=True,
-        )
+        print("sentence-transformers not available; falling back to TF-IDF.", flush=True)
         return _tfidf_embeddings(texts), "sparse"
 
     try:
@@ -105,21 +100,8 @@ def embed_texts(texts: List[str]) -> Tuple[List, str]:
         if loaded is None:
             raise ImportError
         model, flavour = loaded
-    except Exception as error:  # pragma: no cover - depends on runtime env
-        print(
-            f"Failed to load {MODEL} ({error}); falling back to local TF-IDF embeddings.",
-            flush=True,
-        )
-        if env_override := os.environ.get("GLOSSARY_EMBEDDING_MODEL_PATH"):
-            print(
-                f"Tried loading from {env_override} but failed. Ensure the path points to a valid SentenceTransformer export.",
-                flush=True,
-            )
-        print(
-            "Tip: download the model manually with\n"
-            "  huggingface-cli download sentence-transformers/all-MiniLM-L6-v2 \\\n+  --local-dir models/all-MiniLM-L6-v2 --local-dir-use-symlinks False",
-            flush=True,
-        )
+    except Exception as error:  # pragma: no cover
+        print(f"Failed to load {MODEL} ({error}); falling back to TF-IDF.", flush=True)
         return _tfidf_embeddings(texts), "sparse"
 
     embeddings = model.encode(
@@ -154,7 +136,6 @@ def main():
     texts = [x["text"] for x in terms]
     embeddings, flavour = embed_texts(texts)
 
-    # cosine similarity on normalized vectors = dot product
     related = {}
     for i, a in enumerate(embeddings):
         scores = []
@@ -181,7 +162,9 @@ def main():
     for slug, lst in related.items():
         lines = ["\n**Related terms**\n", ""]
         for r in lst:
-            lines.append(f"- [{r['title']}](/terms/{r['slug']})")
+            lines.append(
+                f"- [{r['title']}](https://san-serif-sentiments.github.io/ai-glossary/terms/{r['slug']}/)"
+            )
         (OUT_DIR / f"{slug}.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
     print(f"Wrote related data: {OUT_JSON} and {OUT_DIR}/*.md")

@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [algorithmic bias](terms/algorithmic-bias)
-- [overfitting](terms/overfitting)
-- [cross-validation](terms/cross-validation)
-- [fine-tuning](terms/fine-tuning)
-- [model drift](terms/model-drift)
-- [evaluation](terms/evaluation)
-- [synthetic data evaluation](terms/synthetic-data-evaluation)
-- [ml ops](terms/ml-ops)
+- [overfitting](https://san-serif-sentiments.github.io/ai-glossary/terms/overfitting/)
+- [algorithmic bias](https://san-serif-sentiments.github.io/ai-glossary/terms/algorithmic-bias/)
+- [cross-validation](https://san-serif-sentiments.github.io/ai-glossary/terms/cross-validation/)
+- [algorithmic audit](https://san-serif-sentiments.github.io/ai-glossary/terms/algorithmic-audit/)
+- [diffusion model](https://san-serif-sentiments.github.io/ai-glossary/terms/diffusion-model/)
+- [synthetic data evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/synthetic-data-evaluation/)
+- [evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/evaluation/)
+- [hallucination](https://san-serif-sentiments.github.io/ai-glossary/terms/hallucination/)

@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [function calling](terms/function-calling)
-- [agentic ai](terms/agentic-ai)
-- [system prompt](terms/system-prompt)
-- [prompt engineering](terms/prompt-engineering)
-- [model governance](terms/model-governance)
-- [agent executor](terms/agent-executor)
-- [ml ops](terms/ml-ops)
-- [content moderation](terms/content-moderation)
+- [function calling](https://san-serif-sentiments.github.io/ai-glossary/terms/function-calling/)
+- [agent executor](https://san-serif-sentiments.github.io/ai-glossary/terms/agent-executor/)
+- [agentic ai](https://san-serif-sentiments.github.io/ai-glossary/terms/agentic-ai/)
+- [prompt injection](https://san-serif-sentiments.github.io/ai-glossary/terms/prompt-injection/)
+- [ai circuit breaker](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-circuit-breaker/)
+- [guardrail policy](https://san-serif-sentiments.github.io/ai-glossary/terms/guardrail-policy/)
+- [retrieval-augmented generation](https://san-serif-sentiments.github.io/ai-glossary/terms/retrieval-augmented-generation/)
+- [system prompt](https://san-serif-sentiments.github.io/ai-glossary/terms/system-prompt/)

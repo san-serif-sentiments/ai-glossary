@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [precision](terms/precision)
-- [recall](terms/recall)
-- [confusion matrix](terms/confusion-matrix)
-- [safety classifier](terms/safety-classifier)
-- [log probability](terms/log-probability)
-- [cross-validation](terms/cross-validation)
-- [algorithmic bias](terms/algorithmic-bias)
-- [fairness metrics](terms/fairness-metrics)
+- [recall](https://san-serif-sentiments.github.io/ai-glossary/terms/recall/)
+- [f1 score](https://san-serif-sentiments.github.io/ai-glossary/terms/f1-score/)
+- [precision](https://san-serif-sentiments.github.io/ai-glossary/terms/precision/)
+- [safety classifier](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-classifier/)
+- [confusion matrix](https://san-serif-sentiments.github.io/ai-glossary/terms/confusion-matrix/)
+- [guardrails](https://san-serif-sentiments.github.io/ai-glossary/terms/guardrails/)
+- [fairness metrics](https://san-serif-sentiments.github.io/ai-glossary/terms/fairness-metrics/)
+- [algorithmic audit](https://san-serif-sentiments.github.io/ai-glossary/terms/algorithmic-audit/)

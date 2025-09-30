@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [model card](terms/model-card)
-- [synthetic data](terms/synthetic-data)
-- [data minimization](terms/data-minimization)
-- [synthetic data evaluation](terms/synthetic-data-evaluation)
-- [data retention](terms/data-retention)
-- [privacy](terms/privacy)
-- [risk register](terms/risk-register)
-- [ai assurance](terms/ai-assurance)
+- [model card](https://san-serif-sentiments.github.io/ai-glossary/terms/model-card/)
+- [algorithmic audit](https://san-serif-sentiments.github.io/ai-glossary/terms/algorithmic-audit/)
+- [synthetic data](https://san-serif-sentiments.github.io/ai-glossary/terms/synthetic-data/)
+- [transparency report](https://san-serif-sentiments.github.io/ai-glossary/terms/transparency-report/)
+- [preference dataset](https://san-serif-sentiments.github.io/ai-glossary/terms/preference-dataset/)
+- [data minimization](https://san-serif-sentiments.github.io/ai-glossary/terms/data-minimization/)
+- [assurance case](https://san-serif-sentiments.github.io/ai-glossary/terms/assurance-case/)
+- [data retention](https://san-serif-sentiments.github.io/ai-glossary/terms/data-retention/)

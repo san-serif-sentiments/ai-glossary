@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [impact mitigation plan](terms/impact-mitigation-plan)
-- [model governance](terms/model-governance)
-- [ai assurance](terms/ai-assurance)
-- [responsible ai](terms/responsible-ai)
-- [algorithmic audit](terms/algorithmic-audit)
-- [algorithmic bias](terms/algorithmic-bias)
-- [evaluation](terms/evaluation)
-- [privacy impact assessment](terms/privacy-impact-assessment)
+- [safety evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-evaluation/)
+- [algorithmic audit](https://san-serif-sentiments.github.io/ai-glossary/terms/algorithmic-audit/)
+- [privacy impact assessment](https://san-serif-sentiments.github.io/ai-glossary/terms/privacy-impact-assessment/)
+- [ai assurance](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-assurance/)
+- [model governance](https://san-serif-sentiments.github.io/ai-glossary/terms/model-governance/)
+- [impact mitigation plan](https://san-serif-sentiments.github.io/ai-glossary/terms/impact-mitigation-plan/)
+- [responsible ai](https://san-serif-sentiments.github.io/ai-glossary/terms/responsible-ai/)
+- [privacy](https://san-serif-sentiments.github.io/ai-glossary/terms/privacy/)

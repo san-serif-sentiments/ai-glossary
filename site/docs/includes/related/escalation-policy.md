@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [content moderation](terms/content-moderation)
-- [ai incident response](terms/ai-incident-response)
-- [guardrail policy](terms/guardrail-policy)
-- [ai assurance](terms/ai-assurance)
-- [impact mitigation plan](terms/impact-mitigation-plan)
-- [agentic ai](terms/agentic-ai)
-- [human handoff](terms/human-handoff)
-- [guardrails](terms/guardrails)
+- [guardrail policy](https://san-serif-sentiments.github.io/ai-glossary/terms/guardrail-policy/)
+- [human handoff](https://san-serif-sentiments.github.io/ai-glossary/terms/human-handoff/)
+- [ai circuit breaker](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-circuit-breaker/)
+- [content moderation](https://san-serif-sentiments.github.io/ai-glossary/terms/content-moderation/)
+- [safety spec](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-spec/)
+- [alignment](https://san-serif-sentiments.github.io/ai-glossary/terms/alignment/)
+- [ai assurance](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-assurance/)
+- [responsible ai](https://san-serif-sentiments.github.io/ai-glossary/terms/responsible-ai/)

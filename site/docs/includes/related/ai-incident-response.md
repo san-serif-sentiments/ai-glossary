@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [red teaming](terms/red-teaming)
-- [safety evaluation](terms/safety-evaluation)
-- [safety review board](terms/safety-review-board)
-- [impact mitigation plan](terms/impact-mitigation-plan)
-- [incident taxonomy](terms/incident-taxonomy)
-- [escalation policy](terms/escalation-policy)
-- [safety spec](terms/safety-spec)
-- [model governance](terms/model-governance)
+- [safety evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-evaluation/)
+- [incident taxonomy](https://san-serif-sentiments.github.io/ai-glossary/terms/incident-taxonomy/)
+- [impact mitigation plan](https://san-serif-sentiments.github.io/ai-glossary/terms/impact-mitigation-plan/)
+- [model governance](https://san-serif-sentiments.github.io/ai-glossary/terms/model-governance/)
+- [privacy impact assessment](https://san-serif-sentiments.github.io/ai-glossary/terms/privacy-impact-assessment/)
+- [guardrail policy](https://san-serif-sentiments.github.io/ai-glossary/terms/guardrail-policy/)
+- [content moderation](https://san-serif-sentiments.github.io/ai-glossary/terms/content-moderation/)
+- [responsible ai](https://san-serif-sentiments.github.io/ai-glossary/terms/responsible-ai/)

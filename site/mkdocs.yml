@@ -1,6 +1,7 @@
 site_name: AI Glossary
 site_description: A cross-functional, citation-backed vocabulary for AI teams.
 site_url: https://san-serif-sentiments.github.io/ai-glossary
+site_dir: site_build
 repo_url: https://github.com/san-serif-sentiments/ai-glossary
 repo_name: san-serif-sentiments/ai-glossary
 copyright: "© 2024 AI Glossary contributors"
@@ -165,7 +166,7 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/your-org/ai-glossary
+      link: https://github.com/san-serif-sentiments/ai-glossary
       name: GitHub
 extra_css:
   - styles.css

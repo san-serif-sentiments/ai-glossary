@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [ml ops](terms/ml-ops)
-- [evaluation](terms/evaluation)
-- [model governance](terms/model-governance)
-- [algorithmic audit](terms/algorithmic-audit)
-- [ai assurance](terms/ai-assurance)
-- [evaluation harness](terms/evaluation-harness)
-- [algorithmic impact assessment](terms/algorithmic-impact-assessment)
-- [log probability](terms/log-probability)
+- [ml ops](https://san-serif-sentiments.github.io/ai-glossary/terms/ml-ops/)
+- [model governance](https://san-serif-sentiments.github.io/ai-glossary/terms/model-governance/)
+- [responsible ai](https://san-serif-sentiments.github.io/ai-glossary/terms/responsible-ai/)
+- [ai assurance](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-assurance/)
+- [ai incident response](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-incident-response/)
+- [safety evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-evaluation/)
+- [algorithmic bias](https://san-serif-sentiments.github.io/ai-glossary/terms/algorithmic-bias/)
+- [guardrails](https://san-serif-sentiments.github.io/ai-glossary/terms/guardrails/)

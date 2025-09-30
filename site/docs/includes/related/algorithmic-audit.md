@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [ai assurance](terms/ai-assurance)
-- [algorithmic impact assessment](terms/algorithmic-impact-assessment)
-- [evaluation](terms/evaluation)
-- [model governance](terms/model-governance)
-- [responsible ai](terms/responsible-ai)
-- [transparency report](terms/transparency-report)
-- [safety evaluation](terms/safety-evaluation)
-- [ai incident response](terms/ai-incident-response)
+- [ai assurance](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-assurance/)
+- [algorithmic bias](https://san-serif-sentiments.github.io/ai-glossary/terms/algorithmic-bias/)
+- [algorithmic impact assessment](https://san-serif-sentiments.github.io/ai-glossary/terms/algorithmic-impact-assessment/)
+- [safety evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-evaluation/)
+- [responsible ai](https://san-serif-sentiments.github.io/ai-glossary/terms/responsible-ai/)
+- [transparency report](https://san-serif-sentiments.github.io/ai-glossary/terms/transparency-report/)
+- [model governance](https://san-serif-sentiments.github.io/ai-glossary/terms/model-governance/)
+- [guardrails](https://san-serif-sentiments.github.io/ai-glossary/terms/guardrails/)

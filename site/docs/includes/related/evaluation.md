@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [safety evaluation](terms/safety-evaluation)
-- [evaluation harness](terms/evaluation-harness)
-- [ai assurance](terms/ai-assurance)
-- [algorithmic audit](terms/algorithmic-audit)
-- [algorithmic impact assessment](terms/algorithmic-impact-assessment)
-- [model governance](terms/model-governance)
-- [red teaming](terms/red-teaming)
-- [ml observability](terms/ml-observability)
+- [safety evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-evaluation/)
+- [evaluation harness](https://san-serif-sentiments.github.io/ai-glossary/terms/evaluation-harness/)
+- [red teaming](https://san-serif-sentiments.github.io/ai-glossary/terms/red-teaming/)
+- [model governance](https://san-serif-sentiments.github.io/ai-glossary/terms/model-governance/)
+- [safety spec](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-spec/)
+- [ai assurance](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-assurance/)
+- [synthetic data evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/synthetic-data-evaluation/)
+- [algorithmic audit](https://san-serif-sentiments.github.io/ai-glossary/terms/algorithmic-audit/)

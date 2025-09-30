@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [guardrails](terms/guardrails)
-- [safety spec](terms/safety-spec)
-- [safety evaluation](terms/safety-evaluation)
-- [escalation policy](terms/escalation-policy)
-- [ai assurance](terms/ai-assurance)
-- [safety classifier](terms/safety-classifier)
-- [content moderation](terms/content-moderation)
-- [safety review board](terms/safety-review-board)
+- [escalation policy](https://san-serif-sentiments.github.io/ai-glossary/terms/escalation-policy/)
+- [safety spec](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-spec/)
+- [guardrails](https://san-serif-sentiments.github.io/ai-glossary/terms/guardrails/)
+- [human handoff](https://san-serif-sentiments.github.io/ai-glossary/terms/human-handoff/)
+- [system prompt](https://san-serif-sentiments.github.io/ai-glossary/terms/system-prompt/)
+- [content moderation](https://san-serif-sentiments.github.io/ai-glossary/terms/content-moderation/)
+- [ai incident response](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-incident-response/)
+- [algorithmic audit](https://san-serif-sentiments.github.io/ai-glossary/terms/algorithmic-audit/)

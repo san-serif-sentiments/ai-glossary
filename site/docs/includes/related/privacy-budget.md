@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [differential privacy](terms/differential-privacy)
-- [privacy](terms/privacy)
-- [privacy impact assessment](terms/privacy-impact-assessment)
-- [data minimization](terms/data-minimization)
-- [consent management](terms/consent-management)
-- [data retention](terms/data-retention)
-- [synthetic data](terms/synthetic-data)
-- [data redaction](terms/data-redaction)
+- [differential privacy](https://san-serif-sentiments.github.io/ai-glossary/terms/differential-privacy/)
+- [privacy](https://san-serif-sentiments.github.io/ai-glossary/terms/privacy/)
+- [privacy impact assessment](https://san-serif-sentiments.github.io/ai-glossary/terms/privacy-impact-assessment/)
+- [synthetic data](https://san-serif-sentiments.github.io/ai-glossary/terms/synthetic-data/)
+- [knowledge distillation](https://san-serif-sentiments.github.io/ai-glossary/terms/knowledge-distillation/)
+- [synthetic data evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/synthetic-data-evaluation/)
+- [responsible ai](https://san-serif-sentiments.github.io/ai-glossary/terms/responsible-ai/)
+- [algorithmic audit](https://san-serif-sentiments.github.io/ai-glossary/terms/algorithmic-audit/)

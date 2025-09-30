@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [data minimization](terms/data-minimization)
-- [privacy](terms/privacy)
-- [consent management](terms/consent-management)
-- [data lineage](terms/data-lineage)
-- [memory strategy](terms/memory-strategy)
-- [privacy impact assessment](terms/privacy-impact-assessment)
-- [data redaction](terms/data-redaction)
-- [dataset card](terms/dataset-card)
+- [data minimization](https://san-serif-sentiments.github.io/ai-glossary/terms/data-minimization/)
+- [privacy impact assessment](https://san-serif-sentiments.github.io/ai-glossary/terms/privacy-impact-assessment/)
+- [privacy](https://san-serif-sentiments.github.io/ai-glossary/terms/privacy/)
+- [data redaction](https://san-serif-sentiments.github.io/ai-glossary/terms/data-redaction/)
+- [data lineage](https://san-serif-sentiments.github.io/ai-glossary/terms/data-lineage/)
+- [responsible ai](https://san-serif-sentiments.github.io/ai-glossary/terms/responsible-ai/)
+- [algorithmic audit](https://san-serif-sentiments.github.io/ai-glossary/terms/algorithmic-audit/)
+- [impact mitigation plan](https://san-serif-sentiments.github.io/ai-glossary/terms/impact-mitigation-plan/)

@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [fine-tuning](terms/fine-tuning)
-- [diffusion model](terms/diffusion-model)
-- [overfitting](terms/overfitting)
-- [synthetic data](terms/synthetic-data)
-- [instruction tuning](terms/instruction-tuning)
-- [synthetic data evaluation](terms/synthetic-data-evaluation)
-- [low-rank adaptation](terms/low-rank-adaptation)
-- [bias-variance tradeoff](terms/bias-variance-tradeoff)
+- [quantization](https://san-serif-sentiments.github.io/ai-glossary/terms/quantization/)
+- [fine-tuning](https://san-serif-sentiments.github.io/ai-glossary/terms/fine-tuning/)
+- [privacy budget](https://san-serif-sentiments.github.io/ai-glossary/terms/privacy-budget/)
+- [synthetic data](https://san-serif-sentiments.github.io/ai-glossary/terms/synthetic-data/)
+- [hallucination](https://san-serif-sentiments.github.io/ai-glossary/terms/hallucination/)
+- [reward model](https://san-serif-sentiments.github.io/ai-glossary/terms/reward-model/)
+- [constitutional ai](https://san-serif-sentiments.github.io/ai-glossary/terms/constitutional-ai/)
+- [retrieval-augmented generation](https://san-serif-sentiments.github.io/ai-glossary/terms/retrieval-augmented-generation/)

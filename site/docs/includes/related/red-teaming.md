@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [ai incident response](terms/ai-incident-response)
-- [safety evaluation](terms/safety-evaluation)
-- [ai assurance](terms/ai-assurance)
-- [impact mitigation plan](terms/impact-mitigation-plan)
-- [evaluation](terms/evaluation)
-- [content moderation](terms/content-moderation)
-- [model governance](terms/model-governance)
-- [responsible ai](terms/responsible-ai)
+- [responsible ai](https://san-serif-sentiments.github.io/ai-glossary/terms/responsible-ai/)
+- [evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/evaluation/)
+- [ai assurance](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-assurance/)
+- [jailbreak prompt](https://san-serif-sentiments.github.io/ai-glossary/terms/jailbreak-prompt/)
+- [content moderation](https://san-serif-sentiments.github.io/ai-glossary/terms/content-moderation/)
+- [safety evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-evaluation/)
+- [safety spec](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-spec/)
+- [algorithmic audit](https://san-serif-sentiments.github.io/ai-glossary/terms/algorithmic-audit/)

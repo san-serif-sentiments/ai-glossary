@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [tool use](terms/tool-use)
-- [prompt engineering](terms/prompt-engineering)
-- [robust prompting](terms/robust-prompting)
-- [system prompt](terms/system-prompt)
-- [chain-of-thought prompting](terms/chain-of-thought-prompting)
-- [agentic ai](terms/agentic-ai)
-- [prompt injection](terms/prompt-injection)
-- [decoding](terms/decoding)
+- [tool use](https://san-serif-sentiments.github.io/ai-glossary/terms/tool-use/)
+- [agent executor](https://san-serif-sentiments.github.io/ai-glossary/terms/agent-executor/)
+- [agentic ai](https://san-serif-sentiments.github.io/ai-glossary/terms/agentic-ai/)
+- [prompt engineering](https://san-serif-sentiments.github.io/ai-glossary/terms/prompt-engineering/)
+- [human handoff](https://san-serif-sentiments.github.io/ai-glossary/terms/human-handoff/)
+- [retrieval-augmented generation](https://san-serif-sentiments.github.io/ai-glossary/terms/retrieval-augmented-generation/)
+- [cross-validation](https://san-serif-sentiments.github.io/ai-glossary/terms/cross-validation/)
+- [chain-of-thought prompting](https://san-serif-sentiments.github.io/ai-glossary/terms/chain-of-thought-prompting/)

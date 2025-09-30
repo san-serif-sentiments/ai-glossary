@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [precision](terms/precision)
-- [f1 score](terms/f1-score)
-- [confusion matrix](terms/confusion-matrix)
-- [roc auc](terms/roc-auc)
-- [safety classifier](terms/safety-classifier)
-- [fairness metrics](terms/fairness-metrics)
-- [top-p sampling](terms/top-p-sampling)
-- [fine-tuning](terms/fine-tuning)
+- [precision](https://san-serif-sentiments.github.io/ai-glossary/terms/precision/)
+- [f1 score](https://san-serif-sentiments.github.io/ai-glossary/terms/f1-score/)
+- [confusion matrix](https://san-serif-sentiments.github.io/ai-glossary/terms/confusion-matrix/)
+- [fairness metrics](https://san-serif-sentiments.github.io/ai-glossary/terms/fairness-metrics/)
+- [content moderation](https://san-serif-sentiments.github.io/ai-glossary/terms/content-moderation/)
+- [roc auc](https://san-serif-sentiments.github.io/ai-glossary/terms/roc-auc/)
+- [retrieval](https://san-serif-sentiments.github.io/ai-glossary/terms/retrieval/)
+- [safety classifier](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-classifier/)

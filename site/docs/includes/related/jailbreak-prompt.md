@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [prompt injection](terms/prompt-injection)
-- [robust prompting](terms/robust-prompting)
-- [guardrail policy](terms/guardrail-policy)
-- [red teaming](terms/red-teaming)
-- [system prompt](terms/system-prompt)
-- [safety classifier](terms/safety-classifier)
-- [guardrails](terms/guardrails)
-- [prompt engineering](terms/prompt-engineering)
+- [prompt injection](https://san-serif-sentiments.github.io/ai-glossary/terms/prompt-injection/)
+- [prompt engineering](https://san-serif-sentiments.github.io/ai-glossary/terms/prompt-engineering/)
+- [red teaming](https://san-serif-sentiments.github.io/ai-glossary/terms/red-teaming/)
+- [system prompt](https://san-serif-sentiments.github.io/ai-glossary/terms/system-prompt/)
+- [guardrail policy](https://san-serif-sentiments.github.io/ai-glossary/terms/guardrail-policy/)
+- [robust prompting](https://san-serif-sentiments.github.io/ai-glossary/terms/robust-prompting/)
+- [safety spec](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-spec/)
+- [safety evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-evaluation/)

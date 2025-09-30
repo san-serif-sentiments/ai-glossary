@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [synthetic data evaluation](terms/synthetic-data-evaluation)
-- [privacy](terms/privacy)
-- [data redaction](terms/data-redaction)
-- [data minimization](terms/data-minimization)
-- [differential privacy](terms/differential-privacy)
-- [privacy impact assessment](terms/privacy-impact-assessment)
-- [dataset card](terms/dataset-card)
-- [generative ai](terms/generative-ai)
+- [synthetic data evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/synthetic-data-evaluation/)
+- [privacy](https://san-serif-sentiments.github.io/ai-glossary/terms/privacy/)
+- [differential privacy](https://san-serif-sentiments.github.io/ai-glossary/terms/differential-privacy/)
+- [data lineage](https://san-serif-sentiments.github.io/ai-glossary/terms/data-lineage/)
+- [privacy impact assessment](https://san-serif-sentiments.github.io/ai-glossary/terms/privacy-impact-assessment/)
+- [data minimization](https://san-serif-sentiments.github.io/ai-glossary/terms/data-minimization/)
+- [dataset card](https://san-serif-sentiments.github.io/ai-glossary/terms/dataset-card/)
+- [data redaction](https://san-serif-sentiments.github.io/ai-glossary/terms/data-redaction/)

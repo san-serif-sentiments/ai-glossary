@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [top-p sampling](terms/top-p-sampling)
-- [temperature](terms/temperature)
-- [decoding](terms/decoding)
-- [greedy decoding](terms/greedy-decoding)
-- [fine-tuning](terms/fine-tuning)
-- [cross-validation](terms/cross-validation)
-- [log probability](terms/log-probability)
-- [beam search](terms/beam-search)
+- [temperature](https://san-serif-sentiments.github.io/ai-glossary/terms/temperature/)
+- [decoding](https://san-serif-sentiments.github.io/ai-glossary/terms/decoding/)
+- [top-p sampling](https://san-serif-sentiments.github.io/ai-glossary/terms/top-p-sampling/)
+- [cross-validation](https://san-serif-sentiments.github.io/ai-glossary/terms/cross-validation/)
+- [greedy decoding](https://san-serif-sentiments.github.io/ai-glossary/terms/greedy-decoding/)
+- [beam search](https://san-serif-sentiments.github.io/ai-glossary/terms/beam-search/)
+- [evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/evaluation/)
+- [reward model](https://san-serif-sentiments.github.io/ai-glossary/terms/reward-model/)

@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [ml observability](terms/ml-observability)
-- [data retention](terms/data-retention)
-- [synthetic data](terms/synthetic-data)
-- [ml ops](terms/ml-ops)
-- [dataset card](terms/dataset-card)
-- [model drift](terms/model-drift)
-- [model governance](terms/model-governance)
-- [vector store](terms/vector-store)
+- [synthetic data](https://san-serif-sentiments.github.io/ai-glossary/terms/synthetic-data/)
+- [consent management](https://san-serif-sentiments.github.io/ai-glossary/terms/consent-management/)
+- [data retention](https://san-serif-sentiments.github.io/ai-glossary/terms/data-retention/)
+- [algorithmic audit](https://san-serif-sentiments.github.io/ai-glossary/terms/algorithmic-audit/)
+- [model governance](https://san-serif-sentiments.github.io/ai-glossary/terms/model-governance/)
+- [privacy](https://san-serif-sentiments.github.io/ai-glossary/terms/privacy/)
+- [ml ops](https://san-serif-sentiments.github.io/ai-glossary/terms/ml-ops/)
+- [data minimization](https://san-serif-sentiments.github.io/ai-glossary/terms/data-minimization/)

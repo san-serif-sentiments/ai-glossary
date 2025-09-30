@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [decoding](terms/decoding)
-- [top-p sampling](terms/top-p-sampling)
-- [repetition penalty](terms/repetition-penalty)
-- [ml observability](terms/ml-observability)
-- [temperature](terms/temperature)
-- [safety classifier](terms/safety-classifier)
-- [precision](terms/precision)
-- [prompt engineering](terms/prompt-engineering)
+- [decoding](https://san-serif-sentiments.github.io/ai-glossary/terms/decoding/)
+- [token](https://san-serif-sentiments.github.io/ai-glossary/terms/token/)
+- [greedy decoding](https://san-serif-sentiments.github.io/ai-glossary/terms/greedy-decoding/)
+- [beam search](https://san-serif-sentiments.github.io/ai-glossary/terms/beam-search/)
+- [temperature](https://san-serif-sentiments.github.io/ai-glossary/terms/temperature/)
+- [repetition penalty](https://san-serif-sentiments.github.io/ai-glossary/terms/repetition-penalty/)
+- [top-p sampling](https://san-serif-sentiments.github.io/ai-glossary/terms/top-p-sampling/)
+- [guardrails](https://san-serif-sentiments.github.io/ai-glossary/terms/guardrails/)

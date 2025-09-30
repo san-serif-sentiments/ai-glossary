@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [fine-tuning](terms/fine-tuning)
-- [ml ops](terms/ml-ops)
-- [model governance](terms/model-governance)
-- [evaluation](terms/evaluation)
-- [ai assurance](terms/ai-assurance)
-- [ml observability](terms/ml-observability)
-- [ai incident response](terms/ai-incident-response)
-- [model card](terms/model-card)
+- [model governance](https://san-serif-sentiments.github.io/ai-glossary/terms/model-governance/)
+- [fine-tuning](https://san-serif-sentiments.github.io/ai-glossary/terms/fine-tuning/)
+- [evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/evaluation/)
+- [safety evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-evaluation/)
+- [synthetic data](https://san-serif-sentiments.github.io/ai-glossary/terms/synthetic-data/)
+- [guardrails](https://san-serif-sentiments.github.io/ai-glossary/terms/guardrails/)
+- [ml observability](https://san-serif-sentiments.github.io/ai-glossary/terms/ml-observability/)
+- [embedding](https://san-serif-sentiments.github.io/ai-glossary/terms/embedding/)

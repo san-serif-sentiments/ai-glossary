@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [model governance](terms/model-governance)
-- [ai assurance](terms/ai-assurance)
-- [safety review board](terms/safety-review-board)
-- [algorithmic impact assessment](terms/algorithmic-impact-assessment)
-- [algorithmic audit](terms/algorithmic-audit)
-- [agentic ai](terms/agentic-ai)
-- [ai incident response](terms/ai-incident-response)
-- [privacy](terms/privacy)
+- [model governance](https://san-serif-sentiments.github.io/ai-glossary/terms/model-governance/)
+- [ai assurance](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-assurance/)
+- [alignment](https://san-serif-sentiments.github.io/ai-glossary/terms/alignment/)
+- [privacy](https://san-serif-sentiments.github.io/ai-glossary/terms/privacy/)
+- [algorithmic audit](https://san-serif-sentiments.github.io/ai-glossary/terms/algorithmic-audit/)
+- [generative ai](https://san-serif-sentiments.github.io/ai-glossary/terms/generative-ai/)
+- [red teaming](https://san-serif-sentiments.github.io/ai-glossary/terms/red-teaming/)
+- [guardrails](https://san-serif-sentiments.github.io/ai-glossary/terms/guardrails/)

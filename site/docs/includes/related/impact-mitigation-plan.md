@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [algorithmic impact assessment](terms/algorithmic-impact-assessment)
-- [ai incident response](terms/ai-incident-response)
-- [ai assurance](terms/ai-assurance)
-- [red teaming](terms/red-teaming)
-- [model governance](terms/model-governance)
-- [risk register](terms/risk-register)
-- [responsible ai](terms/responsible-ai)
-- [safety evaluation](terms/safety-evaluation)
+- [ai incident response](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-incident-response/)
+- [risk register](https://san-serif-sentiments.github.io/ai-glossary/terms/risk-register/)
+- [algorithmic audit](https://san-serif-sentiments.github.io/ai-glossary/terms/algorithmic-audit/)
+- [algorithmic impact assessment](https://san-serif-sentiments.github.io/ai-glossary/terms/algorithmic-impact-assessment/)
+- [guardrail policy](https://san-serif-sentiments.github.io/ai-glossary/terms/guardrail-policy/)
+- [data retention](https://san-serif-sentiments.github.io/ai-glossary/terms/data-retention/)
+- [ai assurance](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-assurance/)
+- [escalation policy](https://san-serif-sentiments.github.io/ai-glossary/terms/escalation-policy/)

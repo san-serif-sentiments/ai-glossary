@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [context window](terms/context-window)
-- [kv cache](terms/kv-cache)
-- [generative ai](terms/generative-ai)
-- [token](terms/token)
-- [decoding](terms/decoding)
-- [repetition penalty](terms/repetition-penalty)
-- [retrieval-augmented generation](terms/retrieval-augmented-generation)
-- [instruction tuning](terms/instruction-tuning)
+- [context window](https://san-serif-sentiments.github.io/ai-glossary/terms/context-window/)
+- [kv cache](https://san-serif-sentiments.github.io/ai-glossary/terms/kv-cache/)
+- [generative ai](https://san-serif-sentiments.github.io/ai-glossary/terms/generative-ai/)
+- [token](https://san-serif-sentiments.github.io/ai-glossary/terms/token/)
+- [self-consistency decoding](https://san-serif-sentiments.github.io/ai-glossary/terms/self-consistency-decoding/)
+- [retrieval-augmented generation](https://san-serif-sentiments.github.io/ai-glossary/terms/retrieval-augmented-generation/)
+- [chain-of-thought prompting](https://san-serif-sentiments.github.io/ai-glossary/terms/chain-of-thought-prompting/)
+- [mixture of experts](https://san-serif-sentiments.github.io/ai-glossary/terms/mixture-of-experts/)

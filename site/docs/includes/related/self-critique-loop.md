@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [prompt engineering](terms/prompt-engineering)
-- [system prompt](terms/system-prompt)
-- [chain-of-thought prompting](terms/chain-of-thought-prompting)
-- [constitutional ai](terms/constitutional-ai)
-- [agent executor](terms/agent-executor)
-- [evaluation harness](terms/evaluation-harness)
-- [agentic ai](terms/agentic-ai)
-- [evaluation](terms/evaluation)
+- [constitutional ai](https://san-serif-sentiments.github.io/ai-glossary/terms/constitutional-ai/)
+- [self-consistency decoding](https://san-serif-sentiments.github.io/ai-glossary/terms/self-consistency-decoding/)
+- [agent executor](https://san-serif-sentiments.github.io/ai-glossary/terms/agent-executor/)
+- [human handoff](https://san-serif-sentiments.github.io/ai-glossary/terms/human-handoff/)
+- [safety classifier](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-classifier/)
+- [safety spec](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-spec/)
+- [tool use](https://san-serif-sentiments.github.io/ai-glossary/terms/tool-use/)
+- [safety evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-evaluation/)

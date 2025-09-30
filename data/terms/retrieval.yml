@@ -5,9 +5,12 @@ aliases:
 categories:
   - "Retrieval & RAG"
 roles:
+  - "communications"
   - "data_science"
-  - "engineering"
   - "product"
+  - "security"
+  - "engineering"
+  - "policy"
 part_of_speech: "process"
 short_def: "Process of selecting relevant documents or vectors from a corpus in response to a query."
 long_def: >-

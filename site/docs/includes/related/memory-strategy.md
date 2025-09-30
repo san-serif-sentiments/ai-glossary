@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [agentic ai](terms/agentic-ai)
-- [data retention](terms/data-retention)
-- [agent executor](terms/agent-executor)
-- [context window](terms/context-window)
-- [guardrail policy](terms/guardrail-policy)
-- [red teaming](terms/red-teaming)
-- [ai incident response](terms/ai-incident-response)
-- [consent management](terms/consent-management)
+- [agent executor](https://san-serif-sentiments.github.io/ai-glossary/terms/agent-executor/)
+- [agentic ai](https://san-serif-sentiments.github.io/ai-glossary/terms/agentic-ai/)
+- [human handoff](https://san-serif-sentiments.github.io/ai-glossary/terms/human-handoff/)
+- [vector store](https://san-serif-sentiments.github.io/ai-glossary/terms/vector-store/)
+- [guardrail policy](https://san-serif-sentiments.github.io/ai-glossary/terms/guardrail-policy/)
+- [embedding](https://san-serif-sentiments.github.io/ai-glossary/terms/embedding/)
+- [tool use](https://san-serif-sentiments.github.io/ai-glossary/terms/tool-use/)
+- [escalation policy](https://san-serif-sentiments.github.io/ai-glossary/terms/escalation-policy/)

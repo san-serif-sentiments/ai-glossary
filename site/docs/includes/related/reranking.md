@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [retrieval](terms/retrieval)
-- [retrieval-augmented generation](terms/retrieval-augmented-generation)
-- [beam search](terms/beam-search)
-- [embedding](terms/embedding)
-- [vector store](terms/vector-store)
-- [low-rank adaptation](terms/low-rank-adaptation)
-- [chunking](terms/chunking)
-- [fine-tuning](terms/fine-tuning)
+- [retrieval-augmented generation](https://san-serif-sentiments.github.io/ai-glossary/terms/retrieval-augmented-generation/)
+- [retrieval](https://san-serif-sentiments.github.io/ai-glossary/terms/retrieval/)
+- [beam search](https://san-serif-sentiments.github.io/ai-glossary/terms/beam-search/)
+- [generative ai](https://san-serif-sentiments.github.io/ai-glossary/terms/generative-ai/)
+- [embedding](https://san-serif-sentiments.github.io/ai-glossary/terms/embedding/)
+- [reward model](https://san-serif-sentiments.github.io/ai-glossary/terms/reward-model/)
+- [evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/evaluation/)
+- [hallucination](https://san-serif-sentiments.github.io/ai-glossary/terms/hallucination/)

@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [reinforcement learning from human feedback](terms/reinforcement-learning-from-human-feedback)
-- [preference dataset](terms/preference-dataset)
-- [direct preference optimization](terms/direct-preference-optimization)
-- [constitutional ai](terms/constitutional-ai)
-- [fine-tuning](terms/fine-tuning)
-- [instruction tuning](terms/instruction-tuning)
-- [alignment](terms/alignment)
-- [algorithmic bias](terms/algorithmic-bias)
+- [reinforcement learning from human feedback](https://san-serif-sentiments.github.io/ai-glossary/terms/reinforcement-learning-from-human-feedback/)
+- [preference dataset](https://san-serif-sentiments.github.io/ai-glossary/terms/preference-dataset/)
+- [direct preference optimization](https://san-serif-sentiments.github.io/ai-glossary/terms/direct-preference-optimization/)
+- [constitutional ai](https://san-serif-sentiments.github.io/ai-glossary/terms/constitutional-ai/)
+- [alignment](https://san-serif-sentiments.github.io/ai-glossary/terms/alignment/)
+- [system prompt](https://san-serif-sentiments.github.io/ai-glossary/terms/system-prompt/)
+- [escalation policy](https://san-serif-sentiments.github.io/ai-glossary/terms/escalation-policy/)
+- [model card](https://san-serif-sentiments.github.io/ai-glossary/terms/model-card/)

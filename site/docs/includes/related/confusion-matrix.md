@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [recall](terms/recall)
-- [precision](terms/precision)
-- [roc auc](terms/roc-auc)
-- [f1 score](terms/f1-score)
-- [cross-validation](terms/cross-validation)
-- [model drift](terms/model-drift)
-- [safety classifier](terms/safety-classifier)
-- [bias-variance tradeoff](terms/bias-variance-tradeoff)
+- [recall](https://san-serif-sentiments.github.io/ai-glossary/terms/recall/)
+- [precision](https://san-serif-sentiments.github.io/ai-glossary/terms/precision/)
+- [f1 score](https://san-serif-sentiments.github.io/ai-glossary/terms/f1-score/)
+- [fairness metrics](https://san-serif-sentiments.github.io/ai-glossary/terms/fairness-metrics/)
+- [algorithmic bias](https://san-serif-sentiments.github.io/ai-glossary/terms/algorithmic-bias/)
+- [ai assurance](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-assurance/)
+- [safety evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-evaluation/)
+- [guardrails](https://san-serif-sentiments.github.io/ai-glossary/terms/guardrails/)

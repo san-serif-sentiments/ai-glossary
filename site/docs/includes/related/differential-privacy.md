@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [privacy](terms/privacy)
-- [privacy budget](terms/privacy-budget)
-- [synthetic data](terms/synthetic-data)
-- [privacy impact assessment](terms/privacy-impact-assessment)
-- [data minimization](terms/data-minimization)
-- [synthetic data evaluation](terms/synthetic-data-evaluation)
-- [consent management](terms/consent-management)
-- [data redaction](terms/data-redaction)
+- [privacy](https://san-serif-sentiments.github.io/ai-glossary/terms/privacy/)
+- [privacy budget](https://san-serif-sentiments.github.io/ai-glossary/terms/privacy-budget/)
+- [synthetic data](https://san-serif-sentiments.github.io/ai-glossary/terms/synthetic-data/)
+- [privacy impact assessment](https://san-serif-sentiments.github.io/ai-glossary/terms/privacy-impact-assessment/)
+- [synthetic data evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/synthetic-data-evaluation/)
+- [diffusion model](https://san-serif-sentiments.github.io/ai-glossary/terms/diffusion-model/)
+- [data redaction](https://san-serif-sentiments.github.io/ai-glossary/terms/data-redaction/)
+- [data minimization](https://san-serif-sentiments.github.io/ai-glossary/terms/data-minimization/)
