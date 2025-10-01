@@ -46,6 +46,22 @@ affect behavior.
 - [Safety evaluation](terms/safety-evaluation.md) — ensure prompt changes don’t undo previous approvals.
 - [Model card](terms/model-card.md) & [content moderation](terms/content-moderation.md) — document and monitor prompt behavior in production.
 
+### Prompt lifecycle diagram
+
+```mermaid
+flowchart LR
+    A[Define intent & policy] --> B[Draft system & user prompts]
+    B --> C[Test in sandbox]
+    C --> D{Evaluation results}
+    D -- Fails --> B
+    D -- Passes --> E[Shadow deployment]
+    E --> F{Production telemetry}
+    F -- Drift detected --> B
+    F -- Stable --> G[Launch & monitor]
+```
+
+Use the diagram above as a checklist: always close the loop from telemetry back into prompt iteration so governance signals stay current.
+
 ### Quick checklist before launch
 
 1. Version system prompts in source control and log every change.

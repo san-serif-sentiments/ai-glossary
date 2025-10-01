@@ -171,6 +171,7 @@ markdown_extensions:
   - toc:
       permalink: true
   - tables
+  - pymdownx.superfences
 
 extra:
   social:
