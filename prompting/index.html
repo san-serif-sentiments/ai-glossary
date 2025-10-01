@@ -489,6 +489,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#prompt-lifecycle-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prompt lifecycle diagram
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#quick-checklist-before-launch" class="md-nav__link">
     <span class="md-ellipsis">
       Quick checklist before launch
@@ -3322,6 +3331,18 @@ affect behavior.</p>
 <li><a href="../terms/safety-evaluation/">Safety evaluation</a> — ensure prompt changes don’t undo previous approvals.</li>
 <li><a href="../terms/model-card/">Model card</a> &amp; <a href="../terms/content-moderation/">content moderation</a> — document and monitor prompt behavior in production.</li>
 </ul>
+<h3 id="prompt-lifecycle-diagram">Prompt lifecycle diagram<a class="headerlink" href="#prompt-lifecycle-diagram" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>flowchart LR
+    A[Define intent &amp; policy] --&gt; B[Draft system &amp; user prompts]
+    B --&gt; C[Test in sandbox]
+    C --&gt; D{Evaluation results}
+    D -- Fails --&gt; B
+    D -- Passes --&gt; E[Shadow deployment]
+    E --&gt; F{Production telemetry}
+    F -- Drift detected --&gt; B
+    F -- Stable --&gt; G[Launch &amp; monitor]
+</code></pre></div>
+<p>Use the diagram above as a checklist: always close the loop from telemetry back into prompt iteration so governance signals stay current.</p>
 <h3 id="quick-checklist-before-launch">Quick checklist before launch<a class="headerlink" href="#quick-checklist-before-launch" title="Permanent link">&para;</a></h3>
 <ol>
 <li>Version system prompts in source control and log every change.</li>

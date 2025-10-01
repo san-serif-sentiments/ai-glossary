@@ -3237,44 +3237,44 @@
 <p>All glossary entries follow the schema defined in <code>schema/term.schema.json</code>. Each
 YAML file under <code>data/terms/</code> captures a single concept and includes metadata for
 cross-team alignment.</p>
-<pre><code class="language-yaml">term: &quot;example&quot;
-aliases:
-  - &quot;synonym&quot;
-categories:
-  - &quot;Category name&quot;
-roles:
-  - &quot;product&quot;
-part_of_speech: &quot;noun&quot;
-short_def: &quot;≤40 word summary.&quot;
-long_def: &gt;-
-  120–200 word explanation that provides history, context, and operational
-  considerations.
-audiences:
-  exec: &quot;Business-ready framing.&quot;
-  engineer: &quot;Technical framing.&quot;
-examples:
-  do:
-    - &quot;What good practice looks like.&quot;
-  dont:
-    - &quot;What to avoid.&quot;
-governance:
-  nist_rmf_tags:
-    - &quot;tag&quot;
-  risk_notes: &quot;Key compliance considerations.&quot;
-relationships:
-  broader:
-    - &quot;parent term&quot;
-  narrower:
-    - &quot;child term&quot;
-  related:
-    - &quot;peer term&quot;
-citations:
-  - source: &quot;Credible reference&quot;
-    url: &quot;https://example.com&quot;
-license: &quot;CC BY-SA 4.0&quot;
-status: &quot;draft&quot;
-last_reviewed: &quot;2024-01-01&quot;
-</code></pre>
+<div class="highlight"><pre><span></span><code><span class="nt">term</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;example&quot;</span>
+<span class="nt">aliases</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;synonym&quot;</span>
+<span class="nt">categories</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;Category</span><span class="nv"> </span><span class="s">name&quot;</span>
+<span class="nt">roles</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;product&quot;</span>
+<span class="nt">part_of_speech</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;noun&quot;</span>
+<span class="nt">short_def</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;≤40</span><span class="nv"> </span><span class="s">word</span><span class="nv"> </span><span class="s">summary.&quot;</span>
+<span class="nt">long_def</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">&gt;-</span>
+<span class="w">  </span><span class="no">120–200 word explanation that provides history, context, and operational</span>
+<span class="w">  </span><span class="no">considerations.</span>
+<span class="nt">audiences</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">exec</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Business-ready</span><span class="nv"> </span><span class="s">framing.&quot;</span>
+<span class="w">  </span><span class="nt">engineer</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Technical</span><span class="nv"> </span><span class="s">framing.&quot;</span>
+<span class="nt">examples</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">do</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;What</span><span class="nv"> </span><span class="s">good</span><span class="nv"> </span><span class="s">practice</span><span class="nv"> </span><span class="s">looks</span><span class="nv"> </span><span class="s">like.&quot;</span>
+<span class="w">  </span><span class="nt">dont</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;What</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">avoid.&quot;</span>
+<span class="nt">governance</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">nist_rmf_tags</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;tag&quot;</span>
+<span class="w">  </span><span class="nt">risk_notes</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Key</span><span class="nv"> </span><span class="s">compliance</span><span class="nv"> </span><span class="s">considerations.&quot;</span>
+<span class="nt">relationships</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">broader</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;parent</span><span class="nv"> </span><span class="s">term&quot;</span>
+<span class="w">  </span><span class="nt">narrower</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;child</span><span class="nv"> </span><span class="s">term&quot;</span>
+<span class="w">  </span><span class="nt">related</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;peer</span><span class="nv"> </span><span class="s">term&quot;</span>
+<span class="nt">citations</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">source</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Credible</span><span class="nv"> </span><span class="s">reference&quot;</span>
+<span class="w">    </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;https://example.com&quot;</span>
+<span class="nt">license</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;CC</span><span class="nv"> </span><span class="s">BY-SA</span><span class="nv"> </span><span class="s">4.0&quot;</span>
+<span class="nt">status</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;draft&quot;</span>
+<span class="nt">last_reviewed</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;2024-01-01&quot;</span>
+</code></pre></div>
 <h2 id="validation-rules">Validation rules<a class="headerlink" href="#validation-rules" title="Permanent link">&para;</a></h2>
 <ul>
 <li><code>short_def</code> must be <strong>40 words or fewer</strong>.</li>
