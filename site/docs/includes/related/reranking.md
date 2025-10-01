@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [retrieval-augmented generation](https://san-serif-sentiments.github.io/ai-glossary/terms/retrieval-augmented-generation/)
-- [retrieval](https://san-serif-sentiments.github.io/ai-glossary/terms/retrieval/)
-- [beam search](https://san-serif-sentiments.github.io/ai-glossary/terms/beam-search/)
-- [generative ai](https://san-serif-sentiments.github.io/ai-glossary/terms/generative-ai/)
-- [embedding](https://san-serif-sentiments.github.io/ai-glossary/terms/embedding/)
-- [reward model](https://san-serif-sentiments.github.io/ai-glossary/terms/reward-model/)
-- [evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/evaluation/)
-- [hallucination](https://san-serif-sentiments.github.io/ai-glossary/terms/hallucination/)
+- [retrieval-augmented generation](../../terms/retrieval-augmented-generation.md)
+- [retrieval](../../terms/retrieval.md)
+- [beam search](../../terms/beam-search.md)
+- [generative ai](../../terms/generative-ai.md)
+- [embedding](../../terms/embedding.md)
+- [reward model](../../terms/reward-model.md)
+- [evaluation](../../terms/evaluation.md)
+- [hallucination](../../terms/hallucination.md)

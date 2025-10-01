@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [decoding](https://san-serif-sentiments.github.io/ai-glossary/terms/decoding/)
-- [greedy decoding](https://san-serif-sentiments.github.io/ai-glossary/terms/greedy-decoding/)
-- [log probability](https://san-serif-sentiments.github.io/ai-glossary/terms/log-probability/)
-- [token](https://san-serif-sentiments.github.io/ai-glossary/terms/token/)
-- [beam search](https://san-serif-sentiments.github.io/ai-glossary/terms/beam-search/)
-- [temperature](https://san-serif-sentiments.github.io/ai-glossary/terms/temperature/)
-- [hallucination](https://san-serif-sentiments.github.io/ai-glossary/terms/hallucination/)
-- [top-k sampling](https://san-serif-sentiments.github.io/ai-glossary/terms/top-k-sampling/)
+- [decoding](../../terms/decoding.md)
+- [greedy decoding](../../terms/greedy-decoding.md)
+- [log probability](../../terms/log-probability.md)
+- [token](../../terms/token.md)
+- [beam search](../../terms/beam-search.md)
+- [temperature](../../terms/temperature.md)
+- [hallucination](../../terms/hallucination.md)
+- [top-k sampling](../../terms/top-k-sampling.md)

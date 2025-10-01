@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [data minimization](https://san-serif-sentiments.github.io/ai-glossary/terms/data-minimization/)
-- [privacy impact assessment](https://san-serif-sentiments.github.io/ai-glossary/terms/privacy-impact-assessment/)
-- [differential privacy](https://san-serif-sentiments.github.io/ai-glossary/terms/differential-privacy/)
-- [synthetic data](https://san-serif-sentiments.github.io/ai-glossary/terms/synthetic-data/)
-- [privacy budget](https://san-serif-sentiments.github.io/ai-glossary/terms/privacy-budget/)
-- [data retention](https://san-serif-sentiments.github.io/ai-glossary/terms/data-retention/)
-- [responsible ai](https://san-serif-sentiments.github.io/ai-glossary/terms/responsible-ai/)
-- [consent management](https://san-serif-sentiments.github.io/ai-glossary/terms/consent-management/)
+- [data minimization](../../terms/data-minimization.md)
+- [privacy impact assessment](../../terms/privacy-impact-assessment.md)
+- [differential privacy](../../terms/differential-privacy.md)
+- [privacy budget](../../terms/privacy-budget.md)
+- [synthetic data](../../terms/synthetic-data.md)
+- [responsible ai](../../terms/responsible-ai.md)
+- [data retention](../../terms/data-retention.md)
+- [consent management](../../terms/consent-management.md)

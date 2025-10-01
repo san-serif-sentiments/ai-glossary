@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [constitutional ai](https://san-serif-sentiments.github.io/ai-glossary/terms/constitutional-ai/)
-- [responsible ai](https://san-serif-sentiments.github.io/ai-glossary/terms/responsible-ai/)
-- [model governance](https://san-serif-sentiments.github.io/ai-glossary/terms/model-governance/)
-- [reward model](https://san-serif-sentiments.github.io/ai-glossary/terms/reward-model/)
-- [ai assurance](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-assurance/)
-- [escalation policy](https://san-serif-sentiments.github.io/ai-glossary/terms/escalation-policy/)
-- [safety spec](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-spec/)
-- [fine-tuning](https://san-serif-sentiments.github.io/ai-glossary/terms/fine-tuning/)
+- [constitutional ai](../../terms/constitutional-ai.md)
+- [responsible ai](../../terms/responsible-ai.md)
+- [model governance](../../terms/model-governance.md)
+- [reward model](../../terms/reward-model.md)
+- [ai assurance](../../terms/ai-assurance.md)
+- [escalation policy](../../terms/escalation-policy.md)
+- [safety spec](../../terms/safety-spec.md)
+- [fine-tuning](../../terms/fine-tuning.md)

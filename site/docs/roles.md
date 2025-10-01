@@ -26,8 +26,8 @@ Focus on user outcomes, feature scope, and launch readiness.
 ### Focus areas
 - Governance & Risk (38 terms)
 - LLM Core (24 terms)
+- Foundations (20 terms)
 - Operations & Monitoring (15 terms)
-- Foundations (11 terms)
 - Agents & Tooling (7 terms)
 - Retrieval & RAG (7 terms)
 - Optimization & Efficiency (2 terms)
@@ -65,8 +65,11 @@ Focus on user outcomes, feature scope, and launch readiness.
 - [evaluation harness](terms/evaluation-harness.md) — Automated pipeline that replays tasks, scores outputs, and reports regressions for AI systems.
 - [f1 score](terms/f1-score.md) — Harmonic mean of precision and recall, balancing false positives and false negatives.
 - [fairness metrics](terms/fairness-metrics.md) — Quantitative measures that evaluate whether model performance is equitable across groups.
+- [feature engineering](terms/feature-engineering.md) — Transforming raw data into model-ready features that improve signal, fairness, and maintainability.
 - [function calling](terms/function-calling.md) — LLM capability that lets prompts invoke predefined functions and return structured arguments.
+- [generalization](terms/generalization.md) — Model's ability to sustain performance on unseen data rather than memorising the training set.
 - [generative ai](terms/generative-ai.md) — Family of models that produce new content—text, images, code—rather than only making predictions.
+- [gradient descent](terms/gradient-descent.md) — Iterative optimization algorithm that updates model parameters in the direction of the negative gradient to minimize a loss function.
 - [greedy decoding](terms/greedy-decoding.md) — Strategy that selects the highest-probability token at each step, producing deterministic outputs.
 - [guardrail policy](terms/guardrail-policy.md) — Documented rules and prompts that define allowed, blocked, and escalated behaviors for AI systems.
 - [guardrails](terms/guardrails.md) — Controls that constrain model behavior to comply with safety, legal, or brand requirements.
@@ -78,6 +81,7 @@ Focus on user outcomes, feature scope, and launch readiness.
 - [jailbreak prompt](terms/jailbreak-prompt.md) — Crafted input that persuades a model to ignore safety instructions and produce disallowed responses.
 - [kv cache](terms/kv-cache.md) — Stored attention keys and values reused across decoding steps to speed sequential generation.
 - [log probability](terms/log-probability.md) — Logarithm of a token’s probability, used to inspect model confidence and guide decoding tweaks.
+- [loss function](terms/loss-function.md) — Mathematical rule that scores how far model predictions deviate from desired targets.
 - [memory strategy](terms/memory-strategy.md) — Deliberate approach for when an AI agent stores, retrieves, or forgets context across tasks.
 - [mixture of experts](terms/mixture-of-experts.md) — Neural architecture that routes tokens to specialized submodels to scale capacity efficiently.
 - [model card](terms/model-card.md) — Standardized documentation describing a model’s purpose, data, performance, and limitations.
@@ -93,6 +97,7 @@ Focus on user outcomes, feature scope, and launch readiness.
 - [prompt injection](terms/prompt-injection.md) — Attack that inserts malicious instructions into model inputs to override original prompts or policies.
 - [recall](terms/recall.md) — Share of actual positives a model successfully identifies.
 - [red teaming](terms/red-teaming.md) — Deliberate stress testing that probes AI systems for harmful, biased, or policy-violating behavior.
+- [regularization](terms/regularization.md) — Techniques that add penalties or constraints during training to reduce overfitting and improve generalisation.
 - [reinforcement learning from human feedback](terms/reinforcement-learning-from-human-feedback.md) — Training approach that tunes a model using reward signals learned from human preference data.
 - [repetition penalty](terms/repetition-penalty.md) — Decoding adjustment that down-weights tokens already generated to reduce loops and repeated phrases.
 - [reranking](terms/reranking.md) — Step that refines retrieval results using a more precise but slower scoring model.
@@ -111,12 +116,16 @@ Focus on user outcomes, feature scope, and launch readiness.
 - [synthetic data](terms/synthetic-data.md) — Artificially generated dataset used to augment training, testing, or privacy-preserving workflows.
 - [synthetic data evaluation](terms/synthetic-data-evaluation.md) — Process for measuring fidelity, utility, privacy, and bias of synthetic datasets before use.
 - [system prompt](terms/system-prompt.md) — Foundational instruction that sets role, tone, and guardrails for an AI assistant before user input.
+- [target variable](terms/target-variable.md) — Outcome the model is trained to predict, providing the signal for calculating loss.
 - [temperature](terms/temperature.md) — Decoding parameter that controls how random or deterministic a model’s outputs are.
+- [test set](terms/test-set.md) — Final evaluation split reserved for measuring real-world performance after all model tuning is finished.
 - [token](terms/token.md) — Smallest unit of text a model processes after tokenization, such as a word fragment or character.
 - [tool use](terms/tool-use.md) — Pattern where a model selects external tools or functions to handle parts of a task.
 - [top-k sampling](terms/top-k-sampling.md) — Decoding method that samples from the k most probable next tokens to balance diversity and control.
 - [top-p sampling](terms/top-p-sampling.md) — Decoding strategy that samples from the smallest set of tokens whose probabilities sum to p.
+- [training data](terms/training-data.md) — Labeled examples the model learns from before it ever sees validation or test inputs.
 - [transparency report](terms/transparency-report.md) — Periodic disclosure that details how an AI system operates, what data it handles, and how risks are mitigated.
+- [validation set](terms/validation-set.md) — Dataset slice used to tune hyperparameters and compare experiments without touching the test set.
 - [vector store](terms/vector-store.md) — Database optimized to store embeddings and execute similarity search over vectors.
 - [voice cloning](terms/voice-cloning.md) — Technique that replicates a person’s voice using generative models trained on audio samples.
 
@@ -140,8 +149,8 @@ Own model integration, infra, and technical debt.
 ### Focus areas
 - Governance & Risk (29 terms)
 - LLM Core (26 terms)
+- Foundations (19 terms)
 - Operations & Monitoring (18 terms)
-- Foundations (10 terms)
 - Agents & Tooling (7 terms)
 - Retrieval & RAG (7 terms)
 - Optimization & Efficiency (6 terms)
@@ -179,8 +188,11 @@ Own model integration, infra, and technical debt.
 - [evaluation harness](terms/evaluation-harness.md) — Automated pipeline that replays tasks, scores outputs, and reports regressions for AI systems.
 - [f1 score](terms/f1-score.md) — Harmonic mean of precision and recall, balancing false positives and false negatives.
 - [fairness metrics](terms/fairness-metrics.md) — Quantitative measures that evaluate whether model performance is equitable across groups.
+- [feature engineering](terms/feature-engineering.md) — Transforming raw data into model-ready features that improve signal, fairness, and maintainability.
 - [fine-tuning](terms/fine-tuning.md) — Additional training that adapts a pretrained model to a specific task or domain.
 - [function calling](terms/function-calling.md) — LLM capability that lets prompts invoke predefined functions and return structured arguments.
+- [generalization](terms/generalization.md) — Model's ability to sustain performance on unseen data rather than memorising the training set.
+- [gradient descent](terms/gradient-descent.md) — Iterative optimization algorithm that updates model parameters in the direction of the negative gradient to minimize a loss function.
 - [greedy decoding](terms/greedy-decoding.md) — Strategy that selects the highest-probability token at each step, producing deterministic outputs.
 - [guardrail policy](terms/guardrail-policy.md) — Documented rules and prompts that define allowed, blocked, and escalated behaviors for AI systems.
 - [hallucination](terms/hallucination.md) — When an AI model presents fabricated or unsupported information as fact.
@@ -192,6 +204,7 @@ Own model integration, infra, and technical debt.
 - [knowledge distillation](terms/knowledge-distillation.md) — Technique that trains a smaller student model to mimic a larger teacher model’s behavior.
 - [kv cache](terms/kv-cache.md) — Stored attention keys and values reused across decoding steps to speed sequential generation.
 - [log probability](terms/log-probability.md) — Logarithm of a token’s probability, used to inspect model confidence and guide decoding tweaks.
+- [loss function](terms/loss-function.md) — Mathematical rule that scores how far model predictions deviate from desired targets.
 - [low-rank adaptation](terms/low-rank-adaptation.md) — Parameter-efficient fine-tuning that injects low-rank update matrices into transformer weights.
 - [memory strategy](terms/memory-strategy.md) — Deliberate approach for when an AI agent stores, retrieves, or forgets context across tasks.
 - [mixture of experts](terms/mixture-of-experts.md) — Neural architecture that routes tokens to specialized submodels to scale capacity efficiently.
@@ -209,6 +222,7 @@ Own model integration, infra, and technical debt.
 - [quantization](terms/quantization.md) — Technique that compresses model weights into lower-precision formats to shrink size and speed inference.
 - [recall](terms/recall.md) — Share of actual positives a model successfully identifies.
 - [red teaming](terms/red-teaming.md) — Deliberate stress testing that probes AI systems for harmful, biased, or policy-violating behavior.
+- [regularization](terms/regularization.md) — Techniques that add penalties or constraints during training to reduce overfitting and improve generalisation.
 - [reinforcement learning from human feedback](terms/reinforcement-learning-from-human-feedback.md) — Training approach that tunes a model using reward signals learned from human preference data.
 - [repetition penalty](terms/repetition-penalty.md) — Decoding adjustment that down-weights tokens already generated to reduce loops and repeated phrases.
 - [reranking](terms/reranking.md) — Step that refines retrieval results using a more precise but slower scoring model.
@@ -227,11 +241,15 @@ Own model integration, infra, and technical debt.
 - [synthetic data](terms/synthetic-data.md) — Artificially generated dataset used to augment training, testing, or privacy-preserving workflows.
 - [synthetic data evaluation](terms/synthetic-data-evaluation.md) — Process for measuring fidelity, utility, privacy, and bias of synthetic datasets before use.
 - [system prompt](terms/system-prompt.md) — Foundational instruction that sets role, tone, and guardrails for an AI assistant before user input.
+- [target variable](terms/target-variable.md) — Outcome the model is trained to predict, providing the signal for calculating loss.
 - [temperature](terms/temperature.md) — Decoding parameter that controls how random or deterministic a model’s outputs are.
+- [test set](terms/test-set.md) — Final evaluation split reserved for measuring real-world performance after all model tuning is finished.
 - [token](terms/token.md) — Smallest unit of text a model processes after tokenization, such as a word fragment or character.
 - [tool use](terms/tool-use.md) — Pattern where a model selects external tools or functions to handle parts of a task.
 - [top-k sampling](terms/top-k-sampling.md) — Decoding method that samples from the k most probable next tokens to balance diversity and control.
 - [top-p sampling](terms/top-p-sampling.md) — Decoding strategy that samples from the smallest set of tokens whose probabilities sum to p.
+- [training data](terms/training-data.md) — Labeled examples the model learns from before it ever sees validation or test inputs.
+- [validation set](terms/validation-set.md) — Dataset slice used to tune hyperparameters and compare experiments without touching the test set.
 - [vector store](terms/vector-store.md) — Database optimized to store embeddings and execute similarity search over vectors.
 
 ## Data Science & Research
@@ -253,7 +271,7 @@ Drive experimentation, measurement, and model improvement.
 
 ### Focus areas
 - LLM Core (23 terms)
-- Foundations (10 terms)
+- Foundations (19 terms)
 - Retrieval & RAG (7 terms)
 - Optimization & Efficiency (6 terms)
 - Governance & Risk (5 terms)
@@ -278,14 +296,18 @@ Drive experimentation, measurement, and model improvement.
 - [embedding](terms/embedding.md) — Dense numerical representation that captures semantic meaning of text, images, or other data.
 - [evaluation harness](terms/evaluation-harness.md) — Automated pipeline that replays tasks, scores outputs, and reports regressions for AI systems.
 - [f1 score](terms/f1-score.md) — Harmonic mean of precision and recall, balancing false positives and false negatives.
+- [feature engineering](terms/feature-engineering.md) — Transforming raw data into model-ready features that improve signal, fairness, and maintainability.
 - [fine-tuning](terms/fine-tuning.md) — Additional training that adapts a pretrained model to a specific task or domain.
 - [function calling](terms/function-calling.md) — LLM capability that lets prompts invoke predefined functions and return structured arguments.
+- [generalization](terms/generalization.md) — Model's ability to sustain performance on unseen data rather than memorising the training set.
+- [gradient descent](terms/gradient-descent.md) — Iterative optimization algorithm that updates model parameters in the direction of the negative gradient to minimize a loss function.
 - [greedy decoding](terms/greedy-decoding.md) — Strategy that selects the highest-probability token at each step, producing deterministic outputs.
 - [hallucination](terms/hallucination.md) — When an AI model presents fabricated or unsupported information as fact.
 - [instruction tuning](terms/instruction-tuning.md) — Supervised training that teaches models to follow natural-language instructions using curated examples.
 - [knowledge distillation](terms/knowledge-distillation.md) — Technique that trains a smaller student model to mimic a larger teacher model’s behavior.
 - [kv cache](terms/kv-cache.md) — Stored attention keys and values reused across decoding steps to speed sequential generation.
 - [log probability](terms/log-probability.md) — Logarithm of a token’s probability, used to inspect model confidence and guide decoding tweaks.
+- [loss function](terms/loss-function.md) — Mathematical rule that scores how far model predictions deviate from desired targets.
 - [low-rank adaptation](terms/low-rank-adaptation.md) — Parameter-efficient fine-tuning that injects low-rank update matrices into transformer weights.
 - [mixture of experts](terms/mixture-of-experts.md) — Neural architecture that routes tokens to specialized submodels to scale capacity efficiently.
 - [overfitting](terms/overfitting.md) — When a model memorizes training data patterns so closely that it performs poorly on new samples.
@@ -295,6 +317,7 @@ Drive experimentation, measurement, and model improvement.
 - [prompt engineering](terms/prompt-engineering.md) — Crafting and testing prompts to steer model behavior toward desired outcomes.
 - [quantization](terms/quantization.md) — Technique that compresses model weights into lower-precision formats to shrink size and speed inference.
 - [recall](terms/recall.md) — Share of actual positives a model successfully identifies.
+- [regularization](terms/regularization.md) — Techniques that add penalties or constraints during training to reduce overfitting and improve generalisation.
 - [reinforcement learning from human feedback](terms/reinforcement-learning-from-human-feedback.md) — Training approach that tunes a model using reward signals learned from human preference data.
 - [repetition penalty](terms/repetition-penalty.md) — Decoding adjustment that down-weights tokens already generated to reduce loops and repeated phrases.
 - [reranking](terms/reranking.md) — Step that refines retrieval results using a more precise but slower scoring model.
@@ -306,10 +329,14 @@ Drive experimentation, measurement, and model improvement.
 - [synthetic data](terms/synthetic-data.md) — Artificially generated dataset used to augment training, testing, or privacy-preserving workflows.
 - [synthetic data evaluation](terms/synthetic-data-evaluation.md) — Process for measuring fidelity, utility, privacy, and bias of synthetic datasets before use.
 - [system prompt](terms/system-prompt.md) — Foundational instruction that sets role, tone, and guardrails for an AI assistant before user input.
+- [target variable](terms/target-variable.md) — Outcome the model is trained to predict, providing the signal for calculating loss.
 - [temperature](terms/temperature.md) — Decoding parameter that controls how random or deterministic a model’s outputs are.
+- [test set](terms/test-set.md) — Final evaluation split reserved for measuring real-world performance after all model tuning is finished.
 - [token](terms/token.md) — Smallest unit of text a model processes after tokenization, such as a word fragment or character.
 - [top-k sampling](terms/top-k-sampling.md) — Decoding method that samples from the k most probable next tokens to balance diversity and control.
 - [top-p sampling](terms/top-p-sampling.md) — Decoding strategy that samples from the smallest set of tokens whose probabilities sum to p.
+- [training data](terms/training-data.md) — Labeled examples the model learns from before it ever sees validation or test inputs.
+- [validation set](terms/validation-set.md) — Dataset slice used to tune hyperparameters and compare experiments without touching the test set.
 - [vector store](terms/vector-store.md) — Database optimized to store embeddings and execute similarity search over vectors.
 
 ## Policy & Risk
@@ -332,7 +359,7 @@ Ensure responsible AI controls align with governance frameworks.
 ### Focus areas
 - Governance & Risk (40 terms)
 - Operations & Monitoring (17 terms)
-- Foundations (6 terms)
+- Foundations (7 terms)
 - LLM Core (6 terms)
 - Agents & Tooling (2 terms)
 - Optimization & Efficiency (1 term)
@@ -369,6 +396,7 @@ Ensure responsible AI controls align with governance frameworks.
 - [impact mitigation plan](terms/impact-mitigation-plan.md) — Action plan that tracks risks, mitigations, owners, and timelines for an AI deployment.
 - [incident taxonomy](terms/incident-taxonomy.md) — Standardized categories used to tag, analyze, and report AI incidents consistently.
 - [instruction tuning](terms/instruction-tuning.md) — Supervised training that teaches models to follow natural-language instructions using curated examples.
+- [loss function](terms/loss-function.md) — Mathematical rule that scores how far model predictions deviate from desired targets.
 - [ml observability](terms/ml-observability.md) — Practices and tooling that surface model health through metrics, traces, and alerts across the lifecycle.
 - [ml ops](terms/ml-ops.md) — Operational discipline that manages ML models from experimentation through deployment and monitoring.
 - [model card](terms/model-card.md) — Standardized documentation describing a model’s purpose, data, performance, and limitations.

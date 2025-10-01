@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [model card](https://san-serif-sentiments.github.io/ai-glossary/terms/model-card/)
-- [algorithmic audit](https://san-serif-sentiments.github.io/ai-glossary/terms/algorithmic-audit/)
-- [synthetic data](https://san-serif-sentiments.github.io/ai-glossary/terms/synthetic-data/)
-- [transparency report](https://san-serif-sentiments.github.io/ai-glossary/terms/transparency-report/)
-- [preference dataset](https://san-serif-sentiments.github.io/ai-glossary/terms/preference-dataset/)
-- [data minimization](https://san-serif-sentiments.github.io/ai-glossary/terms/data-minimization/)
-- [assurance case](https://san-serif-sentiments.github.io/ai-glossary/terms/assurance-case/)
-- [data retention](https://san-serif-sentiments.github.io/ai-glossary/terms/data-retention/)
+- [model card](../../terms/model-card.md)
+- [algorithmic audit](../../terms/algorithmic-audit.md)
+- [synthetic data](../../terms/synthetic-data.md)
+- [transparency report](../../terms/transparency-report.md)
+- [training data](../../terms/training-data.md)
+- [assurance case](../../terms/assurance-case.md)
+- [data minimization](../../terms/data-minimization.md)
+- [preference dataset](../../terms/preference-dataset.md)

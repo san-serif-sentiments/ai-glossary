@@ -1,0 +1,50 @@
+term: "target variable"
+aliases:
+  - "label"
+  - "response variable"
+categories:
+  - "Foundations"
+roles:
+  - "data_science"
+  - "engineering"
+  - "product"
+part_of_speech: "noun"
+short_def: "Outcome the model is trained to predict, providing the signal for calculating loss."
+long_def: >-
+  The target variable is the reference output used to evaluate model predictions during training and testing. In supervised
+  learning it represents ground truth labels, such as fraud or not fraud, estimated price, or safety category. Accurate,
+  consistent targets allow teams to compute loss functions, track metrics like precision and recall, and align models with
+  business objectives. Product stakeholders define which real-world outcome matters most, while engineers and data
+  scientists maintain labeling pipelines, quality checks, and access controls. Poorly governed targets undermine evaluation
+  integrity and can encode bias, leading to misinformed decisions at launch.
+audiences:
+  exec: "The target variable is the result we ask the model to get right so business decisions stay grounded."
+  engineer: "Keep labeling guidelines versioned, audit quality, and map targets to downstream KPIs before training."
+examples:
+  do:
+    - "Review labeling consistency across vendors before starting a new training run."
+    - "Document how targets map to customer outcomes in the model card."
+  dont:
+    - "Mix labels from incompatible taxonomies without reconciliation."
+    - "Expose sensitive targets to broad teams without privacy controls."
+governance:
+  nist_rmf_tags:
+    - "validity"
+    - "fairness"
+  risk_notes: "Low-quality target variables hide discrimination, inflate metrics, and break compliance attestations."
+relationships:
+  related:
+    - "loss function"
+    - "precision"
+    - "recall"
+    - "content moderation"
+citations:
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary#target"
+  - source: "Hugging Face Glossary"
+    url: "https://huggingface.co/docs/transformers/en/glossary"
+  - source: "Partnership on AI Glossary"
+    url: "https://www.partnershiponai.org/glossary/"
+license: "CC BY-SA 4.0"
+status: "approved"
+last_reviewed: "2025-09-29"

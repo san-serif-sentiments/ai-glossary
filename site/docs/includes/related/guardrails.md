@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [guardrail policy](https://san-serif-sentiments.github.io/ai-glossary/terms/guardrail-policy/)
-- [content moderation](https://san-serif-sentiments.github.io/ai-glossary/terms/content-moderation/)
-- [safety evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-evaluation/)
-- [model governance](https://san-serif-sentiments.github.io/ai-glossary/terms/model-governance/)
-- [safety classifier](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-classifier/)
-- [algorithmic audit](https://san-serif-sentiments.github.io/ai-glossary/terms/algorithmic-audit/)
-- [responsible ai](https://san-serif-sentiments.github.io/ai-glossary/terms/responsible-ai/)
-- [ai assurance](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-assurance/)
+- [guardrail policy](../../terms/guardrail-policy.md)
+- [content moderation](../../terms/content-moderation.md)
+- [safety evaluation](../../terms/safety-evaluation.md)
+- [model governance](../../terms/model-governance.md)
+- [safety classifier](../../terms/safety-classifier.md)
+- [algorithmic audit](../../terms/algorithmic-audit.md)
+- [responsible ai](../../terms/responsible-ai.md)
+- [ai assurance](../../terms/ai-assurance.md)

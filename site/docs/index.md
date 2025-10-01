@@ -8,16 +8,16 @@
       structured YAML so it can power docs, APIs, and review workflows. Browse by
       category, role, or metric to keep product, engineering, and governance teams in sync.
     </p>
-    <div class="brand-signature">
+    <a class="brand-signature" href="https://www.linkedin.com/in/shailesh-rawat/" target="_blank" rel="noopener">
       <span class="brand-name">Shailesh Rawat</span>
       <span class="brand-handle">@sans_serif_sentiments</span>
-    </div>
+    </a>
   </div>
 
   <div class="hero-actions">
-    <a class="cta" href="search/">🔍 Explore the interactive search</a>
-    <a class="cta secondary" href="roles/">👥 Role starter packs</a>
-    <a class="cta secondary" href="categories/">🧭 Category explorer</a>
+    <a class="cta" href="search/index.html">🔍 Explore the interactive search</a>
+    <a class="cta secondary" href="roles/index.html">👥 Role starter packs</a>
+    <a class="cta secondary" href="categories/index.html">🧭 Category explorer</a>
   </div>
 </div>
 
@@ -30,7 +30,7 @@
     <li><strong>Sort for relevance:</strong> Reorder results by freshness or category to share curated views with stakeholders in seconds.</li>
   </ul>
   <p class="whats-new-footer">
-    Submit feedback or new term ideas via the <a href="term-request/">term request intake</a>.
+    Submit feedback or new term ideas via the <a href="term-request/index.html">term request intake</a>.
   </p>
 </div>
 
@@ -50,9 +50,9 @@
 
 ## Deep-dive resources
 
-- [External source catalog](resources/) — official glossaries and standards to cite.
-- [Governance dashboard](governance-dashboard/) — metrics, NIST coverage, and intake guidance.
-- [Prompt engineering playbook](prompting/) — practical workflows for shaping model behaviour.
+- [External source catalog](resources.md) — official glossaries and standards to cite.
+- [Governance dashboard](governance-dashboard.md) — metrics, NIST coverage, and intake guidance.
+- [Prompt engineering playbook](prompting.md) — practical workflows for shaping model behaviour.
 
 ### Popular categories
 
@@ -61,25 +61,25 @@
   <div class="category-card">
     <h3>LLM Core</h3>
     <p>Attention, decoding, prompting, and the building blocks behind language models.</p>
-    <a href="categories/#llm-core">Browse terms →</a>
+    <a href="categories/index.html#llm-core">Browse terms →</a>
   </div>
 
   <div class="category-card">
     <h3>Retrieval &amp; RAG</h3>
     <p>Grounding models with hybrid search, chunking, reranking, and retrieval pipelines.</p>
-    <a href="categories/#retrieval-rag">Browse terms →</a>
+    <a href="categories/index.html#retrieval-rag">Browse terms →</a>
   </div>
 
   <div class="category-card">
     <h3>Governance &amp; Risk</h3>
     <p>Responsible AI practices, documentation, privacy, and safety mitigation.</p>
-    <a href="categories/#governance-risk">Browse terms →</a>
+    <a href="categories/index.html#governance-risk">Browse terms →</a>
   </div>
 
   <div class="category-card">
     <h3>Optimization &amp; Efficiency</h3>
     <p>Quantization, LoRA, distillation, and performance tuning for deployment.</p>
-    <a href="categories/#optimization-efficiency">Browse terms →</a>
+    <a href="categories/index.html#optimization-efficiency">Browse terms →</a>
   </div>
 
 </div>
@@ -90,6 +90,6 @@
 - Launch a public design kit so teams can reuse the Shailesh Rawat (sans_serif_sentiments) brand components across docs and products.
 - Publish live health dashboards that blend glossary freshness, evaluation signals, and intake response times.
 
-Contributors can review the [Contribution guide](contributing/) to learn how to add or refine glossary entries.
+Contributors can review the [Contribution guide](contributing.md) to learn how to add or refine glossary entries.
 
 <p class="brand-footer">✨ Crafted and curated by Shailesh Rawat · sans_serif_sentiments</p>

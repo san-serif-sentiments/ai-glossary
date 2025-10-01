@@ -15,11 +15,20 @@ Core machine learning concepts that underpin modern AI systems.
 - [cross-validation](terms/cross-validation.md) — Data Science & Research, Engineering & Platform, Product & Program Managers
 - [diffusion model](terms/diffusion-model.md) — Engineering & Platform, Data Science & Research, Product & Program Managers, Communications & Enablement
 - [f1 score](terms/f1-score.md) — Data Science & Research, Engineering & Platform, Product & Program Managers
+- [feature engineering](terms/feature-engineering.md) — Data Science & Research, Engineering & Platform, Product & Program Managers
+- [generalization](terms/generalization.md) — Product & Program Managers, Engineering & Platform, Data Science & Research
 - [generative ai](terms/generative-ai.md) — Communications & Enablement, Policy & Risk, Product & Program Managers
+- [gradient descent](terms/gradient-descent.md) — Data Science & Research, Engineering & Platform, Product & Program Managers
+- [loss function](terms/loss-function.md) — Data Science & Research, Engineering & Platform, Product & Program Managers, Policy & Risk
 - [overfitting](terms/overfitting.md) — Data Science & Research, Engineering & Platform, Product & Program Managers
 - [precision](terms/precision.md) — Data Science & Research, Engineering & Platform, Product & Program Managers, Policy & Risk
 - [recall](terms/recall.md) — Data Science & Research, Engineering & Platform, Product & Program Managers, Policy & Risk
+- [regularization](terms/regularization.md) — Data Science & Research, Engineering & Platform, Product & Program Managers
 - [roc auc](terms/roc-auc.md) — Data Science & Research, Engineering & Platform, Product & Program Managers
+- [target variable](terms/target-variable.md) — Data Science & Research, Engineering & Platform, Product & Program Managers
+- [test set](terms/test-set.md) — Data Science & Research, Engineering & Platform, Product & Program Managers
+- [training data](terms/training-data.md) — Data Science & Research, Engineering & Platform, Product & Program Managers
+- [validation set](terms/validation-set.md) — Data Science & Research, Engineering & Platform, Product & Program Managers
 - [voice cloning](terms/voice-cloning.md) — Product & Program Managers, Communications & Enablement, Legal & Compliance, Policy & Risk, Security & Trust
 
 ## LLM Core

@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [self-consistency decoding](https://san-serif-sentiments.github.io/ai-glossary/terms/self-consistency-decoding/)
-- [robust prompting](https://san-serif-sentiments.github.io/ai-glossary/terms/robust-prompting/)
-- [agentic ai](https://san-serif-sentiments.github.io/ai-glossary/terms/agentic-ai/)
-- [reranking](https://san-serif-sentiments.github.io/ai-glossary/terms/reranking/)
-- [function calling](https://san-serif-sentiments.github.io/ai-glossary/terms/function-calling/)
-- [prompt engineering](https://san-serif-sentiments.github.io/ai-glossary/terms/prompt-engineering/)
-- [attention](https://san-serif-sentiments.github.io/ai-glossary/terms/attention/)
-- [beam search](https://san-serif-sentiments.github.io/ai-glossary/terms/beam-search/)
+- [self-consistency decoding](../../terms/self-consistency-decoding.md)
+- [robust prompting](../../terms/robust-prompting.md)
+- [agentic ai](../../terms/agentic-ai.md)
+- [function calling](../../terms/function-calling.md)
+- [reranking](../../terms/reranking.md)
+- [prompt engineering](../../terms/prompt-engineering.md)
+- [attention](../../terms/attention.md)
+- [context window](../../terms/context-window.md)

@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [prompt engineering](https://san-serif-sentiments.github.io/ai-glossary/terms/prompt-engineering/)
-- [guardrail policy](https://san-serif-sentiments.github.io/ai-glossary/terms/guardrail-policy/)
-- [safety spec](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-spec/)
-- [instruction tuning](https://san-serif-sentiments.github.io/ai-glossary/terms/instruction-tuning/)
-- [guardrails](https://san-serif-sentiments.github.io/ai-glossary/terms/guardrails/)
-- [jailbreak prompt](https://san-serif-sentiments.github.io/ai-glossary/terms/jailbreak-prompt/)
-- [ai assurance](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-assurance/)
-- [robust prompting](https://san-serif-sentiments.github.io/ai-glossary/terms/robust-prompting/)
+- [prompt engineering](../../terms/prompt-engineering.md)
+- [guardrail policy](../../terms/guardrail-policy.md)
+- [safety spec](../../terms/safety-spec.md)
+- [instruction tuning](../../terms/instruction-tuning.md)
+- [guardrails](../../terms/guardrails.md)
+- [jailbreak prompt](../../terms/jailbreak-prompt.md)
+- [robust prompting](../../terms/robust-prompting.md)
+- [ai assurance](../../terms/ai-assurance.md)

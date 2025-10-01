@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [jailbreak prompt](https://san-serif-sentiments.github.io/ai-glossary/terms/jailbreak-prompt/)
-- [tool use](https://san-serif-sentiments.github.io/ai-glossary/terms/tool-use/)
-- [prompt engineering](https://san-serif-sentiments.github.io/ai-glossary/terms/prompt-engineering/)
-- [system prompt](https://san-serif-sentiments.github.io/ai-glossary/terms/system-prompt/)
-- [robust prompting](https://san-serif-sentiments.github.io/ai-glossary/terms/robust-prompting/)
-- [red teaming](https://san-serif-sentiments.github.io/ai-glossary/terms/red-teaming/)
-- [context window](https://san-serif-sentiments.github.io/ai-glossary/terms/context-window/)
-- [retrieval-augmented generation](https://san-serif-sentiments.github.io/ai-glossary/terms/retrieval-augmented-generation/)
+- [jailbreak prompt](../../terms/jailbreak-prompt.md)
+- [prompt engineering](../../terms/prompt-engineering.md)
+- [tool use](../../terms/tool-use.md)
+- [system prompt](../../terms/system-prompt.md)
+- [robust prompting](../../terms/robust-prompting.md)
+- [red teaming](../../terms/red-teaming.md)
+- [context window](../../terms/context-window.md)
+- [retrieval-augmented generation](../../terms/retrieval-augmented-generation.md)

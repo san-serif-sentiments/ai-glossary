@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [fine-tuning](https://san-serif-sentiments.github.io/ai-glossary/terms/fine-tuning/)
-- [system prompt](https://san-serif-sentiments.github.io/ai-glossary/terms/system-prompt/)
-- [reinforcement learning from human feedback](https://san-serif-sentiments.github.io/ai-glossary/terms/reinforcement-learning-from-human-feedback/)
-- [preference dataset](https://san-serif-sentiments.github.io/ai-glossary/terms/preference-dataset/)
-- [prompt engineering](https://san-serif-sentiments.github.io/ai-glossary/terms/prompt-engineering/)
-- [low-rank adaptation](https://san-serif-sentiments.github.io/ai-glossary/terms/low-rank-adaptation/)
-- [direct preference optimization](https://san-serif-sentiments.github.io/ai-glossary/terms/direct-preference-optimization/)
-- [safety evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-evaluation/)
+- [fine-tuning](../../terms/fine-tuning.md)
+- [system prompt](../../terms/system-prompt.md)
+- [reinforcement learning from human feedback](../../terms/reinforcement-learning-from-human-feedback.md)
+- [preference dataset](../../terms/preference-dataset.md)
+- [training data](../../terms/training-data.md)
+- [prompt engineering](../../terms/prompt-engineering.md)
+- [low-rank adaptation](../../terms/low-rank-adaptation.md)
+- [direct preference optimization](../../terms/direct-preference-optimization.md)

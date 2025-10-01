@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [agent executor](https://san-serif-sentiments.github.io/ai-glossary/terms/agent-executor/)
-- [agentic ai](https://san-serif-sentiments.github.io/ai-glossary/terms/agentic-ai/)
-- [human handoff](https://san-serif-sentiments.github.io/ai-glossary/terms/human-handoff/)
-- [vector store](https://san-serif-sentiments.github.io/ai-glossary/terms/vector-store/)
-- [guardrail policy](https://san-serif-sentiments.github.io/ai-glossary/terms/guardrail-policy/)
-- [embedding](https://san-serif-sentiments.github.io/ai-glossary/terms/embedding/)
-- [tool use](https://san-serif-sentiments.github.io/ai-glossary/terms/tool-use/)
-- [escalation policy](https://san-serif-sentiments.github.io/ai-glossary/terms/escalation-policy/)
+- [agent executor](../../terms/agent-executor.md)
+- [agentic ai](../../terms/agentic-ai.md)
+- [human handoff](../../terms/human-handoff.md)
+- [vector store](../../terms/vector-store.md)
+- [guardrail policy](../../terms/guardrail-policy.md)
+- [embedding](../../terms/embedding.md)
+- [tool use](../../terms/tool-use.md)
+- [escalation policy](../../terms/escalation-policy.md)

@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [recall](https://san-serif-sentiments.github.io/ai-glossary/terms/recall/)
-- [precision](https://san-serif-sentiments.github.io/ai-glossary/terms/precision/)
-- [f1 score](https://san-serif-sentiments.github.io/ai-glossary/terms/f1-score/)
-- [fairness metrics](https://san-serif-sentiments.github.io/ai-glossary/terms/fairness-metrics/)
-- [algorithmic bias](https://san-serif-sentiments.github.io/ai-glossary/terms/algorithmic-bias/)
-- [ai assurance](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-assurance/)
-- [safety evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-evaluation/)
-- [guardrails](https://san-serif-sentiments.github.io/ai-glossary/terms/guardrails/)
+- [recall](../../terms/recall.md)
+- [precision](../../terms/precision.md)
+- [f1 score](../../terms/f1-score.md)
+- [loss function](../../terms/loss-function.md)
+- [fairness metrics](../../terms/fairness-metrics.md)
+- [algorithmic bias](../../terms/algorithmic-bias.md)
+- [ai assurance](../../terms/ai-assurance.md)
+- [target variable](../../terms/target-variable.md)

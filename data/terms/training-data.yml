@@ -1,0 +1,50 @@
+term: "training data"
+aliases:
+  - "training set"
+  - "learning set"
+categories:
+  - "Foundations"
+roles:
+  - "data_science"
+  - "engineering"
+  - "product"
+part_of_speech: "noun"
+short_def: "Labeled examples the model learns from before it ever sees validation or test inputs."
+long_def: >-
+  Training data is the portion of the dataset used to fit model parameters. These examples expose the algorithm to the
+  signals it should internalize, from class boundaries to feature interactions. High-quality training data mirrors the
+  production environment, includes the right balance of cohorts, and has documented provenance so teams can trace issues.
+  Engineers tune hyperparameters and optimization steps against this split, while product partners track which customer or
+  policy scenarios are represented. Weak training data leads to brittle models that memorize quirks rather than patterns,
+  increasing the odds of bias, regressions, and governance failures when the system is deployed.
+audiences:
+  exec: 'Training data is the fuel that teaches the model what "good" looks like before launch.'
+  engineer: "Curate representative, versioned examples with clear labels; document preprocessing and access controls."
+examples:
+  do:
+    - "Record data lineage and consent before moving samples into the training set."
+    - "Refresh training data when product usage, markets, or regulations shift."
+  dont:
+    - "Mix evaluation samples back into training without resetting benchmark baselines."
+    - "Ignore gaps in protected classes or edge scenarios that appear in production."
+governance:
+  nist_rmf_tags:
+    - "data_quality"
+    - "transparency"
+  risk_notes: "Poorly governed training data creates hidden bias and auditing gaps that surface as fairness or compliance incidents."
+relationships:
+  related:
+    - "data lineage"
+    - "cross-validation"
+    - "generalization"
+    - "regularization"
+citations:
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary#training-set"
+  - source: "NIST AI Risk Management Framework"
+    url: "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf"
+  - source: "Open Data Institute – Data Assurance"
+    url: "https://theodi.org/article/data-assurance-guidance/"
+license: "CC BY-SA 4.0"
+status: "approved"
+last_reviewed: "2025-09-29"

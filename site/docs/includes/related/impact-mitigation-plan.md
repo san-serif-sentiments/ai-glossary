@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [ai incident response](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-incident-response/)
-- [risk register](https://san-serif-sentiments.github.io/ai-glossary/terms/risk-register/)
-- [algorithmic audit](https://san-serif-sentiments.github.io/ai-glossary/terms/algorithmic-audit/)
-- [algorithmic impact assessment](https://san-serif-sentiments.github.io/ai-glossary/terms/algorithmic-impact-assessment/)
-- [guardrail policy](https://san-serif-sentiments.github.io/ai-glossary/terms/guardrail-policy/)
-- [data retention](https://san-serif-sentiments.github.io/ai-glossary/terms/data-retention/)
-- [ai assurance](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-assurance/)
-- [escalation policy](https://san-serif-sentiments.github.io/ai-glossary/terms/escalation-policy/)
+- [ai incident response](../../terms/ai-incident-response.md)
+- [risk register](../../terms/risk-register.md)
+- [algorithmic audit](../../terms/algorithmic-audit.md)
+- [algorithmic impact assessment](../../terms/algorithmic-impact-assessment.md)
+- [guardrail policy](../../terms/guardrail-policy.md)
+- [data retention](../../terms/data-retention.md)
+- [ai assurance](../../terms/ai-assurance.md)
+- [safety review board](../../terms/safety-review-board.md)

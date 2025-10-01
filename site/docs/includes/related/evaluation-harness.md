@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/evaluation/)
-- [agentic ai](https://san-serif-sentiments.github.io/ai-glossary/terms/agentic-ai/)
-- [safety evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-evaluation/)
-- [model governance](https://san-serif-sentiments.github.io/ai-glossary/terms/model-governance/)
-- [agent executor](https://san-serif-sentiments.github.io/ai-glossary/terms/agent-executor/)
-- [ai assurance](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-assurance/)
-- [escalation policy](https://san-serif-sentiments.github.io/ai-glossary/terms/escalation-policy/)
-- [ai incident response](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-incident-response/)
+- [evaluation](../../terms/evaluation.md)
+- [agentic ai](../../terms/agentic-ai.md)
+- [safety evaluation](../../terms/safety-evaluation.md)
+- [model governance](../../terms/model-governance.md)
+- [agent executor](../../terms/agent-executor.md)
+- [ai assurance](../../terms/ai-assurance.md)
+- [escalation policy](../../terms/escalation-policy.md)
+- [ai incident response](../../terms/ai-incident-response.md)

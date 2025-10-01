@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [decoding](https://san-serif-sentiments.github.io/ai-glossary/terms/decoding/)
-- [greedy decoding](https://san-serif-sentiments.github.io/ai-glossary/terms/greedy-decoding/)
-- [log probability](https://san-serif-sentiments.github.io/ai-glossary/terms/log-probability/)
-- [reranking](https://san-serif-sentiments.github.io/ai-glossary/terms/reranking/)
-- [top-k sampling](https://san-serif-sentiments.github.io/ai-glossary/terms/top-k-sampling/)
-- [temperature](https://san-serif-sentiments.github.io/ai-glossary/terms/temperature/)
-- [self-consistency decoding](https://san-serif-sentiments.github.io/ai-glossary/terms/self-consistency-decoding/)
-- [top-p sampling](https://san-serif-sentiments.github.io/ai-glossary/terms/top-p-sampling/)
+- [decoding](../../terms/decoding.md)
+- [greedy decoding](../../terms/greedy-decoding.md)
+- [log probability](../../terms/log-probability.md)
+- [reranking](../../terms/reranking.md)
+- [top-k sampling](../../terms/top-k-sampling.md)
+- [temperature](../../terms/temperature.md)
+- [self-consistency decoding](../../terms/self-consistency-decoding.md)
+- [top-p sampling](../../terms/top-p-sampling.md)

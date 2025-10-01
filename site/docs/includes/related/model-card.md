@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [dataset card](https://san-serif-sentiments.github.io/ai-glossary/terms/dataset-card/)
-- [algorithmic audit](https://san-serif-sentiments.github.io/ai-glossary/terms/algorithmic-audit/)
-- [ai assurance](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-assurance/)
-- [model governance](https://san-serif-sentiments.github.io/ai-glossary/terms/model-governance/)
-- [algorithmic impact assessment](https://san-serif-sentiments.github.io/ai-glossary/terms/algorithmic-impact-assessment/)
-- [safety evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-evaluation/)
-- [safety spec](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-spec/)
-- [fairness metrics](https://san-serif-sentiments.github.io/ai-glossary/terms/fairness-metrics/)
+- [dataset card](../../terms/dataset-card.md)
+- [algorithmic audit](../../terms/algorithmic-audit.md)
+- [ai assurance](../../terms/ai-assurance.md)
+- [model governance](../../terms/model-governance.md)
+- [algorithmic impact assessment](../../terms/algorithmic-impact-assessment.md)
+- [safety evaluation](../../terms/safety-evaluation.md)
+- [safety spec](../../terms/safety-spec.md)
+- [transparency report](../../terms/transparency-report.md)

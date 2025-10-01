@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [guardrail policy](https://san-serif-sentiments.github.io/ai-glossary/terms/guardrail-policy/)
-- [human handoff](https://san-serif-sentiments.github.io/ai-glossary/terms/human-handoff/)
-- [ai circuit breaker](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-circuit-breaker/)
-- [content moderation](https://san-serif-sentiments.github.io/ai-glossary/terms/content-moderation/)
-- [safety spec](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-spec/)
-- [alignment](https://san-serif-sentiments.github.io/ai-glossary/terms/alignment/)
-- [ai assurance](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-assurance/)
-- [responsible ai](https://san-serif-sentiments.github.io/ai-glossary/terms/responsible-ai/)
+- [guardrail policy](../../terms/guardrail-policy.md)
+- [human handoff](../../terms/human-handoff.md)
+- [ai circuit breaker](../../terms/ai-circuit-breaker.md)
+- [content moderation](../../terms/content-moderation.md)
+- [safety spec](../../terms/safety-spec.md)
+- [alignment](../../terms/alignment.md)
+- [ai assurance](../../terms/ai-assurance.md)
+- [responsible ai](../../terms/responsible-ai.md)

@@ -1,0 +1,47 @@
+term: "loss function"
+aliases:
+  - "cost function"
+  - "objective function"
+categories:
+  - "Foundations"
+roles:
+  - "data_science"
+  - "engineering"
+  - "product"
+  - "policy"
+part_of_speech: "noun"
+short_def: "Mathematical rule that scores how far model predictions deviate from desired targets."
+long_def: >-
+  A loss function translates model performance into a single scalar so optimisation algorithms know which direction to move. Classification systems rely on cross-entropy or focal loss to punish incorrect labels, while regression models often use mean squared error or Huber loss to balance sensitivity to outliers. Product and policy partners read loss definitions to understand which business or compliance outcomes the model optimises, and engineers adjust them when priorities shift from accuracy to calibration, fairness, or cost. Clear documentation of the loss function protects teams from accidental regressions, especially when a model serves multiple stakeholders who care about different metrics.
+audiences:
+  exec: "The loss function is the scorecard that tells the training loop if changes made the model better or worse."
+  engineer: "Define differentiable losses aligned with business metrics; monitor surrogate vs. offline KPI gaps and adjust weighting as needed."
+examples:
+  do:
+    - "Document the exact loss, weighting, and class balancing strategy in model cards and runbooks."
+    - "Evaluate fairness metrics alongside the chosen loss before updating production thresholds."
+  dont:
+    - "Swap in a new loss function without revalidating calibration and downstream KPIs."
+    - "Optimise purely for training loss when evaluation or business metrics tell a different story."
+governance:
+  nist_rmf_tags:
+    - "validity"
+    - "transparency"
+  risk_notes: "Misaligned losses can optimise for the wrong behaviour, creating governance or compliance gaps if not reviewed."
+relationships:
+  broader:
+    - "evaluation"
+  related:
+    - "gradient descent"
+    - "regularization"
+    - "bias-variance tradeoff"
+citations:
+  - source: "Google ML Crash Course"
+    url: "https://developers.google.com/machine-learning/crash-course/glossary#loss"
+  - source: "Hugging Face Course"
+    url: "https://huggingface.co/learn/deep-learning-course/unit2/objectives-and-losses"
+  - source: "Machine Learning Mastery"
+    url: "https://machinelearningmastery.com/loss-and-loss-functions/"
+license: "CC BY-SA 4.0"
+status: "approved"
+last_reviewed: "2025-09-29"

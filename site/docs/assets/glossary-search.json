@@ -899,6 +899,29 @@
     "slug": "fairness-metrics"
   },
   {
+    "term": "feature engineering",
+    "aliases": [
+      "feature design",
+      "feature extraction"
+    ],
+    "categories": [
+      "Foundations"
+    ],
+    "roles": [
+      "data_science",
+      "engineering",
+      "product"
+    ],
+    "short_def": "Transforming raw data into model-ready features that improve signal, fairness, and maintainability.",
+    "nist_rmf_tags": [
+      "data_quality",
+      "privacy"
+    ],
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
+    "slug": "feature-engineering"
+  },
+  {
     "term": "fine-tuning",
     "aliases": [
       "model adaptation",
@@ -945,6 +968,29 @@
     "slug": "function-calling"
   },
   {
+    "term": "generalization",
+    "aliases": [
+      "generalisation",
+      "out-of-sample performance"
+    ],
+    "categories": [
+      "Foundations"
+    ],
+    "roles": [
+      "product",
+      "engineering",
+      "data_science"
+    ],
+    "short_def": "Model's ability to sustain performance on unseen data rather than memorising the training set.",
+    "nist_rmf_tags": [
+      "validity",
+      "robustness"
+    ],
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
+    "slug": "generalization"
+  },
+  {
     "term": "generative ai",
     "aliases": [
       "genai",
@@ -966,6 +1012,29 @@
     "status": "approved",
     "last_reviewed": "2025-09-29",
     "slug": "generative-ai"
+  },
+  {
+    "term": "gradient descent",
+    "aliases": [
+      "steepest descent",
+      "batch gradient descent"
+    ],
+    "categories": [
+      "Foundations"
+    ],
+    "roles": [
+      "data_science",
+      "engineering",
+      "product"
+    ],
+    "short_def": "Iterative optimization algorithm that updates model parameters in the direction of the negative gradient to minimize a loss function.",
+    "nist_rmf_tags": [
+      "validity",
+      "reliability"
+    ],
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
+    "slug": "gradient-descent"
   },
   {
     "term": "greedy decoding",
@@ -1258,6 +1327,30 @@
     "status": "approved",
     "last_reviewed": "2025-09-29",
     "slug": "log-probability"
+  },
+  {
+    "term": "loss function",
+    "aliases": [
+      "cost function",
+      "objective function"
+    ],
+    "categories": [
+      "Foundations"
+    ],
+    "roles": [
+      "data_science",
+      "engineering",
+      "product",
+      "policy"
+    ],
+    "short_def": "Mathematical rule that scores how far model predictions deviate from desired targets.",
+    "nist_rmf_tags": [
+      "validity",
+      "transparency"
+    ],
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
+    "slug": "loss-function"
   },
   {
     "term": "low-rank adaptation",
@@ -1741,6 +1834,29 @@
     "status": "approved",
     "last_reviewed": "2025-09-29",
     "slug": "red-teaming"
+  },
+  {
+    "term": "regularization",
+    "aliases": [
+      "penalisation",
+      "weight decay"
+    ],
+    "categories": [
+      "Foundations"
+    ],
+    "roles": [
+      "data_science",
+      "engineering",
+      "product"
+    ],
+    "short_def": "Techniques that add penalties or constraints during training to reduce overfitting and improve generalisation.",
+    "nist_rmf_tags": [
+      "robustness",
+      "governance"
+    ],
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
+    "slug": "regularization"
   },
   {
     "term": "reinforcement learning from human feedback",
@@ -2231,6 +2347,29 @@
     "slug": "system-prompt"
   },
   {
+    "term": "target variable",
+    "aliases": [
+      "label",
+      "response variable"
+    ],
+    "categories": [
+      "Foundations"
+    ],
+    "roles": [
+      "data_science",
+      "engineering",
+      "product"
+    ],
+    "short_def": "Outcome the model is trained to predict, providing the signal for calculating loss.",
+    "nist_rmf_tags": [
+      "validity",
+      "fairness"
+    ],
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
+    "slug": "target-variable"
+  },
+  {
     "term": "temperature",
     "aliases": [
       "sampling temperature",
@@ -2252,6 +2391,29 @@
     "status": "approved",
     "last_reviewed": "2025-09-29",
     "slug": "temperature"
+  },
+  {
+    "term": "test set",
+    "aliases": [
+      "test data",
+      "holdout set"
+    ],
+    "categories": [
+      "Foundations"
+    ],
+    "roles": [
+      "data_science",
+      "engineering",
+      "product"
+    ],
+    "short_def": "Final evaluation split reserved for measuring real-world performance after all model tuning is finished.",
+    "nist_rmf_tags": [
+      "validity",
+      "accountability"
+    ],
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
+    "slug": "test-set"
   },
   {
     "term": "token",
@@ -2345,6 +2507,29 @@
     "slug": "top-p-sampling"
   },
   {
+    "term": "training data",
+    "aliases": [
+      "training set",
+      "learning set"
+    ],
+    "categories": [
+      "Foundations"
+    ],
+    "roles": [
+      "data_science",
+      "engineering",
+      "product"
+    ],
+    "short_def": "Labeled examples the model learns from before it ever sees validation or test inputs.",
+    "nist_rmf_tags": [
+      "data_quality",
+      "transparency"
+    ],
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
+    "slug": "training-data"
+  },
+  {
     "term": "transparency report",
     "aliases": [
       "algorithmic transparency report",
@@ -2368,6 +2553,29 @@
     "status": "approved",
     "last_reviewed": "2025-09-29",
     "slug": "transparency-report"
+  },
+  {
+    "term": "validation set",
+    "aliases": [
+      "validation data",
+      "dev set"
+    ],
+    "categories": [
+      "Foundations"
+    ],
+    "roles": [
+      "data_science",
+      "engineering",
+      "product"
+    ],
+    "short_def": "Dataset slice used to tune hyperparameters and compare experiments without touching the test set.",
+    "nist_rmf_tags": [
+      "robustness",
+      "accountability"
+    ],
+    "status": "approved",
+    "last_reviewed": "2025-09-29",
+    "slug": "validation-set"
   },
   {
     "term": "vector store",

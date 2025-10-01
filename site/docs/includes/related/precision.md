@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [recall](https://san-serif-sentiments.github.io/ai-glossary/terms/recall/)
-- [f1 score](https://san-serif-sentiments.github.io/ai-glossary/terms/f1-score/)
-- [confusion matrix](https://san-serif-sentiments.github.io/ai-glossary/terms/confusion-matrix/)
-- [safety classifier](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-classifier/)
-- [quantization](https://san-serif-sentiments.github.io/ai-glossary/terms/quantization/)
-- [fairness metrics](https://san-serif-sentiments.github.io/ai-glossary/terms/fairness-metrics/)
-- [algorithmic bias](https://san-serif-sentiments.github.io/ai-glossary/terms/algorithmic-bias/)
-- [content moderation](https://san-serif-sentiments.github.io/ai-glossary/terms/content-moderation/)
+- [recall](../../terms/recall.md)
+- [f1 score](../../terms/f1-score.md)
+- [confusion matrix](../../terms/confusion-matrix.md)
+- [safety classifier](../../terms/safety-classifier.md)
+- [quantization](../../terms/quantization.md)
+- [fairness metrics](../../terms/fairness-metrics.md)
+- [target variable](../../terms/target-variable.md)
+- [algorithmic bias](../../terms/algorithmic-bias.md)

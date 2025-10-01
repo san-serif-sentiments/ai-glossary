@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [privacy](https://san-serif-sentiments.github.io/ai-glossary/terms/privacy/)
-- [data lineage](https://san-serif-sentiments.github.io/ai-glossary/terms/data-lineage/)
-- [ai incident response](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-incident-response/)
-- [responsible ai](https://san-serif-sentiments.github.io/ai-glossary/terms/responsible-ai/)
-- [model governance](https://san-serif-sentiments.github.io/ai-glossary/terms/model-governance/)
-- [data redaction](https://san-serif-sentiments.github.io/ai-glossary/terms/data-redaction/)
-- [memory strategy](https://san-serif-sentiments.github.io/ai-glossary/terms/memory-strategy/)
-- [voice cloning](https://san-serif-sentiments.github.io/ai-glossary/terms/voice-cloning/)
+- [privacy](../../terms/privacy.md)
+- [data lineage](../../terms/data-lineage.md)
+- [ai incident response](../../terms/ai-incident-response.md)
+- [responsible ai](../../terms/responsible-ai.md)
+- [model governance](../../terms/model-governance.md)
+- [data redaction](../../terms/data-redaction.md)
+- [memory strategy](../../terms/memory-strategy.md)
+- [voice cloning](../../terms/voice-cloning.md)

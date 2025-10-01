@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [recall](https://san-serif-sentiments.github.io/ai-glossary/terms/recall/)
-- [precision](https://san-serif-sentiments.github.io/ai-glossary/terms/precision/)
-- [confusion matrix](https://san-serif-sentiments.github.io/ai-glossary/terms/confusion-matrix/)
-- [fairness metrics](https://san-serif-sentiments.github.io/ai-glossary/terms/fairness-metrics/)
-- [quantization](https://san-serif-sentiments.github.io/ai-glossary/terms/quantization/)
-- [content moderation](https://san-serif-sentiments.github.io/ai-glossary/terms/content-moderation/)
-- [roc auc](https://san-serif-sentiments.github.io/ai-glossary/terms/roc-auc/)
-- [safety classifier](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-classifier/)
+- [recall](../../terms/recall.md)
+- [precision](../../terms/precision.md)
+- [confusion matrix](../../terms/confusion-matrix.md)
+- [fairness metrics](../../terms/fairness-metrics.md)
+- [target variable](../../terms/target-variable.md)
+- [quantization](../../terms/quantization.md)
+- [content moderation](../../terms/content-moderation.md)
+- [loss function](../../terms/loss-function.md)

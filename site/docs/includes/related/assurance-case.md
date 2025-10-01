@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [ai assurance](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-assurance/)
-- [risk register](https://san-serif-sentiments.github.io/ai-glossary/terms/risk-register/)
-- [algorithmic audit](https://san-serif-sentiments.github.io/ai-glossary/terms/algorithmic-audit/)
-- [safety spec](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-spec/)
-- [safety review board](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-review-board/)
-- [system prompt](https://san-serif-sentiments.github.io/ai-glossary/terms/system-prompt/)
-- [transparency report](https://san-serif-sentiments.github.io/ai-glossary/terms/transparency-report/)
-- [guardrails](https://san-serif-sentiments.github.io/ai-glossary/terms/guardrails/)
+- [ai assurance](../../terms/ai-assurance.md)
+- [risk register](../../terms/risk-register.md)
+- [algorithmic audit](../../terms/algorithmic-audit.md)
+- [safety spec](../../terms/safety-spec.md)
+- [safety review board](../../terms/safety-review-board.md)
+- [system prompt](../../terms/system-prompt.md)
+- [transparency report](../../terms/transparency-report.md)
+- [guardrails](../../terms/guardrails.md)

@@ -1,0 +1,44 @@
+term: "regularization"
+aliases:
+  - "penalisation"
+  - "weight decay"
+categories:
+  - "Foundations"
+roles:
+  - "data_science"
+  - "engineering"
+  - "product"
+part_of_speech: "process"
+short_def: "Techniques that add penalties or constraints during training to reduce overfitting and improve generalisation."
+long_def: >-
+  Regularization tempers a model’s tendency to memorise training data by introducing penalties or architectural constraints that favour simpler solutions. Common approaches include L1 and L2 weight penalties, dropout, early stopping, and data augmentation. Product teams see regularization as a lever for keeping performance stable after launch, while engineers adjust penalties to balance accuracy with latency and reproducibility. Governance and policy partners rely on documented regularization strategies to evidence that the organisation actively manages model complexity and drift risks. Without regularization, models often exhibit inflated offline metrics that fail to generalise to new markets, languages, or customer segments.
+audiences:
+  exec: "Regularization is how we stop models from overfitting so they keep working on new data."
+  engineer: "Apply penalties such as lambda * ||w||^2, dropout masks, or early stopping schedules to manage bias-variance trade-offs."
+examples:
+  do:
+    - "Log regularization settings alongside other hyperparameters for every experiment."
+    - "Review fairness and calibration metrics after tightening or relaxing penalties."
+  dont:
+    - "Disable regularization in production experiments without compensating monitoring."
+    - "Rely on default penalty strengths when data distributions or architectures change."
+governance:
+  nist_rmf_tags:
+    - "robustness"
+    - "governance"
+  risk_notes: "Lack of regularization increases drift and fairness risks, triggering costly remediation when models are audited."
+relationships:
+  related:
+    - "gradient descent"
+    - "loss function"
+    - "overfitting"
+citations:
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "DeepLearning.AI AI Glossary"
+    url: "https://www.deeplearning.ai/glossary/"
+  - source: "Stanford CS229 Notes"
+    url: "https://cs229.stanford.edu/notes/cs229-notes1.pdf"
+license: "CC BY-SA 4.0"
+status: "approved"
+last_reviewed: "2025-09-29"

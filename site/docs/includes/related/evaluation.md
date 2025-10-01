@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [safety evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-evaluation/)
-- [evaluation harness](https://san-serif-sentiments.github.io/ai-glossary/terms/evaluation-harness/)
-- [red teaming](https://san-serif-sentiments.github.io/ai-glossary/terms/red-teaming/)
-- [model governance](https://san-serif-sentiments.github.io/ai-glossary/terms/model-governance/)
-- [safety spec](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-spec/)
-- [ai assurance](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-assurance/)
-- [synthetic data evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/synthetic-data-evaluation/)
-- [algorithmic audit](https://san-serif-sentiments.github.io/ai-glossary/terms/algorithmic-audit/)
+- [safety evaluation](../../terms/safety-evaluation.md)
+- [evaluation harness](../../terms/evaluation-harness.md)
+- [red teaming](../../terms/red-teaming.md)
+- [model governance](../../terms/model-governance.md)
+- [safety spec](../../terms/safety-spec.md)
+- [ai assurance](../../terms/ai-assurance.md)
+- [synthetic data evaluation](../../terms/synthetic-data-evaluation.md)
+- [algorithmic audit](../../terms/algorithmic-audit.md)

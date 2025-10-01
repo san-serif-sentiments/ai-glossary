@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [ai assurance](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-assurance/)
-- [responsible ai](https://san-serif-sentiments.github.io/ai-glossary/terms/responsible-ai/)
-- [model governance](https://san-serif-sentiments.github.io/ai-glossary/terms/model-governance/)
-- [ai incident response](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-incident-response/)
-- [safety evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-evaluation/)
-- [assurance case](https://san-serif-sentiments.github.io/ai-glossary/terms/assurance-case/)
-- [algorithmic audit](https://san-serif-sentiments.github.io/ai-glossary/terms/algorithmic-audit/)
-- [risk register](https://san-serif-sentiments.github.io/ai-glossary/terms/risk-register/)
+- [ai assurance](../../terms/ai-assurance.md)
+- [responsible ai](../../terms/responsible-ai.md)
+- [model governance](../../terms/model-governance.md)
+- [ai incident response](../../terms/ai-incident-response.md)
+- [safety evaluation](../../terms/safety-evaluation.md)
+- [assurance case](../../terms/assurance-case.md)
+- [algorithmic audit](../../terms/algorithmic-audit.md)
+- [risk register](../../terms/risk-register.md)

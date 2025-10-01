@@ -33,11 +33,20 @@ nav:
         - cross-validation: terms/cross-validation.md
         - diffusion model: terms/diffusion-model.md
         - f1 score: terms/f1-score.md
+        - feature engineering: terms/feature-engineering.md
+        - generalization: terms/generalization.md
         - generative ai: terms/generative-ai.md
+        - gradient descent: terms/gradient-descent.md
+        - loss function: terms/loss-function.md
         - overfitting: terms/overfitting.md
         - precision: terms/precision.md
         - recall: terms/recall.md
+        - regularization: terms/regularization.md
         - roc auc: terms/roc-auc.md
+        - target variable: terms/target-variable.md
+        - test set: terms/test-set.md
+        - training data: terms/training-data.md
+        - validation set: terms/validation-set.md
         - voice cloning: terms/voice-cloning.md
       - LLM Core:
         - attention: terms/attention.md

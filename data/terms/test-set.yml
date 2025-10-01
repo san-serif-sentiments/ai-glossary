@@ -1,0 +1,50 @@
+term: "test set"
+aliases:
+  - "test data"
+  - "holdout set"
+categories:
+  - "Foundations"
+roles:
+  - "data_science"
+  - "engineering"
+  - "product"
+part_of_speech: "noun"
+short_def: "Final evaluation split reserved for measuring real-world performance after all model tuning is finished."
+long_def: >-
+  The test set acts as the last line of defense before deployment. Once training and validation are complete, teams use this
+  untouched data slice to estimate how a model will behave in production. Because it reflects realistic scenarios and has
+  never influenced tuning decisions, the test set provides credible evidence for governance reviews, model cards, and launch
+  approvals. Product owners study test outcomes to understand business impact, while engineers compare historical test set
+  runs to spot regressions or drift. Strict separation from training and validation data, coupled with version control and
+  documented refresh policies, preserves trust in test results.
+audiences:
+  exec: "The test set is our final validation that the model keeps its promises before customers see it."
+  engineer: "Protect the test set from reuse, track baseline metrics over time, and rotate it only with formal approvals."
+examples:
+  do:
+    - "Store multiple generations of test sets so you can benchmark new models against historical baselines."
+    - "Capture subgroup metrics and qualitative notes during every test run for audit trails."
+  dont:
+    - "Peek at the test set to choose hyperparameters or feature engineering steps."
+    - "Reuse the same test set indefinitely without monitoring for stale scenarios."
+governance:
+  nist_rmf_tags:
+    - "validity"
+    - "accountability"
+  risk_notes: "Compromised test sets hide regressions and undercut the evidence required for responsible AI approvals."
+relationships:
+  related:
+    - "validation set"
+    - "generalization"
+    - "evaluation"
+    - "model drift"
+citations:
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary#test-set"
+  - source: "NIST AI Risk Management Framework"
+    url: "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf"
+  - source: "DeepLearning.AI AI Glossary"
+    url: "https://www.deeplearning.ai/glossary/"
+license: "CC BY-SA 4.0"
+status: "approved"
+last_reviewed: "2025-09-29"

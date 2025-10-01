@@ -53,12 +53,20 @@ body,
   font-size: 0.9rem;
   font-weight: 600;
   color: var(--brand-primary);
+  text-decoration: none;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
 .brand-signature span {
   display: inline-flex;
   align-items: center;
   gap: 0.3rem;
+}
+
+.brand-signature:hover {
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(95, 46, 234, 0.2);
+  transform: translateY(-1px);
 }
 
 .brand-signature .brand-handle {

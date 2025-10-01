@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [privacy](https://san-serif-sentiments.github.io/ai-glossary/terms/privacy/)
-- [privacy budget](https://san-serif-sentiments.github.io/ai-glossary/terms/privacy-budget/)
-- [synthetic data](https://san-serif-sentiments.github.io/ai-glossary/terms/synthetic-data/)
-- [privacy impact assessment](https://san-serif-sentiments.github.io/ai-glossary/terms/privacy-impact-assessment/)
-- [synthetic data evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/synthetic-data-evaluation/)
-- [diffusion model](https://san-serif-sentiments.github.io/ai-glossary/terms/diffusion-model/)
-- [data redaction](https://san-serif-sentiments.github.io/ai-glossary/terms/data-redaction/)
-- [data minimization](https://san-serif-sentiments.github.io/ai-glossary/terms/data-minimization/)
+- [privacy budget](../../terms/privacy-budget.md)
+- [privacy](../../terms/privacy.md)
+- [synthetic data](../../terms/synthetic-data.md)
+- [privacy impact assessment](../../terms/privacy-impact-assessment.md)
+- [synthetic data evaluation](../../terms/synthetic-data-evaluation.md)
+- [loss function](../../terms/loss-function.md)
+- [data redaction](../../terms/data-redaction.md)
+- [data minimization](../../terms/data-minimization.md)

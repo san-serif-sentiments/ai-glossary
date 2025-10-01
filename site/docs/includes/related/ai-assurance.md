@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [assurance case](https://san-serif-sentiments.github.io/ai-glossary/terms/assurance-case/)
-- [algorithmic audit](https://san-serif-sentiments.github.io/ai-glossary/terms/algorithmic-audit/)
-- [responsible ai](https://san-serif-sentiments.github.io/ai-glossary/terms/responsible-ai/)
-- [model governance](https://san-serif-sentiments.github.io/ai-glossary/terms/model-governance/)
-- [algorithmic impact assessment](https://san-serif-sentiments.github.io/ai-glossary/terms/algorithmic-impact-assessment/)
-- [safety review board](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-review-board/)
-- [red teaming](https://san-serif-sentiments.github.io/ai-glossary/terms/red-teaming/)
-- [guardrails](https://san-serif-sentiments.github.io/ai-glossary/terms/guardrails/)
+- [assurance case](../../terms/assurance-case.md)
+- [algorithmic audit](../../terms/algorithmic-audit.md)
+- [responsible ai](../../terms/responsible-ai.md)
+- [model governance](../../terms/model-governance.md)
+- [safety review board](../../terms/safety-review-board.md)
+- [algorithmic impact assessment](../../terms/algorithmic-impact-assessment.md)
+- [red teaming](../../terms/red-teaming.md)
+- [guardrails](../../terms/guardrails.md)

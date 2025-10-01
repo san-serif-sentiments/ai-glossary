@@ -1,0 +1,50 @@
+term: "feature engineering"
+aliases:
+  - "feature design"
+  - "feature extraction"
+categories:
+  - "Foundations"
+roles:
+  - "data_science"
+  - "engineering"
+  - "product"
+part_of_speech: "process"
+short_def: "Transforming raw data into model-ready features that improve signal, fairness, and maintainability."
+long_def: >-
+  Feature engineering covers the techniques used to convert raw logs, text, images, or structured records into inputs a
+  model can learn from. It spans cleaning, normalization, aggregation, embedding, and generation of domain-specific
+  indicators. Thoughtful feature engineering improves generalization, reduces noise, and encodes policy guardrails early in
+  the pipeline. Data scientists prototype feature pipelines, engineers productionize them with monitoring and lineage, and
+  product teams align feature choices with user journeys and governance constraints. Documented feature logic also
+  accelerates audits and root cause analysis when behaviour shifts in production.
+audiences:
+  exec: "Feature engineering is how we turn messy data into reliable signals the model can use."
+  engineer: "Version feature code, validate statistical drift, and partner with governance to review sensitive attributes."
+examples:
+  do:
+    - "Log transformations and scaling choices alongside the model so they stay in sync across environments."
+    - "Run fairness and privacy checks when introducing features derived from sensitive sources."
+  dont:
+    - "Ship handcrafted features without automated tests or lineage traces."
+    - "Overfit by generating thousands of highly specific features with no regularization plan."
+governance:
+  nist_rmf_tags:
+    - "data_quality"
+    - "privacy"
+  risk_notes: "Opaque feature pipelines hide bias, privacy violations, and drift triggers, making incidents harder to manage."
+relationships:
+  related:
+    - "training data"
+    - "regularization"
+    - "bias-variance tradeoff"
+    - "ml ops"
+citations:
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary#feature-engineering"
+  - source: "NIST AI Risk Management Framework"
+    url: "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf"
+  - source: "Microsoft Responsible AI Standard"
+    url: "https://learn.microsoft.com/en-us/azure/architecture/guide/responsible-innovation/"
+license: "CC BY-SA 4.0"
+status: "approved"
+last_reviewed: "2025-09-29"

@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [data minimization](https://san-serif-sentiments.github.io/ai-glossary/terms/data-minimization/)
-- [privacy](https://san-serif-sentiments.github.io/ai-glossary/terms/privacy/)
-- [data retention](https://san-serif-sentiments.github.io/ai-glossary/terms/data-retention/)
-- [synthetic data](https://san-serif-sentiments.github.io/ai-glossary/terms/synthetic-data/)
-- [privacy impact assessment](https://san-serif-sentiments.github.io/ai-glossary/terms/privacy-impact-assessment/)
-- [algorithmic audit](https://san-serif-sentiments.github.io/ai-glossary/terms/algorithmic-audit/)
-- [synthetic data evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/synthetic-data-evaluation/)
-- [consent management](https://san-serif-sentiments.github.io/ai-glossary/terms/consent-management/)
+- [data minimization](../../terms/data-minimization.md)
+- [privacy](../../terms/privacy.md)
+- [data retention](../../terms/data-retention.md)
+- [synthetic data](../../terms/synthetic-data.md)
+- [privacy impact assessment](../../terms/privacy-impact-assessment.md)
+- [algorithmic audit](../../terms/algorithmic-audit.md)
+- [consent management](../../terms/consent-management.md)
+- [synthetic data evaluation](../../terms/synthetic-data-evaluation.md)

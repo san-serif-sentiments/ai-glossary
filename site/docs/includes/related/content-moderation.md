@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [guardrails](https://san-serif-sentiments.github.io/ai-glossary/terms/guardrails/)
-- [guardrail policy](https://san-serif-sentiments.github.io/ai-glossary/terms/guardrail-policy/)
-- [safety evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-evaluation/)
-- [escalation policy](https://san-serif-sentiments.github.io/ai-glossary/terms/escalation-policy/)
-- [ai incident response](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-incident-response/)
-- [red teaming](https://san-serif-sentiments.github.io/ai-glossary/terms/red-teaming/)
-- [safety classifier](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-classifier/)
-- [generative ai](https://san-serif-sentiments.github.io/ai-glossary/terms/generative-ai/)
+- [guardrails](../../terms/guardrails.md)
+- [guardrail policy](../../terms/guardrail-policy.md)
+- [safety evaluation](../../terms/safety-evaluation.md)
+- [escalation policy](../../terms/escalation-policy.md)
+- [ai incident response](../../terms/ai-incident-response.md)
+- [red teaming](../../terms/red-teaming.md)
+- [generative ai](../../terms/generative-ai.md)
+- [safety classifier](../../terms/safety-classifier.md)

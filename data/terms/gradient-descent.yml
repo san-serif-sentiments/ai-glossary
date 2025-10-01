@@ -1,0 +1,44 @@
+term: "gradient descent"
+aliases:
+  - "steepest descent"
+  - "batch gradient descent"
+categories:
+  - "Foundations"
+roles:
+  - "data_science"
+  - "engineering"
+  - "product"
+part_of_speech: "process"
+short_def: "Iterative optimization algorithm that updates model parameters in the direction of the negative gradient to minimize a loss function."
+long_def: >-
+  Gradient descent is the workhorse optimization routine behind many machine learning models. The algorithm measures how the loss function changes with respect to each parameter, then nudges those parameters in the direction that most quickly reduces the loss. Step size is controlled by the learning rate, and the procedure repeats until convergence or an early stopping rule triggers. Product teams see the effects of gradient descent in training curves and quality improvements, engineers focus on stability and runtime characteristics, and data scientists tune batch size, momentum, and learning rate schedules to balance accuracy with compute budget. Understanding gradient descent is critical when diagnosing training instability, bias amplification, or regressions after feature changes because it exposes how the model is navigating its optimization landscape.
+audiences:
+  exec: "Gradient descent is the routine that steadily adjusts model knobs until errors shrink."
+  engineer: "Compute parameter updates using grad_theta L(theta); tune learning rate, batching, and momentum to ensure stable convergence."
+examples:
+  do:
+    - "Monitor training and validation loss together to catch divergence early."
+    - "Scale learning rates with batch size when moving between GPU configurations."
+  dont:
+    - "Ignore exploding gradients without adding clipping or schedule adjustments."
+    - "Assume a single learning rate works across every feature or dataset refresh."
+governance:
+  nist_rmf_tags:
+    - "validity"
+    - "reliability"
+  risk_notes: "Poorly tuned optimization can encode bias or destabilize production models, so training controls and reviews are essential."
+relationships:
+  related:
+    - "loss function"
+    - "regularization"
+    - "fine-tuning"
+citations:
+  - source: "Google ML Glossary"
+    url: "https://developers.google.com/machine-learning/glossary"
+  - source: "DeepLearning.AI AI Glossary"
+    url: "https://www.deeplearning.ai/glossary/"
+  - source: "Hugging Face Course"
+    url: "https://huggingface.co/learn/deep-learning-course/unit5/optimizers"
+license: "CC BY-SA 4.0"
+status: "approved"
+last_reviewed: "2025-09-29"

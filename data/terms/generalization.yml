@@ -1,0 +1,53 @@
+term: "generalization"
+aliases:
+  - "generalisation"
+  - "out-of-sample performance"
+categories:
+  - "Foundations"
+roles:
+  - "product"
+  - "engineering"
+  - "data_science"
+part_of_speech: "noun"
+short_def: "Model's ability to sustain performance on unseen data rather than memorising the training set."
+long_def: >-
+  Generalization determines whether a model delivers value once it leaves the lab. A system that overfits will look strong
+  on training data but collapse when it meets new markets, languages, or customer behaviours. Engineering teams manage
+  generalization by pairing representative train/validation/test splits with regularization, augmentation, and drift
+  monitoring. Product and policy partners translate generalization risk into business and compliance exposure: degraded
+  accuracy erodes customer trust, introduces bias, and can violate contractual or regulatory commitments. Healthy
+  generalization comes from both technical controls and operational hygiene: clear loss functions, reproducible experiments,
+  and post-deployment telemetry that surfaces when reality shifts away from the training distribution.
+audiences:
+  exec: "Generalization shows whether the model keeps its promises once it meets real customers and scenarios."
+  engineer: "Track performance on held-out and in-production slices, tune regularization, and trigger retraining when drift appears."
+examples:
+  do:
+    - "Hold back a realistic test set and monitor post-launch telemetry to confirm generalization."
+    - "Log distribution shifts and retrain when key features move away from training baselines."
+  dont:
+    - "Ship models based solely on training metrics or synthetic benchmarks."
+    - "Ignore subgroup breakdowns that reveal poor generalization for protected or high-value cohorts."
+governance:
+  nist_rmf_tags:
+    - "validity"
+    - "robustness"
+  risk_notes: "Poor generalization is a leading indicator of bias, drift, and safety incidents, so governance reviews demand evidence of monitoring."
+relationships:
+  broader:
+    - "evaluation"
+  related:
+    - "bias-variance tradeoff"
+    - "cross-validation"
+    - "regularization"
+    - "model drift"
+citations:
+  - source: "Deep Learning (MIT Press)"
+    url: "https://www.deeplearningbook.org/"
+  - source: "NIST AI Risk Management Framework"
+    url: "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf"
+  - source: "Hugging Face Glossary"
+    url: "https://huggingface.co/docs/transformers/en/glossary"
+license: "CC BY-SA 4.0"
+status: "approved"
+last_reviewed: "2025-09-29"

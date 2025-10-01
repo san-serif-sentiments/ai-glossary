@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [model governance](https://san-serif-sentiments.github.io/ai-glossary/terms/model-governance/)
-- [fine-tuning](https://san-serif-sentiments.github.io/ai-glossary/terms/fine-tuning/)
-- [evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/evaluation/)
-- [safety evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-evaluation/)
-- [synthetic data](https://san-serif-sentiments.github.io/ai-glossary/terms/synthetic-data/)
-- [guardrails](https://san-serif-sentiments.github.io/ai-glossary/terms/guardrails/)
-- [ml observability](https://san-serif-sentiments.github.io/ai-glossary/terms/ml-observability/)
-- [embedding](https://san-serif-sentiments.github.io/ai-glossary/terms/embedding/)
+- [model governance](../../terms/model-governance.md)
+- [fine-tuning](../../terms/fine-tuning.md)
+- [evaluation](../../terms/evaluation.md)
+- [safety evaluation](../../terms/safety-evaluation.md)
+- [synthetic data](../../terms/synthetic-data.md)
+- [guardrails](../../terms/guardrails.md)
+- [ml observability](../../terms/ml-observability.md)
+- [test set](../../terms/test-set.md)

@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [ai incident response](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-incident-response/)
-- [transparency report](https://san-serif-sentiments.github.io/ai-glossary/terms/transparency-report/)
-- [privacy](https://san-serif-sentiments.github.io/ai-glossary/terms/privacy/)
-- [safety evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-evaluation/)
-- [synthetic data](https://san-serif-sentiments.github.io/ai-glossary/terms/synthetic-data/)
-- [escalation policy](https://san-serif-sentiments.github.io/ai-glossary/terms/escalation-policy/)
-- [ai assurance](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-assurance/)
-- [guardrail policy](https://san-serif-sentiments.github.io/ai-glossary/terms/guardrail-policy/)
+- [ai incident response](../../terms/ai-incident-response.md)
+- [transparency report](../../terms/transparency-report.md)
+- [safety evaluation](../../terms/safety-evaluation.md)
+- [privacy](../../terms/privacy.md)
+- [ai assurance](../../terms/ai-assurance.md)
+- [escalation policy](../../terms/escalation-policy.md)
+- [evaluation harness](../../terms/evaluation-harness.md)
+- [consent management](../../terms/consent-management.md)

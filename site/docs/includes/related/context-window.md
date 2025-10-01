@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [attention](https://san-serif-sentiments.github.io/ai-glossary/terms/attention/)
-- [chunking](https://san-serif-sentiments.github.io/ai-glossary/terms/chunking/)
-- [retrieval-augmented generation](https://san-serif-sentiments.github.io/ai-glossary/terms/retrieval-augmented-generation/)
-- [prompt engineering](https://san-serif-sentiments.github.io/ai-glossary/terms/prompt-engineering/)
-- [token](https://san-serif-sentiments.github.io/ai-glossary/terms/token/)
-- [kv cache](https://san-serif-sentiments.github.io/ai-glossary/terms/kv-cache/)
-- [decoding](https://san-serif-sentiments.github.io/ai-glossary/terms/decoding/)
-- [data retention](https://san-serif-sentiments.github.io/ai-glossary/terms/data-retention/)
+- [attention](../../terms/attention.md)
+- [chunking](../../terms/chunking.md)
+- [retrieval-augmented generation](../../terms/retrieval-augmented-generation.md)
+- [prompt engineering](../../terms/prompt-engineering.md)
+- [token](../../terms/token.md)
+- [kv cache](../../terms/kv-cache.md)
+- [decoding](../../terms/decoding.md)
+- [data retention](../../terms/data-retention.md)

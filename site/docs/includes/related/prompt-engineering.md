@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [system prompt](https://san-serif-sentiments.github.io/ai-glossary/terms/system-prompt/)
-- [safety evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-evaluation/)
-- [jailbreak prompt](https://san-serif-sentiments.github.io/ai-glossary/terms/jailbreak-prompt/)
-- [prompt injection](https://san-serif-sentiments.github.io/ai-glossary/terms/prompt-injection/)
-- [safety spec](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-spec/)
-- [context window](https://san-serif-sentiments.github.io/ai-glossary/terms/context-window/)
-- [robust prompting](https://san-serif-sentiments.github.io/ai-glossary/terms/robust-prompting/)
-- [guardrails](https://san-serif-sentiments.github.io/ai-glossary/terms/guardrails/)
+- [system prompt](../../terms/system-prompt.md)
+- [safety evaluation](../../terms/safety-evaluation.md)
+- [jailbreak prompt](../../terms/jailbreak-prompt.md)
+- [prompt injection](../../terms/prompt-injection.md)
+- [safety spec](../../terms/safety-spec.md)
+- [context window](../../terms/context-window.md)
+- [robust prompting](../../terms/robust-prompting.md)
+- [guardrails](../../terms/guardrails.md)

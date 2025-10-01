@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [ai incident response](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-incident-response/)
-- [evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/evaluation/)
-- [safety spec](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-spec/)
-- [algorithmic impact assessment](https://san-serif-sentiments.github.io/ai-glossary/terms/algorithmic-impact-assessment/)
-- [algorithmic audit](https://san-serif-sentiments.github.io/ai-glossary/terms/algorithmic-audit/)
-- [guardrails](https://san-serif-sentiments.github.io/ai-glossary/terms/guardrails/)
-- [safety classifier](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-classifier/)
-- [prompt engineering](https://san-serif-sentiments.github.io/ai-glossary/terms/prompt-engineering/)
+- [ai incident response](../../terms/ai-incident-response.md)
+- [safety spec](../../terms/safety-spec.md)
+- [evaluation](../../terms/evaluation.md)
+- [algorithmic impact assessment](../../terms/algorithmic-impact-assessment.md)
+- [algorithmic audit](../../terms/algorithmic-audit.md)
+- [guardrails](../../terms/guardrails.md)
+- [safety classifier](../../terms/safety-classifier.md)
+- [prompt engineering](../../terms/prompt-engineering.md)

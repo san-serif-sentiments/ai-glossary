@@ -162,9 +162,7 @@ def main():
     for slug, lst in related.items():
         lines = ["\n**Related terms**\n", ""]
         for r in lst:
-            lines.append(
-                f"- [{r['title']}](https://san-serif-sentiments.github.io/ai-glossary/terms/{r['slug']}/)"
-            )
+            lines.append(f"- [{r['title']}](../../terms/{r['slug']}.md)")
         (OUT_DIR / f"{slug}.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
     print(f"Wrote related data: {OUT_JSON} and {OUT_DIR}/*.md")

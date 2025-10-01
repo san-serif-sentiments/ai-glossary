@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [ai assurance](https://san-serif-sentiments.github.io/ai-glossary/terms/ai-assurance/)
-- [safety evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/safety-evaluation/)
-- [algorithmic audit](https://san-serif-sentiments.github.io/ai-glossary/terms/algorithmic-audit/)
-- [human handoff](https://san-serif-sentiments.github.io/ai-glossary/terms/human-handoff/)
-- [guardrail policy](https://san-serif-sentiments.github.io/ai-glossary/terms/guardrail-policy/)
-- [evaluation](https://san-serif-sentiments.github.io/ai-glossary/terms/evaluation/)
-- [evaluation harness](https://san-serif-sentiments.github.io/ai-glossary/terms/evaluation-harness/)
-- [red teaming](https://san-serif-sentiments.github.io/ai-glossary/terms/red-teaming/)
+- [ai assurance](../../terms/ai-assurance.md)
+- [test set](../../terms/test-set.md)
+- [safety evaluation](../../terms/safety-evaluation.md)
+- [human handoff](../../terms/human-handoff.md)
+- [algorithmic audit](../../terms/algorithmic-audit.md)
+- [guardrail policy](../../terms/guardrail-policy.md)
+- [evaluation](../../terms/evaluation.md)
+- [red teaming](../../terms/red-teaming.md)

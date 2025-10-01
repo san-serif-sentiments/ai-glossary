@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [quantization](https://san-serif-sentiments.github.io/ai-glossary/terms/quantization/)
-- [fine-tuning](https://san-serif-sentiments.github.io/ai-glossary/terms/fine-tuning/)
-- [privacy budget](https://san-serif-sentiments.github.io/ai-glossary/terms/privacy-budget/)
-- [synthetic data](https://san-serif-sentiments.github.io/ai-glossary/terms/synthetic-data/)
-- [hallucination](https://san-serif-sentiments.github.io/ai-glossary/terms/hallucination/)
-- [reward model](https://san-serif-sentiments.github.io/ai-glossary/terms/reward-model/)
-- [constitutional ai](https://san-serif-sentiments.github.io/ai-glossary/terms/constitutional-ai/)
-- [retrieval-augmented generation](https://san-serif-sentiments.github.io/ai-glossary/terms/retrieval-augmented-generation/)
+- [quantization](../../terms/quantization.md)
+- [fine-tuning](../../terms/fine-tuning.md)
+- [training data](../../terms/training-data.md)
+- [synthetic data](../../terms/synthetic-data.md)
+- [privacy budget](../../terms/privacy-budget.md)
+- [hallucination](../../terms/hallucination.md)
+- [reward model](../../terms/reward-model.md)
+- [constitutional ai](../../terms/constitutional-ai.md)
