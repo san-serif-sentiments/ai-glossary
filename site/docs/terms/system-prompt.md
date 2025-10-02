@@ -54,7 +54,7 @@ A system prompt is the preamble sent to a conversational model before user messa
 
 ## Citations
 - [Anthropic – System Prompts](https://docs.anthropic.com/en/docs/build-with-claude/system-prompts)
-- [OpenAI – System Messages Guide](https://help.openai.com/en/articles/7042668-system-messages-in-the-chat-completions-api)
+- [OpenAI – System Messages Guide](https://platform.openai.com/docs/guides/text-generation/system-messages)
 - [Stanford HAI Brief Definitions](https://hai.stanford.edu/news/brief-definitions)
 
 _License: CC BY-SA 4.0_

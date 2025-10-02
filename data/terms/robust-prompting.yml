@@ -43,7 +43,7 @@ relationships:
     - "self-critique loop"
 citations:
   - source: "Prompting Guide – Defensive Prompting"
-    url: "https://www.promptingguide.ai/techniques/defensive"
+    url: "https://www.promptingguide.ai/techniques/defensive-prompting"
   - source: "Anthropic – Prompting for Safety"
     url: "https://docs.anthropic.com/en/docs/build-with-claude/prompting-and-safety"
 license: "CC BY-SA 4.0"

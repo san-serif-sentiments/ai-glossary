@@ -52,8 +52,8 @@ A human handoff occurs when an AI agent or automation pauses and routes context 
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'human handoff'.
 
 ## Citations
-- [LangChain Glossary – Human-in-the-loop](https://python.langchain.com/v0.2/docs/concepts/human_in_the_loop)
-- [Partnership on AI – Responsible Practices for AI Customer Service](https://www.partnershiponai.org/resource/responsible-ai-for-customer-service/)
+- [LangChain Glossary – Human-in-the-loop](https://python.langchain.com/docs/concepts/human_in_the_loop)
+- [Partnership on AI – Responsible Practices for AI Customer Service](https://www.partnershiponai.org/resources/responsible-ai-for-customer-service)
 
 _License: CC BY-SA 4.0_
 

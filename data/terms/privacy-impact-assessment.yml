@@ -39,7 +39,7 @@ citations:
   - source: "NIST AI RMF Glossary"
     url: "https://www.nist.gov/itl/ai-risk-management-framework"
   - source: "ICO – Data Protection Impact Assessments"
-    url: "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-impact-assessments-dpias/"
+    url: "https://ico.org.uk/for-organisations/data-protection-impact-assessments/"
   - source: "Stanford HAI Brief Definitions"
     url: "https://hai.stanford.edu/news/brief-definitions"
 license: "CC BY-SA 4.0"

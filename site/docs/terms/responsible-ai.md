@@ -53,7 +53,7 @@ Responsible AI encompasses the policies, technical controls, and cultural norms 
 ## Citations
 - [OECD – AI Principles](https://oecd.ai/en/ai-principles)
 - [IBM – AI Ethics](https://www.ibm.com/policy/ai-ethics/)
-- [White House – Blueprint for an AI Bill of Rights](https://www.whitehouse.gov/wp-content/uploads/2022/10/Blueprint-for-an-AI-Bill-of-Rights.pdf)
+- [White House – Blueprint for an AI Bill of Rights](https://www.whitehouse.gov/ostp/ai-bill-of-rights/)
 
 _License: CC BY-SA 4.0_
 

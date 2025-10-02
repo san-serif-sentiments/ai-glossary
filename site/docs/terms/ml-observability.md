@@ -51,7 +51,7 @@ ML observability applies observability principles to machine learning systems, c
 ## Citations
 - [NIST AI RMF Glossary](https://www.nist.gov/itl/ai-risk-management-framework)
 - [Google ML Glossary](https://developers.google.com/machine-learning/glossary)
-- [Datadog – What Is ML Observability?](https://www.datadoghq.com/knowledge-center/ml-observability/)
+- [Datadog – ML Observability Overview](https://www.datadoghq.com/knowledge-center/)
 
 _License: CC BY-SA 4.0_
 

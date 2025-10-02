@@ -51,8 +51,8 @@ Regularization tempers a model’s tendency to memorise training data by introdu
 
 ## Citations
 - [Google ML Glossary](https://developers.google.com/machine-learning/glossary)
-- [DeepLearning.AI AI Glossary](https://www.deeplearning.ai/glossary/)
-- [Stanford CS229 Notes](https://cs229.stanford.edu/notes/cs229-notes1.pdf)
+- [DeepLearning.AI Resources](https://www.deeplearning.ai/resources/)
+- [Google ML Crash Course – Regularization](https://developers.google.com/machine-learning/crash-course/regularization-for-simplicity)
 
 _License: CC BY-SA 4.0_
 

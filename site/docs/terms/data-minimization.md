@@ -53,7 +53,7 @@ Data minimization limits the amount and duration of personal data collected, pro
 
 ## Citations
 - [NIST AI RMF Glossary](https://www.nist.gov/itl/ai-risk-management-framework)
-- [ICO – Data Minimisation Principle](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/principles/data-minimisation/)
+- [ICO – Data Minimisation Principle](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/principles/storage-limitation-and-data-minimisation/)
 - [Stanford HAI Brief Definitions](https://hai.stanford.edu/news/brief-definitions)
 
 _License: CC BY-SA 4.0_

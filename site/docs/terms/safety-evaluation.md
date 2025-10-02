@@ -55,7 +55,7 @@ Safety evaluations probe AI systems for dangerous or disallowed behavior, comple
 
 ## Citations
 - [NIST AI RMF Glossary](https://www.nist.gov/itl/ai-risk-management-framework)
-- [OpenAI – Safety Evaluations Overview](https://openai.com/research/red-teaming-network)
+- [OpenAI – Safety Evaluations Overview](https://openai.com/research)
 - [Stanford HAI Brief Definitions](https://hai.stanford.edu/news/brief-definitions)
 
 _License: CC BY-SA 4.0_

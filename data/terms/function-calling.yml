@@ -35,8 +35,8 @@ relationships:
     - "retrieval-augmented generation"
     - "guardrails"
 citations:
-  - source: "OpenAI Glossary"
-    url: "https://help.openai.com/en/articles/6825453-openai-api-glossary"
+  - source: "OpenAI Function Calling Guide"
+    url: "https://platform.openai.com/docs/guides/function-calling"
   - source: "LangChain Documentation Glossary"
     url: "https://python.langchain.com/v0.2/docs/concepts"
   - source: "Hugging Face Glossary"

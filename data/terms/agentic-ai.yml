@@ -38,7 +38,7 @@ citations:
   - source: "Stanford HAI – What Are Agentic AI Systems?"
     url: "https://hai.stanford.edu/news/what-are-agentic-ai-systems"
   - source: "LangChain Concepts – Agents"
-    url: "https://python.langchain.com/v0.2/docs/concepts/agents"
+    url: "https://python.langchain.com/docs/concepts/agents"
   - source: "Generative Agents – Interactive Simulacra of Human Behavior"
     url: "https://arxiv.org/abs/2304.03442"
 license: "CC BY-SA 4.0"

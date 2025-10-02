@@ -43,7 +43,7 @@ relationships:
     - "data minimization"
 citations:
   - source: "LangChain Documentation – Memory"
-    url: "https://python.langchain.com/v0.2/docs/concepts/memory"
+    url: "https://python.langchain.com/docs/concepts/memory"
   - source: "Anthropic Docs – Building Agentic Workflows"
     url: "https://docs.anthropic.com/en/docs/build-with-claude/agentic-workflows"
 license: "CC BY-SA 4.0"

@@ -52,7 +52,7 @@ Training data is the portion of the dataset used to fit model parameters. These 
 ## Citations
 - [Google ML Glossary](https://developers.google.com/machine-learning/glossary#training-set)
 - [NIST AI Risk Management Framework](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf)
-- [Open Data Institute – Data Assurance](https://theodi.org/article/data-assurance-guidance/)
+- [Open Data Institute – Data Assurance](https://theodi.org/article/data-assurance/)
 
 _License: CC BY-SA 4.0_
 

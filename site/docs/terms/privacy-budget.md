@@ -52,7 +52,7 @@ A privacy budget sets the maximum cumulative privacy loss (often parameterized b
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'privacy budget'.
 
 ## Citations
-- [NIST – Differential Privacy Overview](https://www.nist.gov/privacy-framework/differential-privacy)
+- [NIST – Differential Privacy Overview](https://www.nist.gov/privacy-framework)
 - [Apple – Learning with Privacy Budget](https://machinelearning.apple.com/research/learning-with-privacy-at-scale)
 
 _License: CC BY-SA 4.0_

@@ -35,10 +35,10 @@ relationships:
 citations:
   - source: "Google ML Glossary"
     url: "https://developers.google.com/machine-learning/glossary"
-  - source: "DeepLearning.AI AI Glossary"
-    url: "https://www.deeplearning.ai/glossary/"
+  - source: "DeepLearning.AI Resources"
+    url: "https://www.deeplearning.ai/resources/"
   - source: "Hugging Face Course"
-    url: "https://huggingface.co/learn/deep-learning-course/unit5/optimizers"
+    url: "https://huggingface.co/learn/deep-learning-course/unit5"
 license: "CC BY-SA 4.0"
 status: "approved"
 last_reviewed: "2025-09-29"

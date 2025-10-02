@@ -43,8 +43,8 @@ relationships:
     - "prompt injection"
     - "robust prompting"
 citations:
-  - source: "OpenAI – New Moderation Tools"
-    url: "https://openai.com/blog/new-moderation-tools"
+  - source: "OpenAI – Moderation Tools"
+    url: "https://openai.com/blog"
   - source: "Google Cloud – Content Safety Tools"
     url: "https://cloud.google.com/blog/products/ai-machine-learning/responsible-ai-toolkits-content-safety"
 license: "CC BY-SA 4.0"

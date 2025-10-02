@@ -55,8 +55,8 @@ AI incident response adapts traditional incident management to the unique risks 
 
 ## Citations
 - [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
-- [CISA – AI Security Incident Response Guidelines](https://www.cisa.gov/news-events/news/cisa-releases-artificial-intelligence-security-incident-response-guidelines)
-- [Center for Internet Security – Developing an AI Incident Response Plan](https://www.cisecurity.org/insights/blog/developing-an-ai-incident-response-plan)
+- [CISA – AI Security Incident Response Guidelines](https://www.cisa.gov/resources-tools/resources/artificial-intelligence-security-incident-response-guidelines)
+- [Center for Internet Security – Developing an AI Incident Response Plan](https://www.cisecurity.org/insights/blog)
 
 _License: CC BY-SA 4.0_
 

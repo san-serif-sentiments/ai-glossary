@@ -42,7 +42,7 @@ relationships:
     - "risk register"
 citations:
   - source: "NIST – Differential Privacy Overview"
-    url: "https://www.nist.gov/privacy-framework/differential-privacy"
+    url: "https://www.nist.gov/privacy-framework"
   - source: "Apple – Learning with Privacy Budget"
     url: "https://machinelearning.apple.com/research/learning-with-privacy-at-scale"
 license: "CC BY-SA 4.0"

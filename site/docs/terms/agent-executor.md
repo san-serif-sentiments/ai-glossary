@@ -50,8 +50,8 @@ An agent executor is the control loop that wraps a language model with planning,
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'agent executor'.
 
 ## Citations
-- [LangChain Documentation – Agent Executors](https://python.langchain.com/v0.2/docs/concepts/agent_executor)
-- [Anthropic Docs – Building Agentic Workflows](https://docs.anthropic.com/en/docs/build-with-claude/agentic-workflows)
+- [LangChain Documentation – Agent Executors](https://python.langchain.com/docs/concepts/agent_executor)
+- [Anthropic Docs – Building Agentic Workflows](https://docs.anthropic.com/claude/docs/agentic-workflows)
 
 _License: CC BY-SA 4.0_
 

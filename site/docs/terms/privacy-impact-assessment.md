@@ -53,7 +53,7 @@ A privacy impact assessment (PIA) identifies and mitigates privacy risks before 
 
 ## Citations
 - [NIST AI RMF Glossary](https://www.nist.gov/itl/ai-risk-management-framework)
-- [ICO – Data Protection Impact Assessments](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-impact-assessments-dpias/)
+- [ICO – Data Protection Impact Assessments](https://ico.org.uk/for-organisations/data-protection-impact-assessments/)
 - [Stanford HAI Brief Definitions](https://hai.stanford.edu/news/brief-definitions)
 
 _License: CC BY-SA 4.0_

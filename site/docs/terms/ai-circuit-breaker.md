@@ -53,7 +53,7 @@ An AI circuit breaker detects abnormal behavior—such as rapid policy violation
 
 ## Citations
 - [NIST AI RMF – Protection Function](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf)
-- [Microsoft – Safe Deployment Practices](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/responsible-use)
+- [Microsoft – Safe Deployment Practices](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/responsible-use)
 
 _License: CC BY-SA 4.0_
 

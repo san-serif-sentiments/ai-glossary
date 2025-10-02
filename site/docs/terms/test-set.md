@@ -52,7 +52,7 @@ The test set acts as the last line of defense before deployment. Once training a
 ## Citations
 - [Google ML Glossary](https://developers.google.com/machine-learning/glossary#test-set)
 - [NIST AI Risk Management Framework](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf)
-- [DeepLearning.AI AI Glossary](https://www.deeplearning.ai/glossary/)
+- [DeepLearning.AI Resources](https://www.deeplearning.ai/resources/)
 
 _License: CC BY-SA 4.0_
 

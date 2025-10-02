@@ -37,7 +37,7 @@ citations:
   - source: "NIST AI RMF Glossary"
     url: "https://www.nist.gov/itl/ai-risk-management-framework"
   - source: "OECD – Privacy Guidelines"
-    url: "https://www.oecd.org/digital/data-governance/privacy-guidelines/"
+    url: "https://www.oecd.org/digital/privacy/"
   - source: "Wikipedia AI Glossary"
     url: "https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence"
 license: "CC BY-SA 4.0"

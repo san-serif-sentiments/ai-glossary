@@ -53,8 +53,8 @@ A guardrail policy spells out how an AI system should respond to risky scenarios
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'guardrail policy'.
 
 ## Citations
-- [Anthropic Safety Best Practices](https://www.anthropic.com/news/model-spec-for-ai-safety)
-- [OpenAI Policy – Safety Best Practices](https://help.openai.com/en/articles/7039943-safety-best-practices-for-openai-apis)
+- [Anthropic Safety Best Practices](https://www.anthropic.com/research/model-spec-for-ai-safety)
+- [OpenAI Policy – Safety Best Practices](https://openai.com/resources/safety-best-practices-for-openai-apis)
 
 _License: CC BY-SA 4.0_
 

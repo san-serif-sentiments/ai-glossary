@@ -43,7 +43,7 @@ relationships:
     - "transparency report"
 citations:
   - source: "Partnership on AI – Incident Sharing"
-    url: "https://www.partnershiponai.org/resource/ai-incident-sharing-framework/"
+    url: "https://www.partnershiponai.org/resources/ai-incident-sharing-framework"
   - source: "NIST AI RMF Playbook – Govern"
     url: "https://www.nist.gov/itl/ai-risk-management-framework/ai-rmf-playbook"
 license: "CC BY-SA 4.0"

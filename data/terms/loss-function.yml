@@ -39,7 +39,7 @@ citations:
   - source: "Google ML Crash Course"
     url: "https://developers.google.com/machine-learning/crash-course/glossary#loss"
   - source: "Hugging Face Course"
-    url: "https://huggingface.co/learn/deep-learning-course/unit2/objectives-and-losses"
+    url: "https://huggingface.co/learn/deep-learning-course/unit2"
   - source: "Machine Learning Mastery"
     url: "https://machinelearningmastery.com/loss-and-loss-functions/"
 license: "CC BY-SA 4.0"

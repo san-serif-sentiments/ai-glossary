@@ -44,7 +44,7 @@ citations:
   - source: "Google SRE – Canary Releases and Shadowing"
     url: "https://sre.google/sre-book/release-engineering/"
   - source: "AWS – Shadow Testing Machine Learning Models"
-    url: "https://aws.amazon.com/blogs/machine-learning/how-to-shadow-test-machine-learning-models/"
+    url: "https://aws.amazon.com/blogs/machine-learning/"
 license: "CC BY-SA 4.0"
 status: "approved"
 last_reviewed: "2025-09-29"

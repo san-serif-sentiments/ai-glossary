@@ -35,8 +35,8 @@ relationships:
 citations:
   - source: "Wikipedia – Tokenization"
     url: "https://en.wikipedia.org/wiki/Tokenization_(lexical_analysis)"
-  - source: "OpenAI API Glossary"
-    url: "https://help.openai.com/en/articles/6825453-openai-api-glossary"
+  - source: "OpenAI API Reference"
+    url: "https://platform.openai.com/docs/api-reference/introduction"
   - source: "Hugging Face – Tokenizers Quicktour"
     url: "https://huggingface.co/docs/tokenizers/python/latest/quicktour"
 license: "CC BY-SA 4.0"

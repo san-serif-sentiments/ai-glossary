@@ -52,7 +52,7 @@ Direct preference optimization (DPO) replaces the reward-model-and-RL step in tr
 
 ## Citations
 - [Stanford – Direct Preference Optimization](https://arxiv.org/abs/2305.18290)
-- [Anthropic – Lessons from Preference Optimization](https://www.anthropic.com/news/direct-preference-optimization)
+- [Anthropic – Lessons from Preference Optimization](https://www.anthropic.com/research/direct-preference-optimization)
 
 _License: CC BY-SA 4.0_
 

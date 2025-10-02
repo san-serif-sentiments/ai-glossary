@@ -48,5 +48,5 @@ jobs:
       - name: Check links
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --config ../.lychee.toml --no-progress site_build
-          workingDirectory: site
+          config: .lychee.toml
+          args: --no-progress site/site_build

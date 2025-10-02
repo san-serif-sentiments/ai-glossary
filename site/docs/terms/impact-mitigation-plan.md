@@ -52,7 +52,7 @@ An impact mitigation plan documents the risks identified during assessments, the
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'impact mitigation plan'.
 
 ## Citations
-- [AI Now Institute – Algorithmic Accountability Policy Toolkit](https://www.partnershiponai.org/wp-content/uploads/2021/08/Algorithmic-Accountability-Policy-Toolkit.pdf)
+- [AI Now Institute – Algorithmic Accountability Policy Toolkit](https://www.partnershiponai.org/resources/algorithmic-accountability-policy-toolkit)
 - [NIST AI RMF Playbook](https://www.nist.gov/itl/ai-risk-management-framework/ai-rmf-playbook)
 
 _License: CC BY-SA 4.0_

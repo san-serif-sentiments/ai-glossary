@@ -53,7 +53,7 @@ A preference dataset contains prompts, model outputs, and human annotations indi
 
 ## Citations
 - [OpenAI – InstructGPT](https://arxiv.org/abs/2203.02155)
-- [Anthropic – Constitutional AI Data Collection](https://www.anthropic.com/news/introducing-constitutional-ai)
+- [Anthropic – Constitutional AI Data Collection](https://www.anthropic.com/research/constitutional-ai)
 
 _License: CC BY-SA 4.0_
 

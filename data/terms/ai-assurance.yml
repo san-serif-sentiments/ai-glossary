@@ -39,7 +39,7 @@ relationships:
     - "ai incident response"
 citations:
   - source: "CDEI AI Assurance Guidance"
-    url: "https://www.gov.uk/government/publications/responsible-ai-assurance-toolkit/responsible-ai-assurance-toolkit"
+    url: "https://www.gov.uk/government/publications/responsible-ai-assurance-toolkit"
   - source: "OECD AI Glossary"
     url: "https://oecd.ai/en/glossary"
   - source: "Partnership on AI Glossary"

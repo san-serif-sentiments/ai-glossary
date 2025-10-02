@@ -53,7 +53,7 @@ A loss function translates model performance into a single scalar so optimisatio
 
 ## Citations
 - [Google ML Crash Course](https://developers.google.com/machine-learning/crash-course/glossary#loss)
-- [Hugging Face Course](https://huggingface.co/learn/deep-learning-course/unit2/objectives-and-losses)
+- [Hugging Face Course](https://huggingface.co/learn/deep-learning-course/unit2)
 - [Machine Learning Mastery](https://machinelearningmastery.com/loss-and-loss-functions/)
 
 _License: CC BY-SA 4.0_

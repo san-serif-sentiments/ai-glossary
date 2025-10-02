@@ -55,9 +55,9 @@ A safety spec translates high-level AI principles into actionable guidance for a
     Suggest examples or clarifications via the [term request intake](../term-request.md) and mention 'safety spec'.
 
 ## Citations
-- [Anthropic Safety Spec](https://www.anthropic.com/news/model-spec-for-ai-safety)
+- [Anthropic Safety Spec](https://www.anthropic.com/research/model-spec-for-ai-safety)
 - [OpenAI – Usage Policies](https://openai.com/policies/usage-policies)
-- [Anthropic – Model Spec for AI Safety](https://www.anthropic.com/news/model-spec-for-ai-safety)
+- [Anthropic – Model Spec for AI Safety](https://www.anthropic.com/research/model-spec-for-ai-safety)
 
 _License: CC BY-SA 4.0_
 

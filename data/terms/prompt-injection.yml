@@ -43,10 +43,10 @@ relationships:
     - "tool use"
     - "ai incident response"
 citations:
-  - source: "Cloudflare – What Is Prompt Injection?"
-    url: "https://www.cloudflare.com/learning/ai/what-is-prompt-injection/"
+  - source: "OWASP – Prompt Injection"
+    url: "https://owasp.org/www-community/attacks/Prompt_Injection"
   - source: "Microsoft – Secure Development Guidance for Prompt Injection"
-    url: "https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/responsible-use"
+    url: "https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/responsible-use"
   - source: "Prompt Injection Attacks and Defenses"
     url: "https://arxiv.org/abs/2307.15043"
 license: "CC BY-SA 4.0"

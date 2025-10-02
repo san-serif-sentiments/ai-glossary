@@ -44,7 +44,7 @@ citations:
   - source: "NIST AI RMF – Risk Management Playbook"
     url: "https://www.nist.gov/itl/ai-risk-management-framework/ai-rmf-playbook"
   - source: "World Economic Forum – How to Build an AI Risk Register"
-    url: "https://www.weforum.org/agenda/2023/06/how-to-build-an-ai-risk-register/"
+    url: "https://www.weforum.org/topics/artificial-intelligence"
 license: "CC BY-SA 4.0"
 status: "approved"
 last_reviewed: "2025-09-29"

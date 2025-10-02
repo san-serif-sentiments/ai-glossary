@@ -58,7 +58,7 @@ Algorithmic bias arises when models produce systematically skewed results that d
 ## Citations
 - [Wikipedia – Algorithmic Bias](https://en.wikipedia.org/wiki/Algorithmic_bias)
 - [Nature – The Fight Against Algorithmic Bias](https://www.nature.com/articles/d41586-020-03186-4)
-- [Brookings – Understanding Algorithmic Bias](https://www.brookings.edu/articles/understanding-algorithmic-bias/)
+- [Brookings – Understanding Algorithmic Bias](https://www.brookings.edu/topic/artificial-intelligence/)
 
 _License: CC BY-SA 4.0_
 

@@ -58,7 +58,7 @@ Fairness metrics quantify disparities between demographic or contextual groups. 
 
 ## Citations
 - [NIST AI RMF Glossary](https://www.nist.gov/itl/ai-risk-management-framework)
-- [Fairlearn – Fairness Metrics Overview](https://fairlearn.org/v0.10/user_guide/assessment/metrics.html)
+- [Fairlearn – Fairness Metrics Overview](https://fairlearn.org/main/user_guide/assessment/metrics.html)
 - [Google ML Glossary](https://developers.google.com/machine-learning/glossary)
 
 _License: CC BY-SA 4.0_

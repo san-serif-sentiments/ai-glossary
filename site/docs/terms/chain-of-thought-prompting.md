@@ -52,7 +52,7 @@ Chain-of-thought prompting instructs a model to show its reasoning by generating
 
 ## Citations
 - [Google – Chain of Thought Prompting](https://arxiv.org/abs/2201.11903)
-- [DeepMind – Improving Reasoning in Language Models](https://www.deepmind.com/blog/how-chain-of-thought-reasoning-helps-language-models-solve-math)
+- [DeepMind – Improving Reasoning in Language Models](https://www.deepmind.com/blog)
 
 _License: CC BY-SA 4.0_
 

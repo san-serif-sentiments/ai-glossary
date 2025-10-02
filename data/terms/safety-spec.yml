@@ -42,11 +42,11 @@ relationships:
     - "ai incident response"
 citations:
   - source: "Anthropic Safety Spec"
-    url: "https://www.anthropic.com/news/model-spec-for-ai-safety"
+    url: "https://www.anthropic.com/research/model-spec-for-ai-safety"
   - source: "OpenAI – Usage Policies"
     url: "https://openai.com/policies/usage-policies"
   - source: "Anthropic – Model Spec for AI Safety"
-    url: "https://www.anthropic.com/news/model-spec-for-ai-safety"
+    url: "https://www.anthropic.com/research/model-spec-for-ai-safety"
 license: "CC BY-SA 4.0"
 status: "approved"
 last_reviewed: "2025-09-29"
