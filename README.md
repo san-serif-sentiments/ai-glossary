@@ -1,318 +1,167 @@
-# AI Glossary
+# AI Glossary for Everyone
 
-A friendly, citation-backed glossary that keeps product, engineering, safety, and policy teams aligned on the language of artificial intelligence. Every term lives in structured YAML so the same content can power documentation, APIs, search, and downstream tools. The project is maintained by Shailesh Rawat (`@sans_serif_sentiments`).
-
----
-
-## At a glance
-
-- **100+ curated terms** covering LLM internals, agent operations, governance, and risk controls.
-- **Single source of truth** – YAML drives the static site, search index, and FastAPI backend.
-- **Beginner-friendly tooling** – Make targets wrap the common workflows so you can validate, build, and serve with a couple of commands.
-- **Governance ready** – Each term includes NIST RMF tags, lifecycle status, and citations for auditability.
+A plain-language handbook that keeps product, policy, engineering, and safety teams speaking the same AI vocabulary. Terms live in simple YAML files so the same content can generate a website, a JSON API, search indexes, and printable summaries. You do not need to be a developer to keep the glossary healthy—this guide walks you through every button to press.
 
 ---
 
-## Prerequisites
+## 1. The Big Picture (Explain Like I’m 12)
 
-- macOS, Linux, or WSL with a recent shell
-- Python **3.10 or newer**
-- `git` (for cloning the repo)
-- (Optional) Internet access when you want to download the `sentence-transformers` model for related-term suggestions
+- Think of the glossary as a giant spreadsheet of AI words, their meanings, and why they matter.
+- Each row lives in a YAML file under `data/terms/`. YAML is just a text format with key → value pairs.
+- Scripts turn that YAML into:
+  - Markdown pages for the public site (`site/docs/terms/...`).
+  - A JSON file (`build/glossary.json`) that powers search and the API.
+  - “Related term” callouts so readers can keep exploring without getting lost.
+- A Makefile wraps every task. Typing `make something` runs the right script for you.
 
----
-
-## Quickstart (TL;DR)
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/san-serif-sentiments/ai-glossary.git
-cd ai-glossary
-
-# 2. Create the virtual environment and install dependencies
-make venv
-source .venv/bin/activate
-
-# 3. Build the glossary assets (JSON + Markdown)
-make build
-
-# 4. Run the docs locally (press Ctrl+C to stop)
-mkdocs serve -f site/mkdocs.yml
-# open http://127.0.0.1:8000 in your browser
-```
-
-You now have the static site, search UI, and generated term pages available locally. Leave `mkdocs serve` running to see live updates while you edit term files.
+When you add or edit a term, you only touch one YAML file. Everything else is generated for you.
 
 ---
 
-## Detailed setup guide
+## 2. What You Get Out of the Box
 
-### 1. Create and activate the virtual environment
-
-```bash
-make venv
-source .venv/bin/activate
-```
-
-The `make venv` target installs everything listed in `requirements.txt` inside `.venv/`. You only need to do this once per machine.
-
-Prefer manual setup?
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install --upgrade pip
-pip install -r requirements.txt
-```
-
-### 2. Validate the glossary content
-
-```bash
-make validate
-```
-
-This checks every YAML file against `schema/term.schema.json` and catches missing citations, invalid roles, or definition length issues before they land in git.
-
-### 3. Regenerate derived assets
-
-```bash
-make build
-```
-
-`make build` runs two scripts:
-
-1. `scripts/build_index.py` → creates `build/glossary.json` + `build/search-index.json` + `site/docs/assets/glossary-search.json`
-2. `scripts/render_docs.py` → generates Markdown pages for each term under `site/docs/terms/`
-
-### 4. Preview the docs
-
-```bash
-mkdocs serve -f site/mkdocs.yml
-```
-
-Navigate to `http://127.0.0.1:8000` to explore the site, including the interactive search page and role starter packs. MkDocs auto-reloads the page when files change.
-
-### 5. Run the automated tests (optional but recommended)
-
-```bash
-make check
-```
-
-This command validates the data, runs the Python unit tests, and builds the docs in strict mode to ensure there are no broken links or warnings.
+- **100+ curated AI definitions** covering models, agents, governance, and risk controls.
+- **Structured metadata**: aliases, audiences, lifecycle status, roles, and citations for every entry.
+- **Docs site** built with MkDocs Material (lives under `site/`).
+- **FastAPI backend** that serves the glossary as JSON.
+- **Search index** ready to drop into web or mobile apps.
+- **Related-term engine** that suggests eight neighbors for each concept.
+- **Automation hooks** (Make targets + GitHub Actions) so you can validate and publish with one command.
 
 ---
 
-## Running the FastAPI backend
+## 3. Beginner Setup (No Prior Experience Needed)
 
-1. Activate your virtual environment (`source .venv/bin/activate`).
-2. Rebuild assets if you have edited any YAML (`make build`). The API reads from the JSON written during the build step.
-3. Start the service:
+You only need three tools installed once: Git, Python 3.10+, and Make.
 
+1. **Download the project**
    ```bash
-   make serve-api
-   # or
-   uvicorn api.main:app --reload
+   git clone https://github.com/san-serif-sentiments/ai-glossary.git
+   cd ai-glossary
    ```
-
-4. The API serves on `http://127.0.0.1:8000`. Try the interactive docs at `http://127.0.0.1:8000/docs` or hit endpoints such as:
-
-   - `GET /terms?q=agent`
-   - `GET /terms?status=reviewed`
-   - `GET /terms/tool-use`
-   - `POST /refresh` (re-reads `build/glossary.json` without restarting the server)
-
-If you want the backend to reflect new YAML edits, run `make build` (or `make validate && make build`) and then trigger `POST /refresh`.
-
----
-
-## Refreshing related-term panels
-
-The docs surface “Related terms” callouts generated by `scripts/enrich_related_terms.py`.
-
-1. Ensure you have the optional dependency installed:
-
+2. **Create a safe sandbox for Python packages**
    ```bash
+   make venv
    source .venv/bin/activate
-   pip install sentence-transformers==2.2.2
    ```
-
-2. Connect to the internet so the script can download the `all-MiniLM-L6-v2` model from Hugging Face the first time it runs.
-3. Execute the script:
-
+   This builds `.venv/` and installs everything in `requirements.txt`.
+3. **Check that all YAML files look good**
    ```bash
-   .venv/bin/python scripts/enrich_related_terms.py
+   make validate
    ```
+   If you see “0 errors”, you are ready to go. If something is wrong, the command prints a friendly message pointing to the file and line number.
+4. **Generate the website and JSON files**
+   ```bash
+   make build
+   ```
+   The results land in the `build/` and `site/docs/` folders.
+5. **Preview the documentation**
+   ```bash
+   mkdocs serve -f site/mkdocs.yml
+   ```
+   Open <http://127.0.0.1:8000> in your browser. MkDocs auto-refreshes whenever a file changes.
 
-   - When the model downloads successfully, embeddings come from MiniLM and similarity scores are written to `build/related.json`.
-   - If you are offline, the script automatically falls back to a fast TF‑IDF calculation so related-term panels still render (less accurate, but zero dependencies).
+You now have the full glossary running on your laptop.
 
-4. Rebuild the docs (`make build`) if you want MkDocs to pick up the refreshed includes.
+---
 
-Tip: Whenever you add new terms or change long descriptions, rerun the script so the recommendations stay current.
+## 4. Common Day-to-Day Tasks
 
-**Having trouble downloading the model?**
+### Add a Brand-New Term
+1. Scaffold a file:
+   ```bash
+   make new-term NAME="Fast Weight Programmer"
+   ```
+   This creates `data/terms/fast-weight-programmer.yml` with helpful placeholders.
+2. Fill in `short_def`, `long_def`, roles, examples, citations, and `last_reviewed`.
+3. Run `make validate` to catch mistakes (missing citation, too-short definition, etc.).
+4. Run `make build` so the JSON and docs stay in sync.
+5. (Optional) Refresh related-term panels: `python scripts/enrich_related_terms.py`.
 
-- Make sure outbound HTTPS to `https://huggingface.co` is allowed; the MiniLM weights only download the first time.
-- If you see `hf_hub_download() got an unexpected keyword argument 'url'`, install a compatible hub client:
+### Update an Existing Definition
+1. Edit the YAML file in `data/terms/`.
+2. Bump `last_reviewed` and adjust `status` if the definition is now approved.
+3. Run `make validate && make build`.
+4. Commit your change.
+
+### Publish Your Changes
+
+| Goal | Command | What happens |
+| --- | --- | --- |
+| Commit and push | `make github-push MESSAGE="Add term for Fast Weight Programmer"` | Runs checks, commits staged files, and pushes to `origin/main`. |
+| Deploy docs to GitHub Pages | `make gh-pages` | Builds MkDocs in strict mode and publishes to the `gh-pages` branch. |
+| Serve API locally | `make serve-api` | Starts FastAPI on `http://127.0.0.1:8000`. |
+
+---
+
+## 5. How Related Terms Work
+
+The script `scripts/enrich_related_terms.py` reads `build/glossary.json`, embeds every term, calculates cosine similarity, and writes the top 8 neighbors to `build/related.json` plus `site/docs/includes/related/<slug>.md`.
+
+You have two modes:
+
+- **Dense embeddings (better)** – requires internet the first time to download the Hugging Face model `sentence-transformers/all-MiniLM-L6-v2`.
   ```bash
-  pip install --upgrade 'huggingface_hub==0.34.4'
+  source .venv/bin/activate
+  pip install sentence-transformers==2.7.0
+  python scripts/enrich_related_terms.py
   ```
-  then rerun `.venv/bin/python scripts/enrich_related_terms.py`.
-- Prefer to work offline? Download the model once and point the script at it:
-  ```bash
-  huggingface-cli download sentence-transformers/all-MiniLM-L6-v2 \
-    --local-dir models/all-MiniLM-L6-v2 --local-dir-use-symlinks False
-  ```
-  (Newer CLIs accept the shorter `hf download … --local-dir models/all-MiniLM-L6-v2`.)
-  The script automatically checks `models/all-MiniLM-L6-v2`. Prefer a different folder? Set
-  `export GLOSSARY_EMBEDDING_MODEL_PATH=/path/to/local/model` before running the command.
-- All embedding logic lives in [`scripts/enrich_related_terms.py`](scripts/enrich_related_terms.py); check the `embed_texts` function if you want to customise behaviour.
+- **Offline fallback** – if the model import fails, the script falls back to TF–IDF vectors. No setup needed, results are decent for quick drafts.
 
-**MiniLM cache cheat sheet**
-
-Once the model is downloaded locally you can run the script offline:
-
+Output files live in `build/related/`. After the script runs, copy them into the docs with:
 ```bash
-export GLOSSARY_EMBEDDING_MODEL_PATH="$(pwd)/models/all-MiniLM-L6-v2"  # adjust if you used a custom path
-source .venv/bin/activate
-python scripts/enrich_related_terms.py
+cp build/related/related.json build/related.json
+rsync -av build/related/includes/ site/docs/includes/related/
 ```
 
-Pros:
+### Scaling with Cloud Burst (Optional)
+Need to refresh related terms for hundreds of entries on a lightweight laptop? Use the ready-made AWS Batch assets in `infra/aws-batch/`:
+1. Build and push the Docker image (`infra/aws-batch/Dockerfile`).
+2. Upload `build/glossary.json` to S3.
+3. Register the job definition (`infra/aws-batch/job-definition.json`).
+4. Submit a Batch job. The container downloads the glossary, computes related terms, and uploads `related.json` and the Markdown snippets back to S3.
+5. Sync the outputs locally and copy them into the repo as shown above.
 
-- No network calls after the first download.
-- Everyone on your team gets consistent related-term panels.
-
-Watch-outs:
-
-- The model folder is large; it is ignored by `.gitignore` (`models/` and `site/models/`) and should not be committed.
-- If Hugging Face publishes an updated checkpoint you will need to re-download it manually.
-
----
-
-## Sharing the glossary
-
-You have two easy ways to produce a shareable link:
-
-**Option 1 – GitHub Pages**
-1. Build the static site locally: `mkdocs build -f site/mkdocs.yml` (already covered by `make build`).
-2. Publish with: `mkdocs gh-deploy -f site/mkdocs.yml`.
-3. GitHub serves the site at `https://<your-username>.github.io/<repo-name>/`.
-
-**Option 2 – Any static host (Netlify, Vercel, S3, etc.)**
-1. Run `mkdocs build -f site/mkdocs.yml`.
-2. Upload the generated `site/site/` directory to your hosting provider.
-
-Need teammates to preview locally? They can clone the repo, run `make build`, then `mkdocs serve -f site/mkdocs.yml` to explore at `http://127.0.0.1:8000`.
+The README in `infra/aws-batch/` contains the exact commands (ELI12 steps included).
 
 ---
 
-## Make targets cheat sheet
+## 6. Folder Map
 
-| Command | What it does |
+```
+README.md                  ← This guide
+Makefile                   ← One-stop shortcut list
+requirements.txt           ← Python dependencies
+schema/                    ← JSON Schema for validation
+scripts/                   ← Helper scripts (build, validate, enrich)
+api/                       ← FastAPI application
+site/mkdocs.yml            ← Docs configuration
+site/docs/terms/           ← Generated Markdown pages (do not edit by hand)
+data/terms/                ← Source of truth (edit these)
+build/                     ← Generated JSON assets
+infra/aws-batch/           ← Container + Batch job templates for cloud runs
+```
+
+---
+
+## 7. Troubleshooting (Friendly Answers)
+
+| Problem | Try this |
 | --- | --- |
-| `make venv` | Creates `.venv/` and installs dependencies. |
-| `make validate` | Validates all YAML against the schema. |
-| `make build` | Rebuilds JSON indexes and Markdown docs. |
-| `make render-docs` | Only regenerate Markdown term pages (skip indexes). |
-| `make serve-api` | Starts the FastAPI backend with auto-reload. |
-| `make preview` | Runs `mkdocs serve` using the repo root config. |
-| `make check` | Runs validation, unit tests, and `mkdocs build --strict`. |
-| `make new-term NAME="Your Term"` | Creates a scaffold YAML file in `data/terms/`. |
-| `make github-push MESSAGE="..."` | Runs checks, commits staged files with your message, and pushes to `origin main`. |
-| `make gh-pages` | Builds the site in strict mode and deploys it to GitHub Pages (`mkdocs gh-deploy`). |
+| `make venv` fails | Ensure Python 3.10+ is installed. On macOS run `brew install python@3.12`. Delete `.venv/` and rerun. |
+| `make validate` reports schema errors | The error message lists the file and the missing field. Open the YAML and fix the value. |
+| Related-term script says `Unable to locate credentials` | Set AWS credentials or run locally without S3. For Batch runs, grant the job role `s3:GetObject` and `s3:PutObject`. |
+| MkDocs shows outdated content | Run `make build` again or delete the `site/site_build/` folder before serving. |
+| API shows old data | Call `POST /refresh` on the FastAPI server or rerun `make build`. |
+
+Still stuck? Open an issue or ping `@sans_serif_sentiments` on GitHub.
 
 ---
 
-## Repository layout (reference)
+## 8. Contributing and Licensing
 
-```
-ai-glossary/
-  README.md                ← You are here
-  requirements.txt         ← Python dependencies
-  schema/term.schema.json  ← JSON Schema for every term
-  data/terms/*.yml         ← Canonical glossary entries
-  scripts/                 ← Helper scripts (build, validate, enrich related terms)
-  api/main.py              ← FastAPI application
-  site/                    ← MkDocs configuration and generated docs
-  tests/                   ← Unit tests for the API layer
-  build/                   ← Generated JSON artifacts (ignored by git)
-```
+- Read [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) before submitting changes.
+- Run `make validate && make build && make check` before every pull request.
+- Source code is MIT licensed. Glossary content is CC BY-SA 4.0. See [LICENSE](LICENSE) and [CONTENT_LICENSE](CONTENT_LICENSE).
 
----
-
-## Authoring term files
-
-Each YAML file in `data/terms/` must satisfy the JSON schema. Highlights:
-
-- **Naming** – File name should match the slugified `term` (e.g., `reinforcement-learning-from-human-feedback.yml`).
-- **Aliases** – Provide alternative names or abbreviations. They power search and API alias lookups.
-- **Categories & roles** – Drive navigation and filters. Valid roles: `product`, `engineering`, `data_science`, `policy`, `legal`, `security`, `communications`.
-- **Definitions** – Keep `short_def` under 320 characters. Aim for 80–220 words in `long_def`.
-- **Audience guidance** – Add actionable bullet points in `examples.do`/`examples.dont`, plus `audiences.exec` and `audiences.engineer` perspectives.
-- **Governance** – Include NIST RMF tags and risk notes where relevant.
-- **Lifecycle** – Update `status` (`draft`, `reviewed`, `approved`, `deprecated`) and `last_reviewed` when you make changes.
-- **Citations** – Minimum one reputable source; two is better.
-
-Run `make validate` before committing to catch schema issues early.
-
----
-
-## Common workflows
-
-- **Add a brand-new term**
-  1. `make new-term NAME="Memory Strategy"`
-  2. Fill in the placeholders in `data/terms/memory-strategy.yml`
-  3. `make validate && make build`
-  4. Preview with `mkdocs serve -f site/mkdocs.yml`
-
-- **Edit an existing definition**
-  1. Update the YAML file in `data/terms/`
-  2. Bump `last_reviewed` and `status` if appropriate
-  3. `make validate && make build`
-  4. Optionally rerun `.venv/bin/python scripts/enrich_related_terms.py`
-
-- **Expose the API for a prototype**
-  1. Run `make build`
-  2. Start FastAPI with `make serve-api`
-  3. Consume endpoints from your app or Postman (see [Running the FastAPI backend](#running-the-fastapi-backend))
-
----
-
-## Troubleshooting
-
-| Symptom | Fix |
-| --- | --- |
-| `ImportError: sentence_transformers` | Install the optional dependency: `pip install sentence-transformers==2.2.2`. |
-| `Failed to resolve huggingface.co` when running the related-term script | Ensure you are online or behind a proxy that allows outbound HTTPS; otherwise the fallback TF‑IDF embeddings are used automatically. |
-| MkDocs build complains about `includes/related/*.md` not in nav | Expected behaviour. These files are partials that get embedded in term pages. |
-| Validation error about roles | Only use roles from the allowed list (`product`, `engineering`, `data_science`, `policy`, `legal`, `security`, `communications`). |
-| Long definition too short/long | Aim for 80–220 words. The validator will show the exact count so you can adjust quickly. |
-
-Still stuck? Open an issue or ping `@sans_serif_sentiments`.
-
----
-
-## Contributing
-
-We welcome improvements! Please review:
-
-- [CONTRIBUTING.md](CONTRIBUTING.md)
-- [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
-
-Before submitting a PR, run:
-
-```bash
-make validate
-make build
-make check
-```
-
-Thank you for helping keep the AI Glossary accurate, accessible, and inclusive.
-
----
-
-## Licensing
-
-- Code is released under the [MIT License](LICENSE).
-- All glossary content (YAML files) is licensed under [CC BY-SA 4.0](CONTENT_LICENSE).
+Thanks for helping build an AI glossary that real humans can understand.
