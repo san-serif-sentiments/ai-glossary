@@ -3,10 +3,10 @@
 
 
 - [instruction tuning](../../terms/instruction-tuning.md)
-- [low-rank adaptation](../../terms/low-rank-adaptation.md)
-- [reinforcement learning from human feedback](../../terms/reinforcement-learning-from-human-feedback.md)
+- [validation set](../../terms/validation-set.md)
+- [overfitting](../../terms/overfitting.md)
 - [model drift](../../terms/model-drift.md)
-- [alignment](../../terms/alignment.md)
-- [synthetic data evaluation](../../terms/synthetic-data-evaluation.md)
-- [hallucination](../../terms/hallucination.md)
+- [regularization](../../terms/regularization.md)
 - [training data](../../terms/training-data.md)
+- [generalization](../../terms/generalization.md)
+- [evaluation](../../terms/evaluation.md)

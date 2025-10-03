@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [ai assurance](../../terms/ai-assurance.md)
-- [test set](../../terms/test-set.md)
-- [safety evaluation](../../terms/safety-evaluation.md)
-- [human handoff](../../terms/human-handoff.md)
-- [algorithmic audit](../../terms/algorithmic-audit.md)
-- [guardrail policy](../../terms/guardrail-policy.md)
-- [evaluation](../../terms/evaluation.md)
+- [evaluation harness](../../terms/evaluation-harness.md)
+- [ml ops](../../terms/ml-ops.md)
+- [ml observability](../../terms/ml-observability.md)
+- [content moderation](../../terms/content-moderation.md)
 - [red teaming](../../terms/red-teaming.md)
+- [evaluation](../../terms/evaluation.md)
+- [agentic ai](../../terms/agentic-ai.md)
+- [function calling](../../terms/function-calling.md)

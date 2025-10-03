@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [loss function](../../terms/loss-function.md)
+- [regularization](../../terms/regularization.md)
+- [overfitting](../../terms/overfitting.md)
+- [fine-tuning](../../terms/fine-tuning.md)
 - [training data](../../terms/training-data.md)
-- [privacy budget](../../terms/privacy-budget.md)
-- [target variable](../../terms/target-variable.md)
-- [function calling](../../terms/function-calling.md)
-- [reinforcement learning from human feedback](../../terms/reinforcement-learning-from-human-feedback.md)
-- [reward model](../../terms/reward-model.md)
-- [direct preference optimization](../../terms/direct-preference-optimization.md)
+- [loss function](../../terms/loss-function.md)
+- [quantization](../../terms/quantization.md)
+- [instruction tuning](../../terms/instruction-tuning.md)
+- [generalization](../../terms/generalization.md)

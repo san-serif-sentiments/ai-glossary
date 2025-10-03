@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [responsible ai](../../terms/responsible-ai.md)
-- [algorithmic audit](../../terms/algorithmic-audit.md)
-- [feature engineering](../../terms/feature-engineering.md)
 - [model governance](../../terms/model-governance.md)
+- [algorithmic audit](../../terms/algorithmic-audit.md)
+- [evaluation](../../terms/evaluation.md)
+- [algorithmic impact assessment](../../terms/algorithmic-impact-assessment.md)
+- [ai assurance](../../terms/ai-assurance.md)
+- [ml observability](../../terms/ml-observability.md)
+- [transparency report](../../terms/transparency-report.md)
 - [model card](../../terms/model-card.md)
-- [alignment](../../terms/alignment.md)
-- [log probability](../../terms/log-probability.md)
-- [fairness metrics](../../terms/fairness-metrics.md)

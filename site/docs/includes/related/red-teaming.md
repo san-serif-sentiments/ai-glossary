@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [responsible ai](../../terms/responsible-ai.md)
-- [evaluation](../../terms/evaluation.md)
-- [ai assurance](../../terms/ai-assurance.md)
-- [jailbreak prompt](../../terms/jailbreak-prompt.md)
-- [content moderation](../../terms/content-moderation.md)
+- [ai incident response](../../terms/ai-incident-response.md)
 - [safety evaluation](../../terms/safety-evaluation.md)
-- [safety spec](../../terms/safety-spec.md)
-- [generative ai](../../terms/generative-ai.md)
+- [ai assurance](../../terms/ai-assurance.md)
+- [impact mitigation plan](../../terms/impact-mitigation-plan.md)
+- [evaluation](../../terms/evaluation.md)
+- [content moderation](../../terms/content-moderation.md)
+- [model governance](../../terms/model-governance.md)
+- [responsible ai](../../terms/responsible-ai.md)

@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [generative ai](../../terms/generative-ai.md)
-- [privacy](../../terms/privacy.md)
-- [consent management](../../terms/consent-management.md)
+- [synthetic data](../../terms/synthetic-data.md)
 - [diffusion model](../../terms/diffusion-model.md)
-- [content moderation](../../terms/content-moderation.md)
-- [fine-tuning](../../terms/fine-tuning.md)
-- [responsible ai](../../terms/responsible-ai.md)
-- [algorithmic audit](../../terms/algorithmic-audit.md)
+- [jailbreak prompt](../../terms/jailbreak-prompt.md)
+- [synthetic data evaluation](../../terms/synthetic-data-evaluation.md)
+- [privacy](../../terms/privacy.md)
+- [prompt injection](../../terms/prompt-injection.md)
+- [decoding](../../terms/decoding.md)
+- [red teaming](../../terms/red-teaming.md)

@@ -1,0 +1,40 @@
+{
+  "jobDefinitionName": "glossary-enrich",
+  "type": "container",
+  "platformCapabilities": ["FARGATE"],
+  "containerProperties": {
+    "image": "881254692732.dkr.ecr.us-east-1.amazonaws.com/glossary-enrich:latest",
+    "command": ["python", "enrich_related_terms.py"],
+    "executionRoleArn": "arn:aws:iam::881254692732:role/batch-glossary-job-role",
+    "environment": [
+      {"name": "INPUT_S3_URI", "value": "s3://ai-glossary-shailesh/input/glossary.json"},
+      {"name": "OUTPUT_S3_PREFIX", "value": "s3://ai-glossary-shailesh/output"},
+      {"name": "AWS_REGION", "value": "us-east-1"}
+    ],
+    "resourceRequirements": [
+      {"type": "VCPU", "value": "2"},
+      {"type": "MEMORY", "value": "4096"}
+    ],
+    "networkConfiguration": {
+      "assignPublicIp": "ENABLED"
+    },
+    "fargatePlatformConfiguration": {
+      "platformVersion": "LATEST"
+    },
+    "logConfiguration": {
+      "logDriver": "awslogs",
+      "options": {
+        "awslogs-group": "/aws/batch/job",
+        "awslogs-region": "us-east-1",
+        "awslogs-stream-prefix": "glossary"
+      }
+    },
+    "ephemeralStorage": {
+      "sizeInGiB": 40
+    }
+  },
+  "retryStrategy": {
+    "attempts": 1
+  },
+  "propagateTags": true
+}

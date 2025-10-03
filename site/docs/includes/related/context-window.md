@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [attention](../../terms/attention.md)
-- [chunking](../../terms/chunking.md)
-- [retrieval-augmented generation](../../terms/retrieval-augmented-generation.md)
-- [prompt engineering](../../terms/prompt-engineering.md)
 - [token](../../terms/token.md)
-- [kv cache](../../terms/kv-cache.md)
+- [repetition penalty](../../terms/repetition-penalty.md)
+- [attention](../../terms/attention.md)
+- [memory strategy](../../terms/memory-strategy.md)
+- [chunking](../../terms/chunking.md)
 - [decoding](../../terms/decoding.md)
-- [data retention](../../terms/data-retention.md)
+- [prompt engineering](../../terms/prompt-engineering.md)
+- [kv cache](../../terms/kv-cache.md)

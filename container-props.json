@@ -1,0 +1,11 @@
+{
+  "image": "881254692732.dkr.ecr.us-east-1.amazonaws.com/glossary-enrich:test",
+  "command": ["echo", "Hello from AWS Batch Fargate!"],
+  "executionRoleArn": "arn:aws:iam::881254692732:role/batch-glossary-job-role",
+  "jobRoleArn": "arn:aws:iam::881254692732:role/batch-glossary-job-role",
+  "resourceRequirements": [
+    {"type": "VCPU", "value": "1"},
+    {"type": "MEMORY", "value": "1024"}
+  ],
+  "logConfiguration": {"logDriver": "awslogs"}
+}

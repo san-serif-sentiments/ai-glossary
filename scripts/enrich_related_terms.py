@@ -7,15 +7,76 @@ import re
 from collections import Counter
 from pathlib import Path
 from typing import List, Tuple
+from urllib.parse import urlparse
 
 IN = Path("build/glossary.json")
 OUT_JSON = Path("build/related.json")
 # IMPORTANT: since mkdocs.yml lives under site/, docs_dir is "docs"
 OUT_DIR = Path("site/docs/includes/related")  # MkDocs will include these via --8<--
 
+S3_INPUT_ENV = "INPUT_S3_URI"
+S3_OUTPUT_ENV = "OUTPUT_S3_PREFIX"
+AWS_REGION_ENV = "AWS_REGION"
+
 MODEL = "sentence-transformers/all-MiniLM-L6-v2"  # fast CPU model
 TOP_K = 8
 CACHE_DIR = Path(os.environ.get("GLOSSARY_EMBEDDING_CACHE", "models/all-MiniLM-L6-v2")).expanduser()
+
+
+def _parse_s3_uri(uri: str) -> Tuple[str, str]:
+    parsed = urlparse(uri)
+    if parsed.scheme != "s3" or not parsed.netloc:
+        raise ValueError(f"Invalid S3 URI: {uri}")
+    key = parsed.path.lstrip("/")
+    if not key:
+        raise ValueError(f"S3 URI must include an object key: {uri}")
+    return parsed.netloc, key
+
+
+def _s3_client():
+    try:
+        import boto3  # type: ignore
+    except ImportError as exc:  # pragma: no cover - optional dependency
+        raise RuntimeError(
+            "boto3 is required for S3 inputs/outputs. Install with `pip install boto3`."
+        ) from exc
+
+    region = os.environ.get(AWS_REGION_ENV)
+    if region:
+        return boto3.client("s3", region_name=region)
+    return boto3.client("s3")
+
+
+def _maybe_download_input() -> None:
+    uri = os.environ.get(S3_INPUT_ENV)
+    if not uri:
+        return
+
+    bucket, key = _parse_s3_uri(uri)
+    client = _s3_client()
+    IN.parent.mkdir(parents=True, exist_ok=True)
+    print(f"Downloading glossary from {uri} -> {IN}")
+    client.download_file(bucket, key, str(IN))
+
+
+def _maybe_upload_outputs() -> None:
+    prefix = os.environ.get(S3_OUTPUT_ENV)
+    if not prefix:
+        return
+
+    bucket, root_key = _parse_s3_uri(prefix)
+    base = root_key.rstrip("/")
+    client = _s3_client()
+
+    json_key = f"{base}/related.json" if base else "related.json"
+    print(f"Uploading {OUT_JSON} -> s3://{bucket}/{json_key}")
+    client.upload_file(str(OUT_JSON), bucket, json_key)
+
+    md_prefix = f"{base}/includes" if base else "includes"
+    for path in OUT_DIR.glob("*.md"):
+        dest_key = f"{md_prefix}/{path.name}" if md_prefix else path.name
+        print(f"Uploading {path} -> s3://{bucket}/{dest_key}")
+        client.upload_file(str(path), bucket, dest_key)
 
 
 def _tokenize(text: str) -> List[str]:
@@ -132,6 +193,7 @@ def load_terms():
 
 
 def main():
+    _maybe_download_input()
     terms = load_terms()
     texts = [x["text"] for x in terms]
     embeddings, flavour = embed_texts(texts)
@@ -166,6 +228,7 @@ def main():
         (OUT_DIR / f"{slug}.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
     print(f"Wrote related data: {OUT_JSON} and {OUT_DIR}/*.md")
+    _maybe_upload_outputs()
 
 
 if __name__ == "__main__":

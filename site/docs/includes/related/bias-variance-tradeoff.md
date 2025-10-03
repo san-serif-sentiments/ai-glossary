@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [overfitting](../../terms/overfitting.md)
 - [algorithmic bias](../../terms/algorithmic-bias.md)
-- [generalization](../../terms/generalization.md)
+- [overfitting](../../terms/overfitting.md)
 - [cross-validation](../../terms/cross-validation.md)
 - [regularization](../../terms/regularization.md)
-- [training data](../../terms/training-data.md)
+- [generalization](../../terms/generalization.md)
+- [fine-tuning](../../terms/fine-tuning.md)
 - [validation set](../../terms/validation-set.md)
-- [test set](../../terms/test-set.md)
+- [model drift](../../terms/model-drift.md)

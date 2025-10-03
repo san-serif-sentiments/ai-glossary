@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [attention](../../terms/attention.md)
-- [loss function](../../terms/loss-function.md)
-- [token](../../terms/token.md)
+- [fine-tuning](../../terms/fine-tuning.md)
+- [decoding](../../terms/decoding.md)
 - [tool use](../../terms/tool-use.md)
-- [model governance](../../terms/model-governance.md)
 - [generative ai](../../terms/generative-ai.md)
-- [quantization](../../terms/quantization.md)
-- [red teaming](../../terms/red-teaming.md)
+- [ml ops](../../terms/ml-ops.md)
+- [evaluation harness](../../terms/evaluation-harness.md)
+- [model governance](../../terms/model-governance.md)
+- [ml observability](../../terms/ml-observability.md)

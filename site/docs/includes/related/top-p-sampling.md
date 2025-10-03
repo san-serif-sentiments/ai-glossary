@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [decoding](../../terms/decoding.md)
 - [top-k sampling](../../terms/top-k-sampling.md)
 - [temperature](../../terms/temperature.md)
-- [greedy decoding](../../terms/greedy-decoding.md)
+- [decoding](../../terms/decoding.md)
 - [log probability](../../terms/log-probability.md)
-- [beam search](../../terms/beam-search.md)
-- [reranking](../../terms/reranking.md)
-- [training data](../../terms/training-data.md)
+- [greedy decoding](../../terms/greedy-decoding.md)
+- [precision](../../terms/precision.md)
+- [fine-tuning](../../terms/fine-tuning.md)
+- [safety classifier](../../terms/safety-classifier.md)

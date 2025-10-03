@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [responsible ai](../../terms/responsible-ai.md)
-- [diffusion model](../../terms/diffusion-model.md)
 - [hallucination](../../terms/hallucination.md)
-- [retrieval-augmented generation](../../terms/retrieval-augmented-generation.md)
-- [privacy](../../terms/privacy.md)
-- [content moderation](../../terms/content-moderation.md)
+- [decoding](../../terms/decoding.md)
 - [model governance](../../terms/model-governance.md)
+- [diffusion model](../../terms/diffusion-model.md)
 - [synthetic data](../../terms/synthetic-data.md)
+- [constitutional ai](../../terms/constitutional-ai.md)
+- [embedding](../../terms/embedding.md)
+- [red teaming](../../terms/red-teaming.md)

@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [memory strategy](../../terms/memory-strategy.md)
 - [agentic ai](../../terms/agentic-ai.md)
-- [human handoff](../../terms/human-handoff.md)
 - [tool use](../../terms/tool-use.md)
-- [function calling](../../terms/function-calling.md)
-- [guardrail policy](../../terms/guardrail-policy.md)
-- [ai circuit breaker](../../terms/ai-circuit-breaker.md)
+- [memory strategy](../../terms/memory-strategy.md)
+- [escalation policy](../../terms/escalation-policy.md)
+- [evaluation harness](../../terms/evaluation-harness.md)
 - [self-critique loop](../../terms/self-critique-loop.md)
+- [human handoff](../../terms/human-handoff.md)
+- [function calling](../../terms/function-calling.md)

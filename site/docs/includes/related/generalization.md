@@ -3,10 +3,10 @@
 
 
 - [regularization](../../terms/regularization.md)
-- [training data](../../terms/training-data.md)
 - [overfitting](../../terms/overfitting.md)
-- [validation set](../../terms/validation-set.md)
-- [test set](../../terms/test-set.md)
+- [fine-tuning](../../terms/fine-tuning.md)
+- [training data](../../terms/training-data.md)
 - [bias-variance tradeoff](../../terms/bias-variance-tradeoff.md)
-- [algorithmic audit](../../terms/algorithmic-audit.md)
 - [cross-validation](../../terms/cross-validation.md)
+- [ml ops](../../terms/ml-ops.md)
+- [model drift](../../terms/model-drift.md)

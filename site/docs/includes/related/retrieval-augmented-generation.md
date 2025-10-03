@@ -3,10 +3,10 @@
 
 
 - [retrieval](../../terms/retrieval.md)
-- [reranking](../../terms/reranking.md)
 - [chunking](../../terms/chunking.md)
+- [reranking](../../terms/reranking.md)
 - [embedding](../../terms/embedding.md)
-- [vector store](../../terms/vector-store.md)
-- [context window](../../terms/context-window.md)
-- [hallucination](../../terms/hallucination.md)
+- [tool use](../../terms/tool-use.md)
 - [generative ai](../../terms/generative-ai.md)
+- [context window](../../terms/context-window.md)
+- [clip](../../terms/clip.md)

@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [recall](../../terms/recall.md)
-- [f1 score](../../terms/f1-score.md)
 - [precision](../../terms/precision.md)
-- [safety classifier](../../terms/safety-classifier.md)
+- [recall](../../terms/recall.md)
 - [confusion matrix](../../terms/confusion-matrix.md)
-- [guardrails](../../terms/guardrails.md)
+- [safety classifier](../../terms/safety-classifier.md)
+- [log probability](../../terms/log-probability.md)
+- [cross-validation](../../terms/cross-validation.md)
+- [algorithmic bias](../../terms/algorithmic-bias.md)
 - [fairness metrics](../../terms/fairness-metrics.md)
-- [training data](../../terms/training-data.md)

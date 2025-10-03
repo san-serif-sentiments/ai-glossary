@@ -3,10 +3,10 @@
 
 
 - [top-k sampling](../../terms/top-k-sampling.md)
-- [decoding](../../terms/decoding.md)
 - [top-p sampling](../../terms/top-p-sampling.md)
-- [greedy decoding](../../terms/greedy-decoding.md)
+- [decoding](../../terms/decoding.md)
 - [log probability](../../terms/log-probability.md)
-- [beam search](../../terms/beam-search.md)
-- [training data](../../terms/training-data.md)
-- [repetition penalty](../../terms/repetition-penalty.md)
+- [greedy decoding](../../terms/greedy-decoding.md)
+- [fine-tuning](../../terms/fine-tuning.md)
+- [preference dataset](../../terms/preference-dataset.md)
+- [system prompt](../../terms/system-prompt.md)

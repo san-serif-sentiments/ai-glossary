@@ -3,10 +3,10 @@
 
 
 - [generative ai](../../terms/generative-ai.md)
-- [hallucination](../../terms/hallucination.md)
-- [prompt engineering](../../terms/prompt-engineering.md)
-- [training data](../../terms/training-data.md)
+- [fine-tuning](../../terms/fine-tuning.md)
+- [decoding](../../terms/decoding.md)
+- [knowledge distillation](../../terms/knowledge-distillation.md)
 - [voice cloning](../../terms/voice-cloning.md)
-- [target variable](../../terms/target-variable.md)
-- [overfitting](../../terms/overfitting.md)
-- [differential privacy](../../terms/differential-privacy.md)
+- [model drift](../../terms/model-drift.md)
+- [hallucination](../../terms/hallucination.md)
+- [top-k sampling](../../terms/top-k-sampling.md)

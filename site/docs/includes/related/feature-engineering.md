@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [training data](../../terms/training-data.md)
 - [data lineage](../../terms/data-lineage.md)
+- [decoding](../../terms/decoding.md)
 - [model interpretability](../../terms/model-interpretability.md)
-- [algorithmic audit](../../terms/algorithmic-audit.md)
-- [ai incident response](../../terms/ai-incident-response.md)
-- [generalization](../../terms/generalization.md)
+- [model card](../../terms/model-card.md)
+- [tool use](../../terms/tool-use.md)
 - [ml ops](../../terms/ml-ops.md)
-- [algorithmic bias](../../terms/algorithmic-bias.md)
+- [validation set](../../terms/validation-set.md)
+- [dataset card](../../terms/dataset-card.md)

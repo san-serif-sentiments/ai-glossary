@@ -3,10 +3,10 @@
 
 
 - [privacy](../../terms/privacy.md)
-- [data retention](../../terms/data-retention.md)
 - [algorithmic impact assessment](../../terms/algorithmic-impact-assessment.md)
 - [data minimization](../../terms/data-minimization.md)
-- [differential privacy](../../terms/differential-privacy.md)
-- [ai incident response](../../terms/ai-incident-response.md)
-- [algorithmic audit](../../terms/algorithmic-audit.md)
-- [safety evaluation](../../terms/safety-evaluation.md)
+- [transparency report](../../terms/transparency-report.md)
+- [ai assurance](../../terms/ai-assurance.md)
+- [data redaction](../../terms/data-redaction.md)
+- [consent management](../../terms/consent-management.md)
+- [synthetic data](../../terms/synthetic-data.md)

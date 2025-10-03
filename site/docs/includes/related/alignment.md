@@ -3,10 +3,10 @@
 
 
 - [constitutional ai](../../terms/constitutional-ai.md)
-- [responsible ai](../../terms/responsible-ai.md)
+- [algorithmic bias](../../terms/algorithmic-bias.md)
 - [model governance](../../terms/model-governance.md)
-- [reward model](../../terms/reward-model.md)
+- [responsible ai](../../terms/responsible-ai.md)
 - [ai assurance](../../terms/ai-assurance.md)
-- [escalation policy](../../terms/escalation-policy.md)
-- [safety spec](../../terms/safety-spec.md)
 - [fine-tuning](../../terms/fine-tuning.md)
+- [evaluation](../../terms/evaluation.md)
+- [algorithmic impact assessment](../../terms/algorithmic-impact-assessment.md)

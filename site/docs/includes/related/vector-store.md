@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [embedding](../../terms/embedding.md)
 - [retrieval](../../terms/retrieval.md)
-- [retrieval-augmented generation](../../terms/retrieval-augmented-generation.md)
-- [memory strategy](../../terms/memory-strategy.md)
-- [clip](../../terms/clip.md)
-- [chunking](../../terms/chunking.md)
+- [embedding](../../terms/embedding.md)
 - [reranking](../../terms/reranking.md)
-- [tool use](../../terms/tool-use.md)
+- [data lineage](../../terms/data-lineage.md)
+- [kv cache](../../terms/kv-cache.md)
+- [retrieval-augmented generation](../../terms/retrieval-augmented-generation.md)
+- [chunking](../../terms/chunking.md)
+- [data retention](../../terms/data-retention.md)

@@ -3,10 +3,10 @@
 
 
 - [synthetic data](../../terms/synthetic-data.md)
-- [privacy](../../terms/privacy.md)
+- [validation set](../../terms/validation-set.md)
 - [evaluation](../../terms/evaluation.md)
-- [safety evaluation](../../terms/safety-evaluation.md)
-- [differential privacy](../../terms/differential-privacy.md)
+- [algorithmic bias](../../terms/algorithmic-bias.md)
+- [privacy](../../terms/privacy.md)
+- [dataset card](../../terms/dataset-card.md)
 - [privacy impact assessment](../../terms/privacy-impact-assessment.md)
-- [fine-tuning](../../terms/fine-tuning.md)
-- [algorithmic impact assessment](../../terms/algorithmic-impact-assessment.md)
+- [differential privacy](../../terms/differential-privacy.md)

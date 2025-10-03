@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [reinforcement learning from human feedback](../../terms/reinforcement-learning-from-human-feedback.md)
 - [direct preference optimization](../../terms/direct-preference-optimization.md)
 - [reward model](../../terms/reward-model.md)
+- [reinforcement learning from human feedback](../../terms/reinforcement-learning-from-human-feedback.md)
 - [instruction tuning](../../terms/instruction-tuning.md)
-- [dataset card](../../terms/dataset-card.md)
-- [algorithmic bias](../../terms/algorithmic-bias.md)
-- [training data](../../terms/training-data.md)
-- [human handoff](../../terms/human-handoff.md)
+- [temperature](../../terms/temperature.md)
+- [safety classifier](../../terms/safety-classifier.md)
+- [fine-tuning](../../terms/fine-tuning.md)
+- [system prompt](../../terms/system-prompt.md)

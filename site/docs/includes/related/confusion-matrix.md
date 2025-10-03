@@ -4,9 +4,9 @@
 
 - [recall](../../terms/recall.md)
 - [precision](../../terms/precision.md)
+- [roc auc](../../terms/roc-auc.md)
 - [f1 score](../../terms/f1-score.md)
-- [loss function](../../terms/loss-function.md)
-- [fairness metrics](../../terms/fairness-metrics.md)
-- [algorithmic bias](../../terms/algorithmic-bias.md)
-- [ai assurance](../../terms/ai-assurance.md)
+- [cross-validation](../../terms/cross-validation.md)
+- [model drift](../../terms/model-drift.md)
 - [target variable](../../terms/target-variable.md)
+- [loss function](../../terms/loss-function.md)

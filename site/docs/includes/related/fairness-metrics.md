@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [algorithmic audit](../../terms/algorithmic-audit.md)
-- [safety evaluation](../../terms/safety-evaluation.md)
 - [algorithmic bias](../../terms/algorithmic-bias.md)
-- [model card](../../terms/model-card.md)
-- [evaluation](../../terms/evaluation.md)
+- [validation set](../../terms/validation-set.md)
 - [precision](../../terms/precision.md)
+- [fine-tuning](../../terms/fine-tuning.md)
+- [evaluation](../../terms/evaluation.md)
 - [recall](../../terms/recall.md)
-- [ai incident response](../../terms/ai-incident-response.md)
+- [safety evaluation](../../terms/safety-evaluation.md)
+- [impact mitigation plan](../../terms/impact-mitigation-plan.md)

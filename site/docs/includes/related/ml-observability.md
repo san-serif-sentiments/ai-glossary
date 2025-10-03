@@ -3,10 +3,10 @@
 
 
 - [ml ops](../../terms/ml-ops.md)
+- [evaluation](../../terms/evaluation.md)
 - [model governance](../../terms/model-governance.md)
-- [responsible ai](../../terms/responsible-ai.md)
+- [algorithmic audit](../../terms/algorithmic-audit.md)
 - [ai assurance](../../terms/ai-assurance.md)
-- [ai incident response](../../terms/ai-incident-response.md)
-- [safety evaluation](../../terms/safety-evaluation.md)
-- [guardrails](../../terms/guardrails.md)
-- [algorithmic bias](../../terms/algorithmic-bias.md)
+- [evaluation harness](../../terms/evaluation-harness.md)
+- [algorithmic impact assessment](../../terms/algorithmic-impact-assessment.md)
+- [log probability](../../terms/log-probability.md)

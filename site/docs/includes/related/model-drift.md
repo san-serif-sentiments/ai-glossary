@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [model governance](../../terms/model-governance.md)
 - [fine-tuning](../../terms/fine-tuning.md)
+- [ml ops](../../terms/ml-ops.md)
+- [model governance](../../terms/model-governance.md)
 - [evaluation](../../terms/evaluation.md)
-- [safety evaluation](../../terms/safety-evaluation.md)
-- [synthetic data](../../terms/synthetic-data.md)
-- [guardrails](../../terms/guardrails.md)
+- [ai assurance](../../terms/ai-assurance.md)
 - [ml observability](../../terms/ml-observability.md)
-- [test set](../../terms/test-set.md)
+- [ai incident response](../../terms/ai-incident-response.md)
+- [model card](../../terms/model-card.md)

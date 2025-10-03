@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [retrieval-augmented generation](../../terms/retrieval-augmented-generation.md)
-- [context window](../../terms/context-window.md)
 - [retrieval](../../terms/retrieval.md)
+- [retrieval-augmented generation](../../terms/retrieval-augmented-generation.md)
 - [embedding](../../terms/embedding.md)
-- [generative ai](../../terms/generative-ai.md)
-- [vector store](../../terms/vector-store.md)
+- [context window](../../terms/context-window.md)
+- [token](../../terms/token.md)
+- [clip](../../terms/clip.md)
 - [reranking](../../terms/reranking.md)
-- [prompt engineering](../../terms/prompt-engineering.md)
+- [vector store](../../terms/vector-store.md)

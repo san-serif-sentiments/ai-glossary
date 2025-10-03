@@ -3,10 +3,10 @@
 
 
 - [data minimization](../../terms/data-minimization.md)
-- [privacy impact assessment](../../terms/privacy-impact-assessment.md)
 - [privacy](../../terms/privacy.md)
-- [data redaction](../../terms/data-redaction.md)
+- [consent management](../../terms/consent-management.md)
 - [data lineage](../../terms/data-lineage.md)
-- [responsible ai](../../terms/responsible-ai.md)
-- [algorithmic audit](../../terms/algorithmic-audit.md)
-- [impact mitigation plan](../../terms/impact-mitigation-plan.md)
+- [memory strategy](../../terms/memory-strategy.md)
+- [privacy impact assessment](../../terms/privacy-impact-assessment.md)
+- [data redaction](../../terms/data-redaction.md)
+- [dataset card](../../terms/dataset-card.md)

@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [retrieval-augmented generation](../../terms/retrieval-augmented-generation.md)
 - [generative ai](../../terms/generative-ai.md)
-- [training data](../../terms/training-data.md)
-- [retrieval](../../terms/retrieval.md)
-- [fine-tuning](../../terms/fine-tuning.md)
-- [diffusion model](../../terms/diffusion-model.md)
+- [decoding](../../terms/decoding.md)
+- [repetition penalty](../../terms/repetition-penalty.md)
+- [constitutional ai](../../terms/constitutional-ai.md)
+- [top-p sampling](../../terms/top-p-sampling.md)
+- [chain-of-thought prompting](../../terms/chain-of-thought-prompting.md)
 - [precision](../../terms/precision.md)
-- [token](../../terms/token.md)
+- [overfitting](../../terms/overfitting.md)

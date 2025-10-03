@@ -3,10 +3,10 @@
 
 
 - [embedding](../../terms/embedding.md)
-- [retrieval-augmented generation](../../terms/retrieval-augmented-generation.md)
+- [chunking](../../terms/chunking.md)
 - [generative ai](../../terms/generative-ai.md)
+- [retrieval-augmented generation](../../terms/retrieval-augmented-generation.md)
+- [attention](../../terms/attention.md)
 - [retrieval](../../terms/retrieval.md)
-- [vector store](../../terms/vector-store.md)
 - [fine-tuning](../../terms/fine-tuning.md)
-- [reranking](../../terms/reranking.md)
-- [content moderation](../../terms/content-moderation.md)
+- [preference dataset](../../terms/preference-dataset.md)

@@ -3,10 +3,10 @@
 
 
 - [system prompt](../../terms/system-prompt.md)
-- [safety evaluation](../../terms/safety-evaluation.md)
-- [jailbreak prompt](../../terms/jailbreak-prompt.md)
+- [robust prompting](../../terms/robust-prompting.md)
+- [chain-of-thought prompting](../../terms/chain-of-thought-prompting.md)
+- [function calling](../../terms/function-calling.md)
 - [prompt injection](../../terms/prompt-injection.md)
 - [safety spec](../../terms/safety-spec.md)
-- [context window](../../terms/context-window.md)
-- [robust prompting](../../terms/robust-prompting.md)
-- [guardrails](../../terms/guardrails.md)
+- [decoding](../../terms/decoding.md)
+- [tool use](../../terms/tool-use.md)

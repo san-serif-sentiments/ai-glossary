@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [self-critique loop](../../terms/self-critique-loop.md)
 - [alignment](../../terms/alignment.md)
-- [reinforcement learning from human feedback](../../terms/reinforcement-learning-from-human-feedback.md)
-- [reward model](../../terms/reward-model.md)
+- [fine-tuning](../../terms/fine-tuning.md)
 - [safety spec](../../terms/safety-spec.md)
-- [guardrails](../../terms/guardrails.md)
-- [responsible ai](../../terms/responsible-ai.md)
+- [agentic ai](../../terms/agentic-ai.md)
+- [instruction tuning](../../terms/instruction-tuning.md)
 - [system prompt](../../terms/system-prompt.md)
+- [red teaming](../../terms/red-teaming.md)
+- [self-critique loop](../../terms/self-critique-loop.md)

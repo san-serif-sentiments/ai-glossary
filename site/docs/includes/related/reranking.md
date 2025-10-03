@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [retrieval-augmented generation](../../terms/retrieval-augmented-generation.md)
 - [retrieval](../../terms/retrieval.md)
+- [retrieval-augmented generation](../../terms/retrieval-augmented-generation.md)
 - [beam search](../../terms/beam-search.md)
-- [generative ai](../../terms/generative-ai.md)
 - [embedding](../../terms/embedding.md)
-- [reward model](../../terms/reward-model.md)
-- [evaluation](../../terms/evaluation.md)
-- [hallucination](../../terms/hallucination.md)
+- [vector store](../../terms/vector-store.md)
+- [low-rank adaptation](../../terms/low-rank-adaptation.md)
+- [chunking](../../terms/chunking.md)
+- [fine-tuning](../../terms/fine-tuning.md)

@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [function calling](../../terms/function-calling.md)
-- [gradient descent](../../terms/gradient-descent.md)
 - [target variable](../../terms/target-variable.md)
-- [confusion matrix](../../terms/confusion-matrix.md)
-- [differential privacy](../../terms/differential-privacy.md)
+- [regularization](../../terms/regularization.md)
+- [algorithmic bias](../../terms/algorithmic-bias.md)
 - [generalization](../../terms/generalization.md)
-- [tool use](../../terms/tool-use.md)
-- [training data](../../terms/training-data.md)
+- [gradient descent](../../terms/gradient-descent.md)
+- [roc auc](../../terms/roc-auc.md)
+- [precision](../../terms/precision.md)
+- [fairness metrics](../../terms/fairness-metrics.md)

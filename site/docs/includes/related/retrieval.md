@@ -3,10 +3,10 @@
 
 
 - [retrieval-augmented generation](../../terms/retrieval-augmented-generation.md)
-- [embedding](../../terms/embedding.md)
-- [vector store](../../terms/vector-store.md)
 - [reranking](../../terms/reranking.md)
+- [embedding](../../terms/embedding.md)
 - [chunking](../../terms/chunking.md)
-- [hallucination](../../terms/hallucination.md)
-- [generative ai](../../terms/generative-ai.md)
-- [data minimization](../../terms/data-minimization.md)
+- [vector store](../../terms/vector-store.md)
+- [data lineage](../../terms/data-lineage.md)
+- [tool use](../../terms/tool-use.md)
+- [clip](../../terms/clip.md)

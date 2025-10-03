@@ -3,10 +3,10 @@
 
 
 - [escalation policy](../../terms/escalation-policy.md)
-- [guardrail policy](../../terms/guardrail-policy.md)
-- [agent executor](../../terms/agent-executor.md)
 - [agentic ai](../../terms/agentic-ai.md)
+- [agent executor](../../terms/agent-executor.md)
+- [tool use](../../terms/tool-use.md)
 - [memory strategy](../../terms/memory-strategy.md)
-- [ai circuit breaker](../../terms/ai-circuit-breaker.md)
-- [reinforcement learning from human feedback](../../terms/reinforcement-learning-from-human-feedback.md)
-- [safety spec](../../terms/safety-spec.md)
+- [shadow deployment](../../terms/shadow-deployment.md)
+- [evaluation harness](../../terms/evaluation-harness.md)
+- [self-critique loop](../../terms/self-critique-loop.md)

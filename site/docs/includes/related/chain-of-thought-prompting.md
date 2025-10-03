@@ -2,11 +2,11 @@
 **Related terms**
 
 
-- [self-consistency decoding](../../terms/self-consistency-decoding.md)
-- [robust prompting](../../terms/robust-prompting.md)
-- [agentic ai](../../terms/agentic-ai.md)
-- [function calling](../../terms/function-calling.md)
-- [reranking](../../terms/reranking.md)
 - [prompt engineering](../../terms/prompt-engineering.md)
-- [attention](../../terms/attention.md)
-- [context window](../../terms/context-window.md)
+- [system prompt](../../terms/system-prompt.md)
+- [function calling](../../terms/function-calling.md)
+- [self-critique loop](../../terms/self-critique-loop.md)
+- [robust prompting](../../terms/robust-prompting.md)
+- [hallucination](../../terms/hallucination.md)
+- [self-consistency decoding](../../terms/self-consistency-decoding.md)
+- [agentic ai](../../terms/agentic-ai.md)

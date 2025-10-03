@@ -3,10 +3,10 @@
 
 
 - [evaluation](../../terms/evaluation.md)
-- [agentic ai](../../terms/agentic-ai.md)
-- [safety evaluation](../../terms/safety-evaluation.md)
-- [model governance](../../terms/model-governance.md)
-- [agent executor](../../terms/agent-executor.md)
+- [ml ops](../../terms/ml-ops.md)
 - [ai assurance](../../terms/ai-assurance.md)
-- [escalation policy](../../terms/escalation-policy.md)
-- [ai incident response](../../terms/ai-incident-response.md)
+- [safety evaluation](../../terms/safety-evaluation.md)
+- [ml observability](../../terms/ml-observability.md)
+- [algorithmic audit](../../terms/algorithmic-audit.md)
+- [red teaming](../../terms/red-teaming.md)
+- [agentic ai](../../terms/agentic-ai.md)
